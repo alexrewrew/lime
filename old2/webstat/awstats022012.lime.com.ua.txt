@@ -1,0 +1,1103 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201202 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.lime.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2690                
+POS_VISITOR 23799               
+POS_DAY 37913               
+POS_DOMAIN 3566                
+POS_LOGIN 4176                
+POS_ROBOT 4331                
+POS_WORMS 5181                
+POS_EMAILSENDER 5312                
+POS_EMAILRECEIVER 5455                
+POS_SESSION 38735               
+POS_SIDER 38943               
+POS_FILETYPES 5590                
+POS_OS 5675                
+POS_BROWSER 5888                
+POS_SCREENSIZE 6857                
+POS_UNKNOWNREFERER 6931                
+POS_UNKNOWNREFERERBROWSER 7043                
+POS_ORIGIN 7200                
+POS_SEREFERRALS 7340                
+POS_PAGEREFS 7517                
+POS_SEARCHWORDS 9842                
+POS_KEYWORDS 11834               
+POS_MISC 2354                
+POS_ERRORS 13092               
+POS_CLUSTER 4032                
+POS_SIDER_404 13195               
+POS_PLUGIN_geoip_city_maxmind 22024               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120301003345 1 0 11352348899874
+FirstTime 20120201035848
+LastTime 20120229230542
+LastUpdate 20120302000153 1 0 0 0 0
+TotalVisits 409                 
+TotalUnique 349                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 349                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 18 7407250 65 69 19266080
+1 20 20 14814500 97 114 31868483
+2 6 6 4444350 18 23 4446716
+3 18 18 6666525 34 37 8193230
+4 6 6 4444350 49 52 3713192
+5 4 4 2962900 77 78 11864902
+6 5 5 3703625 37 37 8153335
+7 6 6 4444350 22 25 5188001
+8 4 4 2962900 26 30 4447984
+9 16 16 11851600 42 86 9642042
+10 26 26 16295950 31 54 8892504
+11 24 24 17777400 14 35 3705555
+12 34 34 25184650 38 70 8893838
+13 27 27 19999575 43 61 12770767
+14 35 35 25184650 27 54 6194250
+15 55 55 33332625 35 72 8646175
+16 41 41 28888275 108 141 3767921
+17 30 30 20000140 46 76 12071433
+18 28 28 14814500 22 40 2966924
+19 22 22 15555225 40 60 11116249
+20 25 25 17777400 24 48 2967224
+21 23 23 16295950 42 71 7454581
+22 20 20 14814500 44 56 10416908
+23 14 14 10370150 38 54 11856041
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 26
+ua 292 292 208884450
+ru 69 69 25184650
+us 60 60 44443500
+gb 26 26 19258850
+unknown 22 22 14815065
+de 7 7 5185075
+cn 5 5 3703625
+jp 3 3 2222175
+by 3 3 1481450
+eu 3 3 2222175
+pt 1 1 740725
+tr 1 1 740725
+es 1 1 740725
+no 1 1 740725
+is 1 1 740725
+au 1 1 740725
+fr 1 1 740725
+kz 2 2 1481450
+ch 1 1 740725
+at 1 1 740725
+br 1 1 740725
+ca 1 1 740725
+nl 1 1 740725
+ar 1 1 740725
+fi 1 1 740725
+se 1 1 740725
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+yandex 96 70368875 20120229180153 0
+aspider 79 58517275 20120229190259 0
+googlebot 48 20529147 20120229103533 0
+bot[\s_+:,\.\;\/\\-] 43 31851175 20120229064344 0
+mj12bot 18 13333050 20120228053343 0
+exabot 13 4576743 20120226170245 0
+surveybot 6 4444350 20120224081755 0
+netcraft 4 2962900 20120201211244 0
+no_user_agent 3 1481450 20120222085252 0
+mail\.ru 3 2222175 20120213175116 0
+java\/[0-9] 1 740725 20120212131445 0
+[\s_+:,\.\;\/\\-]bot 1 740725 20120201063224 0
+feedfetcher\-google 1 740725 20120223151035 0
+robot 1 740725 20120213090831 0
+portalb 2 1481450 20120212044838 0
+turnitinbot 2 1481450 20120221152113 0
+sogou 2 0 20120202101651 0
+baiduspider 2 1481450 20120204010823 0
+crawl 1 6352 20120207013814 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 1 565 0 0
+html 506 339992775 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 17
+linuxandroid 1
+winxp 262
+winlong 12
+winnt 2
+java 2
+win2000 4
+linuxubuntu 5
+win98 2
+linux 5
+winvista 3
+win16 1
+macosx 60
+winunknown 1
+win95 4
+win2003 6
+Unknown 1
+win2008 136
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 61
+msie6.0 83
+safari5.0.3 1
+chrome15.0.874.102 1
+firefox3.6.24 4
+firefox5.0 1
+firefox4.0.1 3
+firefox3.6 2
+firefox10.0 5
+android 1
+firefox8.0 2
+safari4.0.5 1
+firefox4.0 1
+opera9.00 1
+chrome7.0.517.44 2
+firefox3.6.26 1
+opera9.80 56
+safari5.0.2 4
+msie8.0 26
+iphone 2
+netscape4.76 1
+chrome15.0.874.121 2
+firefox6.0.2 3
+firefox6.0.1 1
+netscape0.91 1
+msie7.0 48
+chrome17.0.963.46 12
+firefox3.6.27 2
+firefox9.0.1 19
+chrome19.0.1041.0 1
+msie5.0 1
+msie9.0 12
+chrome16.0.912.63 2
+Unknown 3
+opera7.54 1
+safari5.0.5 3
+safari5.1.3 9
+opera7.11 1
+chrome17.0.963.56 55
+firefox3.6.25 1
+chrome17.0.920.0 1
+chrome12.0.742 1
+firefox10.0.1 6
+firefox3.6.16 1
+chrome16.0.899.0 2
+msie5.5 4
+chrome12.0.742.122 1
+chrome16.0.912.75 1
+safari4.0 1
+firefox1.0.7 3
+firefox3.5.5 1
+mozilla 9
+chrome16.0.912.77 56
+safari5.1.2 11
+firefox5.0.1 1
+safari5.1 8
+firefox3.6.3 2
+firefox10.0.2 17
+firefox3.6.8 1
+chrome15.0.874.106 1
+firefox3.5.7 3
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+lastochka 20120208111259
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Apache-HttpClient/4.1.1_(java_1.5) 20120225100351
+lastochka 20120208111259
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 224 224
+From1 0 0
+From2 48 48
+From3 233 233
+From4 2 2
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 45 45
+bing 1 1
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 55
+http://www.talant.ua 36 36
+http://www.facebook.com/l.php 35 35
+http://www.talant.ua/talant-v1.swf 27 27
+http://limebtl.kiev.ua 26 26
+http://talant.ua 18 18
+http://talant.ua/talant-v1.swf 15 15
+http://freemail.ukr.net/q/start 7 7
+http://limebtl.com 4 4
+http://maxshaman.com/index.swf 4 4
+http://www.limebtl.kiev.ua 3 3
+http://www.challengesoccer.com 1 1
+http://adreport.ua/agencies/agency/ 1 1
+http://www.harrow.net.cn 1 1
+http://prazdnik.com.ua/index.php 1 1
+http://theminiaturespage.com/man/pics/battlefront.jpg,Description: 1 1
+http://www.cosmopolitan.com/hairstyles-beauty/beauty-blog/fighting-hyperpigmentation-during-winter-021412 1 1
+http://www.tosho.ua/main.swf 2 2
+http://www.limebtl.com 2 2
+http://apollo-img.com 1 1
+http://icqmobilephones.net 1 1
+http://best.ua/kiev/276585-lime 1 1
+http://m.facebook.com/l.php 2 2
+http://www.conationcapital.com/wp-content/uploads/2011/06/Evolution-House-Directions.png 1 1
+http://jobs.tut.by/employer/218914 2 2
+http://www.tanfieldchambers.co.uk 1 1
+http://signworldmedia.com/email-marketing.php 1 1
+http://tinyurl.com/3octm2r 1 1
+http://www.maxshaman.com/index.swf 2 2
+http://www.footsmart.com 1 1
+http://go.mail.ru/search 2 2
+http://www.sniper.com.ua/index.php 2 2
+http://marketing.web-standart.net/node/50862 1 1
+http://www.facebook.com 2 2
+http://www.closeuparabia.com 1 1
+http://www.vancl.com 1 1
+http://www.mhp-online.co.uk 1 1
+http://assets.tumblr.com/iframe.html 1 1
+http://sniper.com.ua/index.php 1 1
+http://t.co/fawV4Wcu 1 1
+http://mbox2.i.ua/read/INBOX/4f313f2abb63/ 1 1
+http://www.proof-uk.com 1 1
+http://maxshaman.com 3 3
+http://vk.com/feed 1 1
+http://www.conservationevidence.com/resources/BeeConservation.pdf 1 1
+http://www.britishcouncilblogs.org/africa 1 1
+http://www.linkedin.com/pub/dasha-skrypnyk/1b/6b8/510 1 1
+http://www.imena.ua/site/check-domain 2 2
+http://www.inria.fr/en/centre/lille/overview/offers/post-doctoral-research-fellowships/campaign-2012/%28view%29/details.html 1 1
+http://www.caratsponsorship.com 1 1
+http://vk.com/mail 2 2
+http://mmr.ua/catalog/show/agencies/id/158/ 2 2
+http://www.maxshaman.com 1 1
+http://www.bronel.com 1 1
+http://gruper.pl/campaign.php/279 1 1
+http://www.arvegard.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 32
+limebtl.com 4
+lime.com.ua 4
+limebtl 3
+marlboro+promoter+club 2
+lime+btl+%d0%ba%d0%b8%d0%b5%d0%b2 2
+lime+%ea%eb%e8%e5%ed%f2 2
+lime+btl 2
+lime+fresh+btl 2
+lime+btl+kiev 2
+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime 1
+%d0%bb%d0%b0%d0%b9%d0%bc+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%ba%d0%b8%d0%b5%d0%b2 1
+%d0%bb%d0%b0%d0%b9%d0%bc+%d0%ba%d0%b8%d0%b5%d0%b2 1
+lime+system+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b0 1
+%d0%b4%d1%80%d0%b5%d1%81%d1%81+%d0%ba%d0%be%d0%b4+%d0%bd%d0%b0+%d0%bf%d1%80%d0%b5%d0%b7%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d1%96%d1%97+%d0%b0%d0%b2%d1%82%d0%be%d0%bc%d0%be%d0%b1%d1%96%d0%bb%d0%b5%d0%b9 1
+http+//lime.com.ua/ 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc 1
+%d0%ba%d0%b5%d0%b9%d1%81%d1%8b+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82-%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2 1
+lime+agency 1
+lime+-+fresh+btl 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be+lime+%d0%ba%d0%b8%d0%b5%d0%b2 1
+puma+%d1%84%d0%ba+%d1%88%d0%b0%d1%85%d1%82%d0%b5%d1%80 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime+%d0%ba%d0%b8%d0%b5%d0%b2 1
+btl+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%ba%d0%b8%d0%b5%d0%b2 1
+%d0%9d%d0%b0%d1%82%d0%b0%d0%bb%d1%8c%d1%8f+%d0%b1%d0%b5%d0%b9+%d1%83%d0%ba%d1%80%d0%b0%d0%b2%d1%82%d0%be 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc 1
+lime+agency+%d0%ba%d0%b8%d0%b5%d0%b2 1
+www.limebtl.com 1
+%d0%b5%d0%b2%d1%80%d0%be%d1%81%d0%b5%d1%82%d1%8c+%d0%bf%d1%80%d0%be%d1%88%d0%bb%d0%b8+%d0%b1%d0%be%d0%b9+%d0%bf%d0%b8%d1%80%d0%be%d0%b6%d0%bd%d1%8b%d0%bc%d0%b8+%d1%84%d0%be%d1%82%d0%be 1
+pre+party+%d0%b2+btl 1
+lime+agency+kyiv 1
+marlboro+btl 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 46
+lime 19
+btl 12
+%d0%ba%d0%b8%d0%b5%d0%b2 8
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 6
+limebtl.com 4
+lime.com.ua 4
+%d0%bb%d0%b0%d0%b9%d0%bc 4
+marlboro 3
+limebtl 3
+agency 3
+%d1%88%d0%b0%d1%85%d1%82%d0%b5%d1%80 1
+kyiv 1
+club 2
+%d0%bf%d1%80%d0%be%d1%88%d0%bb%d0%b8 1
+http 1
+//lime.com.ua/ 1
+%d0%9d%d0%b0%d1%82%d0%b0%d0%bb%d1%8c%d1%8f 1
+puma 1
+%d1%84%d0%be%d1%82%d0%be 1
+%d1%83%d0%ba%d1%80%d0%b0%d0%b2%d1%82%d0%be 1
+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82 1
+%d0%b2 1
+%d0%ba%d0%b5%d0%b9%d1%81%d1%8b 1
+kiev 2
+%d0%b1%d0%be%d0%b9 1
+system 1
+%d0%b1%d0%b5%d0%b9 1
+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b0 1
+pre 1
+%d0%b4%d1%80%d0%b5%d1%81%d1%81 1
+%d0%bf%d1%80%d0%b5%d0%b7%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d1%96%d1%97 1
+%d0%b0%d0%b2%d1%82%d0%be%d0%bc%d0%be%d0%b1%d1%96%d0%bb%d0%b5%d0%b9 1
+- 1
+%d0%bd%d0%b0 1
+promoter 2
+%ea%eb%e8%e5%ed%f2 2
+%d1%84%d0%ba 1
+www.limebtl.com 1
+fresh 3
+party 1
+%d0%b5%d0%b2%d1%80%d0%be%d1%81%d0%b5%d1%82%d1%8c 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be 2
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5 1
+%d0%ba%d0%be%d0%b4 1
+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82-%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2 1
+%d0%bf%d0%b8%d1%80%d0%be%d0%b6%d0%bd%d1%8b%d0%bc%d0%b8 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 8 648096
+404 715 155497
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 171
+/no-text-7941505620462778874 1 -
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+/manual/de/images/left.gif 1 http://limebtl.kiev.ua/manual/de/developer/modules.html
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+//sqlweb/scripts/setup.php 1 -
+/manual/de/style/css/manual-loose-100pc.css 1 http://limebtl.kiev.ua/manual/de/developer/modules.html
+/no-text-5262121532691110408 1 -
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+/manual/en/style/css/manual-print.css 1 http://limebtl.kiev.ua/manual/en/howto/auth.html
+/no-text2580907072269592655 1 -
+/manual/de/style/css/manual.css 1 http://limebtl.kiev.ua/manual/de/developer/modules.html
+//phpMyAdmin-2.6.1/scripts/setup.php 1 -
+/no-text-6832306246170005141 1 -
+/no-text-8778520697996946640 1 -
+/no-text-699201493353839995 1 -
+//phpMyAdmin-2.2.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/no-text-8694443935571072274 1 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//phpmanager/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+/no-text-2970972880985576853 1 -
+/manual/ru/style/css/manual.css 1 http://limebtl.kiev.ua/manual/ru/programs/rotatelogs.html
+/manual/en/ssl/ssl_intro.html 12 http://limebtl.kiev.ua/manual/en/ssl/ssl_intro.html
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//web/phpMyAdmin/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 1 -
+//admn/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0/scripts/setup.php 1 -
+//webdb/scripts/setup.php 1 -
+//admm/scripts/setup.php 1 -
+/administrator/ 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/no-text-1128034950244980126 1 -
+/manual/de/images/down.gif 1 http://limebtl.kiev.ua/manual/de/developer/modules.html
+/manual/en/images/feather.gif 1 http://limebtl.kiev.ua/manual/en/howto/auth.html
+/no-text-9017026893714478123 1 -
+/wp-login.php 1 -
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 2 -
+/no-text-8030477152926570302 1 -
+/++++++++++++++++++++++++++++++++++++++++++++++++++++++Result:+%F4%EE%F0%F3%EC+%ED%E5+%ED%E0%E9%E4%E5%ED+/+%ED%E5+%F3%E4%E0%EB%EE%F1%FC+%EE%EF%F0%E5%E4%E5%EB%E8%F2%FC+IP 1 http://www.limebtl.kiev.ua/++++++++++++++++++++++++++++++++++++++++++++++++++++++Result:+%F4%EE%F0%F3%EC+%ED%E5+%ED%E0%E9%E4%E5%ED+/+%ED%E5+%F3%E4%E0%EB%EE%F1%FC+%EE%EF%F0%E5%E4%E5%EB%E8%F2%FC+IP
+/manual/en/mod/core.html 2 http://limebtl.kiev.ua/manual/en/mod/core.html
+/no-text-5418110883442842396 1 -
+//webadmin/scripts/setup.php 1 -
+/no-text-8673896136711575690 1 -
+//phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/manual/en/style/css/manual-loose-100pc.css 1 http://limebtl.kiev.ua/manual/en/howto/auth.html
+/no-text-188509350937333345 1 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 -
+//mysqladmin/scripts/setup.php 1 -
+/manual/ru/images/down.gif 1 http://limebtl.kiev.ua/manual/ru/programs/rotatelogs.html
+/no-text-2765092741959345243 1 -
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/manual/es/images/left.gif 1 http://limebtl.kiev.ua/manual/es/developer/thread_safety.html
+/manual/ru/style/css/manual-print.css 1 http://limebtl.kiev.ua/manual/ru/programs/rotatelogs.html
+//myadmin/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0/scripts/setup.php 1 -
+//pma2005/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 1 -
+/++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Result:+%ED%E5+%ED%E0%F8%EB%EE%F1%FC+%F4%EE%F0%EC%FB+%E4%EB%FF+%EE%F2%EF%F0%E0%E2%EA%E8 1 http://www.lime.com.ua/++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Result:+%ED%E5+%ED%E0%F8%EB%EE%F1%FC+%F4%EE%F0%EC%FB+%E4%EB%FF+%EE%F2%EF%F0%E0%E2%EA%E8
+/manual/es/images/feather.gif 1 http://limebtl.kiev.ua/manual/es/developer/thread_safety.html
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+/no-text-5086223328419222959 1 -
+/manual/de/images/up.gif 1 http://limebtl.kiev.ua/manual/de/developer/modules.html
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/no-text1540878135142856128 1 -
+//phpMyAdmin-2.6.2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+/manual/de/style/css/manual-print.css 1 http://limebtl.kiev.ua/manual/de/developer/modules.html
+/manual/en/mod/mpm_common.html 1 http://limebtl.kiev.ua/manual/en/mod/mpm_common.html
+//mysqlmanager/scripts/setup.php 1 -
+/no-text-7235434795157376180 1 -
+/robots.txt 295 -
+/manual/en/style/css/manual.css 1 http://limebtl.kiev.ua/manual/en/howto/auth.html
+//scripts/setup.php 1 -
+/no-text-5947190983508489395 1 -
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+//php-myadmin/scripts/setup.php 1 -
+/no-text-6938245645569837636 1 -
+/manual/es/style/css/manual-loose-100pc.css 1 http://limebtl.kiev.ua/manual/es/developer/thread_safety.html
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+/manual/es/style/css/manual.css 1 http://limebtl.kiev.ua/manual/es/developer/thread_safety.html
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+/manual/ru/images/feather.gif 1 http://limebtl.kiev.ua/manual/ru/programs/rotatelogs.html
+/no-text-8473497782448572102 1 -
+//php-my-admin/scripts/setup.php 2 -
+/no-text-8938927014995136339 1 -
+//phpadmin/scripts/setup.php 1 -
+/manual/mod/core.html 193 -
+/no-text4610665002253810833 1 -
+/manual/es/style/css/manual-print.css 1 http://limebtl.kiev.ua/manual/es/developer/thread_safety.html
+/no-text528648792784246625 1 -
+/no-text-3796581839110315192 1 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+/manual/ru/images/up.gif 1 http://limebtl.kiev.ua/manual/ru/programs/rotatelogs.html
+/manual/es/images/up.gif 1 http://limebtl.kiev.ua/manual/es/developer/thread_safety.html
+//PMA2005/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+//admin/scripts/setup.php 1 -
+/manual/en/images/up.gif 1 http://limebtl.kiev.ua/manual/en/howto/auth.html
+//phpmy-admin/scripts/setup.php 1 -
+//p/m/a/scripts/setup.php 1 -
+/no-text-2601148920938336710 1 -
+/no-text-2558346265975691154 1 -
+/manual/es/images/custom_errordocs.gif 1 http://limebtl.kiev.ua/manual/es/misc/custom_errordocs.html
+/no-text-1608764035529870285 1 -
+/MusuMama 3 http://www.limebtl.com/
+//web/scripts/setup.php 1 -
+/no-text-6548828901956339824 1 -
+/no-text4844986470030790752 1 -
+/no-text2504005273706553217 1 -
+/no-text-2449916435565020377 1 -
+//sqlmanager/scripts/setup.php 1 -
+//websql/scripts/setup.php 2 -
+//phpmyadmin2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/manual/ru/images/left.gif 1 http://limebtl.kiev.ua/manual/ru/programs/rotatelogs.html
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7/scripts/setup.php 1 -
+/manual/en/howto/ssi.html 2 http://limebtl.kiev.ua/manual/en/howto/ssi.html
+//phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5/scripts/setup.php 1 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+/manual/en/images/left.gif 1 http://limebtl.kiev.ua/manual/en/howto/auth.html
+/manual/ru/style/css/manual-loose-100pc.css 1 http://limebtl.kiev.ua/manual/ru/programs/rotatelogs.html
+/puma 2 http://limebtl.com/
+//phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/no-text-3569345406627608397 1 -
+/muieblackcat 1 -
+/no-text5706698847891884036 1 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+/forum/viewtopic.phpindex.php 1 http://limebtl.kiev.ua/forum/viewtopic.phpindex.php
+/no-text1454860207693624708 1 -
+/no-text-314419569200900551 1 -
+/manual/de/images/feather.gif 1 http://limebtl.kiev.ua/manual/de/developer/modules.html
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/no-text1561229542151178039 1 -
+/no-text4602258729717912602 1 -
+/forum/viewtopic.php 2 -
+//phpMyAdmin-2.6.3/scripts/setup.php 2 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/no-text928104038986378374 1 -
+/no-text-2572789649404360693 1 -
+//mysql/scripts/setup.php 1 -
+/manual/es/images/down.gif 1 http://limebtl.kiev.ua/manual/es/developer/thread_safety.html
+/no-text-4874928936816555327 1 -
+/manual/en/developer/thread_safety.html 37 http://limebtl.kiev.ua/manual/en/developer/thread_safety.html
+/no-text5136811444410250180 1 -
+/manual/en/images/down.gif 1 http://limebtl.kiev.ua/manual/en/howto/auth.html
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 62
+unknown 0 290 0 0
+ua_kiev_13 0 75 0 0
+us_brooklyn_ny 0 42 0 0
+ua_odessa_17 0 8 0 0
+ua_dolyna_22 0 5 0 0
+ua_donetsk_05 0 5 0 0
+ua_dnepropetrovsk_04 0 4 0 0
+ru_moscow_48 0 4 0 0
+ua_nikolaev_16 0 4 0 0
+ua_lvov_15 0 3 0 0
+ca_montreal_qc 0 1 0 0
+ua_vinnitsa_23 0 1 0 0
+us_sterling_va 0 2 0 0
+ua_kremenchuk_18 0 1 0 0
+cn_shanghai_23 0 1 0 0
+us_scottsdale_az 0 1 0 0
+cn_beijing_22 0 1 0 0
+us_mountain%20view_ca 0 1 0 0
+ua_lugansk_14 0 2 0 0
+ru_saint%20petersburg_66 0 1 0 0
+de_düsseldorf_07 0 1 0 0
+us_san%20bruno_ca 0 2 0 0
+ua_cherkasy_01 0 1 0 0
+ua_nayman_11 0 1 0 0
+at_vienna_09 0 1 0 0
+ru_chelyabinsk_13 0 1 0 0
+ru_vladivostok_59 0 1 0 0
+us_los%20angeles_ca 0 1 0 0
+au_gold%20coast_04 0 1 0 0
+gb_london_h9 0 2 0 0
+us_plano_tx 0 1 0 0
+de_luedenscheid_07 0 2 0 0
+ua_dmitriy_17 0 2 0 0
+tr_istanbul_34 0 1 0 0
+us_washington_dc 0 2 0 0
+fr_paris_a8 0 1 0 0
+fi_turku_15 0 1 0 0
+ua_zaporozhye_26 0 2 0 0
+kz_astana_05 0 1 0 0
+ua_belaya%20tserkov_13 0 1 0 0
+ua_cherkassy_01 0 1 0 0
+ru_artem_59 0 1 0 0
+ua_kharkov_07 0 3 0 0
+es_barcelona_56 0 1 0 0
+ru_yekaterinburg_71 0 1 0 0
+ua_oleg_17 0 1 0 0
+ru_orel_56 0 1 0 0
+cn_tianjin_28 0 1 0 0
+ua_vasilets_21 0 1 0 0
+ua_kherson_08 0 1 0 0
+se_hillerstorp_08 0 1 0 0
+ru_alfa_72 0 1 0 0
+cn_putian_07 0 1 0 0
+ua_lviv_15 0 1 0 0
+ru_volgograd_84 0 1 0 0
+us_phoenix_az 0 1 0 0
+us_new%20york_ny 0 1 0 0
+us_scranton_pa 0 3 0 0
+ru_chelny_73 0 2 0 0
+ua_sumy_21 0 2 0 0
+ua_german_15 0 2 0 0
+us_woodbridge_nj 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 349
+213.180.209.124 34 34 0 20120222031736
+208.80.194.30 22 22 16295950 20120229165405
+89.145.108.203 12 12 8888700 20120223150111
+89.145.108.202 11 11 8147975 20120223142755
+208.80.194.36 6 6 4444350 20120223115026
+208.80.194.27 5 5 3703625 20120228012617
+95.158.7.234 4 4 2962900 20120217224424
+46.151.157.43 3 3 2222175 20120224175509
+141.101.3.150 3 3 1482015 20120213170338
+95.135.155.161 3 3 0 20120201154922
+91.200.1.106 1 1 740725 20120229152946
+91.124.243.27 1 1 740725 20120205230404
+93.72.139.48 1 1 740725 20120222013722
+195.43.71.4 1 1 740725 20120228140344
+82.193.98.246 1 1 740725 20120211022303
+92.113.105.69 2 2 1481450 20120224132142
+178.94.176.66 1 1 740725 20120206171555
+91.204.213.138 1 1 740725 20120213095819
+91.203.27.250 1 1 740725 20120206160301
+95.132.22.114 2 2 1481450 20120212185819
+213.133.161.162 1 1 740725 20120214184111
+178.94.227.114 1 1 740725 20120223011929
+217.76.201.194 1 1 740725 20120213160119
+212.80.46.51 1 1 740725 20120208180923
+78.25.10.45 1 1 740725 20120223214709
+72.233.72.155 1 1 740725 20120204141232
+155.91.64.11 1 1 740725 20120224150647
+91.124.201.199 1 1 740725 20120223211238
+46.17.100.243 1 1 740725 20120221131424
+71.223.2.249 1 1 740725 20120214014713
+93.75.177.123 1 1 740725 20120228203220
+85.114.202.46 2 2 1481450 20120228125233
+91.209.51.200 1 1 740725 20120210004509
+184.82.15.42 1 1 740725 20120215090444
+195.138.64.78 2 2 1481450 20120215155937
+46.17.98.197 1 1 740725 20120201035848
+31.42.71.35 1 1 740725 20120217215713
+93.159.243.32 1 1 740725 20120205164419
+77.122.50.41 1 1 740725 20120218160257
+91.209.11.17 1 1 740725 20120202165345
+193.22.205.67 2 2 1481450 20120228200104
+82.144.211.3 1 1 740725 20120217104013
+178.94.32.44 1 1 740725 20120224121701
+212.2.150.26 1 1 740725 20120229181005
+178.94.170.75 1 1 740725 20120220172944
+95.132.151.132 1 1 740725 20120220115943
+91.124.79.93 1 1 740725 20120212215153
+109.162.113.190 1 1 740725 20120211015623
+46.201.128.248 2 2 1481450 20120225035902
+123.65.223.198 1 1 740725 20120224160419
+178.158.114.15 1 1 740725 20120213013300
+91.215.53.26 1 1 740725 20120223142859
+94.248.11.53 1 1 740725 20120203224901
+92.249.97.183 1 1 740725 20120210120946
+81.23.24.125 1 1 740725 20120207154101
+82.193.98.220 1 1 740725 20120227210319
+46.164.129.251 1 1 740725 20120222155732
+188.37.59.42 1 1 740725 20120229151454
+91.202.72.90 1 1 740725 20120208141334
+208.90.56.152 2 2 1481450 20120213223939
+92.112.164.96 1 1 740725 20120212230616
+90.35.103.223 1 1 740725 20120206161016
+95.169.14.139 1 1 740725 20120229011602
+77.222.147.166 2 2 1481450 20120229152951
+94.153.249.250 1 1 740725 20120211094404
+217.147.160.75 1 1 740725 20120213195514
+109.86.41.59 1 1 740725 20120221203926
+213.160.146.74 2 2 1481450 20120210165038
+141.170.237.93 1 1 740725 20120216124350
+94.76.88.234 1 1 740725 20120229123417
+178.136.0.205 1 1 740725 20120215162126
+194.0.88.222 1 1 740725 20120201125642
+193.93.13.159 1 1 740725 20120227010703
+93.73.219.123 1 1 740725 20120213224355
+178.91.128.124 1 1 740725 20120208163504
+95.143.223.242 1 1 740725 20120210101902
+188.118.220.131 1 1 740725 20120223141005
+93.73.246.31 1 1 740725 20120228010124
+217.117.78.4 1 1 740725 20120209103219
+46.33.226.23 1 1 740725 20120218185008
+91.192.180.12 1 1 740725 20120204123535
+46.150.70.38 1 1 740725 20120227133414
+94.73.238.206 1 1 740725 20120201041002
+178.92.104.12 1 1 740725 20120201200830
+93.73.37.18 1 1 740725 20120221160116
+188.0.81.160 1 1 740725 20120210015616
+192.162.108.215 1 1 740725 20120221135913
+193.33.54.76 1 1 740725 20120203174536
+95.132.72.105 1 1 740725 20120217121058
+194.116.199.187 1 1 740725 20120217134352
+95.28.159.162 1 1 740725 20120202221805
+109.227.104.18 1 1 740725 20120227215227
+91.142.174.181 1 1 740725 20120215152138
+95.132.223.13 2 2 1481450 20120215160023
+95.134.164.59 2 2 740725 20120219172024
+62.80.190.162 1 1 740725 20120228171707
+95.134.12.49 1 1 740725 20120219152850
+93.72.33.250 1 1 740725 20120228220053
+93.72.92.37 1 1 740725 20120222120813
+87.224.197.236 1 1 740725 20120205203352
+178.121.67.144 1 1 740725 20120210101345
+95.135.113.6 1 1 740725 20120201212646
+46.247.245.86 1 1 740725 20120210104739
+77.123.56.148 1 1 740725 20120205024448
+195.182.144.131 1 1 740725 20120220143707
+46.164.142.2 1 1 740725 20120215164110
+46.201.244.198 1 1 740725 20120202181427
+91.90.15.52 1 1 740725 20120229142849
+178.94.19.52 1 1 740725 20120222104103
+91.90.18.22 1 1 740725 20120229171009
+95.133.212.166 1 1 740725 20120206094920
+77.52.10.86 1 1 740725 20120226141949
+95.132.197.148 2 2 1481450 20120202173720
+194.116.198.179 1 1 740725 20120202151933
+109.230.221.136 2 2 1481450 20120229022214
+93.79.35.13 1 1 740725 20120225005034
+62.221.32.128 1 1 740725 20120210094513
+109.230.246.195 2 2 1481450 20120207002931
+141.101.16.182 1 1 740725 20120219130627
+178.94.201.228 1 1 740725 20120201123943
+37.55.41.120 1 1 740725 20120225183319
+46.201.214.159 1 1 740725 20120203132114
+178.94.8.153 1 1 740725 20120202195654
+178.71.122.52 1 1 740725 20120217214628
+91.203.90.230 1 1 740725 20120228170122
+78.159.52.12 2 2 1481450 20120215095130
+186.182.116.12 1 1 740725 20120203225029
+88.81.252.122 1 1 740725 20120214174644
+46.203.152.115 1 1 740725 20120226071249
+217.77.220.110 3 3 2222175 20120228154555
+81.162.217.1 1 1 740725 20120216145843
+92.46.64.120 1 1 740725 20120226180056
+195.182.194.200 1 1 740725 20120225173233
+178.93.198.62 1 1 740725 20120202205136
+93.78.176.203 1 1 740725 20120229163319
+208.80.194.33 1 1 740725 20120208072708
+195.182.194.223 1 1 740725 20120204130454
+31.40.105.35 1 1 740725 20120205103828
+112.111.175.10 1 1 740725 20120210000347
+89.19.96.205 1 1 740725 20120227163143
+37.110.106.152 1 1 740725 20120227080312
+212.92.226.22 1 1 740725 20120214142356
+177.19.217.223 1 1 740725 20120219045658
+94.244.173.207 2 2 1481450 20120206115401
+217.27.145.131 1 1 740725 20120209161151
+85.223.214.228 1 1 740725 20120224153804
+141.138.101.252 1 1 740725 20120203165545
+109.167.34.189 1 1 740725 20120221095029
+77.35.225.36 1 1 740725 20120211050404
+212.92.243.92 1 1 740725 20120227171032
+95.132.97.136 1 1 740725 20120206141449
+195.78.112.82 1 1 740725 20120213142129
+109.254.49.11 1 1 740725 20120220193239
+62.80.181.123 1 1 740725 20120219011438
+77.122.55.188 1 1 740725 20120221094914
+184.82.253.74 1 1 740725 20120215065514
+208.80.194.37 1 1 740725 20120225004603
+176.195.117.9 1 1 740725 20120206152009
+213.159.241.20 2 2 1481450 20120209155436
+217.20.178.65 1 1 740725 20120221121023
+195.222.127.148 1 1 740725 20120210190300
+220.236.7.136 1 1 740725 20120229114635
+95.111.247.131 1 1 740725 20120212140507
+194.116.198.189 1 1 740725 20120216164337
+69.58.178.58 2 2 1481450 20120210115547
+212.109.37.73 2 2 1481450 20120207164253
+176.36.203.54 1 1 740725 20120204190743
+213.160.145.173 1 1 740725 20120215174355
+77.87.36.76 1 1 740725 20120229194824
+91.232.0.80 2 2 740725 20120214145757
+125.39.16.73 1 1 740725 20120215030527
+62.80.161.168 1 1 740725 20120202181655
+46.200.86.134 1 1 740725 20120225200336
+46.201.243.223 1 1 740725 20120208153631
+46.211.205.45 1 1 740725 20120213150927
+37.53.254.77 1 1 740725 20120214011351
+88.154.212.119 1 1 740725 20120202160824
+85.26.165.179 1 1 740725 20120224224659
+89.162.146.90 1 1 740725 20120221105355
+95.133.182.63 1 1 740725 20120209180833
+89.252.36.219 1 1 740725 20120204112357
+78.27.140.137 1 1 740725 20120215103305
+95.220.228.123 1 1 740725 20120216015522
+178.95.234.195 1 1 740725 20120201124106
+193.200.33.156 1 1 740725 20120209093522
+178.94.9.162 1 1 740725 20120223103815
+46.17.96.43 1 1 740725 20120210115222
+194.24.2.5 1 1 740725 20120201150531
+95.158.48.45 1 1 740725 20120208012317
+134.249.205.73 1 1 740725 20120211203839
+93.73.232.173 1 1 740725 20120211131503
+188.163.69.70 2 2 1481450 20120211212440
+195.95.157.147 2 2 1481450 20120225110552
+195.191.215.6 1 1 740725 20120201120251
+178.94.123.94 1 1 0 20120207103653
+176.36.171.83 1 1 740725 20120207090639
+93.74.134.198 2 2 1481450 20120220141609
+92.113.123.21 2 2 1481450 20120224154144
+95.133.89.170 1 1 740725 20120229125519
+46.201.68.156 1 1 740725 20120229211013
+108.41.26.180 1 1 740725 20120223072622
+178.216.122.229 1 1 740725 20120220194657
+193.107.245.23 1 1 740725 20120229172137
+178.140.20.67 1 1 740725 20120204185951
+95.69.203.139 1 1 740725 20120229110343
+94.103.232.109 1 1 740725 20120223163138
+195.78.247.19 3 3 1481450 20120219205439
+89.178.181.185 1 1 740725 20120226160556
+184.107.223.82 1 1 740725 20120208111259
+195.182.195.37 1 1 740725 20120202085701
+93.126.112.200 1 1 740725 20120208114031
+46.164.130.82 2 2 740725 20120228105909
+95.133.89.178 1 1 740725 20120229145857
+109.104.160.179 1 1 740725 20120226173353
+208.80.194.34 2 2 1481450 20120225175358
+91.204.120.67 1 1 740725 20120221160503
+109.191.19.71 1 1 740725 20120204173313
+85.198.191.140 1 1 740725 20120209113158
+194.44.21.44 1 1 740725 20120203150353
+77.90.242.198 3 3 2222175 20120218172528
+212.111.201.22 1 1 740725 20120220182449
+188.247.115.226 1 1 740725 20120206091223
+150.70.172.108 1 1 740725 20120208232257
+217.147.161.89 2 2 1481450 20120221151405
+94.158.32.236 1 1 740725 20120226235023
+188.231.225.194 1 1 740725 20120209152935
+178.74.255.179 1 1 740725 20120226180601
+150.70.172.106 1 1 740725 20120229115004
+217.77.219.45 2 2 1481450 20120213231800
+109.61.195.189 1 1 740725 20120212124332
+93.74.130.154 1 1 740725 20120220224804
+91.220.252.20 1 1 740725 20120214131405
+178.94.240.32 1 1 740725 20120214180100
+93.72.33.133 1 1 740725 20120201125124
+188.163.104.94 2 2 1481450 20120207163339
+93.125.6.192 2 2 740725 20120202164115
+46.118.99.22 1 1 740725 20120216221251
+159.253.145.175 1 1 740725 20120212223811
+38.100.21.15 2 2 1481450 20120218224846
+95.134.52.181 1 1 740725 20120202205747
+82.144.204.104 1 1 740725 20120206193804
+94.45.131.13 1 1 740725 20120223035607
+77.239.175.125 2 2 1481450 20120222195914
+184.98.164.38 1 1 740725 20120205000020
+92.112.20.187 1 1 740725 20120203154742
+94.244.21.220 1 1 740725 20120227123043
+91.199.35.1 1 1 740725 20120218024036
+37.72.75.197 1 1 740725 20120219172342
+46.30.167.106 1 1 740725 20120218011713
+46.251.228.251 1 1 740725 20120208195618
+109.86.117.35 1 1 740725 20120221115739
+94.153.233.186 1 1 740725 20120228120543
+94.198.221.112 1 1 740725 20120215130542
+95.135.26.120 1 1 740725 20120221130427
+95.135.20.77 1 1 740725 20120223134614
+95.133.90.203 1 1 740725 20120206191027
+84.250.55.204 1 1 740725 20120216143700
+195.3.158.118 2 2 740725 20120222105706
+46.30.167.185 1 1 740725 20120209200309
+195.182.194.212 1 1 740725 20120225071324
+92.249.102.193 1 1 740725 20120208232013
+92.249.118.94 1 1 740725 20120223215941
+94.153.226.82 1 1 740725 20120228142404
+93.75.224.119 1 1 740725 20120218210155
+217.210.115.39 1 1 740725 20120209121116
+46.147.69.65 2 2 740725 20120208102405
+46.17.98.88 3 3 2222175 20120228125323
+195.182.194.202 2 2 740725 20120205215055
+82.145.210.172 1 1 740725 20120216082335
+77.47.188.21 1 1 740725 20120215212206
+46.203.213.21 1 1 740725 20120220191655
+220.161.150.114 1 1 740725 20120202141527
+176.36.61.72 1 1 740725 20120203172404
+188.123.253.75 1 1 740725 20120203025804
+176.36.181.45 1 1 740725 20120225142211
+195.230.128.55 2 2 1481450 20120206162629
+95.135.45.182 1 1 740725 20120208134656
+195.225.145.16 1 1 740725 20120205234701
+94.179.176.153 1 1 740725 20120222095229
+93.75.91.2 1 1 740725 20120219214400
+93.88.59.243 1 1 740725 20120217150619
+80.70.68.162 2 2 1481450 20120221201651
+94.158.32.10 1 1 740725 20120221140239
+95.132.87.171 1 1 740725 20120201112738
+79.143.37.117 1 1 740725 20120213190250
+178.94.20.93 1 1 740725 20120229130016
+93.72.243.223 1 1 740725 20120225215224
+91.142.163.2 1 1 740725 20120222135529
+95.135.58.4 1 1 740725 20120203222745
+212.82.195.122 2 2 1481450 20120224124435
+178.137.160.135 2 2 1481450 20120202011507
+109.162.11.135 1 1 740725 20120228200601
+94.27.13.98 1 1 740725 20120223145227
+93.72.96.127 1 1 740725 20120213234350
+93.72.171.166 2 2 1481450 20120214094302
+208.80.194.28 3 3 2222175 20120225013543
+95.220.171.19 1 1 740725 20120212143332
+212.178.5.116 1 1 740725 20120228121847
+150.70.75.37 1 1 740725 20120223132818
+109.95.48.21 1 1 740725 20120214204128
+46.202.174.185 1 1 740725 20120221214445
+85.96.155.164 1 1 740725 20120210201021
+85.223.255.142 2 2 1481450 20120227172000
+195.88.242.35 2 2 1481450 20120225100351
+95.134.179.107 1 1 740725 20120228123708
+93.73.11.147 1 1 740725 20120216125456
+80.92.234.158 1 1 740725 20120219202542
+213.108.41.44 1 1 740725 20120207141625
+64.120.183.213 1 1 740725 20120216103128
+93.73.145.7 2 2 1481450 20120207225653
+109.86.123.64 1 1 740725 20120229220937
+91.196.35.238 1 1 740725 20120216004519
+46.30.167.77 1 1 740725 20120221232556
+46.30.167.162 1 1 740725 20120226132647
+93.79.150.45 1 1 740725 20120228173226
+212.113.32.140 1 1 740725 20120207154014
+188.231.253.3 1 1 740725 20120220181729
+93.72.45.240 2 2 1481450 20120202212746
+178.94.97.83 3 3 2222175 20120214111015
+208.80.194.35 2 2 1481450 20120218215036
+95.215.237.226 1 1 740725 20120217135408
+164.139.7.150 1 1 740725 20120214110729
+194.105.144.244 2 2 1481450 20120216130257
+83.59.223.247 1 1 740725 20120227105342
+209.85.228.97 1 1 740725 20120204191444
+83.170.197.154 1 1 740725 20120201110254
+193.239.152.173 1 1 740725 20120206100901
+62.80.162.242 1 1 740725 20120207000504
+213.160.143.190 1 1 740725 20120214181554
+178.255.179.162 1 1 740725 20120220112247
+146.0.74.198 1 1 740725 20120201052037
+212.22.210.228 1 1 740725 20120229230542
+27.159.211.116 1 1 740725 20120206010332
+77.47.162.207 1 1 740725 20120223234338
+93.74.19.155 1 1 740725 20120215102255
+184.82.131.106 1 1 740725 20120219044303
+93.127.50.152 1 1 740725 20120213144545
+89.162.185.26 2 2 1481450 20120216160554
+94.27.20.134 1 1 740725 20120207150343
+46.17.100.99 3 3 2222175 20120222083844
+212.57.99.246 2 2 1481450 20120214190428
+77.222.137.41 1 1 740725 20120227120242
+91.207.55.249 1 1 740725 20120227160024
+212.92.249.21 1 1 740725 20120214231417
+92.113.234.61 2 2 740725 20120208173251
+141.101.25.10 3 3 2222175 20120223151048
+109.162.111.153 1 1 740725 20120202215016
+107.20.95.55 1 1 740725 20120222162419
+37.55.67.21 1 1 740725 20120224125347
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20120201 17 17 10370150 15
+20120202 24 24 17036675 21
+20120203 10 10 7407250 10
+20120204 12 12 8888700 11
+20120205 11 11 7407250 10
+20120206 17 17 12592325 15
+20120207 17 17 11851600 14
+20120208 16 16 10370150 14
+20120209 30 30 9629425 13
+20120210 22 22 16295950 17
+20120211 9 9 6666525 8
+20120212 12 12 8888700 10
+20120213 16 16 11111440 14
+20120214 22 22 15555225 18
+20120215 17 17 12592325 15
+20120216 28 28 20740300 20
+20120217 11 11 8147975 8
+20120218 10 10 7407250 10
+20120219 14 14 8888700 12
+20120220 17 17 12592325 16
+20120221 19 19 14073775 17
+20120222 31 31 9629425 14
+20120223 27 27 19999575 20
+20120224 14 14 10370150 11
+20120225 15 15 11110875 13
+20120226 8 8 5925800 8
+20120227 16 16 11851600 14
+20120228 21 21 14814500 19
+20120229 24 24 17777400 22
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 6
+2mn-5mn 6
+15mn-30mn 2
+30s-2mn 6
+0s-30s 375
+30mn-1h 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 506 339992775 409 408
+/index.php 1 565 0 1
+END_SIDER

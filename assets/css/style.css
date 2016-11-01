@@ -1,0 +1,422 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 44px 0 107px 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin-bottom: 7px;
+    padding-left: 35px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Gotham Pro';
+    line-height: 1.2;
+}
+
+h1 {
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-size: 3.125em;
+    font-family: 'Gotham Pro';
+    line-height: 1.2;
+}
+
+.first_header {
+    z-index: 50;
+}
+
+h2 {
+    margin-bottom: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.813em;
+    font-family: 'Gotham Pro';
+    line-height: 1.2;
+}
+
+
+/*end day*/
+
+
+/* start night */
+
+body.day_page {
+    background: #18de47;
+}
+
+.day_page p {
+    color: #000;
+}
+
+.day_page h1 {
+    color: #fff
+}
+
+
+/* like */
+
+.fb-like {
+    margin-top: 34px;
+    margin-right: 140px;
+}
+
+.day_page h2 {
+    color: #fff
+}
+
+body.night_page {
+    background: #000;
+}
+
+.night_page p {
+    color: #a3a3a3;
+}
+
+.night_page h1 {
+    color: #ddf60a
+}
+
+.night_page h2 {
+    color: #ddf60a
+}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+input[type='text'],
+input[type='email'] {}
+
+textarea {}
+
+select {}
+
+button {}
+
+a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+a:hover,
+a:focus {
+    color: #ddf60a;
+}
+
+.hover_switch,
+button,
+.day_page,
+.transition,
+a {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.custom_padding {
+    padding-right: 56px;
+    padding-left: 85px;
+}
+
+.zero_pading {
+    padding: 0;
+}
+
+.slider_section {
+    padding-top: 107px;
+}
+
+.arrow {
+    margin: 33px 0 21px 76px;
+}
+
+.shel {
+    z-index: 4;
+    margin-left: 77px;
+}
+
+.img_section {
+    padding-bottom: 48px;
+}
+
+.relative {
+    position: relative;
+}
+
+.switch_button {
+    position: absolute;
+    right: 124px;
+    bottom: -41px;
+}
+
+#day_arrow {
+    position: absolute;
+    bottom: 17px;
+    padding: 20px;
+}
+
+.hover_switch {
+    position: absolute;
+    right: 245px;
+    bottom: 50px;
+    width: 51px;
+    height: 53px;
+    background: url(../img/day/Hower_Day.png);
+    background-repeat: no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.hover_switch:hover {
+    opacity: 1;
+}
+
+.night_switch {
+    right: 203px;
+    background: url(../img/night/Hower_Night.png);
+}
+
+.mail_section {
+    display: none;
+    padding-top: 76px;
+}
+
+.sign_mail {
+    margin: 0 23px;
+    padding: 54px 195px 60px 195px;
+    background: #1e1e1e;
+}
+
+.sign_mail p {
+    padding-left: 0;
+}
+
+p.maildrop {
+    padding-top: 21px;
+    color: #fff;
+    font-size: 1.563em;
+}
+
+input {
+    width: 77%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+hr {
+    margin-top: 13px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 1);
+}
+
+.glow {
+    border: 1px solid #d68ed0;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(82, 25, 77, 1);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(82, 25, 77, 1);
+    box-shadow: 0px 0px 15px 3px rgba(82, 25, 77, 1);
+}
+
+button {
+    margin: 21px 0;
+    padding: 7px 0 10px 0;
+    width: 100%;
+    border: 0;
+    background: #3c3c3c;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.250em;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #fff;
+}
+
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+
+/**/
+
+.something_cool {
+    position: absolute;
+    top: -33px;
+    left: 8px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.clips {
+    width: 60%;
+
+    -webkit-clip-path: url(#clipping);
+    clip-path: url(#clipping);
+}
+
+.clips2 {
+    width: 60%;
+
+    -webkit-clip-path: url(#clipping2);
+    clip-path: url(#clipping2);
+}
+
+
+/**/
+
+#contactus a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+#contactus a:hover {
+    color: #ddf60a;
+}
+
+
+/**/
+
+#night_image {
+    display: none;
+}
+
+#day_image {
+    display: block;
+}
+
+#night_arrow {
+    display: none;
+}
+
+#night_switch {}
+
+#day_switch {}
+
+#contactus {
+    display: none;
+}
+
+.something_cool {
+    display: none;
+}
+
+
+/**/
+
+.client-logo {
+    width: 200px;
+    text-align: center;
+}
+
+.owl-carousel .owl-item img {
+    width: 100%;
+}
+
+.pyatno {
+    position: absolute;
+    top: -471px;
+    left: 296px;
+    z-index: -1;
+}
+
+.fb-like {
+    padding: 5px;
+}
+
+#night_arrow {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    display: none;
+}
+
+
+/**/
+
+.pattern {
+    position: absolute;
+    top: 0px;
+    right: auto;
+    left: 270px;
+    z-index: -1;
+    width: 550px;
+    -webkit-animation: timing 5s infinite;
+    -moz-animation: timing 5s infinite;
+    -o-animation: timing 5s infinite;
+    animation: timing 5s infinite;
+}
+
+@keyframes timing {
+    0% {
+        top: -500px;
+    }
+    100% {
+        top: -700px;
+    }
+}
+
+@-moz-keyframes timing {
+    0% {
+        top: -500px;
+    }
+    100% {
+        top: -700px;
+    }
+}
+
+@-o-keyframes timing {
+    0% {
+        top: -500px;
+    }
+    100% {
+        top: -700px;
+    }
+}
+
+@-webkit-keyframes timing {
+    0% {
+        top: -500px;
+    }
+    100% {
+        top: -700px;
+    }
+}
+
+.pattern {
+    -webkit-animation-direction: alternate-reverse;
+    -moz-animation-direction: alternate-reverse;
+    -o-animation-direction: alternate-reverse;
+    animation-direction: alternate-reverse;
+}

@@ -1,0 +1,5038 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201207 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.lime.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2690                
+POS_VISITOR 162446              
+POS_DAY 176837              
+POS_DOMAIN 3584                
+POS_LOGIN 4129                
+POS_ROBOT 4284                
+POS_WORMS 5195                
+POS_EMAILSENDER 5326                
+POS_EMAILRECEIVER 5469                
+POS_SESSION 177696              
+POS_SIDER 177905              
+POS_FILETYPES 5604                
+POS_OS 5714                
+POS_BROWSER 5898                
+POS_SCREENSIZE 6942                
+POS_UNKNOWNREFERER 7016                
+POS_UNKNOWNREFERERBROWSER 7259                
+POS_ORIGIN 7458                
+POS_SEREFERRALS 7603                
+POS_PAGEREFS 7794                
+POS_SEARCHWORDS 9566                
+POS_KEYWORDS 12548               
+POS_MISC 2354                
+POS_ERRORS 14142               
+POS_CLUSTER 3985                
+POS_SIDER_404 14248               
+POS_PLUGIN_geoip_city_maxmind 160663              
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120801051006 1 0 10121474728400
+FirstTime 20120701084142
+LastTime 20120731231641
+LastUpdate 20120802000202 1 0 0 0 0
+TotalVisits 425                 
+TotalUnique 360                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 360                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 26 4517144 61 73 1531828
+1 14 17 769771 73 86 3048727
+2 10 12 2248865 26 33 1497263
+3 11 16 3008646 51 56 1529333
+4 25 33 4515146 45 49 783997
+5 3 5 757425 40 40 2251481
+6 18 23 2255217 58 61 1661053
+7 12 17 3749371 53 56 2261387
+8 33 44 6766367 46 59 2254539
+9 34 49 10490688 646 671 5407113
+10 40 59 14236421 783 811 2455272
+11 55 80 15015824 762 794 1680884
+12 77 110 21780193 694 757 208682
+13 68 98 23226961 775 821 2782983
+14 82 117 21012062 769 827 3919205
+15 66 97 21745511 1045 1086 1030106
+16 75 108 23260003 611 668 192479
+17 74 104 22486236 397 451 874723
+18 43 63 13508042 401 431 1606939
+19 39 60 9789357 110 139 3065640
+20 42 58 11987198 57 84 1541633
+21 25 38 7513444 66 81 3034114
+22 46 68 16477294 61 94 4503457
+23 33 50 11248471 56 75 1657909
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+ua 615 899 207571905
+ru 127 161 23977676
+us 65 98 9942937
+eu 38 57 11990836
+unknown 28 45 6799767
+gb 20 22 1530118
+fr 8 10 759065
+by 6 9 1508498
+lt 6 7 757067
+kz 5 7 1500148
+il 4 6 1498150
+jp 1 1 1998
+cn 1 1 1998
+my 1 2 8350
+lv 2 3 749075
+at 2 3 749075
+bg 1 2 8350
+it 2 3 749075
+pl 1 2 8350
+cz 3 4 751073
+de 2 3 749075
+pe 4 7 753071
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+yandex 202 403596 20120731063904 0
+bot[\s_+:,\.\;\/\\-] 92 29735300 20120731103602 0
+googlebot 66 13715868 20120730061521 0
+facebook 54 210006 20120730195846 0
+aspider 45 2306091 20120721013349 0
+mail\.ru 15 29970 20120731134425 0
+baiduspider 15 29970 20120726035633 0
+exabot 9 15984 20120725080937 0
+surveybot 8 15984 20120730084401 0
+mj12bot 8 15984 20120726151349 0
+no_user_agent 7 11988 20120731061930 0
+ia_archiver 1 1998 20120726072805 0
+java\/[0-9] 3 8350 20120721152751 0
+[\s_+:,\.\;\/\\-]bot 6 11988 20120731205125 0
+msnbot 4 7992 20120723171251 0
+robot 4 7992 20120723152522 0
+rambler 7 2238875 20120712190440 0
+webfilter 1 1998 20120708085538 0
+wget 1 1998 20120708103046 0
+netcraft 3 5994 20120706221715 0
+crawl 2 3996 20120719142939 0
+nutch 3 5994 20120720130900 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 570 1036962 0 0
+js 410 2445520 0 0
+swf 372 268883175 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 13
+blackberry 1
+winxp 612
+winlong 19
+java 1
+win2000 2
+winvista 9
+linuxfedora 1
+linux 22
+macosx 166
+win2003 3
+Unknown 6
+win2008 497
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 61
+msie6.0 61
+safari4.1.3 3
+chrome12.0.742.100 3
+firefox4.0.1 1
+android 13
+firefox3.0.1 1
+chrome12.0.742.91 3
+chrome14.0.823.0 3
+safari5.1.6 3
+safari5.0.6 3
+firefox3.5.3 4
+opera9.80 249
+chrome19.0.1084.56 23
+chrome9.0.597.94 3
+safari5.0.2 2
+msie8.0 101
+chrome14.0.835.163 6
+firefox13.0.1 181
+chrome20.0.1132.47 162
+msie7.0 46
+chrome17.0.963.46 6
+firefox16.0 3
+safari5.1.5 3
+firefox3.6.27 3
+firefox9.0.1 3
+firefox3.6.9 3
+opera9.64 3
+chrome5.0.307.11 2
+msie9.0 22
+chrome18.0.1025.1634 6
+Unknown 3
+firefox11.0 6
+safari5.0.5 4
+safari5.1.3 3
+chrome2.0.172.28 3
+blackberry 1
+chrome10.0.642.2 6
+chrome17.0.963.56 3
+firefox13.0 6
+safari6.0 3
+chrome10.0.648.205 4
+chrome15.0.874.120 3
+firefox3.0.11 1
+chrome20.0.1132.57 191
+firefox7.0.1 1
+firefox12.0 15
+chrome19.0.1084.46 6
+safari5.1.7 31
+chrome18.0.966.0 3
+chrome18.0.1025.142 3
+mozilla 6
+firefox14.0.1 45
+safari5.1.2 9
+firefox3.6.28 6
+safari5.1 38
+firefox8.0.1 10
+chrome19.0.1084.36 1
+firefox10.0.2 6
+chrome15.0.874.106 3
+firefox3.6.8 3
+firefox3.5.7 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+EventMachine_HttpClient 20120711074721
+Mozilla/5.0_(compatible;_www.promotests.com_1.0;_http://promotests.com/?) 20120708020312
+Skymonk/1.78 20120712153040
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Apache-HttpClient/4.1.1_(java_1.5) 20120701084142
+EventMachine_HttpClient 20120711074721
+Skymonk/1.78 20120712153040
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 259 259
+From1 1 1
+From2 102 102
+From3 516 848
+From4 64 142
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 98 98
+search 2 2
+rambler 1 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 43
+http://limebtl.com 136 268
+http://www.limebtl.com 108 238
+http://www.limebtl.kiev.ua 60 123
+http://www.talant.ua 47 47
+http://www.talant.ua/talant-v1.swf 32 32
+http://www.facebook.com/l.php 27 27
+http://talant.ua/talant-v1.swf 22 22
+http://talant.ua 21 21
+http://www.limebtl.com. 6 12
+http://mmr.ua/catalog/show/agencies/id/158/ 5 5
+http://communications.kiev.ua/ru/btl/view/15925 2 2
+http://rup.com.ua 1 1
+http://www.limebtl.kiev.ua/index.swf 1 1
+http://prazdnik.com.ua/index.php 1 1
+http://www.free-lance.ru 1 1
+http://nn.hh.ru/employer/218914 1 1
+http://freemail.ukr.net/q/start 1 1
+http://www.mami.org.ua/news/market-news/4350 1 1
+http://vk.com/id6555858 1 1
+http://e.mail.ru/cgi-bin/msglist 2 2
+http://www.mami.org.ua/news/market-news/3625 4 4
+http://hh.ua/employer/218914/ 1 1
+http://jobs.tut.by/employer/218914/ 1 1
+http://ubs-ua.com/rus/search/main_pid.php 1 1
+http://adreport.ua/agencies/agency/103.html 2 2
+http://dir.meta.ua/ru/siteinfo/184195/BTL-%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%C3%AE_%22Lime_Fresh%22/ 1 1
+http://www.maxshaman.com/index.swf 4 4
+http://www.orangeask.com 3 3
+http://www.sniper.com.ua/index.php 1 1
+http://www.facebook.com 3 3
+http://marketing.web-standart.net/node/50862 1 1
+http://sniper.com.ua/index.php 1 1
+http://press4.ru/pressr-3-3516.html 1 1
+http://www.pagesinventory.com/domain/www.limebtl.com.html 1 1
+http://maxshaman.com 1 1
+http://www.imena.ua/site/check-domain 1 1
+http://tosho.ua 2 2
+http://www.tosho.ua 1 1
+http://vk.com/im 1 1
+http://limebtl.kiev.ua 3 4
+http://yandex.ua/yandsearch 3 3
+http://rurin.info 1 1
+http://www.maxshaman.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 37
+limebtl 8
+%d0%bb%d0%b0%d0%b9%d0%bc-%d1%84%d1%80%d0%b5%d1%88+%d0%b1%d1%82%d0%bb 4
+%d0%bb%d0%b0%d0%b9%d0%bc+%d0%b1%d1%82%d0%bb 3
+lime+btl 3
+%d0%9b%d0%b0%d0%b9%d0%bc+%d0%a4%d1%80%d0%b5%d1%88+%d0%91%d0%a2%d0%9b 3
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc 3
+lime+btl. 2
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc 2
+%d0%b4%d0%b8%d0%bd%d0%b0+%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%b8%d1%87+%d0%bc%d0%be%d1%81%d0%ba%d0%b2%d0%b0 2
+fresh+agency+kiev 2
+fresh+btl+%d0%ba%d0%b8%d0%b5%d0%b2 1
+%d0%9e%d0%9e%d0%9e+lime+fresh+btl 1
+btl+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc 1
+http+//limebtl.com/ 1
+lime.com.ua 1
+%d1%82%d0%be%d0%b2+%c2%ab%d0%bb%d0%b0%d0%b9%d0%bc-%d1%84%d1%80%d0%b5%d1%88+%d0%b1%d1%82%d0%bb%c2%bb 1
+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%be%d1%80%d0%b3%d0%b0%d0%bd%d0%b8%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d1%8c+%d1%84%d0%b5%d1%81%d1%82%d0%b8%d0%b2%d0%b0%d0%bb%d1%8c+%d0%ba%d0%b8%d0%b5%d0%b2 1
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc+%d0%bc%d0%be%d1%81%d0%ba%d0%b2%d0%b0 1
+www.lime.com.ua 1
+puma+by+litkovskaya 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime 1
+%d0%bb%d0%b0%d0%b9%d0%bc+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 1
+laime+btl 1
+btl+dbxthbyrb 1
+%d0%b4%d0%b8%d0%bd%d0%b0+%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%b8%d1%87+%d0%bf%d0%b5%d1%80%d0%bd%d0%be+%d1%80%d0%b8%d0%ba%d0%b0%d1%80+%d1%80%d0%be%d1%81%d1%81%d0%b8%d1%8f 1
+lime-fresh+btl 1
+%d0%9b%d0%b0%d0%b9%d0%bc-%d0%a4%d1%80%d0%b5%d1%88+%d0%91%d0%a2%d0%9b 2
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime+%d0%ba%d0%b8%d0%b5%d0%b2 1
+btl+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 1
+%c2%ab%d0%bb%d0%b0%d0%b9%d0%bc-%d1%84%d1%80%d0%b5%d1%88+%d0%b1%d1%82%d0%bb%c2%bb 1
+%d1%80%d0%b0+%d0%bb%d0%b0%d0%b9%d0%bc+%d0%ba%d0%b8%d0%b5%d0%b2 1
+www.limebtl.com 1
+lime+agency+btl 1
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime 2
+%d0%bb%d0%b0%d0%b9%d0%bc+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 2
+btl+%d0%bf%d1%80%d0%b5%d0%b7%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d0%b8+%d1%82%d0%b5%d0%bb%d0%b5%d1%84%d0%be%d0%bd%d0%be%d0%b2+%d1%81+%d0%b8%d0%bd%d0%bd%d0%be%d0%b2%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d1%8b%d0%bc%d0%b8+%d1%82%d0%b5%d1%85%d0%bd%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f%d0%bc%d0%b8 1
+%d0%b1%d1%80%d0%b5%d0%bd%d0%b4+%d0%bc%d0%b5%d0%bd%d0%b5%d0%b4%d0%b6%d0%b5%d1%80+bacardi-martini+group+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b0 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 52
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 16
+%d0%bb%d0%b0%d0%b9%d0%bc 14
+btl 12
+lime 11
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5 9
+limebtl 8
+%d0%b1%d1%82%d0%bb 7
+%d0%91%d0%a2%d0%9b 5
+%d0%bb%d0%b0%d0%b9%d0%bc-%d1%84%d1%80%d0%b5%d1%88 4
+%d0%ba%d0%b8%d0%b5%d0%b2 4
+lime.com.ua 1
+%d0%9e%d0%9e%d0%9e 1
+%d0%9b%d0%b0%d0%b9%d0%bc 3
+http 1
+%d1%82%d0%b5%d0%bb%d0%b5%d1%84%d0%be%d0%bd%d0%be%d0%b2 1
+www.lime.com.ua 1
+bacardi-martini 1
+puma 1
+%d0%b1%d1%80%d0%b5%d0%bd%d0%b4 1
+lime-fresh 1
+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82 1
+%d1%81 1
+by 1
+%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%b8%d1%87 3
+%d1%80%d0%b0 1
+kiev 2
+%d0%a4%d1%80%d0%b5%d1%88 3
+%d0%b1%d1%82%d0%bb%c2%bb 2
+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b0 1
+%d1%80%d0%be%d1%81%d1%81%d0%b8%d1%8f 1
+//limebtl.com/ 1
+laime 1
+%d0%bc%d0%be%d1%81%d0%ba%d0%b2%d0%b0 3
+%d1%84%d0%b5%d1%81%d1%82%d0%b8%d0%b2%d0%b0%d0%bb%d1%8c 1
+group 1
+%d1%82%d0%be%d0%b2 1
+%d0%b8%d0%bd%d0%bd%d0%be%d0%b2%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d1%8b%d0%bc%d0%b8 1
+%d1%80%d0%b8%d0%ba%d0%b0%d1%80 1
+agency 3
+%d0%be%d1%80%d0%b3%d0%b0%d0%bd%d0%b8%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d1%8c 1
+btl. 2
+www.limebtl.com 1
+%c2%ab%d0%bb%d0%b0%d0%b9%d0%bc-%d1%84%d1%80%d0%b5%d1%88 2
+%d0%bc%d0%b5%d0%bd%d0%b5%d0%b4%d0%b6%d0%b5%d1%80 1
+fresh 4
+%d0%bf%d0%b5%d1%80%d0%bd%d0%be 1
+litkovskaya 1
+%d0%b4%d0%b8%d0%bd%d0%b0 3
+%d0%9b%d0%b0%d0%b9%d0%bc-%d0%a4%d1%80%d0%b5%d1%88 2
+%d1%82%d0%b5%d1%85%d0%bd%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f%d0%bc%d0%b8 1
+dbxthbyrb 1
+%d0%bf%d1%80%d0%b5%d0%b7%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d0%b8 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 16 373517
+404 7180 1619314
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 4095
+/manual/ko/en/vhosts/ 2 -
+/manual/ja/de/mod/beos.html 1 -
+/manual/ko/developer/API.html 2 -
+/manual/ja/en/howto/auth.html 2 -
+/manual/de/es/glossary.html 2 -
+/manual/en/en/mod/mod_proxy_http.html 1 -
+/manual/en/news:comp.protocols.time.ntp 2 -
+/manual/ja/en/mod/mod_status.html 2 -
+/manual/es/en/mod/mod_example.html 2 -
+/manual/en/urlmapping.html 2 -
+/manual/ja/ko/programs/htdigest.html 1 -
+/manual/ru/ko/mod/mod_userdir.html 2 -
+/manual/ko/en/howto/htaccess.html 2 -
+/manual/de/ru/programs/ 2 -
+//phpMyAdmin3/scripts/setup.php 1 -
+/manual/ru/ko/mod/mod_file_cache.html 2 -
+/manual/ko/mod/mod_auth_digest.html 2 -
+/manual/es/fr/bind.html 2 -
+/manual/es/ja/mod/mod_echo.html 1 -
+/manual/ja/upgrading.html 2 -
+/manual/ko/ko/faq/ 2 -
+/manual/ko/en/mod/mod_rewrite.html 2 -
+/common/widget_pipe_shell.php 1 -
+/manual/en/license.html 2 -
+/manual/de/en/custom-error.html 2 -
+/manual/ja/en/ssl/ssl_intro.html 2 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/manual/es/mod/mod_dav.html 2 -
+/manual/ja/developer/debugging.html 2 -
+/manual/en/de/stopping.html 2 -
+/manual/es/mod/mod_include.html 2 -
+/manual/ko/en/mod/mod_expires.html 1 -
+/manual/ko/ko/stopping.html 2 -
+/manual/de/mod/mod_rewrite.html 2 -
+/manual/de/mod/mod_usertrack.html 2 -
+/manual/en/stopping.html 2 -
+/manual/fr/mod/mod_proxy_connect.html 2 -
+/manual/es/ko/howto/cgi.html 1 -
+/manual/ko/ko/misc/relevant_standards.html 2 -
+/manual/fr/en/mod/mod_headers.html 2 -
+/manual/en/invoking.html 2 -
+/manual/de/ko/faq/support.html 1 -
+/manual/ja/de/ 2 -
+//phpMyAdmin-2.7.6/scripts/setup.php 1 -
+/manual/ko/mod/mpm_netware.html 2 -
+/manual/ko/en/rewrite/rewrite_guide_advanced.html 1 -
+/manual/ko/handler.html 2 -
+/manual/de/ko/howto/htaccess.html 2 -
+/manual/fr/de/vhosts/name-based.html 1 -
+/manual/fr/rewrite/rewrite_guide.html 1 -
+/manual/es/es/install.html 2 -
+/manual/ko/en/programs/apxs.html 2 -
+/manual/ja/mod/mod_expires.html 2 -
+/manual/fr/ja/mod/worker.html 2 -
+/manual/es/de/configuring.html 1 -
+/manual/de/mod/mod_cache.html 2 -
+/manual/fr/mod/mod_mime.html 2 -
+/manual/en/install.html 2 -
+/manual/en/en/developer/request.html 2 -
+/manual/es/mod/mod_actions.html 2 -
+/manual/es/rewrite/ 2 -
+/manual/de/en/mod/mod_proxy.html 1 -
+/manual/en/programs/htpasswd.html 2 -
+/manual/ko/en/filter.html 2 -
+/manual/ko/ko/programs/httpd.html 2 -
+/manual/ja/es/mod/leader.html 2 -
+/manual/de/ja/mod/mod_expires.html 2 -
+/manual/ja/ko/mod/mod_suexec.html 2 -
+/manual/en/en/misc/descriptors.html 1 -
+/manual/de/howto/ 2 -
+/manual/de/ko/stopping.html 2 -
+/manual/de/fr/bind.html 2 -
+/manual/fr/ko/mod/mod_log_config.html 1 -
+/manual/en/mod/mod_headers.html 2 -
+/manual/ru/ko/platform/netware.html 1 -
+//cpanelmysql/scripts/setup.php 1 -
+/manual/de/platform/ 2 -
+/manual/es/ko/suexec.html 1 -
+/manual/en/en/rewrite/rewrite_intro.html 1 -
+/manual/ja/en/mod/ 2 -
+/manual/ja/ru/mod/directives.html 2 -
+/manual/en/es/mod/prefork.html 1 -
+/manual/es/ja/ssl/ 1 -
+/manual/ko/mod/leader.html 2 -
+/manual/ru/programs/apachectl.html 2 -
+/manual/es/ja/mod/mod_cgi.html 1 -
+/manual/en/ko/new_features_2_0.html 2 -
+/manual/ru/mod/mod_ext_filter.html 2 -
+/manual/ru/ja/urlmapping.html 2 -
+/manual/es/ko/programs/htdigest.html 1 -
+/manual/en/en/faq/ 1 -
+/manual/es/es/env.html 2 -
+/manual/fr/ko/programs/htdigest.html 1 -
+/manual/en/de/invoking.html 2 -
+/manual/en/ja/dso.html 1 -
+/manual/ko/ja/mod/mod_asis.html 2 -
+/manual/ja/en/mod/mod_example.html 1 -
+/manual/ko/en/programs/htpasswd.html 2 -
+/manual/en/es/programs/ 2 -
+/manual/de/programs/other.html 2 -
+/manual/fr/programs/ab.html 1 -
+/manual/de/en/developer/thread_safety.html 1 -
+/manual/de/sitemap.html 2 -
+/manual/ja/filter.html 2 -
+/manual/ja/handler.html 2 -
+/manual/ja/custom-error.html 2 -
+/manual/de/ko/mod/mod_example.html 1 -
+/manual/ja/ko/platform/win_compiling.html 1 -
+/manual/de/mod/mod_example.html 2 -
+/manual/ru/ssl/ssl_compat.html 2 -
+/manual/ja/mod/mod_ldap.html 2 -
+/manual/ja/es/mod/directive-dict.html 2 -
+/manual/ru/en/mod/mod_log_forensic.html 1 -
+//phpMyAdmin-3.1.3.0-english/scripts/setup.php 1 -
+/manual/sitemap.html 1 -
+/manual/fr/ru/install.html 1 -
+/manual/ko/ko/mpm.html 2 -
+/manual/ru/dns-caveats.html 2 -
+/manual/es/en/mod/mod_version.html 1 -
+/manual/en/en/faq/all_in_one.html 1 -
+/manual/ja/ko/mod/mod_alias.html 2 -
+/manual/es/ko/programs/configure.html 1 -
+/manual/de/ko/misc/security_tips.html 2 -
+/manual/de/howto/news:comp.infosystems.www.authoring.cgi 1 -
+/wp-admin/ 1 -
+/manual/ko/vhosts/details.html 2 -
+/manual/fr/en/ssl/ssl_compat.html 1 -
+/manual/es/es/new_features_2_0.html 2 -
+/manual/en/ja/mod/mod_log_config.html 2 -
+/manual/ko/ja/howto/ssi.html 2 -
+/manual/es/platform/windows.html 2 -
+/manual/es/mod/mod_mem_cache.html 2 -
+/manual/es/ko/mod/mod_userdir.html 1 -
+/manual/ko/misc/descriptors.html 2 -
+/manual/ru/en/platform/ 1 -
+/manual/es/en/rewrite/rewrite_guide_advanced.html 1 -
+/manual/ru/ko/misc/rewriteguide.html 1 -
+/manual/ru/ja/mpm.html 2 -
+/manual/de/en/mod/mod_info.html 2 -
+/manual/ru/en/mod/quickreference.html 1 -
+/manual/fr/ko/filter.html 2 -
+//pHpMyAdMiN/scripts/setup.php 1 -
+/manual/es/es/sitemap.html 2 -
+/manual/ja/ko/mod/module-dict.html 2 -
+/manual/fr/fr/bind.html 2 -
+/manual/en/es/mod/directive-dict.html 1 -
+/manual/de/mod/mod_echo.html 2 -
+/manual/en/ko/howto/public_html.html 1 -
+/manual/fr/ko/bind.html 2 -
+/manual/ja/en/mod/mod_dumpio.html 1 -
+//MySQLAdmin/scripts/setup.php 1 -
+/manual/ja/en/upgrading.html 2 -
+/manual/ja/ja/install.html 2 -
+//phpMyAdmin-2.11.9.3-all-languages/scripts/setup.php 1 -
+/manual/es/ru/ 2 -
+/manual/de/ko/mod/mod_cern_meta.html 2 -
+/manual/fr/mod/mod_actions.html 2 -
+//phpmy-admin/scripts/setup.php 1 -
+/manual/es/en/mod/mod_vhost_alias.html 1 -
+//p/m/a/scripts/setup.php 1 -
+/manual/fr/fr/custom-error.html 2 -
+/manual/de/es/install.html 2 -
+/manual/ru/ru/programs/ 1 -
+/manual/fr/ja/logs.html 1 -
+/manual/ru/ko/mod/quickreference.html 1 -
+/manual/de/ko/mod/mod_autoindex.html 1 -
+/manual/ja/en/vhosts/ip-based.html 1 -
+/manual/es/es/mod/mpm_common.html 2 -
+/manual/fr/howto/auth.html 2 -
+//cpanelphpmyadmin/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_log_forensic.html 1 -
+/manual/ko/ko/mod/mod_cgid.html 1 -
+/manual/en/en/misc/ 2 -
+/manual/de/en/mod/worker.html 2 -
+/manual/es/es/mod/prefork.html 2 -
+/manual/es/ko/howto/ssi.html 1 -
+/manual/fr/fr/env.html 2 -
+/manual/ko/mod/core.html 2 -
+//phpMyAdmin-2.7.5/scripts/setup.php 1 -
+/manual/fr/en/mod/mod_logio.html 1 -
+//Admin/phpmyadmin/scripts/setup.php 1 -
+/manual/en/mod/mod_include.html 2 -
+/manual/de/mod/mod_env.html 2 -
+/manual/sections.html 1 -
+/manual/de/es/handler.html 2 -
+/manual/ko/ssl/ 2 -
+/manual/es/mod/mod_negotiation.html 2 -
+/manual/es/en/mod/mod_cern_meta.html 1 -
+/manual/en/de/mod/directives.html 2 -
+/manual/ja/es/mod/quickreference.html 1 -
+/manual/ja/ja/howto/ 1 -
+/manual/en/ru/handler.html 2 -
+//mysqladminconfig/scripts/setup.php 1 -
+/platform/plugins/recommendations_bar/visible 1 -
+/manual/de/en/howto/public_html.html 1 -
+/manual/ko/ssl/ssl_intro.html 2 -
+/manual/fr/stopping.html 2 -
+/manual/ko/mod/mod_negotiation.html 2 -
+/manual/fr/mod/mod_nw_ssl.html 1 -
+/manual/fr/urlmapping.html 2 -
+/manual/ja/en/mod/mod_file_cache.html 1 -
+//phpMyAdmin-2.11.11-all-languages/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_cgid.html 1 -
+/manual/de/en/mod/mod_rewrite.html 1 -
+/manual/de/mod/mod_include.html 2 -
+/manual/de/en/howto/cgi.html 1 -
+/manual/ja/ko/mod/leader.html 2 -
+/manual/bind.html 1 -
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+/manual/en/ko/mod/mod_disk_cache.html 1 -
+/manual/ja/ko/sitemap.html 2 -
+/manual/ja/ko/mod/mod_userdir.html 2 -
+/static/ 1 -
+/manual/fr/mod/mod_rewrite.html 2 -
+/manual/de/en/server-wide.html 2 -
+/manual/en/en/faq/support.html 1 -
+/manual/ru/misc/fin_wait_2.html 2 -
+/manual/ru/ko/mod/mod_version.html 1 -
+/manual/ja/programs/htdigest.html 2 -
+/manual/ja/ko/mod/mod_dav.html 2 -
+/manual/fr/ko/ 2 -
+/manual/de/de/upgrading.html 2 -
+/manual/ko/news:comp.protocols.time.ntp 2 -
+/manual/de/programs/htdigest.html 2 -
+/manual/ja/bind.html 2 -
+/manual/ko/ko/mod/directive-dict.html 2 -
+/manual/fr/server-wide.html 2 -
+/manual/de/ko/vhosts/fd-limits.html 1 -
+/manual/fr/platform/netware.html 2 -
+/manual/en/ja/ssl/ssl_intro.html 1 -
+/manual/en/misc/perf-tuning.html 2 -
+/manual/en/de/ 2 -
+/manual/es/ja/env.html 2 -
+/manual/ko/mod/mod_auth_ldap.html 2 -
+/manual/ja/en/mod/mod_auth_dbm.html 1 -
+/manual/en/ko/programs/apxs.html 2 -
+/manual/ja/en/programs/htdbm.html 1 -
+/manual/es/en/vhosts/mass.html 1 -
+//wp-phpmyadmin/scripts/setup.php 1 -
+/manual/ja/fr/env.html 2 -
+/manual/es/en/mod/beos.html 2 -
+/manual/de/mod/mod_userdir.html 2 -
+/manual/en/ja/dns-caveats.html 1 -
+/manual/en/de/upgrading.html 2 -
+/manual/ko/server-wide.html 2 -
+/manual/ru/ko/mod/mod_asis.html 1 -
+/manual/ko/en/faq/error.html 2 -
+/manual/en/howto/cgi.html 2 -
+/manual/new_features_2_0.html 1 -
+/manual/ja/ko/stopping.html 2 -
+/manual/en/en/mod/mod_setenvif.html 1 -
+/manual/ja/ko/mod/mod_mem_cache.html 2 -
+/manual/es/vhosts/ip-based.html 2 -
+/dialog/ 1 -
+/manual/ko/es/logs.html 2 -
+/manual/ja/en/mod/mod_logio.html 2 -
+/restserver.php 1 -
+/manual/ja/vhosts/ 2 -
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+/manual/de/upgrading.html 2 -
+/manual/ja/programs/other.html 2 -
+/manual/ko/es/filter.html 2 -
+/manual/ja/en/license.html 1 -
+/manual/es/developer/modules.html 2 -
+/manual/fr/en/mod/mod_dav.html 1 -
+/manual/de/es/stopping.html 2 -
+/manual/es/misc/descriptors.html 2 -
+/manual/en/en/license.html 1 -
+/manual/ko/ja/howto/ 2 -
+/manual/ru/en/mod/mod_proxy_ftp.html 1 -
+/manual/de/platform/ebcdic.html 2 -
+/manual/ja/ja/mpm.html 2 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_access.html 1 -
+/manual/de/mod/mod_log_forensic.html 2 -
+/manual/fr/ko/programs/rotatelogs.html 1 -
+/manual/de/es/dso.html 1 -
+/manual/ja/en/rewrite/rewrite_guide.html 1 -
+/manual/ko/en/stopping.html 2 -
+/manual/de/es/logs.html 2 -
+/manual/en/programs/suexec.html 2 -
+/manual/ja/en/mod/mod_actions.html 2 -
+/manual/fr/ko/programs/logresolve.html 1 -
+/manual/en/ko/mod/mod_autoindex.html 1 -
+/manual/fr/misc/fin_wait_2.html 1 -
+/manual/ja/ru/ 2 -
+/manual/es/es/server-wide.html 2 -
+/manual/ko/en/programs/dbmmanage.html 2 -
+/manual/ko/en/mod/mod_cgi.html 2 -
+/manual/ja/ko/mod/mod_log_config.html 2 -
+/manual/es/ko/mod/mod_example.html 2 -
+/manual/fr/vhosts/examples.html 1 -
+/manual/es/en/mod/mod_mem_cache.html 1 -
+/manual/ko/mod/mod_deflate.html 2 -
+/manual/es/mod/mod_speling.html 2 -
+/manual/en/mod/mod_isapi.html 2 -
+/manual/ru/en/howto/cgi.html 1 -
+/manual/en/en/mpm.html 2 -
+//web/phpmyadmin/scripts/setup.php 1 -
+/manual/ja/mod/module-dict.html 2 -
+/manual/de/misc/fin_wait_2.html 2 -
+/manual/ko/ko/howto/auth.html 2 -
+/manual/en/mod/mod_ldap.html 2 -
+/manual/ja/ja/logs.html 2 -
+/manual/es/ko/handler.html 2 -
+/manual/en/ja/mod/mod_status.html 1 -
+/manual/ja/en/platform/perf-hp.html 1 -
+/manual/ru/en/mod/mod_dav_fs.html 1 -
+/manual/de/ko/mod/mod_so.html 1 -
+/manual/de/en/howto/auth.html 1 -
+/manual/ko/es/mod/directive-dict.html 2 -
+/manual/en/en/programs/logresolve.html 1 -
+/manual/en/mod/mod_proxy_http.html 2 -
+/manual/ko/faq/all_in_one.html 2 -
+/manual/en/ko/mod/mod_logio.html 1 -
+/manual/ru/ja/mod/mod_mime.html 1 -
+/manual/ko/de/mod/beos.html 2 -
+/manual/ru/ja/developer/modules.html 1 -
+/manual/ru/ko/stopping.html 1 -
+/manual/en/programs/ab.html 2 -
+/manual/ja/en/vhosts/examples.html 1 -
+/manual/ja/mod/mpmt_os2.html 2 -
+/manual/de/programs/ab.html 2 -
+/manual/ko/ko/install.html 2 -
+/manual/en/en/vhosts/ip-based.html 2 -
+/manual/fr/ko/mod/mod_alias.html 1 -
+/manual/ko/ja/howto/htaccess.html 2 -
+//sql/phpmyadmin/scripts/setup.php 1 -
+/manual/de/ja/ssl/ssl_intro.html 1 -
+/manual/de/mod/mod_version.html 2 -
+/manual/en/developer/ 2 -
+/manual/de/ja/mod/mod_status.html 1 -
+/manual/de/ja/sitemap.html 2 -
+/manual/en/en/mod/mod_env.html 2 -
+/manual/ru/en/mod/mod_auth.html 1 -
+/manual/ja/ko/sections.html 2 -
+/manual/ru/ko/programs/logresolve.html 1 -
+/manual/de/en/misc/known_client_problems.html 1 -
+/manual/ko/ja/mod/mod_actions.html 1 -
+/sitetour/connect.php 1 -
+/manual/de/en/mod/mod_dav.html 1 -
+/manual/de/ssl/ssl_compat.html 2 -
+/manual/de/en/suexec.html 1 -
+/manual/de/en/programs/suexec.html 1 -
+/manual/ru/ko/mod/mod_disk_cache.html 2 -
+/manual/ko/en/server-wide.html 2 -
+/manual/ja/mod/directive-dist.html 2 -
+/manual/ko/en/misc/custom_errordocs.html 1 -
+/manual/es/misc/security_tips.html 2 -
+/manual/fr/mod/mod_auth_anon.html 1 -
+/platform/plugins/recommendations_bar/invisible 1 -
+/manual/ru/glossary.html 2 -
+/manual/glossary.html 1 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+/manual/fr/logs.html 2 -
+/manual/ja/ja/mod/mod_auth.html 2 -
+/manual/ru/ja/mod/module-dict.html 2 -
+/manual/ru/ko/vhosts/name-based.html 1 -
+/manual/de/mod/mod_auth_digest.html 2 -
+/manual/de/ja/ssl/ 1 -
+//phpMyAdmin-2.7.2/scripts/setup.php 1 -
+/manual/de/en/mod/mpmt_os2.html 1 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+/manual/de/howto/cgi.html 2 -
+/manual/fr/ja/mod/mod_unique_id.html 1 -
+/manual/fr/en/platform/perf-hp.html 1 -
+/manual/ko/es/dso.html 2 -
+/manual/en/mod/quickreference.html 2 -
+/manual/ja/es/mod/ 2 -
+/manual/ru/en/ 2 -
+/manual/ko/programs/Configure.html 1 -
+/manual/es/ja/mod/mod_so.html 1 -
+/manual/ja/ko/logs.html 2 -
+/manual/es/en/logs.html 2 -
+/manual/en/ko/filter.html 2 -
+/manual/ja/es/howto/auth.html 2 -
+/manual/ko/developer/documenting.html 2 -
+/sitemap.xml 4 -
+/manual/en/en/mod/mod_auth_anon.html 1 -
+/manual/en/en/mod/mod_negotiation.html 1 -
+/manual/ru/ja/mod/mod_unique_id.html 2 -
+/manual/fr/ja/mod/directive-dict.html 1 -
+/manual/fr/en/platform/win_compiling.html 1 -
+/manual/ru/en/programs/rotatelogs.html 1 -
+/manual/es/mod/directives.html 2 -
+/manual/ja/en/mod/mpmt_os2.html 1 -
+//phpMyAdmin-2.11.8.1-all-languages-utf-8-only/scripts/setup.php 1 -
+/manual/ja/programs/rotatelogs.html 2 -
+/manual/ja/ko/mod/mod_dir.html 2 -
+/manual/es/en/platform/win_compiling.html 1 -
+/manual/en/ko/mpm.html 2 -
+/manual/fr/en/misc/security_tips.html 1 -
+/manual/en/es/handler.html 2 -
+/manual/es/ru/vhosts/ 2 -
+//phpmya/scripts/setup.php 1 -
+/manual/ko/ko/programs/htdigest.html 2 -
+/manual/en/ja/handler.html 2 -
+/manual/ru/mod/mod_asis.html 2 -
+/manual/ru/de/mpm.html 2 -
+/manual/de/dso.html 2 -
+/manual/ja/ko/mpm.html 2 -
+/manual/ja/en/mod/mod_ext_filter.html 1 -
+//phpMyAdmin-2.4.7/scripts/setup.php 1 -
+/manual/ja/ja/new_features_2_0.html 1 -
+/manual/fr/mod/mod_ldap.html 1 -
+/manual/ja/ja/mod/mod_negotiation.html 2 -
+/manual/fr/en/mod/module-dict.html 1 -
+//phpMyAdmin-2.10.0/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_echo.html 1 -
+/manual/en/en/mod/mod_ext_filter.html 1 -
+/manual/es/en/mod/mod_dir.html 2 -
+/manual/fr/en/dso.html 2 -
+/manual/ja/ssl/ssl_faq.html 2 -
+/manual/es/en/developer/ 1 -
+/manual/ko/en/handler.html 2 -
+/manual/fr/ko/dns-caveats.html 2 -
+/manual/ko/en/misc/security_tips.html 1 -
+//phpMyAdmin-2.11.7.0-all-languages/scripts/setup.php 1 -
+/manual/de/en/mod/mod_example.html 1 -
+/manual/es/es/mod/directive-dict.html 2 -
+/manual/es/de/mod/core.html 1 -
+/manual/ru/mod/mod_mime_magic.html 2 -
+/manual/es/en/howto/auth.html 2 -
+/manual/howto/htaccess.html 1 -
+/manual/de/en/mod/mod_auth_digest.html 1 -
+/manual/ru/ko/howto/cgi.html 1 -
+/manual/ko/rewrite/ 2 -
+/manual/ja/ko/mod/mod_example.html 1 -
+/manual/fr/mod/mod_expires.html 1 -
+//sqlmanager/scripts/setup.php 1 -
+/manual/ru/developer/debugging.html 2 -
+/manual/es/en/mod/leader.html 2 -
+/common/scribe_endpoint.php 1 -
+/manual/en/mod/mod_auth_anon.html 2 -
+//phpMyAdmin-2.5.8/scripts/setup.php 1 -
+/text/javascript 1 -
+/manual/es/ja/configuring.html 1 -
+/manual/de/en/mod/beos.html 2 -
+/manual/ko/env.html 2 -
+/manual/ru/ja/howto/public_html.html 1 -
+/manual/de/sections.html 2 -
+/manual/en/en/mod/mod_actions.html 2 -
+/manual/en/ru/mod/quickreference.html 1 -
+/manual/fr/mod/mod_info.html 2 -
+/manual/de/ko/sitemap.html 2 -
+/manual/fr/ko/howto/cgi.html 1 -
+/manual/de/mod/mod_mime_magic.html 2 -
+/manual/es/ko/misc/rewriteguide.html 1 -
+/manual/en/ru/install.html 2 -
+/manual/ru/programs/suexec.html 2 -
+/manual/ja/en/new_features_2_0.html 1 -
+/manual/ru/de/sitemap.html 2 -
+/\"%20+%20gaJsHost%20+%20\"google-analytics.com/ga.js 1 -
+/manual/en/ja/mod/mod_info.html 1 -
+/manual/ko/vhosts/name-based.html 2 -
+/manual/ja/en/developer/documenting.html 1 -
+/manual/ru/ko/vhosts/examples.html 1 -
+/manual/en/ja/mod/mod_dir.html 1 -
+/manual/ja/en/programs/ 1 -
+/manual/es/ja/howto/ 1 -
+/manual/es/programs/ab.html 2 -
+/manual/fr/es/mod/directive-dict.html 1 -
+/manual/ru/developer/request.html 2 -
+/manual/ru/bind.html 2 -
+/manual/ru/howto/ 2 -
+/manual/ja/ko/misc/relevant_standards.html 2 -
+/manual/ko/en/install.html 2 -
+/manual/ru/en/mod/mod_mem_cache.html 1 -
+/manual/ko/mod/mod_suexec.html 2 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+/manual/ja/fr/upgrading.html 2 -
+/manual/es/en/bind.html 2 -
+/manual/en/howto/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/ko/en/misc/known_client_problems.html 1 -
+/manual/fr/ko/programs/httpd.html 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/manual/en/en/mod/mod_log_forensic.html 1 -
+/manual/programs/other.html 1 -
+/manual/fr/en/mod/mod_userdir.html 1 -
+/manual/ru/en/faq/ 1 -
+/manual/en/programs/httpd.html 2 -
+/manual/es/de/mod/quickreference.html 1 -
+/manual/en/developer/thread_safety.html 4 http://limebtl.kiev.ua/manual/en/developer/thread_safety.html
+/manual/ja/ko/howto/cgi.html 2 -
+/manual/ru/vhosts/ip-based.html 2 -
+/manual/en/ko/mod/mod_mem_cache.html 2 -
+//phpdb/scripts/setup.php 1 -
+/manual/de/en/mod/mod_actions.html 1 -
+/manual/es/custom-error.html 2 -
+/manual/en/ko/misc/security_tips.html 1 -
+/manual/en/ko/handler.html 2 -
+/manual/ja/misc/descriptors.html 2 -
+/manual/ko/ru/mod/directives.html 2 -
+/manual/es/ko/mod/mod_env.html 1 -
+/manual/ko/ko/mod/mod_suexec.html 1 -
+/manual/ko/misc/custom_errordocs.html 2 -
+/manual/ko/glossary.html 2 -
+//phpMyAdmin-2.11.1/scripts/setup.php 1 -
+/manual/fr/en/programs/rotatelogs.html 1 -
+/manual/es/en/rewrite/ 2 -
+/manual/en/mod/mod_imap.html 2 -
+/manual/de/en/programs/apachectl.html 1 -
+/manual/ru/en/mod/perchild.html 1 -
+/manual/en/ja/mod/mod_env.html 2 -
+/manual/fr/en/developer/hooks.html 1 -
+/manual/ru/content-negotiation.html 2 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/manual/de/en/mod/core.html 1 -
+/manual/fr/en/vhosts/name-based.html 1 -
+//cpadmin/scripts/setup.php 1 -
+/manual/en/ru/mpm.html 2 -
+/manual/ru/ko/env.html 2 -
+/manual/es/platform/netware.html 2 -
+/manual/es/ja/upgrading.html 2 -
+/manual/en/ 2 -
+//bkup/phpmyadmin/scripts/setup.php 1 -
+//phpmanager/scripts/setup.php 1 -
+/manual/es/de/new_features_2_0.html 2 -
+/manual/ko/es/sections.html 2 -
+/manual/ja/es/env.html 2 -
+/manual/ru/mod/mod_dav.html 2 -
+//phpMyAdmin-2.9.1/scripts/setup.php 1 -
+/manual/en/ssl/ssl_intro.html 2 -
+/manual/ja/ko/faq/support.html 1 -
+/manual/ko/en/developer/hooks.html 1 -
+/manual/ru/ssl/ 2 -
+/manual/fr/mod/mod_dir.html 2 -
+/manual/es/vhosts/examples.html 2 -
+/manual/ru/developer/API.html 2 -
+/manual/es/de/sitemap.html 2 -
+/manual/en/en/mod/mod_userdir.html 1 -
+/manual/ko/ja/mod/mpm_common.html 2 -
+/manual/ja/ja/mod/mod_mem_cache.html 2 -
+/manual/en/ja/mod/mod_cgid.html 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/manual/ru/en/ssl/ssl_intro.html 1 -
+/manual/ja/mod/mod_headers.html 2 -
+/manual/fr/ko/mod/mod_asis.html 1 -
+/manual/es/ko/mod/directives.html 2 -
+/manual/en/en/mod/mod_vhost_alias.html 1 -
+/manual/es/es/vhosts/ 2 -
+/manual/ja/de/mod/core.html 1 -
+/manual/ko/ja/install.html 2 -
+/manual/fr/mod/beos.html 2 -
+//phpMyAdmin-2.8.9/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_log_config.html 2 -
+//phpMyAdmin/%0D/scripts/setup.php 1 -
+/manual/de/en/mod/mpm_common.html 2 -
+/manual/ru/ja/mod/mod_access.html 1 -
+/manual/es/mod/mod_auth_digest.html 2 -
+/manual/fr/handler.html 2 -
+/manual/fr/ko/mod/mod_example.html 1 -
+/manual/ja/mod/mod_cgi.html 2 -
+/manual/es/developer/ 2 -
+//phpMyAdmin-2.5.2/scripts/setup.php 1 -
+/manual/en/en/programs/other.html 2 -
+//webadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.9/scripts/setup.php 1 -
+/manual/ru/platform/windows.html 2 -
+/manual/ru/mod/mod_cache.html 2 -
+/manual/de/ko/mod/ 2 -
+/manual/de/ja/howto/htaccess.html 2 -
+//phpMyAdmin-2.3.7/scripts/setup.php 1 -
+/manual/es/ja/howto/cgi.html 1 -
+/manual/ru/en/mod/mod_access.html 1 -
+/manual/en/en/mod/mod_auth_digest.html 1 -
+/manual/en/programs/ 2 -
+/manual/es/faq/news:comp.infosystems.www.servers.unix 1 -
+/manual/es/en/rewrite/rewrite_guide.html 2 -
+/manual/fr/misc/relevant_standards.html 1 -
+/manual/de/ko/mod/mod_charset_lite.html 1 -
+/manual/de/ko/vhosts/examples.html 1 -
+/manual/ru/vhosts/examples.html 2 -
+/manual/de/en/rewrite/rewrite_guide_advanced.html 1 -
+//phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/manual/fr/mod/mpm_netware.html 2 -
+/manual/en/es/env.html 1 -
+/manual/ru/mod/mod_ssl.html 2 -
+/manual/de/ja/mod/ 2 -
+/manual/es/en/mod/mod_file_cache.html 1 -
+/manual/en/ja/mod/module-dict.html 1 -
+/manual/es/es/filter.html 2 -
+/manual/fr/mod/mpm_winnt.html 2 -
+/manual/de/ko/howto/ 2 -
+/manual/ru/mod/mpm_netware.html 2 -
+/manual/ru/mod/mod_dir.html 2 -
+/manual/de/en/dns-caveats.html 2 -
+/manual/ja/en/mod/mod_proxy.html 2 -
+/manual/fr/en/mod/mod_mime.html 2 -
+/manual/ru/suexec.html 2 -
+/manual/es/logs.html 2 -
+/manual/fr/mod/ 2 -
+//Admin/scripts/setup.php 1 -
+/manual/ko/de/new_features_2_0.html 1 -
+/manual/es/mpm.html 2 -
+/manual/de/developer/ 2 -
+/manual/fr/ja/mod/module-dict.html 1 -
+/manual/en/misc/descriptors.html 2 -
+/manual/ru/fr/upgrading.html 2 -
+/manual/fr/mod/mod_asis.html 2 -
+/manual/ja/de/invoking.html 2 -
+/platform/plugins/recommendations_bar/action 1 -
+/manual/en/en/programs/apachectl.html 1 -
+/manual/ja/ko/faq/all_in_one.html 1 -
+/manual/ko/ko/mod/mod_status.html 1 -
+/manual/de/ko/upgrading.html 2 -
+/manual/fr/de/stopping.html 1 -
+/manual/ko/de/mod/directives.html 2 -
+/manual/ru/ja/mod/mod_log_config.html 1 -
+/manual/en/ko/mod/mod_alias.html 1 -
+/manual/de/ru/upgrading.html 2 -
+/manual/de/mod/mpm_common.html 2 -
+/manual/fr/ko/misc/security_tips.html 1 -
+//phpMyAdmin-2.11.6.0-all-languages/scripts/setup.php 1 -
+/manual/en/ko/platform/ 1 -
+/manual/fr/ko/mod/mod_imap.html 1 -
+/manual/ja/ko/howto/ 1 -
+/manual/ko/ko/programs/rotatelogs.html 2 -
+/manual/de/ko/new_features_2_0.html 2 -
+/manual/ko/ko/mod/module-dict.html 2 -
+//PHPMYADMIN/scripts/setup.php 1 -
+/manual/de/en/env.html 2 -
+/manual/ja/ja/mod/module-dict.html 2 -
+/manual/ko/mod/mod_autoindex.html 2 -
+/manual/ru/fr/configuring.html 1 -
+/manual/ko/ko/vhosts/examples.html 2 -
+/manual/ko/en/mod/mod_nw_ssl.html 1 -
+/manual/es/en/sections.html 2 -
+/manual/de/en/developer/documenting.html 2 -
+/manual/es/ko/mod/module-dict.html 1 -
+/manual/de/ja/mod/mpm_winnt.html 2 -
+/manual/de/invoking.html 2 -
+/manual/es/install.html 2 -
+//phpMyAdmin-2.5.9/scripts/setup.php 1 -
+/manual/ko/ko/mod/mod_log_config.html 2 -
+/manual/de/ja/server-wide.html 2 -
+/manual/es/ru/upgrading.html 2 -
+/manual/ko/es/custom-error.html 2 -
+/manual/de/platform/win_compiling.html 2 -
+/manual/ru/en/dso.html 1 -
+/manual/es/en/suexec.html 1 -
+/manual/en/ko/mod/mod_auth_digest.html 1 -
+/manual/ko/ja/invoking.html 2 -
+/manual/ja/ko/mod/mod_disk_cache.html 1 -
+/manual/ko/de/sitemap.html 2 -
+//phpMyAdmin-2.2.3/scripts/setup.php 1 -
+/manual/es/en/mod/mod_expires.html 2 -
+/manual/es/ja/mod/directives.html 2 -
+/manual/de/en/faq/all_in_one.html 1 -
+/manual/ru/en/mod/mpm_netware.html 1 -
+/manual/ru/es/vhosts/ 2 -
+/manual/ko/en/mod/mod_auth_ldap.html 2 -
+/manual/fr/es/mod/mpm_winnt.html 1 -
+/manual/ru/en/mod/ 2 -
+/manual/ko/en/mod/mod_auth_digest.html 2 -
+/manual/es/en/mod/mod_env.html 1 -
+/manual/ru/en/platform/ebcdic.html 2 -
+/manual/en/ko/platform/perf-hp.html 1 -
+/manual/es/ja/mod/mod_auth.html 2 -
+/manual/ru/mod/perchild.html 2 -
+/manual/de/es/server-wide.html 2 -
+/manual/en/mod/mod_echo.html 2 -
+/manual/de/en/mod/mod_version.html 2 -
+/manual/ru/es/glossary.html 1 -
+/manual/ja/en/mod/mod_cern_meta.html 1 -
+/manual/en/ja/mod/mod_speling.html 1 -
+/manual/fr/programs/other.html 2 -
+/manual/es/mod/mod_so.html 2 -
+/manual/de/fr/new_features_2_0.html 2 -
+/manual/en/ko/vhosts/ip-based.html 2 -
+/manual/ru/fr/new_features_2_0.html 2 -
+/manual/ko/howto/cgi.html 2 -
+/manual/es/de/mpm.html 2 -
+/manual/de/en/mod/mod_proxy_connect.html 1 -
+/manual/en/programs/dbmmanage.html 2 -
+/manual/ru/mod/mod_auth.html 2 -
+/manual/ko/howto/ 2 -
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+/manual/ko/en/programs/suexec.html 2 -
+//phpMyAdmin-2.6.8/scripts/setup.php 1 -
+//phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php 1 -
+/manual/de/en/sections.html 1 -
+/manual/ja/misc/known_client_problems.html 1 -
+/manual/en/developer/hooks.html 1 -
+/manual/ru/fr/ 2 -
+/manual/install.html 1 -
+//phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/manual/es/developer/filters.html 2 -
+/manual/ja/en/mod/core.html 1 -
+/manual/ja/mod/mod_unique_id.html 2 -
+/manual/ko/ja/mod/mod_status.html 1 -
+/manual/fr/ja/mod/mod_speling.html 1 -
+/manual/en/ko/env.html 1 -
+/manual/de/ko/mod/mod_version.html 2 -
+/manual/es/content-negotiation.html 2 -
+/manual/ja/faq/all_in_one.html 1 -
+/manual/programs/httpd.html 1 -
+/manual/de/en/vhosts/mass.html 2 -
+/manual/fr/es/mod/directives.html 1 -
+/manual/fr/ja/bind.html 2 -
+/manual/de/ssl/ 2 -
+/manual/fr/ko/suexec.html 1 -
+/manual/en/ja/server-wide.html 1 -
+/manual/en/en/programs/htdigest.html 2 -
+/manual/ko/en/mod/mod_env.html 1 -
+/manual/de/es/invoking.html 2 -
+/manual/mod/mod_include.html 1 -
+/manual/ru/en/mod/mod_auth_digest.html 2 -
+/manual/en/ja/mod/quickreference.html 1 -
+/manual/es/es/mod/worker.html 2 -
+/manual/fr/ja/ssl/ssl_intro.html 1 -
+/manual/de/ko/dso.html 1 -
+/manual/ru/es/mod/mpm_common.html 2 -
+/manual/ja/en/content-negotiation.html 2 -
+/manual/es/ko/vhosts/fd-limits.html 1 -
+/manual/ja/de/vhosts/ 2 -
+/manual/ko/en/developer/thread_safety.html 1 -
+/manual/de/ko/bind.html 2 -
+/manual/ru/programs/htdigest.html 2 -
+/manual/en/en/misc/security_tips.html 1 -
+/manual/es/en/sitemap.html 2 -
+/manual/es/ja/logs.html 2 -
+/manual/de/mod/mod_dumpio.html 2 -
+/manual/ru/ja/configuring.html 1 -
+/manual/ja/en/mod/worker.html 2 -
+/manual/en/en/vhosts/details.html 1 -
+/manual/de/suexec.html 2 -
+/manual/configuring.html 1 -
+/manual/fr/en/mod/mpmt_os2.html 1 -
+/manual/de/mod/mod_charset_lite.html 2 -
+/manual/fr/es/dso.html 2 -
+/manual/ru/es/mod/ 2 -
+//phpMyAdmin-2.11.5/scripts/setup.php 1 -
+/manual/ko/ja/mod/worker.html 1 -
+/manual/fr/mpm.html 2 -
+/manual/de/programs/rotatelogs.html 2 -
+/manual/de/en/programs/htpasswd.html 1 -
+/manual/ja/ja/mod/mod_status.html 2 -
+/manual/en/ja/howto/public_html.html 1 -
+/manual/es/ko/mod/mod_asis.html 2 -
+//phpMyAdmin-2.8.4/scripts/setup.php 1 -
+/manual/ru/programs/configure.html 2 -
+/manual/ja/ja/dns-caveats.html 2 -
+/manual/es/mod/mod_mime.html 2 -
+/manual/de/de/glossary.html 2 -
+/manual/en/ko/mod/mod_ext_filter.html 1 -
+/manual/en/ko/misc/relevant_standards.html 1 -
+/manual/ru/en/developer/request.html 1 -
+/manual/en/en/programs/rotatelogs.html 1 -
+/manual/es/glossary.html 2 -
+/manual/es/programs/rotatelogs.html 2 -
+/manual/ko/en/misc/fin_wait_2.html 1 -
+/manual/ru/en/vhosts/details.html 1 -
+/manual/es/en/faq/support.html 1 -
+/manual/de/es/sections.html 1 -
+/manual/es/ja/mod/mod_asis.html 2 -
+/manual/fr/en/developer/request.html 1 -
+/manual/ko/en/mod/mod_alias.html 1 -
+/manual/en/ko/bind.html 1 -
+//padmin/scripts/setup.php 1 -
+/manual/ja/ja/stopping.html 2 -
+/manual/ru/dso.html 2 -
+/manual/ko/ko/howto/ssi.html 2 -
+/manual/fr/en/programs/ab.html 1 -
+/manual/en/en/mod/beos.html 1 -
+/manual/de/ru/ 2 -
+/manual/es/platform/perf-hp.html 2 -
+/manual/es/en/content-negotiation.html 1 -
+/manual/ja/ja/upgrading.html 2 -
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+/manual/programs/suexec.html 1 -
+/manual/en/mod/mod_cgi.html 2 -
+/manual/ja/ja/mod/mod_mime.html 2 -
+/manual/en/ko/misc/perf-tuning.html 1 -
+/manual/en/en/custom-error.html 1 -
+/manual/es/en/glossary.html 2 -
+/manual/de/de/mod/leader.html 2 -
+/manual/ko/en/howto/ 2 -
+/manual/en/misc/ 2 -
+/manual/en/ko/mod/mod_info.html 1 -
+/manual/es/es/custom-error.html 2 -
+/manual/ja/urlmapping.html 2 -
+/manual/ko/es/handler.html 2 -
+/manual/de/en/mod/mod_mem_cache.html 1 -
+/manual/ja/en/vhosts/name-based.html 2 -
+/manual/es/mod/mpmt_os2.html 2 -
+/manual/fr/content-negotiation.html 2 -
+/manual/ko/mod/preforking%20MPM.html 2 -
+/manual/ru/ja/invoking.html 2 -
+//phpMyAdmin-2.11.6.0-english/scripts/setup.php 1 -
+/manual/ja/en/developer/filters.html 1 -
+/manual/en/programs/rotatelogs.html 2 -
+/manual/de/rewrite/ 2 -
+/manual/ja/es/upgrading.html 2 -
+/manual/en/ru/programs/ 2 -
+/manual/fr/mod/mod_auth_ldap.html 1 -
+/manual/ru/ko/mod/mod_dav_fs.html 1 -
+/manual/en/ko/mod/mod_actions.html 2 -
+/manual/de/misc/descriptors.html 2 -
+/manual/ja/mod/mod_actions.html 2 -
+/manual/ko/es/glossary.html 2 -
+//phpMyAdmin-2.4.8/scripts/setup.php 1 -
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+/manual/fr/ko/programs/ab.html 1 -
+//pma/scripts/setup.php 1 -
+/manual/en/mod/mod_proxy_connect.html 2 -
+/manual/ko/ru/programs/ 2 -
+/manual/ko/en/faq/ 2 -
+//phpmyadmin/scripts/setup.php 1 -
+/manual/en/en/mod/mod_proxy_ftp.html 2 -
+/manual/es/ko/mod/mod_cern_meta.html 1 -
+/manual/de/ko/mod/directives.html 2 -
+/manual/en/mod/core.html 2 -
+/manual/ko/mod/mod_headers.html 2 -
+/manual/en/mod/mpm_winnt.html 2 -
+/manual/fr/en/mod/leader.html 1 -
+/manual/ko/en/developer/request.html 1 -
+/manual/ja/faq/ 2 -
+/manual/en/en/mod/mod_mime_magic.html 1 -
+/manual/ja/suexec.html 2 -
+/manual/ru/en/programs/other.html 1 -
+/manual/es/mod/mod_imap.html 2 -
+/manual/ja/mod/mod_so.html 2 -
+/manual/ko/es/env.html 2 -
+/manual/ja/ko/misc/security_tips.html 1 -
+/manual/en/programs/other.html 2 -
+/manual/ko/ja/mod/mod_mem_cache.html 1 -
+/manual/fr/en/mod/mod_charset_lite.html 1 -
+/manual/fr/mod/mod_authn_dbm.html 1 -
+/manual/ja/ja/mod/mod_cgi.html 2 -
+/manual/de/ja/mod/mod_mime.html 1 -
+/manual/de/de/new_features_2_0.html 2 -
+/manual/ru/mod/prefork.html 2 -
+/manual/ru/en/sitemap.html 2 -
+/manual/de/developer/filters.html 2 -
+/manual/en/ko/mod/mod_expires.html 1 -
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+/manual/ko/es/mod/mpm_common.html 2 -
+/manual/en/faq/ 2 -
+/manual/en/es/stopping.html 2 -
+/manual/de/developer/hooks.html 2 -
+/manual/fr/programs/logresolve.html 2 -
+/manual/ru/mod/module-dict.html 2 -
+/manual/ja/es/server-wide.html 2 -
+/manual/ja/new_features_2_0.html 2 -
+/administrator/index.php 2 -
+/manual/es/vhosts/mass.html 2 -
+/manual/ko/ja/developer/modules.html 1 -
+/manual/ru/ko/howto/ssi.html 1 -
+/manual/es/es/mod/beos.html 2 -
+/manual/en/ko/urlmapping.html 1 -
+/manual/de/ja/mod/mod_alias.html 1 -
+/manual/de/faq/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/ko/ko/sitemap.html 2 -
+/manual/de/en/mod/mod_include.html 1 -
+/manual/ko/mod/mod_isapi.html 2 -
+/manual/en/de/mod/mpm_common.html 1 -
+/manual/ja/en/ 2 -
+/manual/ru/ko/new_features_2_0.html 2 -
+/manual/fr/ja/mod/mpm_common.html 1 -
+/manual/ko/mod/mod_userdir.html 2 -
+/manual/es/howto/ 2 -
+/manual/ja/en/mod/mod_disk_cache.html 1 -
+/manual/ko/de/mod/worker.html 1 -
+/manual/de/programs/htpasswd.html 2 -
+/manual/en/ko/mod/mod_so.html 1 -
+/manual/ja/developer/ 2 -
+/manual/fr/es/programs/ 1 -
+/manual/faq/ 1 -
+/manual/es/ko/mod/mod_dav_fs.html 1 -
+/manual/en/howto/htaccess.html 2 -
+/manual/ru/mod/mod_autoindex.html 2 -
+/manual/ja/vhost/name-based.html 2 -
+/manual/fr/en/ssl/ssl_howto.html 1 -
+/manual/de/mod/mod_info.html 2 -
+/manual/en/faq/news:comp.infosystems.www.servers.unix 1 -
+/manual/de/mod/mod_setenvif.html 2 -
+/manual/de/mod/mod_cgid.html 2 -
+/manual/fr/programs/htdigest.html 1 -
+/manual/de/ja/howto/ssi.html 1 -
+/manual/es/ko/server-wide.html 2 -
+//phpMyAdmin-2.11.9.0-all-languages/scripts/setup.php 1 -
+/manual/de/en/mod/mpm_winnt.html 2 -
+/manual/ja/vhosts/ip-based.html 2 -
+/manual/ja/mod/directive-dict.html 2 -
+/manual/ru/en/mod/mod_cache.html 1 -
+/manual/es/en/mod/core.html 1 -
+/manual/de/ja/mod/module-dict.html 2 -
+/manual/fr/en/howto/cgi.html 1 -
+/manual/ko/en/vhosts/name-based.html 2 -
+/manual/ko/de/mod/mpm_common.html 2 -
+/manual/ru/en/mod/mod_asis.html 1 -
+/manual/fr/en/programs/configure.html 1 -
+/manual/fr/en/misc/perf-tuning.html 1 -
+/manual/ru/faq/news:comp.infosystems.www.servers.unix 1 -
+/manual/es/programs/directoryfinetuning 1 -
+/manual/ru/en/vhosts/examples.html 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+/manual/es/ko/vhosts/name-based.html 2 -
+/manual/de/de/sitemap.html 2 -
+/manual/ru/ja/mod/mod_userdir.html 2 -
+/manual/fr/sitemap.html 2 -
+/manual/de/ja/logs.html 2 -
+/manual/en/de/sitemap.html 1 -
+/manual/ko/urlmapping.html 2 -
+/manual/de/es/new_features_2_0.html 2 -
+/manual/ko/de/mod/quickreference.html 1 -
+/manual/ja/mod/mod_status.html 2 -
+/manual/en/es/dso.html 1 -
+/manual/es/ja/invoking.html 2 -
+/manual/ru/en/suexec.html 1 -
+/manual/de/mod/mod_proxy.html 2 -
+/manual/de/en/mod/mod_speling.html 1 -
+/manual/de/ru/vhosts/ 2 -
+/manual/de/de/stopping.html 2 -
+/manual/ru/en/mod/threadpool.html 2 -
+/manual/ja/programs/httpd.html 2 -
+//cpadmindb/scripts/setup.php 1 -
+/manual/ru/en/misc/rewriteguide.html 1 -
+/manual/de/platform/perf-hp.html 2 -
+//PMA2005/scripts/setup.php 1 -
+/manual/de/ja/mod/directive-dict.html 2 -
+/manual/ja/en/platform/ebcdic.html 2 -
+/manual/es/ru/stopping.html 2 -
+/manual/en/ja/mod/mod_autoindex.html 1 -
+/manual/ru/en/ssl/ssl_howto.html 1 -
+/manual/ja/mod/mod_env.html 2 -
+/manual/es/ko/programs/ 2 -
+/manual/ru/server-wide.html 2 -
+/manual/ko/en/ssl/ssl_intro.html 1 -
+/manual/de/en/mod/mod_access.html 1 -
+/manual/en/en/mod/mpmt_os2.html 1 -
+/manual/fr/ko/mod/mod_cern_meta.html 1 -
+/manual/en/en/howto/public_html.html 1 -
+/manual/ru/programs/other.html 2 -
+/manual/ru/en/programs/htpasswd.html 1 -
+/manual/fr/en/install.html 1 -
+//sql/phpMyAdmin/scripts/setup.php 1 -
+//web/scripts/setup.php 1 -
+/manual/es/ssl/ 2 -
+/manual/ko/mod/mod_include.html 2 -
+/manual/ko/ko/howto/cgi.html 2 -
+//phpMyAdmin-2.8.8/scripts/setup.php 1 -
+/manual/es/ko/platform/windows.html 1 -
+/manual/ko/en/logs.html 2 -
+/manual/es/mod/mod_proxy_ftp.html 2 -
+/manual/ja/ko/mod/mod_file_cache.html 1 -
+/manual/ja/en/mod/directives.html 2 -
+/manual/ru/mod/mod_auth_anon.html 2 -
+/manual/ru/ko/urlmapping.html 2 -
+/manual/ja/mod/mod_nw_ssl.html 2 -
+/manual/ko/fr/custom-error.html 2 -
+/manual/es/misc/perf-tuning.html 2 -
+/manual/fr/ko/vhosts/mass.html 1 -
+/manual/ko/ko/vhosts/ 2 -
+/manual/ru/es/mod/beos.html 2 -
+/manual/ko/ja/mod/mod_negotiation.html 1 -
+/manual/ru/rewrite/rewrite_guide_advanced.html 2 -
+/manual/ja/ru/mod/quickreference.html 1 -
+//vhcs2/tools/pma/scripts/setup.php 1 -
+/manual/en/vhosts/examples.html 2 -
+/manual/en/en/programs/suexec.html 1 -
+/manual/en/developer/API.html 2 -
+/manual/ja/en/rewrite/rewrite_tech.html 1 -
+/manual/ru/ko/mod/directives.html 2 -
+/manual/de/ru/filter.html 2 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+/manual/fr/ko/misc/relevant_standards.html 1 -
+/manual/ko/mod/mod_unique_id.html 2 -
+/manual/fr/de/mod/directives.html 1 -
+/manual/ko/mod/mpmt_os2.html 2 -
+/manual/ru/ja/install.html 1 -
+/manual/en/mod/mod_logio.html 2 -
+/manual/en/ko/sections.html 1 -
+/manual/en/ja/mod/prefork.html 1 -
+/manual/es/faq/news:comp.infosystems.www.servers.ms-windows 1 -
+/manual/ja/en/mod/mod_autoindex.html 2 -
+/manual/ko/new_features_2_0.html 2 -
+/manual/en/mod/mod_usertrack.html 2 -
+/manual/es/en/mod/mod_deflate.html 1 -
+/manual/es/ja/mod/mod_env.html 1 -
+/manual/fr/developer/API.html 2 -
+/manual/ja/developer/hooks.html 2 -
+/manual/en/sitemap.html 2 -
+/manual/en/ko/vhosts/name-based.html 1 -
+/manual/de/en/mod/mod_mime.html 1 -
+/manual/es/mod/mod_alias.html 2 -
+//phpMyAdmin-2.5.0/scripts/setup.php 1 -
+/manual/es/mod/leader.html 2 -
+/manual/fr/ko/mod/leader.html 1 -
+/manual/en/misc/known_client_problems.html 2 -
+/manual/ru/en/misc/tutorials.html 1 -
+//phpMyAdmin-2.5.6/scripts/setup.php 1 -
+/manual/en/es/mod/worker.html 2 -
+/manual/ko/ja/mod/mod_alias.html 1 -
+/manual/ko/ko/mod/ 2 -
+/manual/de/ko/howto/public_html.html 1 -
+/manual/de/de/mod/prefork.html 2 -
+/manual/ru/ko/programs/httpd.html 1 -
+/manual/ja/ko/programs/configure.html 1 -
+/manual/ru/ko/programs/ab.html 1 -
+/manual/es/mod/mod_log_config.html 2 -
+/manual/de/ko/programs/configure.html 1 -
+/manual/en/en/mod/mod_echo.html 2 -
+/manual/ru/en/developer/thread_safety.html 2 -
+/manual/de/en/content-negotiation.html 2 -
+/manual/de/ko/mod/mod_alias.html 1 -
+//phpMyAdmin-2.11.9/scripts/setup.php 1 -
+/manual/es/es/vhosts/name-based.html 2 -
+/manual/ru/mod/threadpool.html 2 -
+/manual/ko/ko/platform/windows.html 2 -
+/manual/ru/ko/misc/perf-tuning.html 1 -
+/manual/en/ssl/ssl_compat.html 2 -
+/manual/mod/perchild.html 1 -
+/manual/ja/mod/mod_isapi.html 2 -
+/manual/ru/en/developer/ 1 -
+/manual/ja/en/mod/threadpool.html 1 -
+/manual/ja/ja/howto/htaccess.html 2 -
+/manual/fr/vhosts/mass.html 1 -
+/manual/de/en/stopping.html 2 -
+/manual/es/developer/documenting.html 2 -
+/manual/es/ja/mod/module-dict.html 1 -
+/manual/es/ko/logs.html 2 -
+/manual/es/mod/mod_autoindex.html 2 -
+/manual/ru/ja/mod/mod_actions.html 1 -
+/manual/fr/en/misc/tutorials.html 1 -
+/images/facebook-widgets/close_btn.png 1 -
+/manual/en/programs/logresolve.html 2 -
+/manual/de/ja/mod/mod_userdir.html 1 -
+/manual/es/bind.html 2 -
+/manual/ja/ko/mod/mod_speling.html 2 -
+/manual/ja/en/programs/httpd.html 1 -
+/manual/fr/ru/stopping.html 1 -
+/manual/ko/ko/vhosts/fd-limits.html 2 -
+/manual/de/programs/logresolve.html 2 -
+/manual/es/ja/mod/mod_mime.html 1 -
+/manual/en/en/developer/filters.html 1 -
+/manual/ja/en/platform/win_compiling.html 1 -
+/manual/ja/faq/news:comp.infosystems.www.servers.unix 1 -
+/manual/ja/vhosts/examples.html 2 -
+/manual/ja/ja/ssl/ssl_intro.html 2 -
+/manual/de/fr/upgrading.html 2 -
+/manual/ru/faq/error.html 2 -
+/manual/ko/es/bind.html 2 -
+/manual/ko/en/programs/htdigest.html 2 -
+/manual/en/fr/bind.html 1 -
+/manual/ko/programs/htdigest.html 2 -
+/manual/ja/en/howto/htaccess.html 2 -
+/manual/en/ja/mod/mod_dav.html 1 -
+/manual/de/en/mod/mod_autoindex.html 1 -
+/manual/ja/ko/platform/ 2 -
+/manual/de/mod/beos.html 2 -
+/manual/en/ru/ 2 -
+/manual/ru/developer/ 2 -
+//webdb/scripts/setup.php 1 -
+/manual/ko/mod/mod_echo.html 2 -
+/manual/en/programs/apxs.html 2 -
+/manual/ko/en/developer/modules.html 1 -
+/manual/en/vhosts/mass.html 2 -
+/manual/de/en/mod/mod_mime_magic.html 1 -
+/manual/es/de/mod/prefork.html 2 -
+/manual/ko/mod/mod_cgid.html 2 -
+/manual/en/ko/faq/error.html 2 -
+/manual/ja/de/mod/leader.html 2 -
+/manual/en/misc/rewriteguide.html 2 -
+/manual/de/ja/mod/mod_dav_fs.html 1 -
+/manual/ja/en/urlmapping.html 2 -
+/manual/mod/prefork.html 1 -
+/manual/de/programs/apxs.html 2 -
+/manual/ko/ko/mod/mod_dir.html 1 -
+/manual/fr/en/mod/perchild.html 1 -
+/manual/howto/ 1 -
+/manual/en/en/mod/mod_charset_lite.html 2 -
+/manual/en/de/vhosts/name-based.html 1 -
+/manual/ko/en/howto/ssi.html 2 -
+/manual/en/ko/mod/mod_charset_lite.html 2 -
+/manual/en/ko/install.html 2 -
+/manual/es/en/ 2 -
+/manual/ko/en/mod/mod_unique_id.html 2 -
+/manual/ko/en/mod/mpm_winnt.html 1 -
+/manual/es/ko/faq/ 1 -
+/manual/de/mod/directive-dict.html 2 -
+/manual/fr/mod/mod_headers.html 2 -
+/manual/ko/ko/mod/mod_dav.html 2 -
+/manual/ja/en/programs/htpasswd.html 1 -
+/manual/es/ja/mod/mod_deflate.html 1 -
+/manual/de/ko/mod/mod_cgid.html 1 -
+/manual/en/platform/ 2 -
+/manual/ko/ja/mod/mod_logio.html 2 -
+/manual/fr/ko/mod/mod_auth_digest.html 1 -
+/manual/ko/rewrite/rewrite_intro.html 2 -
+/manual/fr/mod/mod_isapi.html 1 -
+/manual/es/fr/ 2 -
+/manual/ru/ru/new_features_2_0.html 2 -
+/manual/ja/en/howto/public_html.html 2 -
+/manual/ko/ko/mod/mod_logio.html 2 -
+/manual/de/en/platform/windows.html 1 -
+/manual/ru/es/mod/core.html 1 -
+/manual/es/ja/mod/directive-dict.html 2 -
+/manual/ko/ja/filter.html 2 -
+/manual/en/en/server-wide.html 1 -
+//pma2/scripts/setup.php 1 -
+/manual/de/faq/news:comp.infosystems.www.servers.unix 1 -
+/manual/fr/en/platform/netware.html 1 -
+/manual/ja/ru/stopping.html 2 -
+/manual/fr/en/rewrite/rewrite_guide.html 2 -
+/manual/ru/en/mod/mod_usertrack.html 1 -
+/manual/ko/en/mod/mod_mime.html 1 -
+/manual/es/upgrading.html 2 -
+/manual/ru/de/vhosts/name-based.html 1 -
+/manual/ko/vhosts/mass.html 2 -
+/manual/ja/en/mod/mod_proxy_ftp.html 1 -
+/manual/ko/en/mod/mod_autoindex.html 2 -
+/manual/howto/auth.html 1 -
+/manual/es/en/mod/mod_logio.html 1 -
+/manual/ru/rewrite/rewrite_intro.html 1 -
+/manual/ko/en/suexec.html 2 -
+/manual/en/en/mod/mod_example.html 1 -
+/manual/ja/ja/mod/mod_dav_fs.html 2 -
+/manual/es/en/mod/mod_userdir.html 1 -
+/manual/ja/ja/mod/mod_suexec.html 2 -
+/manual/programs/apachectl.html 1 -
+/manual/de/es/mod/leader.html 2 -
+/manual/de/platform/windows.html 2 -
+/manual/de/en/mod/mod_ext_filter.html 1 -
+/manual/es/ko/mod/mod_status.html 1 -
+/manual/es/en/vhosts/name-based.html 2 -
+/manual/ru/mod/mod_isapi.html 2 -
+/manual/ko/ko/mod/leader.html 2 -
+/manual/ru/misc/tutorials.html 2 -
+/manual/en/ko/mod/mod_status.html 1 -
+/manual/ko/vhosts/examples.html 2 -
+/manual/es/programs/apxs.html 2 -
+/manual/fr/platform/ 2 -
+/manual/fr/en/mod/directives.html 1 -
+/manual/de/ko/install.html 2 -
+/manual/ru/misc/perf-tuning.html 2 -
+/manual/es/en/programs/ 2 -
+/manual/programs/dbmmanage.html 1 -
+/manual/es/es/mod/mpm_winnt.html 2 -
+/manual/de/de/ 2 -
+/manual/en/en/glossary.html 1 -
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+/manual/es/es/logs.html 2 -
+/manual/en/mod/mod_negotiation.html 2 -
+/manual/de/developer/documenting.html 2 -
+/manual/ru/es/mpm.html 2 -
+/manual/ja/en/rewrite/rewrite_guide_advanced.html 1 -
+/manual/de/en/filter.html 2 -
+/manual/de/en/mod/mod_negotiation.html 1 -
+/manual/es/ja/handler.html 2 -
+/manual/ru/ssl/ssl_faq.html 2 -
+/manual/en/en/mod/mod_ldap.html 1 -
+/manual/en/mod/mod_file_cache.html 2 -
+/manual/de/en/dso.html 1 -
+/manual/ja/mod/mod_authn_dbm.html 1 -
+/manual/ja/en/platform/windows.html 1 -
+/manual/fr/ko/mod/mod_env.html 1 -
+/manual/de/es/vhosts/ 2 -
+/manual/en/en/vhosts/examples.html 1 -
+/manual/en/en/mod/mod_so.html 1 -
+/manual/es/en/mod/threadpool.html 2 -
+/manual/ko/en/vhosts/examples.html 2 -
+/manual/ja/en/misc/security_tips.html 1 -
+/manual/es/platform/win_compiling.html 2 -
+/manual/fr/rewrite/rewrite_guide_advanced.html 1 -
+/manual/en/ko/upgrading.html 2 -
+/manual/de/fr/dso.html 1 -
+/manual/es/ko/dso.html 2 -
+/occludespopups 1 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+/manual/ja/ko/vhosts/details.html 1 -
+/manual/ko/de/vhosts/ 2 -
+/manual/es/ja/mpm.html 2 -
+/manual/ru/en/mod/mod_auth_ldap.html 2 -
+/manual/ko/ssl/ssl_faq.html 2 -
+/manual/ja/mod/mod_dav_fs.html 2 -
+/manual/ko/ko/vhosts/ip-based.html 2 -
+/manual/ja/ko/vhosts/fd-limits.html 2 -
+/manual/ko/en/platform/windows.html 2 -
+/manual/en/ja/mod/ 1 -
+/manual/de/en/mod/directives.html 2 -
+/manual/ko/en/mod/mod_dav.html 2 -
+/manual/ru/es/mod/quickreference.html 1 -
+/manual/fr/mod/mod_deflate.html 2 -
+/manual/de/en/mod/mod_cgi.html 1 -
+/manual/es/sections.html 2 -
+/manual/en/mod/mod_rewrite.html 2 -
+/manual/ja/en/mod/mod_proxy_http.html 1 -
+/manual/ko/programs/apachectl.html 2 -
+/manual/ko/misc/rewriteguide.html 2 -
+/manual/fr/programs/ 2 -
+/manual/es/ja/mod/mod_userdir.html 1 -
+/manual/fr/en/howto/ssi.html 1 -
+/manual/de/ko/content-negotiation.html 2 -
+/manual/ko/ko/mod/mod_actions.html 1 -
+/manual/fr/dns-caveats.html 2 -
+/manual/es/en/server-wide.html 2 -
+/manual/ja/programs/logresolve.html 2 -
+/manual/ko/en/vhosts/fd-limits.html 2 -
+/manual/ru/mod/mod_vhost_alias.html 2 -
+/manual/es/en/mod/mod_proxy.html 2 -
+/manual/ja/mod/mod_suexec.html 2 -
+/manual/ru/ru/ 2 -
+/manual/fr/en/programs/ 1 -
+/manual/fr/mod/mod_dav.html 2 -
+/manual/en/mod/mod_suexec.html 2 -
+/manual/ko/mod/mod_dav_fs.html 2 -
+/manual/fr/programs/rotatelogs.html 2 -
+/manual/ja/ko/filter.html 2 -
+//phpMyAdmin-2.11.9.2-english/scripts/setup.php 1 -
+/manual/ko/mod/beos.html 2 -
+/manual/ru/ko/mod/ 2 -
+/manual/de/ja/dns-caveats.html 2 -
+/manual/ja/en/mod/mod_suexec.html 2 -
+/manual/es/fr/configuring.html 1 -
+/manual/ja/fr/dso.html 2 -
+/his/her 1 -
+/puma 9 http://www.limebtl.kiev.ua/
+/manual/fr/en/programs/htpasswd.html 1 -
+/manual/de/en/developer/hooks.html 2 -
+/manual/ru/en/vhosts/fd-limits.html 1 -
+/manual/ru/howto/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/ko/misc/security_tips.html 2 -
+/manual/ru/en/mod/mod_rewrite.html 2 -
+/manual/ko/ja/mod/mod_version.html 2 -
+/manual/de/rewrite/rewrite_intro.html 1 -
+/manual/ko/mod/mod_rewrite.html 2 -
+/manual/ko/ru/handler.html 2 -
+/manual/es/ja/new_features_2_0.html 2 -
+/manual/de/de/vhosts/name-based.html 2 -
+/manual/de/ko/programs/other.html 1 -
+/manual/ja/fr/bind.html 2 -
+/manual/mod/mod_auth_dbm.html 1 -
+/manual/es/programs/suexec.html 2 -
+/manual/es/ko/programs/logresolve.html 1 -
+/manual/ko/mod/mod_logio.html 2 -
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+/manual/ru/mod/mod_actions.html 2 -
+/manual/en/mod/worker.html 2 -
+/sharer.php 1 -
+/manual/de/mod/mod_nw_ssl.html 2 -
+/manual/ja/en/mod/mpm_common.html 2 -
+/manual/de/ja/mod/worker.html 2 -
+//phpMyAdmin-3.1.2.0-english/scripts/setup.php 1 -
+/manual/ja/en/programs/ab.html 2 -
+/manual/de/mod/prefork.html 2 -
+/manual/es/mod/ 2 -
+/manual/ja/programs/apachectl.html 2 -
+/manual/fr/ru/mod/directives.html 1 -
+/manual/es/de/glossary.html 2 -
+/manual/ja/ja/mod/mod_dav.html 2 -
+/manual/fr/en/faq/ 1 -
+/manual/en/ko/platform/netware.html 2 -
+/manual/de/en/misc/ 1 -
+/manual/ru/ko/invoking.html 2 -
+/manual/ko/mod/mod_proxy_ftp.html 2 -
+/manual/en/en/mod/mod_version.html 1 -
+/manual/fr/platform/perf-hp.html 1 -
+/manual/ru/de/invoking.html 2 -
+/manual/ja/ko/programs/ab.html 2 -
+/manual/ru/en/mod/mod_version.html 1 -
+/manual/ko/es/install.html 2 -
+/manual/de/fr/ 2 -
+/manual/en/logs.html 2 -
+/manual/ru/en/vhosts/name-based.html 1 -
+/manual/es/ko/mod/mod_info.html 2 -
+/manual/mod/ 1 -
+/manual/ko/en/howto/auth.html 2 -
+/manual/ko/ja/env.html 2 -
+/manual/fr/mod/mod_mime_magic.html 2 -
+/manual/de/mod/mod_logio.html 2 -
+/manual/ru/ja/mod/ 2 -
+/manual/en/platform/windows.html 2 -
+/manual/es/en/mod/mod_cgi.html 1 -
+/manual/en/ko/howto/ssi.html 1 -
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+/manual/ru/developer/thread_safety.html 1 -
+/manual/ja/glossary.html 2 -
+/logout.php 1 -
+/manual/de/developer/request.html 1 -
+/manual/fr/mod/worker.html 2 -
+/manual/ja/fr/new_features_2_0.html 1 -
+/manual/es/en/mod/mod_echo.html 1 -
+/manual/ko/misc/ 2 -
+/manual/es/ja/mod/mod_log_config.html 1 -
+/manual/ko/mod/mod_auth_anon.html 2 -
+/manual/ja/vhosts/details.html 2 -
+/manual/en/en/mod/mod_log_config.html 2 -
+/manual/ko/logs.html 2 -
+/manual/de/en/platform/ebcdic.html 1 -
+/manual/en/ko/mod/mod_suexec.html 1 -
+/manual/es/ko/mod/directive-dict.html 2 -
+/manual/en/howto/public_html.html 2 -
+/manual/en/ja/mod/mpm_winnt.html 1 -
+/manual/ko/ja/howto/public_html.html 2 -
+/manual/en/mod/mod_proxy_ftp.html 2 -
+/manual/ko/de/stopping.html 2 -
+/manual/en/mod/mod_mem_cache.html 2 -
+/manual/ru/new_features_2_0.html 2 -
+/manual/en/es/mod/mpm_winnt.html 1 -
+/manual/ko/mod/worker.html 2 -
+/manual/ja/misc/custom_errordocs.html 2 -
+//phpMyAdmin-2.11.9.1-all-languages/scripts/setup.php 1 -
+/manual/de/howto/htaccess.html 2 -
+/manual/es/en/stopping.html 2 -
+/manual/es/urlmapping.html 2 -
+/manual/en/en/platform/netware.html 2 -
+/manual/en/fr/custom-error.html 1 -
+/manual/ko/mod/mod_proxy_http.html 2 -
+/manual/ru/ja/mod/mod_echo.html 1 -
+/manual/ru/mod/mod_version.html 2 -
+/manual/de/en/developer/filters.html 2 -
+/manual/fr/ko/misc/rewriteguide.html 2 -
+/manual/en/en/misc/fin_wait_2.html 1 -
+/manual/de/en/install.html 2 -
+/manual/es/en/programs/htdigest.html 1 -
+/manual/ja/ko/programs/htpasswd.html 1 -
+/manual/ja/invoking.html 2 -
+/manual/es/mod/mod_proxy_connect.html 2 -
+/manual/ko/ja/howto/cgi.html 2 -
+/manual/de/ja/install.html 2 -
+//phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/manual/ko/ja/mod/mod_dav_fs.html 2 -
+/manual/ru/mod/mod_dumpio.html 2 -
+/manual/en/en/install.html 2 -
+/manual/ru/ja/mod/directive-dict.html 1 -
+/manual/ru/de/mod/mpm_common.html 2 -
+/manual/en/en/howto/auth.html 2 -
+/manual/ko/developer/ 2 -
+//phpMyAdmin-2.6.9/scripts/setup.php 1 -
+/manual/ja/mod/mod_ext_filter.html 2 -
+/manual/ru/ko/mod/mod_mem_cache.html 1 -
+/manual/ru/ko/mod/mod_ext_filter.html 1 -
+/manual/de/en/mod/mod_headers.html 1 -
+/manual/ja/howto/htaccess.html 2 -
+//phpMyAdmin-2.3.6/scripts/setup.php 1 -
+/manual/es/en/handler.html 2 -
+/manual/ko/en/mod/mod_logio.html 2 -
+/manual/en/en/mod/mod_headers.html 1 -
+/manual/fr/vhosts/name-based.html 2 -
+/manual/fr/ko/custom-error.html 2 -
+/manual/ru/news:comp.protocols.time.ntp 1 -
+/manual/ja/ko/howto/auth.html 2 -
+/manual/fr/en/mod/mod_cgid.html 2 -
+/manual/fr/ko/mod/mod_speling.html 1 -
+/manual/de/ja/howto/cgi.html 1 -
+/manual/en/ko/howto/ 1 -
+//pma/%20/scripts/setup.php 1 -
+/manual/de/ja/mod/mod_setenvif.html 1 -
+/manual/ko/ko/mod/mod_info.html 1 -
+/manual/ru/ko/platform/windows.html 1 -
+/manual/es/mod/mod_expires.html 2 -
+/manual/de/ko/mod/leader.html 2 -
+/manual/ja/mod/mod_include.html 2 -
+/manual/ja/mod/mod_example.html 2 -
+/manual/ja/programs/directoryfinetuning 1 -
+/manual/es/en/mod/mod_usertrack.html 1 -
+/manual/es/en/mod/mod_disk_cache.html 1 -
+/manual/ru/programs/logresolve.html 2 -
+/manual/ko/ja/mod/mod_mime.html 1 -
+/manual/ja/ko/howto/ssi.html 2 -
+/manual/es/rewrite/rewrite_tech.html 2 -
+/manual/ru/ko/mod/mod_setenvif.html 1 -
+/manual/fr/en/mod/mod_rewrite.html 1 -
+/manual/ko/es/upgrading.html 2 -
+/manual/ru/de/stopping.html 1 -
+/manual/ru/en/mod/mod_userdir.html 2 -
+/manual/de/ja/upgrading.html 2 -
+/manual/ko/mpm.html 2 -
+/manual/fr/en/dns-caveats.html 2 -
+/manual/fr/ja/mod/directives.html 1 -
+/manual/ru/mod/leader.html 2 -
+/manual/ja/mod/mpm_winnt.html 2 -
+//dbadmin/scripts/setup.php 1 -
+/manual/ja/ko/platform/netware.html 1 -
+/manual/mod/mod_log_config.html 1 -
+/manual/ko/ko/mod/mod_asis.html 2 -
+/manual/ko/ko/mod/mod_mem_cache.html 1 -
+/manual/ko/misc/relevant_standards.html 2 -
+/manual/ru/platform/perf-hp.html 2 -
+/manual/ru/ko/mod/mod_dav.html 1 -
+/manual/en/en/mod/mod_nw_ssl.html 1 -
+/manual/ru/ko/programs/other.html 1 -
+/manual/ru/en/mod/mod_log_config.html 1 -
+/manual/en/en/mod/mod_access.html 1 -
+/manual/fr/ko/content-negotiation.html 2 -
+/manual/ko/ko/glossary.html 2 -
+/manual/ja/en/mod/mod_headers.html 1 -
+/manual/ja/ko/mod/mod_unique_id.html 2 -
+/manual/en/ko/mod/mod_isapi.html 2 -
+/manual/ja/ja/configuring.html 2 -
+/manual/de/en/mod/directive-dict.html 2 -
+/manual/de/ko/mod/directive-dict.html 2 -
+/manual/fr/mod/mod_cgid.html 2 -
+/manual/fr/mod/mod_disk_cache.html 1 -
+/manual/en/ko/platform/win_compiling.html 2 -
+/manual/fr/ko/configuring.html 2 -
+/manual/de/en/misc/perf-tuning.html 2 -
+/manual/es/de/install.html 2 -
+/manual/ru/ko/platform/ebcdic.html 2 -
+/manual/de/content-negotiation.html 2 -
+/manual/ru/ja/sitemap.html 2 -
+/manual/de/en/vhosts/fd-limits.html 1 -
+/manual/ko/ja/vhosts/name-based.html 2 -
+/manual/ko/mod/prefork.html 2 -
+/manual/ja/programs/configure.html 2 -
+/manual/es/en/new_features_2_0.html 2 -
+/manual/es/en/mod/mod_mime_magic.html 1 -
+/manual/ja/es/bind.html 2 -
+/manual/ja/de/mod/quickreference.html 1 -
+//phpMyAdmin-2.3.0/scripts/setup.php 1 -
+/manual/fr/ja/mod/mod_dir.html 1 -
+/manual/ko/mod/mod_so.c.html 2 -
+/manual/ko/ja/mod/mod_access.html 1 -
+/manual/ko/ja/urlmapping.html 2 -
+/manual/en/en/mod/mod_disk_cache.html 1 -
+/manual/en/en/mod/mod_alias.html 1 -
+/manual/de/ja/filter.html 2 -
+/fql 1 -
+/manual/ru/es/dso.html 1 -
+/manual/es/es/upgrading.html 2 -
+/manual/en/en/vhosts/ 2 -
+/manual/ko/en/mod/mpm_netware.html 1 -
+/manual/ru/ja/mod/core.html 1 -
+/manual/ja/en/programs/htdigest.html 1 -
+//phpMyAdmin-2.3.3/scripts/setup.php 1 -
+/manual/fr/ja/howto/public_html.html 1 -
+/manual/en/ja/configuring.html 2 -
+/.php 1 -
+/manual/de/mod/mpmt_os2.html 2 -
+/manual/ja/misc/tutorials.html 2 -
+/manual/ja/ssl/ssl_howto.html 2 -
+/manual/es/ssl/ssl_faq.html 2 -
+/manual/de/es/mod/directives.html 2 -
+/manual/en/mod/mod_alias.html 2 -
+/manual/es/en/mod/mod_mime.html 1 -
+/manual/en/ko/mod/mod_log_config.html 2 -
+/manual/ru/ 2 -
+/manual/ru/programs/ 2 -
+/manual/fr/programs/configure.html 2 -
+/manual/ja/ja/mod/mod_logio.html 2 -
+/manual/fr/mod/mod_so.html 2 -
+/manual/ko/developer/request.html 2 -
+/manual/ko/en/mod/mod_disk_cache.html 1 -
+/manual/es/ko/mod/mod_setenvif.html 2 -
+/manual/en/mod/mod_dav.html 2 -
+/manual/ru/misc/descriptors.html 2 -
+/manual/ja/developer/documenting.html 2 -
+/manual/ko/en/vhosts/mass.html 2 -
+//phpMyAdmin-2.11.9.2-all-languages/scripts/setup.php 1 -
+/manual/en/fr/filter.html 2 -
+/manual/de/en/programs/dbmmanage.html 2 -
+/manual/fr/ru/filter.html 2 -
+/manual/fr/ko/sections.html 1 -
+/manual/en/mod/mod_auth_ldap.html 2 -
+/manual/ru/en/mod/core.html 1 -
+/manual/ja/howto/ 2 -
+/manual/ko/en/mod/beos.html 2 -
+/manual/de/ko/glossary.html 2 -
+/manual/ko/en/mod/mod_deflate.html 1 -
+/manual/de/fr/handler.html 2 -
+//phpmyadmin2/scripts/setup.php 1 -
+/manual/de/es/mod/prefork.html 2 -
+/manual/de/ja/howto/auth.html 1 -
+/manual/ja/en/mod/mod_log_forensic.html 1 -
+/manual/en/ko/programs/dbmmanage.html 1 -
+/manual/ja/mod/mod_autoindex.html 2 -
+/manual/fr/en/mod/mod_deflate.html 2 -
+/manual/fr/mod/mod_unique_id.html 2 -
+/manual/en/ko/sitemap.html 1 -
+/manual/howto/cgi.html 1 -
+/manual/fr/ja/mod/mod_expires.html 1 -
+/manual/ja/en/custom-error.html 2 -
+/manual/ko/ko/platform/win_compiling.html 2 -
+/manual/ko/ko/mod/mod_so.html 2 -
+/manual/fr/ru/ 2 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+/manual/ko/ko/platform/netware.html 2 -
+/manual/es/en/mod/worker.html 2 -
+/manual/es/ko/upgrading.html 2 -
+/manual/ko/en/platform/win_compiling.html 2 -
+/manual/fr/configuring.html 2 -
+/manual/ja/en/mod/mod_echo.html 2 -
+/manual/ja/en/programs/other.html 1 -
+/manual/ru/urlmapping.html 2 -
+/manual/es/en/faq/all_in_one.html 1 -
+/manual/es/es/stopping.html 2 -
+/manual/en/ja/stopping.html 2 -
+/manual/en/mod/mod_info.html 2 -
+/manual/ko/ja/mod/mod_expires.html 1 -
+/manual/es/ja/dns-caveats.html 2 -
+/profile.php 1 -
+/manual/ko/en/mod/mod_cache.html 2 -
+/manual/de/ko/mod/mod_actions.html 1 -
+/manual/fr/mod/mod_cgi.html 2 -
+/manual/fr/mod/quickreference.html 2 -
+/manual/ja/ko/programs/dbmmanage.html 1 -
+/manual/es/vhosts/details.html 2 -
+/manual/de/ko/invoking.html 2 -
+/manual/en/ko/programs/htdigest.html 2 -
+/manual/de/en/mod/mod_log_forensic.html 2 -
+/manual/en/ko/mod/mod_version.html 1 -
+/manual/ko/es/sitemap.html 2 -
+/manual/de/programs/dbmmanage.html 2 -
+/manual/ko/mod/directives.html 2 -
+//PMA2009/scripts/setup.php 1 -
+/manual/ko/mod/mod_mime_magic.html 2 -
+/manual/en/en/programs/htpasswd.html 1 -
+/manual/ko/ja/dso.html 2 -
+/manual/de/en/ 2 -
+/manual/ru/es/mod/directive-dict.html 1 -
+/manual/ru/en/vhosts/ 2 -
+/manual/en/mod/mod_log_config.html 2 -
+/manual/fr/en/rewrite/rewrite_intro.html 1 -
+/manual/ja/ja/mod/mpm_winnt.html 2 -
+/manual/fr/en/rewrite/rewrite_tech.html 1 -
+/manual/en/mod/mod_actions.html 2 -
+/manual/de/ko/mod/mod_dav.html 1 -
+/manual/ru/en/misc/perf-tuning.html 1 -
+/manual/ko/ko/mod/mod_dav_fs.html 2 -
+/manual/fr/ko/mod/directives.html 1 -
+/manual/ja/ko/programs/apxs.html 1 -
+/manual/en/mod/beos.html 2 -
+/manual/de/mod/mod_imap.html 2 -
+/manual/ru/logs.html 2 -
+/manual/fr/ko/mod/mod_ext_filter.html 1 -
+/manual/ko/en/developer/API.html 1 -
+/manual/ko/es/mod/quickreference.html 1 -
+/wp-admin/login 1 -
+/manual/de/ja/mod/mod_mem_cache.html 1 -
+//mysql/scripts/setup.php 1 -
+/manual/ja/en/mod/mpm_winnt.html 2 -
+/manual/ru/ko/mod/directive-dict.html 1 -
+/manual/ru/en/programs/logresolve.html 1 -
+/manual/ko/mod/mod_speling.html 2 -
+/manual/es/ja/mod/mod_dav_fs.html 1 -
+/manual/fr/fr/filter.html 2 -
+/manual/ja/ko/mod/mod_imap.html 1 -
+/manual/ko/ja/mpm.html 2 -
+/manual/es/ja/mod/mod_negotiation.html 1 -
+/manual/ja/ko/mod/mod_asis.html 2 -
+/manual/es/fr/upgrading.html 2 -
+/manual/de/programs/directoryfinetuning 1 -
+/manual/ko/mod/module-dict.html 2 -
+/manual/ja/ko/mod/quickreference.html 1 -
+/manual/ko/mod/mod_file_cache.html 2 -
+/manual/en/en/content-negotiation.html 1 -
+/manual/ja/platform/win_compiling.html 2 -
+/manual/ja/ssl/ssl_compat.html 2 -
+/manual/ja/mod/mod_asis.html 2 -
+/manual/ja/ko/vhosts/ 2 -
+/manual/en/mod/mod_access.html 2 -
+/manual/ko/en/mod/mod_headers.html 2 -
+/manual/fr/en/howto/htaccess.html 1 -
+/manual/es/mod/mod_cache.html 2 -
+/manual/ko/en/mod/mod_speling.html 1 -
+/manual/ru/mod/mod_cern_meta.html 2 -
+/manual/ja/misc/rewriteguide.html 2 -
+/manual/ja/ko/content-negotiation.html 2 -
+/manual/de/mod/mpm_netware.html 2 -
+/manual/de/ja/mod/mod_unique_id.html 1 -
+/manual/ru/en/upgrading.html 2 -
+/manual/en/programs/Configure.html 1 -
+/manual/ko/ru/vhosts/ 2 -
+/manual/ko/faq/news:comp.infosystems.www.authoring.cgi 2 -
+/manual/es/mod/mod_proxy_http.html 2 -
+/manual/ru/en/mod/mod_vhost_alias.html 1 -
+/manual/fr/mod/threadpool.html 2 -
+/manual/es/ko/howto/auth.html 2 -
+/manual/es/ko/mpm.html 2 -
+/manual/ja/platform/netware.html 2 -
+/manual/ja/en/mod/mod_so.html 2 -
+/manual/ko/fr/new_features_2_0.html 1 -
+/manual/fr/de/mod/prefork.html 1 -
+/manual/es/en/mod/ 2 -
+/manual/ko/ja/vhosts/ 2 -
+/manual/ru/programs/rotatelogs.html 2 -
+//admm/scripts/setup.php 1 -
+/manual/en/fr/dso.html 1 -
+/manual/en/en/mod/mod_include.html 2 -
+/manual/ko/en/mod/mod_actions.html 1 -
+/manual/ru/mod/directive-dict.html 2 -
+/manual/es/en/vhosts/ 2 -
+/manual/ja/de/new_features_2_0.html 1 -
+/manual/ko/de/invoking.html 2 -
+/manual/es/mod/mod_disk_cache.html 2 -
+/manual/ko/ja/mod/mod_env.html 1 -
+/manual/fr/mod/leader.html 2 -
+/manual/es/ja/install.html 2 -
+/manual/fr/fr/handler.html 2 -
+/manual/en/en/programs/ 2 -
+/manual/ru/ja/mod/mpm_winnt.html 1 -
+/manual/de/en/mod/mod_echo.html 1 -
+/manual/ko/programs/dbmmanage.html 2 -
+/manual/es/ko/faq/error.html 1 -
+/manual/mod/mod_alias.html 1 -
+/manual/ja/en/faq/all_in_one.html 1 -
+//bbs/data/scripts/setup.php 1 -
+/manual/ko/ko/mod/mod_version.html 2 -
+/manual/ja/mod/worker.html 2 -
+/manual/fr/ko/mod/module-dict.html 1 -
+/manual/fr/ko/mod/mod_logio.html 1 -
+/manual/de/en/mod/mod_setenvif.html 1 -
+/manual/es/ko/howto/public_html.html 1 -
+/manual/fr/es/logs.html 1 -
+/widget_pipe.php 1 -
+/manual/de/ko/platform/netware.html 1 -
+/manual/ja/de/configuring.html 2 -
+/manual/ko/ja/ssl/ssl_intro.html 1 -
+/manual/ko/vhosts/ 2 -
+/manual/ko/ko/vhosts/mass.html 2 -
+/manual/fr/en/misc/fin_wait_2.html 1 -
+/manual/ru/ja/mod/quickreference.html 1 -
+/manual/es/es/ 2 -
+/manual/de/vhosts/details.html 2 -
+/manual/de/ko/ 2 -
+/manual/fr/en/howto/public_html.html 1 -
+/manual/ja/en/misc/perf-tuning.html 2 -
+/manual/ja/en/programs/apxs.html 1 -
+/manual/de/handler.html 2 -
+/manual/ru/fr/dso.html 1 -
+//databaseadmin/scripts/setup.php 1 -
+/manual/de/de/mod/mpm_winnt.html 2 -
+/manual/en/ko/ 2 -
+/manual/es/ko/configuring.html 1 -
+/manual/ko/mod/mod_alias.html 2 -
+/manual/ko/ko/urlmapping.html 2 -
+//admin/pma/scripts/setup.php 1 -
+/manual/de/es/mod/worker.html 2 -
+/%20%20www.idealsecrets.com/ 1 -
+/manual/ko/en/mod/directives.html 2 -
+/manual/en/es/dns-caveats.html 1 -
+//backup/phpMyAdmin/scripts/setup.php 1 -
+/manual/fr/ja/mod/mod_log_config.html 1 -
+/manual/de/ko/mod/mod_imap.html 2 -
+//phpMyAdmin-2.7.3/scripts/setup.php 1 -
+/manual/ru/en/invoking.html 2 -
+/manual/ja/en/mod/mod_userdir.html 2 -
+/manual/fr/mod/directives.html 2 -
+/manual/en/fr/env.html 1 -
+/manual/ja/en/ssl/ 2 -
+//phpMyAdmin-2.11.8.0-english/scripts/setup.php 1 -
+//sl2/data/scripts/setup.php 1 -
+/manual/ru/mod/mpm_common.html 2 -
+/manual/ko/en/urlmapping.html 2 -
+/manual/en/en/mod/mod_cern_meta.html 1 -
+/manual/en/ko/mod/quickreference.html 1 -
+//forum/phpmyadmin/scripts/setup.php 1 -
+/manual/de/ja/howto/ 2 -
+/manual/ja/en/mod/mod_info.html 2 -
+/manual/ko/mod/mod_disk_cache.html 2 -
+/manual/de/de/mod/quickreference.html 1 -
+/manual/de/mod/mod_auth_ldap.html 2 -
+/manual/en/mod/mod_unique_id.html 2 -
+/manual/en/faq/error.html 1 -
+/manual/fr/mod/mpmt_os2.html 2 -
+/manual/es/en/misc/ 1 -
+/robots.txt 402 -
+/manual/de/ko/mod/quickreference.html 1 -
+/manual/ja/mod/mod_access.html 2 -
+/manual/de/ko/mod/mod_expires.html 2 -
+/manual/ko/en/mod/mod_ext_filter.html 2 -
+/manual/de/en/glossary.html 2 -
+/manual/ru/de/mod/ 2 -
+/manual/es/de/mod/mpm_winnt.html 2 -
+/manual/es/en/custom-error.html 2 -
+/manual/ru/howto/auth.html 2 -
+/manual/ru/mod/mod_mime.html 2 -
+/manual/de/ko/mod/mod_setenvif.html 1 -
+/manual/de/ko/mod/mod_status.html 1 -
+/manual/en/ja/mod/mod_userdir.html 1 -
+/manual/ru/en/howto/htaccess.html 1 -
+/manual/ja/ru/install.html 2 -
+/manual/ru/mod/mod_usertrack.html 2 -
+/manual/es/vhosts/name-based.html 2 -
+/manual/en/ssl/news:comp.infosystems.www.servers.unix 2 -
+/manual/ja/en/filter.html 2 -
+//phpMyAdmin-2.7.1/scripts/setup.php 1 -
+/manual/ja/ja/server-wide.html 2 -
+/manual/es/mod/mod_ssl.html 2 -
+/manual/es/en/mod/mod_auth_ldap.html 1 -
+/manual/ja/ko/mod/directive-dict.html 2 -
+/manual/fr/en/programs/other.html 1 -
+/manual/de/es/vhosts/name-based.html 2 -
+/manual/ko/ja/logs.html 2 -
+/manual/es/ru/filter.html 2 -
+/manual/es/mod/mod_ext_filter.html 2 -
+/manual/ru/en/mod/mod_file_cache.html 2 -
+//_phpMyAdmin/scripts/setup.php 1 -
+/manual/ko/ja/mod/directives.html 2 -
+/manual/fr/en/mod/threadpool.html 1 -
+/manual/en/mod/prefork.html 2 -
+/manual/de/glossary.html 2 -
+/manual/es/ja/mod/mod_setenvif.html 2 -
+/manual/ru/developer/hooks.html 2 -
+/manual/es/mod/mod_rewrite.html 2 -
+/manual/es/ja/mod/mod_alias.html 2 -
+/manual/fr/es/filter.html 2 -
+/manual/es/ko/mod/mod_cache.html 1 -
+/manual/ja/es/glossary.html 1 -
+/manual/de/mod/mod_negotiation.html 2 -
+/manual/de/ja/developer/modules.html 2 -
+/manual/ko/en/mod/ 2 -
+/manual/ja/en/howto/ 1 -
+/manual/ko/ko/mod/mod_headers.html 2 -
+/manual/es/mod/mod_info.html 2 -
+/manual/ru/vhosts/mass.html 2 -
+/manual/de/ko/mod/mod_cgi.html 1 -
+/manual/fr/misc/custom_errordocs.html 1 -
+/manual/ja/en/misc/descriptors.html 1 -
+/manual/ru/mod/mod_example.html 2 -
+/manual/de/mod/worker.html 2 -
+/manual/ja/en/faq/ 1 -
+/manual/es/ko/mod/beos.html 2 -
+/manual/es/configuring.html 2 -
+//phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+/manual/es/ko/mod/mod_actions.html 1 -
+/manual/fr/ja/custom-error.html 2 -
+/manual/fr/es/mod/leader.html 1 -
+/manual/ru/ja/mod/mod_auth.html 1 -
+/manual/fr/mod/mod_auth_dbm.html 1 -
+/manual/de/ko/platform/windows.html 1 -
+/manual/de/mpm.html 2 -
+/login.php 2 -
+/manual/es/en/mod/mod_so.html 1 -
+//phpMyAdmin-2.8.3/scripts/setup.php 1 -
+/manual/fr/ko/sitemap.html 1 -
+/manual/en/en/mod/directive-dict.html 1 -
+/manual/es/ko/faq/all_in_one.html 1 -
+/manual/ko/ko/faq/error.html 2 -
+/manual/ru/ko/mod/mod_unique_id.html 2 -
+/manual/de/de/mod/core.html 1 -
+/manual/de/ko/handler.html 2 -
+/manual/es/ko/glossary.html 2 -
+/manual/fr/en/mod/mod_suexec.html 1 -
+/manual/de/mod/mod_actions.html 2 -
+/manual/ja/en/programs/logresolve.html 1 -
+/manual/en/ko/vhosts/details.html 1 -
+/manual/ru/en/mod/prefork.html 1 -
+/manual/de/mod/mod_dav.html 2 -
+/manual/ko/en/mod/worker.html 1 -
+/manual/ja/en/misc/custom_errordocs.html 1 -
+/manual/en/ja/sections.html 1 -
+/manual/ja/ko/mod/beos.html 1 -
+/manual/ja/en/mod/mod_version.html 2 -
+/manual/en/ko/howto/auth.html 2 -
+/manual/en/en/mod/mod_autoindex.html 1 -
+/manual/en/ja/vhosts/name-based.html 1 -
+/manual/ja/ja/custom-error.html 2 -
+/manual/fr/en/mod/directive-dict.html 1 -
+/manual/fr/license.html 2 -
+/manual/ko/mod/mod_auth_dbm.html 2 -
+/manual/en/en/mod/mod_suexec.html 1 -
+/manual/en/dso.html 2 -
+/manual/de/ja/mod/mod_echo.html 1 -
+/manual/en/ru/invoking.html 2 -
+/manual/es/ko/install.html 2 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/manual/ru/ko/configuring.html 1 -
+/manual/en/fr/configuring.html 2 -
+/manual/es/faq/support.html 2 -
+/manual/env.html 1 -
+//PMA2/scripts/setup.php 1 -
+/manual/ru/ja/mod/mpm_common.html 2 -
+/impression.php/ 1 -
+/manual/ja/ja/mod/mod_expires.html 2 -
+/manual/de/en/new_features_2_0.html 2 -
+/manual/fr/en/mod/mod_auth_digest.html 1 -
+/manual/es/ko/mod/mod_expires.html 1 -
+/manual/ja/en/configuring.html 2 -
+/manual/fr/howto/public_html.html 2 -
+/manual/es/ko/sitemap.html 2 -
+/manual/de/vhosts/ip-based.html 2 -
+/manual/fr/en/platform/ebcdic.html 1 -
+/manual/fr/glossary.html 2 -
+/manual/de/mod/ 2 -
+/manual/ko/en/rewrite/rewrite_tech.html 1 -
+/manual/ja/mod/mod_dav.html 2 -
+/manual/ko/rewrite/rewrite_guide_advanced.html 2 -
+/manual/en/es/sections.html 1 -
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+/manual/ru/ru/mpm.html 2 -
+/manual/ru/en/misc/relevant_standards.html 1 -
+/manual/ko/ko/new_features_2_0.html 1 -
+/manual/fr/news:comp.protocols.time.ntp 1 -
+//phpMyAdmin-2.4.2/scripts/setup.php 1 -
+/manual/fr/mod/mpm_common.html 2 -
+/manual/ja/platform/ 2 -
+/manual/mod/mod_auth_digest.html 1 -
+/manual/ko/es/howto/auth.html 2 -
+/manual/ja/es/sitemap.html 2 -
+/manual/es/ko/vhosts/ 2 -
+/manual/de/howto/public_html.html 2 -
+/manual/de/de/mod/directives.html 2 -
+/manual/ko/ja/bind.html 2 -
+/manual/ja/mod/mod_rewrite.html 2 -
+/manual/en/en/new_features_2_0.html 2 -
+/manual/ru/en/mod/mod_disk_cache.html 2 -
+/manual/ru/ko/mod/mod_log_config.html 1 -
+/manual/ja/en/mod/mod_cgi.html 2 -
+/manual/fr/es/sitemap.html 1 -
+/manual/ko/howto/public_html.html 2 -
+/manual/ko/ko/configuring.html 2 -
+/manual/en/en/mod/prefork.html 1 -
+/manual/en/misc/security_tips.html 2 -
+/manual/fr/en/mod/mod_proxy_http.html 1 -
+/manual/ru/en/mod/mod_dav.html 1 -
+/manual/ja/mod/mod_usertrack.html 2 -
+/manual/de/ja/custom-error.html 2 -
+/manual/en/en/ssl/ssl_howto.html 2 -
+/manual/ja/ja/howto/cgi.html 2 -
+/manual/fr/programs/httpd.html 2 -
+//phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php 1 -
+/manual/ru/ko/mod/mod_auth_digest.html 2 -
+//database/scripts/setup.php 1 -
+/manual/en/vhosts/details.html 2 -
+/manual/ru/ko/howto/htaccess.html 1 -
+/manual/ru/mod/mod_auth_ldap.html 2 -
+/manual/ja/es/mod/mpm_winnt.html 2 -
+/manual/fr/ja/mod/mod_dav.html 1 -
+/manual/ru/en/developer/hooks.html 1 -
+/manual/en/mod/mpmt_os2.html 2 -
+/manual/de/programs/httpd.html 2 -
+/manual/de/en/mod/mod_cgid.html 1 -
+/manual/en/en/dns-caveats.html 1 -
+/manual/es/ 2 -
+//phpMyAdmin-3.1.1.0-english/scripts/setup.php 1 -
+/manual/ja/en/developer/modules.html 2 -
+/manual/de/ja/mod/mod_negotiation.html 1 -
+/manual/ja/en/programs/dbmmanage.html 1 -
+/manual/en/en/mod/mod_dumpio.html 1 -
+/manual/ko/de/glossary.html 2 -
+/manual/ja/en/mod/mod_auth.html 2 -
+/manual/es/ru/handler.html 2 -
+/manual/ko/ko/programs/configure.html 2 -
+/manual/programs/logresolve.html 1 -
+/manual/ko/ko/mod/mod_deflate.html 1 -
+/manual/mod/mpm_common.html 1 -
+/manual/ja/ja/mod/mod_actions.html 2 -
+/manual/en/es/vhosts/ 2 -
+/manual/de/ja/mod/mod_include.html 1 -
+/manual/en/bind.html 2 -
+/manual/ja/ko/mod/directives.html 2 -
+/manual/en/ko/faq/all_in_one.html 1 -
+/manual/ru/mod/mod_file_cache.html 2 -
+/manual/ko/faq/news:comp.infosystems.www.servers.ms-windows 2 -
+/manual/ko/mod/mod_dumpio.html 2 -
+/manual/en/en/developer/ 1 -
+/manual/es/ja/mod/mod_actions.html 1 -
+/manual/ko/ja/dns-caveats.html 2 -
+/manual/fr/ru/handler.html 2 -
+/manual/en/upgrading.html 2 -
+/himself/herself 1 -
+/manual/ru/platform/ebcdic.html 2 -
+/manual/de/misc/tutorials.html 2 -
+/manual/fr/mod/mod_imap.html 2 -
+/manual/de/en/mod/mpm_netware.html 1 -
+/manual/es/ja/sitemap.html 2 -
+/manual/ja/ko/urlmapping.html 2 -
+/manual/ru/en/misc/descriptors.html 1 -
+/manual/de/faq/ 2 -
+/manual/ru/en/mod/mod_ldap.html 1 -
+/manual/ko/ko/vhosts/name-based.html 2 -
+/manual/de/ru/handler.html 2 -
+/manual/ru/ko/programs/ 1 -
+/manual/de/en/platform/ 1 -
+/manual/es/mod/mod_authn_dbm.html 1 -
+/manual/es/en/mod/mod_auth_dbm.html 1 -
+/manual/ja/de/mod/directives.html 2 -
+/manual/ko/ja/mod/mod_autoindex.html 2 -
+/manual/ko/ko/mod/beos.html 2 -
+/manual/ko/install.html 2 -
+//myadmin/scripts/setup.php 1 -
+/manual/ru/mod/mod_userdir.html 2 -
+/manual/ja/en/server-wide.html 2 -
+/manual/fr/en/programs/htdbm.html 1 -
+/manual/ru/ja/stopping.html 1 -
+/manual/en/mpm.html 2 -
+/manual/ko/mod/mod_mem_cache.html 2 -
+/manual/en/en/vhosts/fd-limits.html 1 -
+/manual/ko/platform/ 2 -
+/manual/ja/en/mod/quickreference.html 1 -
+/manual/en/mod/mod_charset_lite.html 2 -
+//phpMyAdmin-2.11.7.0-english/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/manual/de/mod/mod_mime.html 2 -
+/manual/de/en/mod/mod_unique_id.html 1 -
+/manual/es/ko/mod/mod_ext_filter.html 1 -
+/manual/es/mod/mod_env.html 2 -
+/manual/es/ko/ 2 -
+/manual/ja/ja/mod/mod_cgid.html 2 -
+/manual/en/en/sitemap.html 1 -
+/manual/fr/en/content-negotiation.html 2 -
+/manual/fr/programs/htdbm.html 1 -
+/manual/en/ko/mod/module-dict.html 1 -
+/manual/ru/mod/mod_access.html 2 -
+/manual/ko/ko/mod/mod_env.html 1 -
+/manual/ru/programs/apxs.html 2 -
+/manual/en/ja/howto/ 1 -
+//phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/manual/ko/ko/mod/mod_auth_digest.html 2 -
+/manual/en/rewrite/rewrite_tech.html 1 -
+/manual/de/en/faq/error.html 1 -
+//phpMyAdmin-2.8.7/scripts/setup.php 1 -
+/manual/es/en/howto/htaccess.html 1 -
+/manual/ru/en/programs/htdigest.html 1 -
+/manual/ja/ko/bind.html 2 -
+/manual/ru/mod/mod_ldap.html 2 -
+/manual/fr/faq/news:comp.infosystems.www.servers.unix 1 -
+/manual/en/ja/mod/mod_setenvif.html 1 -
+/manual/ko/ko/mod/mod_cern_meta.html 1 -
+/manual/fr/ko/urlmapping.html 1 -
+/manual/fr/ko/programs/dbmmanage.html 1 -
+/manual/ko/ko/mod/directives.html 2 -
+/manual/ru/es/env.html 2 -
+/manual/fr/en/vhosts/ip-based.html 1 -
+/manual/ru/ko/mod/mod_status.html 1 -
+/manual/es/ko/programs/apachectl.html 1 -
+/manual/fr/ko/mod/mod_userdir.html 1 -
+/manual/ja/ja/mod/mod_version.html 2 -
+/manual/es/ja/developer/modules.html 1 -
+/manual/ko/ko/faq/support.html 2 -
+/manual/ko/ko/programs/logresolve.html 2 -
+/manual/ja/ja/howto/public_html.html 2 -
+/manual/ru/ja/logs.html 1 -
+/manual/ko/ja/configuring.html 2 -
+/manual/en/en/programs/apxs.html 2 -
+/manual/ru/ja/mod/prefork.html 1 -
+/manual/ja/license.html 2 -
+/manual/en/en/developer/debugging.html 1 -
+/manual/es/ja/howto/htaccess.html 1 -
+/manual/ja/mod/core.html 2 -
+/manual/en/ja/mod/mod_version.html 1 -
+/manual/es/faq/ 2 -
+/manual/ru/faq/news:comp.infosystems.www.servers.ms-windows 1 -
+/manual/de/en/ssl/ssl_intro.html 1 -
+/manual/de/mod/mod_proxy_http.html 2 -
+/manual/ko/mod/mod_expires.html 2 -
+/manual/fr/es/handler.html 2 -
+/manual/ru/es/new_features_2_0.html 2 -
+/manual/ja/ja/mod/mpm_common.html 2 -
+//phpMyAdmin-2.3.1/scripts/setup.php 1 -
+/manual/en/ko/dns-caveats.html 1 -
+/manual/fr/es/sections.html 1 -
+/manual/ja/ja/mod/mod_userdir.html 2 -
+/manual/es/ru/programs/ 2 -
+/manual/ja/rewrite/ 2 -
+/manual/de/ko/mod/mod_info.html 2 -
+/manual/de/ssl/ssl_faq.html 2 -
+/manual/ja/en/mod/mod_isapi.html 1 -
+/manual/ko/misc/tutorials.html 2 -
+/manual/ko/fr/env.html 2 -
+/manual/de/de/mod/worker.html 2 -
+/manual/en/ko/mod/ 1 -
+/manual/en/ko/mod/mod_headers.html 1 -
+/manual/ko/es/mod/mpm_winnt.html 1 -
+//admin/sql/scripts/setup.php 1 -
+/manual/ko/ko/programs/ab.html 2 -
+/manual/ja/mod/mpm_netware.html 2 -
+/manual/de/ko/platform/ebcdic.html 1 -
+/manual/ko/ko/mod/mod_unique_id.html 2 -
+/manual/de/en/developer/API.html 2 -
+/manual/en/faq/all_in_one.html 1 -
+/manual/ru/mod/mod_status.html 2 -
+/manual/ja/ko/programs/ 1 -
+/manual/fr/ko/vhosts/name-based.html 1 -
+/manual/ja/es/handler.html 2 -
+/manual/ja/rewrite/rewrite_intro.html 1 -
+/manual/ko/en/mod/leader.html 2 -
+/manual/ja/ko/mod/ 2 -
+/manual/fr/es/stopping.html 1 -
+/manual/ko/ja/mod/mod_cgid.html 1 -
+/manual/ko/fr/dso.html 2 -
+/manual/es/es/mod/ 2 -
+/manual/de/mod/mod_dav_fs.html 2 -
+/manual/fr/ko/faq/ 1 -
+/manual/de/es/dns-caveats.html 2 -
+/manual/ko/en/platform/netware.html 2 -
+/manual/ja/en/programs/apachectl.html 1 -
+/manual/ko/de/install.html 2 -
+/manual/ko/ssl/ssl_compat.html 2 -
+/manual/ru/ko/ 2 -
+/manual/en/mod/ 2 -
+//phpMyAdmin-2.11.9.5-all-languages/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_charset_lite.html 1 -
+/manual/en/mod/mod_env.html 2 -
+/manual/ru/ja/mod/mod_version.html 1 -
+/manual/fr/ja/stopping.html 1 -
+/manual/ru/en/developer/filters.html 1 -
+/manual/ru/en/mpm.html 2 -
+/manual/ru/mod/mod_nw_ssl.html 2 -
+/xd/verify 1 -
+/manual/es/en/mod/mod_unique_id.html 2 -
+/manual/ja/mod/mod_imap.html 2 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+/manual/ko/developer/filters.html 2 -
+/manual/es/ko/mod/mod_deflate.html 1 -
+/manual/de/ssl/ssl_intro.html 2 -
+/manual/ja/ko/programs/other.html 1 -
+/manual/de/en/mod/mod_nw_ssl.html 1 -
+/manual/ko/ko/misc/security_tips.html 2 -
+/manual/ko/en/new_features_2_0.html 1 -
+/manual/fr/developer/documenting.html 1 -
+/manual/ko/mod/mod_auth.html 2 -
+/manual/es/ko/mod/mod_cgid.html 1 -
+/manual/de/de/mod/mpm_common.html 2 -
+/manual/en/mod/module-dict.html 2 -
+/manual/fr/misc/security_tips.html 2 -
+/manual/ja/mod/mod_proxy.html 2 -
+/manual/ru/mod/mod_logio.html 2 -
+/manual/en/programs/htdbm.html 2 -
+/manual/de/mod/mod_suexec.html 2 -
+/manual/ko/ru/install.html 2 -
+/manual/ko/en/dso.html 2 -
+/manual/es/en/mod/directives.html 2 -
+/manual/fr/vhosts/details.html 2 -
+/manual/de/ko/vhosts/details.html 1 -
+/manual/en/en/handler.html 2 -
+/manual/en/en/ 2 -
+/manual/es/en/howto/public_html.html 1 -
+/manual/ko/es/new_features_2_0.html 1 -
+/manual/ja/en/mod/mod_env.html 2 -
+/manual/fr/mod/mod_status.html 2 -
+/manual/de/ko/mod/mod_unique_id.html 1 -
+/manual/de/es/ 2 -
+/manual/ko/mod/mod_log_config.html 2 -
+/manual/ko/mod/threadpool.html 2 -
+/manual/ja/mod/mod_log_forensic.html 2 -
+/manual/ja/mod/mod_dir.html 2 -
+/manual/fr/misc/ 2 -
+//phpMyAdmin-2.4.4/scripts/setup.php 1 -
+/manual/es/ja/mod/mod_autoindex.html 2 -
+/manual/en/es/upgrading.html 2 -
+/manual/ko/programs/rotatelogs.html 2 -
+/manual/de/fr/content-negotiation.html 2 -
+/manual/ru/en/developer/debugging.html 1 -
+/manual/howto/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/ru/en/mod/mod_proxy.html 1 -
+/manual/ja/es/vhosts/ 2 -
+/manual/en/mod/mod_asis.html 2 -
+/manual/fr/ja/content-negotiation.html 2 -
+/manual/es/en/mod/mod_ext_filter.html 1 -
+/manual/ko/en/programs/rotatelogs.html 2 -
+/manual/ko/filter.html 2 -
+/manual/ko/ja/upgrading.html 2 -
+/manual/fr/en/misc/custom_errordocs.html 1 -
+/manual/ja/faq/news:comp.infosystems.www.servers.ms-windows 1 -
+/manual/fr/misc/perf-tuning.html 2 -
+/manual/es/en/mod/mod_dav_fs.html 1 -
+/manual/es/en/platform/ 1 -
+/manual/ko/mod/mod_setenvif.html 2 -
+/manual/ja/ssl/ssl_intro.html 2 -
+/manual/fr/ja/handler.html 2 -
+/manual/de/programs/ 2 -
+/manual/en/mod/leader.html 1 -
+/manual/ru/ja/howto/ssi.html 1 -
+/manual/en/ja/mod/mod_suexec.html 1 -
+/manual/es/mod/mod_headers.html 2 -
+/manual/fr/mod/mod_vhost_alias.html 1 -
+/manual/en/es/server-wide.html 1 -
+/manual/ru/ja/howto/cgi.html 1 -
+/manual/de/faq/error.html 2 -
+/manual/de/ko/logs.html 2 -
+/manual/es/ja/mod/mod_dir.html 2 -
+/manual/de/en/vhosts/name-based.html 2 -
+//phpMyAdmin-3.0.1.0-english/scripts/setup.php 1 -
+/manual/ja/ko/vhosts/examples.html 1 -
+/manual/ko/ko/logs.html 2 -
+/manual/de/ru/mod/quickreference.html 1 -
+/manual/en/en/howto/ssi.html 1 -
+/manual/ko/ko/mod/mod_cache.html 2 -
+/manual/ru/programs/ab.html 2 -
+/manual/ko/en/sections.html 2 -
+/manual/en/ja/mod/mod_alias.html 1 -
+/manual/ja/en/programs/configure.html 1 -
+/manual/fr/en/mod/mpm_common.html 1 -
+/manual/fr/mod/mod_negotiation.html 2 -
+/manual/ja/es/mpm.html 2 -
+/manual/ja/es/custom-error.html 2 -
+/manual/mod/mod_setenvif.html 1 -
+//PMA/scripts/setup.php 1 -
+/manual/fr/en/mod/mod_alias.html 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+/manual/ru/mod/mod_mem_cache.html 2 -
+/manual/es/en/faq/error.html 1 -
+//81/phpmyadmin/scripts/setup.php 1 -
+/manual/ko/programs/httpd.html 2 -
+//admn/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 1 -
+/manual/ko/ko/vhosts/details.html 2 -
+/manual/en/vhosts/ 2 -
+/manual/en/ja/mod/directives.html 2 -
+/manual/en/en/configuring.html 2 -
+/manual/ja/mod/autoindex.html 2 -
+/manual/fr/es/dns-caveats.html 2 -
+/manual/ja/ja/mod/mod_speling.html 2 -
+/manual/de/en/vhosts/details.html 1 -
+/manual/es/ko/mod/quickreference.html 1 -
+/manual/fr/en/mod/mod_auth_dbm.html 1 -
+/manual/es/ja/dso.html 2 -
+/manual/en/mod/mod_example.html 2 -
+/manual/ja/mod/directives.html 2 -
+/manual/ko/mod/mpm_common.html 2 -
+/manual/ru/mod/mod_expires.html 2 -
+/manual/de/mod/mod_status.html 2 -
+/manual/en/en/mod/mod_imap.html 1 -
+/manual/ja/misc/security_tips.html 2 -
+//backup/phpmyadmin/scripts/setup.php 1 -
+/manual/ko/vhosts/ip-based.html 2 -
+/manual/de/developer/API.html 2 -
+/manual/ru/filter.html 2 -
+/manual/en/ja/bind.html 1 -
+/manual/ko/ja/mod/mpm_winnt.html 1 -
+/manual/es/ko/mod/mod_cgi.html 1 -
+/manual/es/programs/apachectl.html 2 -
+/manual/ja/ko/programs/logresolve.html 1 -
+/manual/ko/howto/ssi.html 2 -
+/manual/fr/programs/apxs.html 2 -
+/manual/es/ssl/ssl_howto.html 2 -
+/manual/ko/es/dns-caveats.html 2 -
+/manual/fr/en/mod/mod_dumpio.html 1 -
+/manual/de/ja/new_features_2_0.html 2 -
+/manual/fr/de/mod/leader.html 1 -
+//phpMyAdmin-2.11.9.0-english/scripts/setup.php 1 -
+/text/css 1 -
+/manual/es/en/mod/mod_negotiation.html 1 -
+/manual/es/en/mod/mpmt_os2.html 1 -
+/manual/ko/sections.html 2 -
+/manual/en/ko/vhosts/examples.html 1 -
+/manual/en/ko/mod/mod_file_cache.html 2 -
+/manual/fr/en/mod/mod_example.html 1 -
+/manual/es/ko/mod/mod_dir.html 2 -
+/manual/fr/mod/core.html 2 -
+/manual/ja/ja/ 2 -
+/manual/ko/ko/mod/mod_echo.html 1 -
+/manual/ja/ 2 -
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/manual/es/en/platform/windows.html 1 -
+/manual/ru/mod/mod_rewrite.html 2 -
+/manual/ja/ko/mod/mod_dav_fs.html 2 -
+/manual/es/ko/mod/mod_log_config.html 1 -
+/manual/fr/de/sitemap.html 1 -
+/manual/en/en/bind.html 1 -
+//phpMyAdmin-3/scripts/setup.php 1 -
+/manual/ko/ja/mod/directive-dict.html 2 -
+/manual/ko/programs/ab.html 2 -
+/manual/ja/ko/mod/mod_headers.html 1 -
+/manual/de/mod/mod_autoindex.html 2 -
+//pma2005/scripts/setup.php 1 -
+/manual/ja/en/mod/mod_proxy_connect.html 1 -
+/manual/ja/howto/news:comp.infosystems.www.authoring.cgi 2 -
+/manual/ko/es/mod/beos.html 2 -
+/manual/ko/ru/mpm.html 2 -
+/manual/ja/en/misc/known_client_problems.html 1 -
+/manual/es/es/dso.html 2 -
+/manual/es/en/programs/htdbm.html 1 -
+/manual/ru/ko/mod/mod_echo.html 1 -
+/manual/de/ja/bind.html 2 -
+/manual/fr/ko/mod/mod_charset_lite.html 1 -
+/manual/ja/en/developer/thread_safety.html 1 -
+/manual/ru/es/stopping.html 1 -
+/manual/en/en/mod/mod_dav_fs.html 1 -
+/manual/ja/ko/programs/apachectl.html 1 -
+/manual/fr/misc/tutorials.html 1 -
+/manual/ja/ko/mod/mod_cgid.html 2 -
+//phpmyadmin/%0D/scripts/setup.php 1 -
+//admin/mysql/scripts/setup.php 1 -
+/manual/ja/en/vhosts/details.html 1 -
+/application/x-www-form-urlencoded 1 -
+/manual/ru/ja/vhosts/fd-limits.html 1 -
+/manual/es/de/mod/worker.html 2 -
+/manual/ja/ru/programs/ 1 -
+/manual/en/ja/mod/mod_expires.html 1 -
+/manual/es/de/vhosts/ 2 -
+/manual/es/en/mod/mpm_winnt.html 2 -
+/manual/en/mod/mpm_common.html 2 -
+/manual/ko/ko/mod/mod_expires.html 1 -
+/manual/fr/mod/mod_env.html 2 -
+/manual/de/en/invoking.html 2 -
+/manual/es/ko/bind.html 2 -
+/manual/fr/en/mod/mpm_netware.html 1 -
+/manual/en/es/filter.html 2 -
+/manual/ru/de/mod/mpm_winnt.html 1 -
+/manual/mod/mod_userdir.html 1 -
+/manual/ko/en/programs/logresolve.html 2 -
+/manual/en/ko/mod/mod_dav.html 1 -
+/manual/fr/platform/windows.html 2 -
+/manual/ru/en/programs/httpd.html 1 -
+//adminmysql/scripts/setup.php 1 -
+//phpMyAdmin-2.11.7.1-english/scripts/setup.php 1 -
+/manual/ja/en/mod/mod_negotiation.html 2 -
+/manual/es/ja/howto/auth.html 2 -
+/manual/ru/mod/mod_echo.html 2 -
+/manual/ko/license.html 2 -
+/manual/ja/misc/ 2 -
+/manual/ko/ja/mod/mod_dir.html 1 -
+/manual/ko/ja/sitemap.html 2 -
+/manual/ja/en/mod/perchild.html 2 -
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+/manual/de/ja/mod/mod_cgid.html 1 -
+/manual/mpm.html 1 -
+/manual/es/mod/module-dict.html 2 -
+//phpMyAdmi/scripts/setup.php 1 -
+/manual/ja/en/mod/mod_dav_fs.html 2 -
+/manual/de/ 2 -
+/manual/ko/mod/mod_log_forensic.html 2 -
+/manual/fr/ja/mod/mod_negotiation.html 1 -
+/manual/ja/ko/vhosts/name-based.html 2 -
+/manual/fr/ko/howto/public_html.html 1 -
+/manual/ja/mod/prefork.html 2 -
+/manual/en/platform/perf-hp.html 1 -
+/manual/en/vhosts/fd-limits.html 2 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+/manual/ja/mod/mod_cache.html 2 -
+/manual/fr/mod/mod_proxy.html 2 -
+/manual/es/ko/mod/mod_alias.html 2 -
+/manual/fr/en/mod/mod_negotiation.html 1 -
+//phpMyAdmin-2.3.5/scripts/setup.php 1 -
+/manual/ko/ko/programs/dbmmanage.html 2 -
+/manual/fr/de/configuring.html 2 -
+/manual/es/ja/mod/core.html 1 -
+/manual/es/en/dso.html 2 -
+//phpMyAdmin-2.11.7/scripts/setup.php 1 -
+/manual/ja/mod/mod_log_config.html 2 -
+/manual/ja/mod/mod_proxy_ftp.html 2 -
+/manual/de/en/mod/perchild.html 1 -
+/manual/de/de/mpm.html 2 -
+/manual/ja/en/glossary.html 1 -
+/manual/en/platform/netware.html 2 -
+/xd_localstorage/ 1 -
+/manual/fr/ko/logs.html 1 -
+//phpMyAdmin-2.3.4/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_file_cache.html 1 -
+/manual/de/de/mod/ 2 -
+/manual/de/mod/threadpool.html 2 -
+/manual/en/en/misc/perf-tuning.html 1 -
+/manual/es/news:comp.protocols.time.ntp 2 -
+/manual/fr/vhosts/fd-limits.html 2 -
+/manual/ru/env.html 2 -
+/manual/es/en/mod/mod_status.html 1 -
+/manual/es/misc/custom_errordocs.html 2 -
+/manual/de/mod/mod_log_config.html 2 -
+/manual/ko/mod/quickreference.html 2 -
+/manual/ja/en/mod/mod_access.html 2 -
+/manual/fr/en/mod/worker.html 2 -
+/manual/ja/es/dns-caveats.html 2 -
+/manual/de/faq/support.html 2 -
+/manual/fr/ko/mod/mod_dir.html 1 -
+//phpMyAds/scripts/setup.php 1 -
+/manual/es/mod/mod_setenvif.html 2 -
+/manual/de/ko/mpm.html 2 -
+/manual/ko/developer/thread_safety.html 1 -
+/manual/de/rewrite/rewrite_tech.html 2 -
+/manual/ja/ja/mod/core.html 1 -
+/manual/ja/en/mod/mod_expires.html 2 -
+/manual/ko/ja/mod/mod_unique_id.html 2 -
+/manual/es/mod/mod_auth_ldap.html 2 -
+/manual/ru/handler.html 2 -
+/manual/de/en/mod/mod_imap.html 2 -
+/manual/ko/es/invoking.html 2 -
+/manual/es/es/mod/quickreference.html 1 -
+/manual/fr/mod/mod_ext_filter.html 2 -
+/manual/ru/mod/mod_so.html 2 -
+/manual/fr/rewrite/ 2 -
+/manual/es/ru/invoking.html 2 -
+//phpMyAdmin-3.1.0.0-all-languages/scripts/setup.php 1 -
+/manual/es/mod/directive-dict.html 2 -
+/manual/de/en/platform/win_compiling.html 1 -
+/manual/ko/platform/perf-hp.html 2 -
+/manual/es/mod/mod_deflate.html 2 -
+/manual/en/mod/mod_dumpio.html 2 -
+/manual/en/mod/mod_version.html 2 -
+/manual/ko/en/faq/all_in_one.html 2 -
+/manual/es/developer/debugging.html 2 -
+/manual/de/ja/handler.html 2 -
+/manual/fr/ja/mod/mod_auth.html 1 -
+/manual/de/en/mod/mod_so.html 1 -
+/manual/ja/rewrite/rewrite_tech.html 1 -
+/manual/fr/en/programs/suexec.html 2 -
+/manual/ko/ja/mod/mod_speling.html 1 -
+/manual/ko/dns-caveats.html 2 -
+/manual/ru/en/howto/ssi.html 1 -
+/manual/de/ko/mod/mod_ext_filter.html 1 -
+/manual/de/ja/configuring.html 2 -
+/manual/en/ko/programs/apachectl.html 1 -
+/manual/ja/developer/request.html 2 -
+/manual/ja/ja/bind.html 2 -
+/manual/ja/mod/mod_version.html 2 -
+/manual/ko/en/mod/mod_status.html 1 -
+/manual/en/en/mod/perchild.html 1 -
+/manual/ja/ko/mod/mod_so.html 2 -
+/manual/ru/mod/mod_auth_dbm.html 2 -
+/manual/ko/ja/server-wide.html 2 -
+/manual/ja/ko/misc/perf-tuning.html 2 -
+/manual/en/server-wide.html 2 -
+/manual/ru/mod/mod_log_config.html 2 -
+/manual/fr/ja/suexec.html 1 -
+/manual/de/en/mod/mod_disk_cache.html 1 -
+/manual/fr/rewrite/rewrite_tech.html 2 -
+/manual/fr/mod/mod_userdir.html 2 -
+/manual/fr/ja/ 2 -
+/manual/de/en/mod/mod_proxy_ftp.html 2 -
+/manual/es/faq/all_in_one.html 1 -
+/manual/es/filter.html 2 -
+/manual/es/en/programs/apachectl.html 1 -
+/manual/ko/en/developer/debugging.html 1 -
+/manual/ja/mod/threadpool.html 2 -
+/manual/en/mod/mod_proxy.html 2 -
+/manual/ko/es/mpm.html 2 -
+/manual/es/en/mod/mod_ldap.html 1 -
+//phpMyAdmin-2.6.1/scripts/setup.php 1 -
+/manual/ru/mod/mod_dav_fs.html 2 -
+/manual/ja/ja/content-negotiation.html 2 -
+/manual/ru/ja/vhosts/ 2 -
+/manual/es/ja/mod/worker.html 2 -
+/manual/ko/en/ssl/ssl_howto.html 1 -
+/manual/ko/mod/mod_dav.html 2 -
+/manual/ru/mod/mod_alias.html 2 -
+/manual/en/ja/howto/cgi.html 1 -
+/manual/fr/ja/vhosts/name-based.html 1 -
+/manual/de/es/custom-error.html 2 -
+/manual/es/ko/mod/mod_disk_cache.html 1 -
+/manual/es/rewrite/rewrite_intro.html 2 -
+/manual/ko/en/mod/mod_dav_fs.html 2 -
+/manual/en/developer/modules.html 1 -
+/manual/de/mod/directives.html 2 -
+/manual/es/es/mod/directives.html 2 -
+/manual/es/ko/dns-caveats.html 2 -
+/manual/ja/en/mod/mod_cgid.html 2 -
+/manual/es/es/programs/ 2 -
+/manual/de/misc/rewriteguide.html 2 -
+/manual/en/en/howto/ 1 -
+/manual/ko/custom-error.html 2 -
+/manual/en/howto/ 2 -
+/manual/es/ja/howto/ssi.html 1 -
+/manual/de/ja/stopping.html 2 -
+/manual/fr/ja/mod/mpm_winnt.html 1 -
+/manual/en/ja/mod/worker.html 2 -
+/manual/fr/mod/mod_version.html 1 -
+//phpMyAdmin-2.11.7.1-all-languages/scripts/setup.php 1 -
+/manual/en/vhosts/ip-based.html 2 -
+/manual/en/en/developer/modules.html 1 -
+/manual/en/en/invoking.html 2 -
+/manual/en/fr/ 2 -
+/manual/de/ko/env.html 2 -
+/manual/en/en/rewrite/rewrite_guide_advanced.html 1 -
+/manual/ru/faq/all_in_one.html 1 -
+/manual/ru/en/mod/mod_setenvif.html 1 -
+/manual/ru/es/mod/prefork.html 1 -
+/manual/en/ja/custom-error.html 1 -
+//phpMyAdmin-2.6.5/scripts/setup.php 1 -
+/manual/ja/es/mod/directives.html 2 -
+//phpMyAdmin-2.8.6/scripts/setup.php 1 -
+/manual/fr/ssl/ssl_compat.html 1 -
+/manual/ru/mod/mod_proxy_connect.html 2 -
+/manual/en/suexec.html 2 -
+/manual/ru/mod/mod_headers.html 2 -
+/manual/es/es/glossary.html 2 -
+/manual/en/mod/directives.html 2 -
+/manual/ko/ko/mod/mod_ext_filter.html 2 -
+/manual/ko/en/faq/support.html 2 -
+/manual/de/en/vhosts/ip-based.html 1 -
+/manual/ko/platform/netware.html 2 -
+/manual/de/ko/programs/htpasswd.html 1 -
+/manual/fr/en/mod/mod_dir.html 1 -
+/manual/ja/platform/ebcdic.html 2 -
+/manual/es/ko/misc/security_tips.html 1 -
+/manual/en/faq/support.html 1 -
+/manual/ru/misc/relevant_standards.html 2 -
+/manual/ja/ko/custom-error.html 2 -
+/manual/ja/developer/thread_safety.html 1 -
+/manual/en/ru/stopping.html 2 -
+/manual/en/ja/mod/mod_include.html 2 -
+/manual/ko/ja/mod/mod_so.html 2 -
+/manual/ru/de/mod/core.html 1 -
+/manual/ja/de/sitemap.html 2 -
+/manual/ru/en/mod/mod_status.html 1 -
+/manual/fr/faq/support.html 1 -
+/manual/de/mod/mod_disk_cache.html 2 -
+/manual/ko/en/mod/mod_proxy_ftp.html 1 -
+/manual/fr/programs/directoryfinetuning 1 -
+/manual/de/ja/mod/mod_actions.html 1 -
+/manual/en/ko/mod/mod_speling.html 1 -
+/manual/ja/en/developer/request.html 1 -
+/manual/ko/en/misc/tutorials.html 1 -
+/manual/de/ko/programs/suexec.html 1 -
+/manual/fr/es/mod/worker.html 2 -
+//phpAdmin/scripts/setup.php 1 -
+/manual/de/ko/programs/httpd.html 1 -
+/manual/ru/ru/stopping.html 1 -
+/manual/de/ko/suexec.html 1 -
+/manual/ko/en/developer/documenting.html 1 -
+/manual/ko/ja/howto/auth.html 2 -
+/manual/de/mod/mpm_winnt.html 2 -
+/manual/es/vhosts/fd-limits.html 2 -
+/manual/ru/mod/mod_negotiation.html 2 -
+/manual/en/es/mod/quickreference.html 1 -
+/manual/en/ko/invoking.html 2 -
+/manual/mod/directives.html 1 -
+/manual/ko/faq/support.html 2 -
+/manual/ja/ja/mod/mod_echo.html 2 -
+//phpMyAdmin-2.11.3/scripts/setup.php 1 -
+/manual/en/en/rewrite/rewrite_tech.html 1 -
+/manual/ru/es/vhosts/name-based.html 1 -
+/manual/ko/en/bind.html 2 -
+/manual/ru/en/mod/directives.html 2 -
+/manual/en/ko/faq/support.html 1 -
+/manual/ja/mod/mod_auth_ldap.html 2 -
+/manual/en/en/ssl/ssl_compat.html 1 -
+/manual/es/developer/request.html 2 -
+/manual/programs/htdigest.html 1 -
+/manual/es/en/ssl/ 1 -
+/manual/ja/ru/handler.html 2 -
+/manual/ru/ko/logs.html 1 -
+/manual/es/ko/vhosts/mass.html 1 -
+/manual/ko/ja/ssl/ 1 -
+/manual/es/ko/stopping.html 2 -
+/manual/en/ko/mod/beos.html 1 -
+/manual/de/mod/mod_authn_dbm.html 1 -
+/manual/es/ko/programs/httpd.html 1 -
+/manual/ja/en/invoking.html 2 -
+/manual/es/mod/prefork.html 2 -
+/manual/ja/en/install.html 2 -
+/manual/ja/ru/mpm.html 2 -
+/manual/de/ko/mod/mod_mem_cache.html 1 -
+/manual/de/es/mod/beos.html 2 -
+/manual/ru/es/ 2 -
+/manual/fr/ja/mod/mod_suexec.html 1 -
+/manual/ru/license.html 2 -
+/manual/ko/de/vhosts/name-based.html 2 -
+/manual/fr/mod/directive-dict.html 2 -
+/manual/fr/en/ssl/ 1 -
+//PMA3/scripts/setup.php 1 -
+/manual/ja/de/mod/mpm_winnt.html 2 -
+/manual/de/mod/mod_unique_id.html 2 -
+/manual/en/ja/content-negotiation.html 1 -
+/manual/fr/en/ 2 -
+/manual/ko/misc/perf-tuning.html 2 -
+/manual/de/ja/vhosts/fd-limits.html 1 -
+/manual/en/fr/new_features_2_0.html 2 -
+/manual/de/ko/mod/mod_asis.html 2 -
+/manual/ru/ja/mod/mod_setenvif.html 1 -
+/manual/de/mod/quickreference.html 4 -
+/manual/fr/mod/mod_alias.html 2 -
+/manual/fr/ko/mod/mod_dav.html 1 -
+//phpadmin/scripts/setup.php 1 -
+/manual/ko/faq/error.html 2 -
+/manual/de/en/programs/ 2 -
+/manual/ko/mod/mod_nw_ssl.html 2 -
+/manual/ja/sections.html 2 -
+/manual/es/es/dns-caveats.html 2 -
+/manual/ja/ko/mod/mod_cern_meta.html 1 -
+/manual/de/urlmapping.html 2 -
+/manual/de/mod/mod_cern_meta.html 2 -
+/manual/fr/en/mod/mod_ext_filter.html 1 -
+//phpMyAdmin-2.11.1-all-languages/scripts/setup.php 1 -
+/manual/de/news:comp.protocols.time.ntp 2 -
+/manual/en/en/mod/mpm_common.html 1 -
+/manual/de/mod/mod_auth.html 2 -
+/manual/es/sitemap.html 2 -
+/manual/en/en/mod/directives.html 2 -
+/manual/fr/env.html 2 -
+/manual/ja/rewrite/rewrite_guide_advanced.html 2 -
+/manual/en/mod/mod_ssl.html 2 -
+//httpdocs/scripts/setup.php 1 -
+/manual/ko/en/mod/mod_mem_cache.html 1 -
+/manual/es/ko/faq/support.html 1 -
+/manual/es/programs/htdbm.html 1 -
+/manual/de/fr/env.html 2 -
+/manual/ja/ko/vhosts/ip-based.html 1 -
+/manual/ru/programs/dbmmanage.html 2 -
+/manual/es/mod/mod_nw_ssl.html 2 -
+/manual/es/mod/worker.html 2 -
+/manual/de/ko/howto/cgi.html 1 -
+/manual/de/ko/custom-error.html 2 -
+/manual/fr/ko/platform/perf-hp.html 1 -
+/manual/ko/en/ssl/ 1 -
+/manual/ru/mod/mod_deflate.html 2 -
+/manual/fr/ko/programs/other.html 1 -
+/manual/es/ko/mod/mod_unique_id.html 2 -
+/manual/ko/ko/howto/public_html.html 2 -
+/manual/es/en/vhosts/fd-limits.html 1 -
+/manual/en/ko/programs/rotatelogs.html 1 -
+/manual/es/en/upgrading.html 2 -
+/manual/de/rewrite/rewrite_guide.html 2 -
+//phpMyAdmin2/scripts/setup.php 1 -
+/manual/ja/de/mod/prefork.html 2 -
+/manual/ru/mod/mpmt_os2.html 2 -
+/manual/ja/ja/mod/mod_dir.html 2 -
+/manual/de/ja/mod/mod_autoindex.html 1 -
+/manual/de/en/programs/httpd.html 1 -
+/manual/ru/en/mod/mpm_common.html 2 -
+/manual/de/en/developer/request.html 2 -
+/manual/ko/ko/mod/mod_file_cache.html 1 -
+/manual/es/ko/mod/mod_echo.html 1 -
+/manual/de/install.html 2 -
+/manual/ja/es/mod/mpm_common.html 2 -
+/manual/ko/ko/mod/mod_imap.html 2 -
+//SQL/scripts/setup.php 1 -
+//mydatadmin/scripts/setup.php 1 -
+/manual/es/en/install.html 2 -
+//phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php 1 -
+/manual/ru/developer/filters.html 2 -
+/manual/ko/ko/mod/mod_disk_cache.html 1 -
+/manual/ja/en/mod/mod_auth_anon.html 1 -
+/manual/es/mod/mpm_winnt.html 2 -
+/manual/ko/ko/filter.html 2 -
+/manual/ko/ja/mod/mod_suexec.html 1 -
+/manual/ja/developer/modules.html 2 -
+/manual/fr/ssl/ 2 -
+/manual/ru/developer/documenting.html 2 -
+//phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/manual/en/en/mod/mod_dir.html 1 -
+/manual/es/ja/mod/mod_include.html 1 -
+/manual/fr/howto/ 1 -
+/manual/de/es/upgrading.html 2 -
+//Admin/phpMyAdmin/scripts/setup.php 1 -
+/manual/ja/ja/mod/mod_autoindex.html 2 -
+/manual/ja/ja/mod/mod_env.html 2 -
+/manual/fr/en/mod/mod_proxy_connect.html 1 -
+/manual/ko/ja/handler.html 2 -
+/manual/es/en/programs/suexec.html 1 -
+/manual/fr/mod/mod_usertrack.html 2 -
+/manual/ja/server-wide.html 2 -
+/manual/de/ko/mod/mod_echo.html 1 -
+/manual/en/ssl/ 2 -
+/muieblackcat 1 -
+/manual/ru/mod/mod_log_forensic.html 2 -
+/manual/de/en/developer/debugging.html 2 -
+/manual/es/en/urlmapping.html 1 -
+/manual/en/configuring.html 2 -
+//db/scripts/setup.php 1 -
+/manual/ko/programs/other.html 2 -
+/manual/fr/sections.html 2 -
+/manual/fr/en/configuring.html 2 -
+/manual/ko/en/mod/mod_negotiation.html 1 -
+/manual/ko/en/mod/mod_asis.html 2 -
+/manual/es/ru/mpm.html 2 -
+/manual/ko/mod/mod_status.html 2 -
+//phpMyAdmin-2.11.9.1-english/scripts/setup.php 1 -
+/manual/en/ko/faq/ 1 -
+//phpMyAdmin-2.11.9.4-english/scripts/setup.php 1 -
+/manual/ja/content-negotiation.html 2 -
+/manual/ru/misc/custom_errordocs.html 2 -
+/manual/de/developer/debugging.html 2 -
+/manual/ko/misc/fin_wait_2.html 2 -
+/manual/ja/ko/mod/mod_env.html 2 -
+/manual/ru/misc/rewriteguide.html 2 -
+/manual/ja/en/mod/mod_vhost_alias.html 1 -
+/manual/ko/ko/mod/quickreference.html 1 -
+/manual/ko/mod/mod_dir.html 2 -
+/manual/ru/ko/mod/leader.html 1 -
+/manual/ja/ko/new_features_2_0.html 1 -
+/manual/ja/news:comp.protocols.time.ntp 2 -
+/manual/ko/mod/mod_info.html 2 -
+/manual/fr/ja/mod/mod_access.html 1 -
+/manual/en/mod/mod_auth_digest.html 2 -
+/manual/ja/ja/howto/ssi.html 2 -
+/manual/ko/en/invoking.html 2 -
+/manual/ja/en/platform/netware.html 1 -
+/manual/fr/ko/env.html 2 -
+/manual/en/en/ssl/ssl_faq.html 2 -
+/manual/ja/ja/developer/modules.html 2 -
+/manual/ja/ja/mod/mod_setenvif.html 2 -
+/manual/es/en/configuring.html 1 -
+/manual/de/howto/ssi.html 2 -
+/manual/ko/es/mod/leader.html 2 -
+/manual/es/ko/custom-error.html 2 -
+//phpMyAdmin-2.9.2/scripts/setup.php 1 -
+/manual/de/en/mod/prefork.html 2 -
+/manual/ko/en/developer/ 1 -
+/manual/ja/mod/mod_negotiation.html 2 -
+/manual/fr/ko/mod/mod_info.html 1 -
+/manual/programs/rotatelogs.html 1 -
+/manual/es/ko/mod/mod_mem_cache.html 1 -
+/manual/ko/ko/mod/mod_speling.html 1 -
+/manual/ja/misc/relevant_standards.html 2 -
+/manual/fr/es/ 2 -
+/manual/ja/ko/dso.html 2 -
+/manual/es/de/invoking.html 2 -
+/manual/fr/de/mod/mpm_common.html 1 -
+/manual/ko/suexec.html 2 -
+/manual/ko/en/dns-caveats.html 2 -
+/manual/en/es/install.html 2 -
+/manual/en/ko/suexec.html 1 -
+/manual/ru/de/vhosts/ 2 -
+/manual/de/ko/vhosts/ 2 -
+/manual/ko/mod/mod_actions.html 2 -
+/manual/fr/mod/mod_suexec.html 2 -
+/manual/ru/mod/core.html 2 -
+//dbAdmin2/scripts/setup.php 1 -
+/manual/ja/en/mod/prefork.html 2 -
+/manual/de/en/vhosts/examples.html 1 -
+/manual/ko/fr/filter.html 2 -
+/manual/fr/en/mod/mod_include.html 1 -
+/manual/ru/misc/ 2 -
+/manual/ja/en/ssl/ssl_howto.html 2 -
+/manual/fr/ja/env.html 2 -
+/manual/es/mod/mod_auth_dbm.html 2 -
+/manual/ja/ja/filter.html 2 -
+/manual/de/platform/netware.html 2 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+/manual/es/mod/mod_logio.html 2 -
+/manual/en/ja/mod/mod_dav_fs.html 1 -
+/manual/es/ko/mod/mod_imap.html 1 -
+/manual/fr/mod/mod_access.html 2 -
+/manual/ru/invoking.html 2 -
+/manual/fr/en/developer/thread_safety.html 1 -
+/manual/fr/vhosts/ip-based.html 1 -
+/manual/fr/developer/filters.html 1 -
+/manual/es/en/mod/mod_cache.html 1 -
+/manual/ja/misc/perf-tuning.html 2 -
+/manual/fr/ja/mod/mod_dav_fs.html 2 -
+/manual/de/ja/mod/prefork.html 2 -
+/manual/ja/en/mod/mod_alias.html 2 -
+/manual/de/en/mod/quickreference.html 1 -
+/manual/de/mod/mod_deflate.html 2 -
+/manual/ja/mod/mod_proxy_http.html 2 -
+/manual/ja/ja/mod/directives.html 2 -
+/manual/ja/ko/mod/mod_status.html 2 -
+/manual/fr/ko/handler.html 2 -
+/manual/ko/fr/dns-caveats.html 2 -
+/manual/de/mod/module-dict.html 2 -
+/manual/ja/developer/API.html 2 -
+/manual/ja/en/handler.html 2 -
+/manual/es/ko/mod/mod_headers.html 1 -
+/manual/fr/en/mod/mod_log_config.html 1 -
+/manual/de/es/programs/ 2 -
+//phpMyAdmin-2.4.6/scripts/setup.php 1 -
+/manual/de/ru/mod/directives.html 2 -
+/manual/en/en/filter.html 2 -
+/manual/en/de/mpm.html 2 -
+/manual/ja/install.html 2 -
+/manual/en/en/ssl/ssl_intro.html 1 -
+/manual/de/en/mod/mod_isapi.html 1 -
+/manual/fr/en/programs/apxs.html 1 -
+/manual/de/en/sitemap.html 2 -
+/manual/ru/ko/programs/htpasswd.html 1 -
+/manual/ru/mod/mod_suexec.html 2 -
+/manual/ja/ko/install.html 2 -
+/manual/ru/en/programs/dbmmanage.html 1 -
+/manual/ja/mod/mod_userdir.html 2 -
+/manual/ko/de/configuring.html 2 -
+/manual/de/ja/mod/mod_deflate.html 1 -
+/manual/es/en/license.html 1 -
+/manual/ru/ko/vhosts/details.html 1 -
+/manual/de/en/mod/mod_status.html 1 -
+/manual/fr/faq/all_in_one.html 1 -
+/manual/fr/filter.html 2 -
+/manual/ko/mod/mod_version.html 2 -
+/manual/es/mod/mod_status.html 2 -
+/manual/es/en/mod/mod_proxy_ftp.html 1 -
+/manual/es/ja/mod/quickreference.html 1 -
+/manual/ko/en/ssl/ssl_compat.html 1 -
+/manual/de/es/mod/directive-dict.html 2 -
+/manual/ru/en/urlmapping.html 2 -
+/manual/en/en/stopping.html 2 -
+/manual/ja/en/mod/leader.html 2 -
+/manual/es/de/mod/leader.html 2 -
+/manual/es/de/stopping.html 2 -
+/manual/en/howto/auth.html 2 -
+/manual/es/ru/new_features_2_0.html 2 -
+/manual/en/mod/threadpool.html 1 -
+/manual/ja/mod/mod_auth_dbm.html 2 -
+/manual/en/ko/stopping.html 2 -
+/manual/es/ja/mod/ 2 -
+/manual/en/misc/fin_wait_2.html 2 -
+/manual/ru/mod/mod_setenvif.html 2 -
+/manual/de/es/mod/mpm_winnt.html 2 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+/manual/es/ja/mod/mod_status.html 1 -
+/manual/es/mod/mod_example.html 2 -
+/manual/de/mod/mod_ext_filter.html 2 -
+/manual/de/mod/mod_proxy_ftp.html 2 -
+/manual/es/de/mod/mpm_common.html 2 -
+/manual/ko/en/mod/mod_isapi.html 1 -
+/manual/ru/ko/platform/ 1 -
+/manual/ko/en/mod/directive-dict.html 2 -
+/manual/ru/en/mod/mod_echo.html 1 -
+/manual/programs/ab.html 1 -
+/manual/de/dns-caveats.html 2 -
+/manual/en/developer/request.html 1 -
+/manual/ko/invoking.html 2 -
+/manual/ja/mod/mpm_common.html 2 -
+/manual/de/ko/filter.html 2 -
+/manual/es/fr/dns-caveats.html 2 -
+/manual/ja/ko/mod/mod_info.html 2 -
+/manual/fr/en/developer/modules.html 1 -
+/manual/fr/en/misc/relevant_standards.html 1 -
+/manual/ja/en/mod/mod_mime_magic.html 1 -
+/manual/es/ru/install.html 2 -
+/manual/es/en/mod/mod_isapi.html 1 -
+/manual/ja/de/install.html 2 -
+/manual/de/misc/security_tips.html 2 -
+/manual/ko/ja/mod/mod_include.html 1 -
+/manual/ru/rewrite/rewrite_guide.html 2 -
+/manual/ja/ja/urlmapping.html 2 -
+/manual/de/ja/mod/core.html 1 -
+//_PHPMYADMIN/scripts/setup.php 1 -
+//php-my-admin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.8/scripts/setup.php 1 -
+/manual/fr/fr/content-negotiation.html 2 -
+/manual/en/ja/developer/modules.html 1 -
+/manual/de/ko/misc/perf-tuning.html 2 -
+/manual/de/developer/modules.html 2 -
+/manual/ja/mod/leader.html 2 -
+/manual/mod/core.html 325 -
+/manual/en/ko/mod/mod_env.html 2 -
+/manual/ja/ko/mod/mod_deflate.html 2 -
+/manual/ja/es/filter.html 2 -
+/manual/de/mod/mod_dir.html 2 -
+//phpmyadmin3/scripts/setup.php 1 -
+/manual/es/en/rewrite/rewrite_intro.html 2 -
+/manual/de/en/logs.html 2 -
+/manual/fr/misc/rewriteguide.html 2 -
+//phpMyAdmin-2.4.3/scripts/setup.php 1 -
+/manual/en/en/misc/rewriteguide.html 1 -
+/manual/ko/en/howto/cgi.html 2 -
+/manual/ja/en/mod/mod_rewrite.html 2 -
+/manual/ja/ja/suexec.html 2 -
+/manual/ru/en/howto/public_html.html 1 -
+/manual/ko/mod/mod_cgi.html 2 -
+/manual/ja/ko/mod/mod_isapi.html 1 -
+/manual/mod/mod_cgi.html 1 -
+/manual/ja/en/dso.html 2 -
+/manual/ja/ko/mod/mod_cgi.html 2 -
+/manual/es/mod/beos.html 2 -
+/manual/fr/bind.html 2 -
+/manual/ 1 -
+/manual/en/ja/urlmapping.html 1 -
+/manual/ko/programs/suexec.html 2 -
+/manual/de/es/filter.html 2 -
+/manual/fr/ja/howto/htaccess.html 1 -
+/manual/ru/ko/programs/dbmmanage.html 1 -
+/manual/ru/en/developer/modules.html 1 -
+/manual/de/misc/custom_errordocs.html 2 -
+/manual/de/ko/faq/error.html 1 -
+/manual/de/ja/mod/mod_asis.html 2 -
+/manual/fr/en/mod/mpm_winnt.html 1 -
+/manual/ru/ko/mod/module-dict.html 2 -
+/manual/ru/en/programs/ab.html 1 -
+/manual/ru/mod/directives.html 2 -
+//phpMyAdmin-2.5.3/scripts/setup.php 1 -
+/manual/fr/ko/mod/mod_cgid.html 2 -
+/manual/en/ko/programs/suexec.html 1 -
+/manual/es/ja/vhosts/name-based.html 2 -
+/manual/es/platform/ebcdic.html 2 -
+/manual/es/howto/public_html.html 2 -
+/manual/es/programs/htpasswd.html 2 -
+/manual/es/mod/core.html 2 -
+/manual/ru/es/programs/ 1 -
+/manual/ko/mod/mod_authn_dbm.html 2 -
+/manual/ja/mod/beos.html 2 -
+/manual/ru/fr/env.html 2 -
+/manual/en/fr/content-negotiation.html 1 -
+/manual/es/handler.html 2 -
+/manual/de/ja/ 2 -
+/manual/de/en/configuring.html 2 -
+/manual/de/ja/vhosts/name-based.html 2 -
+/manual/ru/mod/ 2 -
+//pHpMy/scripts/setup.php 1 -
+/manual/en/ja/mod/mpm_common.html 1 -
+/application/x-shockwave-flash 1 -
+/manual/ja/ko/server-wide.html 2 -
+/manual/en/en/dso.html 1 -
+/manual/ru/de/configuring.html 1 -
+/manual/ja/en/rewrite/rewrite_intro.html 1 -
+/manual/ja/mod/quickreference.html 2 -
+/manual/es/ru/mod/quickreference.html 1 -
+/manual/ja/ja/vhosts/name-based.html 2 -
+/manual/es/mod/mod_unique_id.html 2 -
+/manual/ja/es/logs.html 2 -
+/manual/mod/mod_auth.html 1 -
+//cpdbadmin/scripts/setup.php 1 -
+/manual/ja/ko/mod/mod_echo.html 2 -
+/manual/es/es/sections.html 2 -
+/manual/de/es/mod/ 2 -
+/manual/ru/ko/sitemap.html 2 -
+/manual/ko/ko/env.html 2 -
+/manual/fr/fr/ 2 -
+/manual/ko/es/mod/ 2 -
+/manual/ja/mod/mod_mime_magic.html 2 -
+/manual/ja/ru/upgrading.html 2 -
+/manual/es/de/ 2 -
+/manual/ko/ja/mod/mod_dav.html 2 -
+/manual/fr/en/mod/mod_auth.html 1 -
+/manual/ru/es/mod/leader.html 1 -
+/manual/en/ko/configuring.html 2 -
+/manual/en/mod/mod_setenvif.html 2 -
+/manual/es/mod/mod_cgi.html 2 -
+/manual/ru/programs/httpd.html 2 -
+/manual/de/en/mod/mod_userdir.html 1 -
+/manual/ko/en/ssl/ssl_faq.html 1 -
+/manual/de/env.html 2 -
+/manual/ja/en/misc/rewriteguide.html 1 -
+/manual/fr/en/mod/mod_auth_anon.html 1 -
+/manual/fr/en/programs/dbmmanage.html 1 -
+/manual/es/es/bind.html 2 -
+/manual/ko/mod/perchild.html 2 -
+/manual/en/en/ssl/ 2 -
+/manual/de/ko/mod/mod_dav_fs.html 1 -
+/manual/es/ja/vhosts/fd-limits.html 1 -
+/manual/ko/programs/htpasswd.html 2 -
+/manual/fr/faq/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/en/mod/perchild.html 2 -
+/manual/ru/en/mod/mpm_winnt.html 1 -
+/manual/es/es/handler.html 2 -
+/manual/fr/ja/mod/mod_info.html 1 -
+/manual/ko/de/mod/ 2 -
+/manual/fr/de/mod/mpm_winnt.html 1 -
+/manual/en/misc/tutorials.html 2 -
+/manual/es/mod/mod_asis.html 2 -
+/manual/es/en/programs/configure.html 1 -
+/manual/de/mod/mod_alias.html 2 -
+/manual/ru/es/upgrading.html 2 -
+/manual/fr/faq/news:comp.infosystems.www.servers.ms-windows 1 -
+/manual/de/en/mod/mod_asis.html 2 -
+/manual/ko/en/platform/ 2 -
+/manual/ko/en/mod/mod_version.html 2 -
+/manual/ja/en/mod/mod_imap.html 1 -
+//phpmyad/scripts/setup.php 1 -
+/manual/fr/developer/request.html 1 -
+/manual/fr/en/programs/htdigest.html 1 -
+/manual/ru/misc/known_client_problems.html 2 -
+/manual/es/ko/mod/mod_logio.html 1 -
+/manual/en/es/ 2 -
+//phpMyAdmin-2.3.2/scripts/setup.php 1 -
+/manual/fr/es/mod/prefork.html 1 -
+/manual/ru/ko/howto/public_html.html 1 -
+/manual/de/ja/mod/mod_access.html 1 -
+/manual/ru/ko/upgrading.html 2 -
+/manual/ko/en/mod/mod_cern_meta.html 1 -
+/manual/de/mod/mod_access.html 2 -
+/manual/es/de/upgrading.html 2 -
+/manual/ko/en/mod/mod_imap.html 2 -
+/manual/fr/mod/mod_file_cache.html 1 -
+/manual/es/ja/mod/mpm_common.html 2 -
+/manual/es/ko/platform/ 1 -
+/manual/ru/de/mod/leader.html 1 -
+/manual/ja/en/misc/relevant_standards.html 2 -
+/manual/en/ko/programs/ab.html 1 -
+/dialog/oauth 1 -
+/manual/ja/es/programs/ 1 -
+/manual/fr/ja/configuring.html 2 -
+/manual/en/ko/platform/ebcdic.html 2 -
+/manual/ja/ko/mod/mod_actions.html 2 -
+/manual/fr/mod/mod_setenvif.html 2 -
+/manual/mod/mod_access.html 1 -
+/manual/ru/de/mod/beos.html 2 -
+/manual/en/ja/suexec.html 1 -
+//MyAdmin/scripts/setup.php 1 -
+/manual/de/es/mod/mpm_common.html 2 -
+/manual/ru/en/mod/mod_mime.html 1 -
+/me/apprequestformerrecipients 1 -
+/manual/en/ko/programs/logresolve.html 1 -
+/manual/de/ko/mod/mod_disk_cache.html 1 -
+/manual/en/en/faq/error.html 2 -
+/manual/de/mod/mod_ldap.html 2 -
+/manual/fr/es/bind.html 2 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/manual/ru/ja/new_features_2_0.html 2 -
+/manual/fr/en/mod/mod_access.html 1 -
+/manual/fr/en/mod/mod_speling.html 1 -
+/manual/de/ru/stopping.html 2 -
+/manual/fr/mod/mod_dumpio.html 1 -
+/manual/ru/rewrite/ 2 -
+/manual/fr/developer/hooks.html 1 -
+/manual/ko/es/vhosts/ 2 -
+/manual/en/ja/mod/mod_echo.html 2 -
+/manual/es/en/mod/mod_auth.html 2 -
+/manual/en/en/misc/tutorials.html 1 -
+//phpMyAdmin/%20/scripts/setup.php 1 -
+/manual/fr/ko/vhosts/ip-based.html 1 -
+/manual/ru/es/logs.html 1 -
+/manual/ja/ja/vhosts/fd-limits.html 2 -
+//phpMyAdmin-2.11.9.4-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.11.3-all-languages/scripts/setup.php 1 -
+/manual/ja/fr/custom-error.html 2 -
+/manual/ja/en/howto/ssi.html 2 -
+/manual/es/developer/hooks.html 2 -
+/manual/ko/fr/configuring.html 2 -
+/manual/de/de/vhosts/ 2 -
+/manual/fr/en/mod/mod_asis.html 1 -
+/manual/ja/mod/mod_mime.html 2 -
+//phpmyadmin.old/scripts/setup.php 1 -
+/manual/ru/en/platform/perf-hp.html 1 -
+/manual/en/programs/configure.html 2 -
+/manual/de/ja/mpm.html 2 -
+/manual/fr/es/custom-error.html 2 -
+/manual/en/handler.html 2 -
+/manual/es/mod/mod_cern_meta.html 2 -
+//phpMyAdmin-3.1.3.0-all-languages/scripts/setup.php 1 -
+/manual/ja/es/mod/prefork.html 2 -
+/manual/ja/ko/programs/suexec.html 1 -
+/manual/ko/mod/mod_proxy.html 2 -
+/manual/es/mod/mod_userdir.html 2 -
+/manual/ko/en/mod/quickreference.html 1 -
+/manual/fr/ko/mod/mod_headers.html 2 -
+/manual/ko/configuring.html 2 -
+/manual/fr/es/vhosts/name-based.html 1 -
+/manual/fr/en/license.html 1 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+/manual/ru/en/mod/leader.html 1 -
+/manual/fr/ko/install.html 1 -
+/manual/en/en/programs/htdbm.html 2 -
+/manual/es/ssl/ssl_intro.html 2 -
+/manual/en/ja/mod/mod_access.html 1 -
+/manual/ru/programs/Configure.html 1 -
+/manual/en/en/sections.html 1 -
+/manual/mod/module-dict.html 1 -
+/manual/ko/en/mod/mod_example.html 1 -
+/manual/ko/programs/logresolve.html 2 -
+/manual/de/ja/invoking.html 2 -
+/manual/es/ja/ 2 -
+/manual/en/en/env.html 1 -
+/manual/en/en/mod/mod_mime.html 2 -
+//SSLMySQLAdmin/scripts/setup.php 1 -
+/manual/ja/es/invoking.html 2 -
+/manual/en/en/misc/known_client_problems.html 1 -
+/manual/ja/es/mod/worker.html 2 -
+/manual/de/filter.html 2 -
+/manual/en/en/howto/cgi.html 1 -
+/manual/ru/mod/mod_unique_id.html 2 -
+/manual/ja/fr/ 2 -
+/manual/ko/en/mod/mod_dir.html 1 -
+/manual/ko/developer/hooks.html 2 -
+/manual/es/en/mod/mod_access.html 1 -
+/manual/ko/en/programs/other.html 2 -
+/manual/fr/en/programs/logresolve.html 1 -
+/manual/ko/ko/custom-error.html 2 -
+/manual/ja/ko/faq/error.html 1 -
+/manual/de/en/mod/mod_auth_anon.html 1 -
+/manual/ko/ru/stopping.html 2 -
+/manual/de/ko/vhosts/mass.html 2 -
+/manual/ja/de/mod/mpm_common.html 2 -
+/manual/fr/suexec.html 2 -
+/manual/en/new_features_2_0.html 2 -
+/manual/ru/programs/htpasswd.html 2 -
+/manual/de/ja/mod/mod_dav.html 1 -
+/manual/es/programs/configure.html 2 -
+/manual/de/ko/faq/all_in_one.html 1 -
+/manual/en/ja/mod/mod_so.html 1 -
+/manual/en/de/mod/beos.html 1 -
+/manual/ru/en/misc/ 1 -
+/manual/ja/ru/invoking.html 2 -
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/manual/ja/ko/mod/mod_setenvif.html 2 -
+/manual/ja/en/mod/mod_nw_ssl.html 1 -
+/manual/es/programs/logresolve.html 2 -
+/manual/fr/ja/mod/mod_asis.html 1 -
+/manual/en/ja/invoking.html 2 -
+/manual/es/en/mod/prefork.html 2 -
+/manual/en/env.html 2 -
+/manual/en/platform/ebcdic.html 2 -
+/manual/fr/mod/mod_auth_digest.html 1 -
+/manual/ko/mod/mod_cache.html 2 -
+/manual/es/en/env.html 2 -
+/manual/en/ru/upgrading.html 2 -
+/manual/fr/ssl/ssl_intro.html 1 -
+/manual/ru/en/programs/apxs.html 1 -
+/manual/de/vhosts/examples.html 2 -
+/manual/programs/apxs.html 1 -
+/manual/en/rewrite/ 1 -
+/manual/fr/mod/mod_charset_lite.html 1 -
+/manual/en/ja/sitemap.html 1 -
+/manual/en/ko/mod/mod_example.html 1 -
+/manual/ja/en/vhosts/fd-limits.html 2 -
+/manual/ja/faq/support.html 2 -
+/manual/ja/platform/perf-hp.html 2 -
+/manual/fr/en/misc/known_client_problems.html 1 -
+/manual/fr/en/logs.html 1 -
+/manual/es/env.html 2 -
+/manual/ko/mod/mod_cern_meta.html 2 -
+/manual/de/es/bind.html 2 -
+/manual/ja/ko/env.html 2 -
+/manual/en/mod/mod_disk_cache.html 2 -
+/manual/de/ja/content-negotiation.html 2 -
+/manual/fr/ko/mod/directive-dict.html 1 -
+/manual/en/en/platform/windows.html 1 -
+/manual/en/mod/mod_dav_fs.html 2 -
+/manual/ja/en/mod/mod_ldap.html 1 -
+/manual/ko/stopping.html 2 -
+/manual/de/ja/mod/directives.html 2 -
+/manual/de/es/howto/auth.html 1 -
+/manual/en/mod/mod_deflate.html 2 -
+/manual/fr/mod/mod_example.html 1 -
+/manual/ko/en/platform/perf-hp.html 1 -
+/manual/ko/platform/win_compiling.html 2 -
+/manual/ja/es/install.html 2 -
+/manual/es/howto/ssi.html 2 -
+/manual/ru/en/install.html 1 -
+/manual/fr/en/faq/all_in_one.html 1 -
+/manual/ru/howto/public_html.html 2 -
+/manual/en/en/mod/quickreference.html 1 -
+/manual/ru/es/invoking.html 2 -
+/manual/ko/es/vhosts/name-based.html 2 -
+//apache-default/phpmyadmin/scripts/setup.php 1 -
+/manual/en/glossary.html 2 -
+/manual/fr/mod/mod_echo.html 1 -
+/manual/ja/platform/windows.html 2 -
+/manual/de/en/mod/module-dict.html 2 -
+/manual/fr/howto/htaccess.html 2 -
+/manual/ja/ja/mod/mod_deflate.html 2 -
+/manual/ru/mod/worker.html 2 -
+/manual/ko/mod/mod_vhost_alias.html 2 -
+/manual/en/es/invoking.html 2 -
+/manual/ko/en/mod/mod_include.html 1 -
+/manual/en/ko/mod/mod_cgid.html 1 -
+/manual/ru/ssl/ssl_intro.html 2 -
+/manual/de/mod/mod_isapi.html 2 -
+/manual/ru/de/mod/quickreference.html 1 -
+/manual/fr/fr/configuring.html 2 -
+/manual/ja/ja/mod/mod_access.html 2 -
+/manual/ru/en/configuring.html 1 -
+/manual/ja/en/misc/tutorials.html 1 -
+/manual/ja/ja/mod/quickreference.html 1 -
+/manual/en/sections.html 2 -
+/manual/ja/en/stopping.html 2 -
+/manual/en/es/mod/directives.html 2 -
+/manual/en/ko/howto/cgi.html 1 -
+/manual/en/es/mod/ 1 -
+/manual/ru/rewrite/rewrite_tech.html 1 -
+/manual/en/en/mod/mod_mem_cache.html 2 -
+/manual/ko/ko/dso.html 2 -
+/manual/ru/es/install.html 1 -
+/manual/de/en/bind.html 2 -
+/manual/ru/en/logs.html 1 -
+/manual/de/ru/mpm.html 2 -
+/manual/ja/ko/howto/htaccess.html 2 -
+/manual/ru/faq/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/ru/howto/cgi.html 2 -
+/manual/de/ko/configuring.html 2 -
+/manual/en/de/new_features_2_0.html 2 -
+/manual/ko/en/programs/configure.html 2 -
+/manual/es/ko/mod/mod_autoindex.html 2 -
+/manual/fr/en/stopping.html 1 -
+/manual/ko/en/developer/filters.html 1 -
+/manual/ko/ru/new_features_2_0.html 1 -
+/manual/ja/fr/dns-caveats.html 2 -
+/manual/de/bind.html 2 -
+/manual/ja/ssl/ 2 -
+/manual/en/ja/mod/directive-dict.html 1 -
+/manual/ru/ru/upgrading.html 2 -
+/manual/de/en/vhosts/ 2 -
+/manual/de/en/misc/security_tips.html 2 -
+/manual/fr/mod/mod_logio.html 2 -
+/manual/de/en/mod/mod_charset_lite.html 1 -
+/manual/es/es/mpm.html 2 -
+/manual/es/ja/mod/mod_unique_id.html 2 -
+/manual/ru/ko/dso.html 1 -
+/manual/en/ja/ssl/ 2 -
+/manual/fr/ssl/ssl_faq.html 1 -
+/manual/en/en/mod/mod_speling.html 1 -
+/manual/ko/ja/vhosts/fd-limits.html 2 -
+/manual/de/mod/perchild.html 2 -
+/manual/es/mod/mod_dir.html 2 -
+/manual/ko/ja/custom-error.html 2 -
+/manual/en/ko/misc/rewriteguide.html 1 -
+/manual/de/ko/sections.html 1 -
+/manual/ru/howto/htaccess.html 2 -
+/manual/es/platform/ 2 -
+/manual/ja/en/mod/mod_include.html 2 -
+/manual/en/de/mod/mpm_winnt.html 1 -
+/manual/de/ko/server-wide.html 2 -
+//phpMyAdmin-3.0.0.0-english/scripts/setup.php 1 -
+/manual/ko/en/howto/public_html.html 2 -
+/manual/de/ko/mod/mod_isapi.html 1 -
+/manual/ja/stopping.html 2 -
+/manual/es/es/howto/auth.html 2 -
+/manual/fr/howto/ssi.html 2 -
+/manual/ja/en/env.html 2 -
+/manual/es/mod/mod_dav_fs.html 2 -
+/manual/ru/vhosts/details.html 2 -
+//phpMyAdmin-2.6.3/scripts/setup.php 1 -
+/manual/fr/platform/win_compiling.html 1 -
+/manual/ja/mod/mod_info.html 2 -
+/manual/ko/en/programs/ 2 -
+/manual/en/de/mod/ 1 -
+/manual/ja/en/faq/error.html 1 -
+/manual/en/fr/handler.html 2 -
+//phpMyAdmin-2.5.5-rc1config/scripts/setup.php 1 -
+/manual/ru/ja/ 2 -
+/manual/ko/en/misc/rewriteguide.html 2 -
+/manual/ru/ru/invoking.html 2 -
+/manual/es/ja/mod/mod_info.html 2 -
+/manual/en/es/mod/mpm_common.html 1 -
+/manual/de/en/mod/mod_expires.html 2 -
+//phpmyad-sys/scripts/setup.php 1 -
+/manual/es/ko/content-negotiation.html 1 -
+//phpMyAdmin-2.4.9/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+/manual/ja/en/mod/mod_setenvif.html 2 -
+/manual/fr/faq/error.html 1 -
+/manual/ja/es/sections.html 2 -
+/manual/fr/en/sitemap.html 1 -
+/manual/ru/de/upgrading.html 2 -
+/manual/ja/programs/ 2 -
+/manual/fr/ja/mod/mod_env.html 1 -
+/manual/es/en/programs/httpd.html 1 -
+/manual/fr/en/mod/mod_proxy.html 2 -
+/manual/ja/mod/ 2 -
+/manual/ru/en/mod/directive-dict.html 1 -
+/manual/fr/developer/debugging.html 1 -
+/manual/ja/de/stopping.html 2 -
+/manual/ru/mod/beos.html 2 -
+/manual/es/ja/content-negotiation.html 1 -
+/manual/ko/ko/mod/mod_autoindex.html 2 -
+/manual/de/ko/howto/ssi.html 1 -
+/manual/ru/de/mod/directives.html 2 -
+/manual/ja/en/logs.html 2 -
+/manual/ja/misc/fin_wait_2.html 2 -
+/manual/es/ko/mod/ 2 -
+/manual/ko/upgrading.html 2 -
+/manual/de/ja/mod/mod_dir.html 2 -
+/manual/ru/mod/mod_proxy.html 2 -
+/manual/es/en/mod/mod_nw_ssl.html 1 -
+/manual/de/en/programs/rotatelogs.html 1 -
+/manual/ja/ja/mod/worker.html 2 -
+/manual/en/es/custom-error.html 1 -
+/manual/fr/en/mod/mod_info.html 1 -
+/manual/ko/es/server-wide.html 2 -
+/manual/de/ko/dns-caveats.html 2 -
+/manual/ja/programs/dbmmanage.html 2 -
+/manual/en/de/glossary.html 1 -
+/manual/en/ja/mod/mod_mime.html 2 -
+/manual/en/en/mod/mod_expires.html 1 -
+/manual/ja/ko/platform/ebcdic.html 2 -
+/manual/es/ja/mod/prefork.html 2 -
+/manual/es/en/mod/directive-dict.html 2 -
+/manual/ko/en/mod/mod_so.html 2 -
+/manual/ja/ru/new_features_2_0.html 1 -
+/manual/es/developer/API.html 2 -
+/manual/ja/vhosts/mass.html 2 -
+/manual/ru/ru/mod/quickreference.html 1 -
+/manual/ru/ko/mod/beos.html 2 -
+/manual/fr/howto/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/es/en/mod/mod_auth_anon.html 1 -
+/manual/ru/mod/mod_auth_digest.html 2 -
+/manual/ru/faq/support.html 2 -
+/manual/ja/en/ssl/ssl_compat.html 1 -
+/manual/ko/ko/invoking.html 2 -
+/manual/de/mod/mod_file_cache.html 2 -
+/manual/ko/ko/platform/ 2 -
+/manual/de/ja/mod/mod_version.html 2 -
+/manual/de/ja/vhosts/ 2 -
+/manual/ru/vhosts/ 2 -
+/manual/fr/en/suexec.html 1 -
+/manual/fr/new_features_2_0.html 2 -
+/manual/fr/dso.html 2 -
+/manual/ru/de/ 2 -
+/manual/ru/vhosts/name-based.html 2 -
+/manual/ja/ko/mod/mod_version.html 2 -
+/manual/fr/custom-error.html 1 -
+/manual/ko/en/custom-error.html 2 -
+/manual/en/es/mod/beos.html 1 -
+/manual/ja/ko/faq/ 1 -
+/manual/de/es/sitemap.html 2 -
+/manual/de/ja/mod/mod_cgi.html 1 -
+/manual/ja/mod/mod_setenvif.html 2 -
+/manual/de/stopping.html 2 -
+/manual/es/ko/programs/suexec.html 1 -
+/manual/ko/faq/news:comp.infosystems.www.servers.unix 2 -
+/manual/ru/faq/ 2 -
+/manual/fr/ja/sections.html 1 -
+//phpMyAdmin-2.4.0/scripts/setup.php 1 -
+/manual/en/en/platform/win_compiling.html 2 -
+//phpMyAdmin-2.11.10/scripts/setup.php 1 -
+/manual/ko/mod/mod_env.html 2 -
+/manual/es/misc/rewriteguide.html 2 -
+/manual/es/ko/new_features_2_0.html 2 -
+/manual/en/en/mod/mod_usertrack.html 1 -
+/manual/ja/en/suexec.html 2 -
+/manual/en/developer/filters.html 1 -
+/manual/en/de/mod/prefork.html 1 -
+/manual/fr/en/mod/mod_ldap.html 1 -
+/manual/es/ja/sections.html 2 -
+/manual/de/logs.html 2 -
+/manual/es/ko/mod/mod_isapi.html 1 -
+/manual/ja/es/mod/beos.html 1 -
+/manual/ko/ko/mod/mod_isapi.html 1 -
+/manual/fr/misc/descriptors.html 1 -
+/manual/fr/mod/mod_mem_cache.html 1 -
+/manual/ru/en/developer/documenting.html 1 -
+/manual/es/en/mod/mod_actions.html 1 -
+/manual/ko/ko/mod/mod_example.html 1 -
+/manual/ja/programs/ab.html 2 -
+/manual/es/de/mod/ 2 -
+//phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/manual/es/en/ssl/ssl_intro.html 1 -
+/manual/programs/htpasswd.html 1 -
+/manual/es/mod/threadpool.html 2 -
+/manual/fr/programs/htpasswd.html 1 -
+/manual/ko/mod/mod_spelling.html 2 -
+/manual/ru/upgrading.html 2 -
+/manual/es/dns-caveats.html 2 -
+/manual/de/en/mod/mod_proxy_http.html 1 -
+//pma3/scripts/setup.php 1 -
+/manual/es/howto/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/ru/en/new_features_2_0.html 2 -
+/manual/de/mod/mod_so.html 2 -
+/manual/ru/ko/programs/rotatelogs.html 1 -
+/manual/es/howto/htaccess.html 2 -
+/manual/fr/mod/mod_cern_meta.html 1 -
+/manual/de/ko/mod/mod_speling.html 1 -
+/manual/es/mod/mod_echo.html 2 -
+//phpMyAdmin-2.11.9.3-english/scripts/setup.php 1 -
+/manual/es/ja/mod/mpm_winnt.html 2 -
+/manual/ru/es/mod/directives.html 2 -
+//phpMyAdmin-2.7.8/scripts/setup.php 1 -
+/manual/ko/ko/mod/mod_alias.html 1 -
+/manual/en/en/programs/dbmmanage.html 1 -
+/manual/en/en/developer/thread_safety.html 1 -
+/manual/en/ja/howto/auth.html 2 -
+/manual/ru/mod/mod_imap.html 2 -
+/manual/ja/ko/handler.html 2 -
+/manual/ja/logs.html 2 -
+/manual/ko/en/platform/ebcdic.html 2 -
+/manual/es/en/misc/rewriteguide.html 1 -
+/manual/ja/ja/mod/mod_log_config.html 2 -
+/manual/ko/ko/dns-caveats.html 2 -
+/manual/ko/rewrite/rewrite_guide.html 2 -
+/manual/ja/en/mod/mod_speling.html 2 -
+/manual/ko/vhosts/fd-limits.html 2 -
+/manual/ja/mod/mod_auth_anon.html 2 -
+/manual/ru/ja/mod/mod_dav_fs.html 1 -
+/manual/ko/programs/apxs.html 2 -
+/manual/ko/fr/handler.html 2 -
+/manual/ja/ja/sections.html 2 -
+/manual/en/ja/vhosts/fd-limits.html 1 -
+/manual/en/en/mod/mod_auth_dbm.html 1 -
+/manual/ko/ja/content-negotiation.html 2 -
+/manual/ru/mod/mod_charset_lite.html 2 -
+/manual/ru/en/mod/beos.html 2 -
+/manual/ja/en/misc/ 1 -
+/manual/ko/ko/bind.html 2 -
+/manual/ja/en/vhosts/ 2 -
+/manual/es/en/howto/ssi.html 1 -
+/manual/fr/fr/dns-caveats.html 2 -
+/manual/en/misc/custom_errordocs.html 2 -
+//phpMyAdmin-2.11.8.0-all-languages/scripts/setup.php 1 -
+/manual/ja/ko/programs/httpd.html 1 -
+/manual/es/ja/mod/mod_access.html 1 -
+/manual/ko/en/mod/mpmt_os2.html 1 -
+/manual/es/ko/mod/mod_version.html 1 -
+/manual/ru/ja/mod/mod_asis.html 1 -
+/manual/ko/de/upgrading.html 2 -
+/manual/es/misc/ 2 -
+/manual/en/platform/win_compiling.html 1 -
+//phpMyAdmin-2.8.5/scripts/setup.php 1 -
+/manual/fr/ja/dns-caveats.html 2 -
+/manual/ja/dns-caveats.html 2 -
+/manual/es/en/filter.html 2 -
+/manual/ko/ja/mod/mod_echo.html 1 -
+/manual/de/misc/relevant_standards.html 2 -
+//admin/scripts/setup.php 1 -
+/manual/en/ko/mod/mod_dir.html 1 -
+/manual/es/fr/filter.html 2 -
+/manual/mod/mod_mime.html 1 -
+/manual/fr/en/misc/rewriteguide.html 2 -
+/manual/ko/ko/mod/mod_cgi.html 2 -
+/manual/en/en/mod/threadpool.html 1 -
+/manual/fr/ja/filter.html 2 -
+/manual/ja/mod/mod_cern_meta.html 2 -
+/manual/de/ko/platform/win_compiling.html 1 -
+/manual/de/rewrite/rewrite_guide_advanced.html 1 -
+/manual/de/misc/ 2 -
+/manual/ru/ko/platform/perf-hp.html 1 -
+/manual/es/en/mpm.html 2 -
+/manual/en/ko/mod/mod_dav_fs.html 1 -
+/manual/en/fr/upgrading.html 2 -
+/manual/ja/programs/Configure.html 2 -
+/manual/es/programs/dbmmanage.html 2 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/manual/ja/ja/invoking.html 2 -
+/manual/fr/en/mod/mod_env.html 1 -
+/manual/ru/ru/install.html 1 -
+/manual/en/mod/mod_vhost_alias.html 2 -
+/manual/ru/ko/mod/mod_cache.html 1 -
+/manual/ja/de/vhosts/name-based.html 2 -
+/manual/fr/vhosts/ 2 -
+/manual/ko/sitemap.html 2 -
+/manual/de/ja/suexec.html 1 -
+/manual/en/ja/env.html 1 -
+/manual/es/programs/ 2 -
+/manual/fr/ko/programs/htpasswd.html 1 -
+/manual/ja/mod/mod_cgid.html 2 -
+/manual/es/ja/mod/mod_logio.html 1 -
+/manual/ja/mod/perchild.html 2 -
+/manual/ja/es/vhosts/name-based.html 2 -
+/manual/mod/mod_autoindex.html 1 -
+/manual/ko/howto/htaccess.html 2 -
+/manual/ko/platform/windows.html 2 -
+/manual/de/ssl/ssl_howto.html 2 -
+/manual/ru/ja/mod/mod_mem_cache.html 1 -
+/manual/ko/en/programs/ab.html 2 -
+/manual/es/license.html 2 -
+/manual/de/en/mod/ 2 -
+/manual/de/ko/mod/mod_deflate.html 1 -
+/manual/ko/ko/misc/perf-tuning.html 2 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/manual/ja/en/mod/mod_asis.html 2 -
+/manual/es/mod/mod_proxy.html 2 -
+/manual/ja/ko/upgrading.html 1 -
+/manual/de/ja/sections.html 1 -
+/manual/en/en/mod/mod_dav.html 1 -
+/manual/ko/ko/programs/htpasswd.html 2 -
+/manual/de/de/configuring.html 2 -
+//phpMyAdmin-3.0.1.0-all-languages/scripts/setup.php 1 -
+/manual/de/fr/dns-caveats.html 2 -
+/manual/de/configuring.html 2 -
+/manual/ja/de/mod/ 2 -
+//phpMyAdmin-2.6.6/scripts/setup.php 1 -
+/manual/en/en/mod/mod_info.html 1 -
+/manual/de/de/mod/beos.html 2 -
+/manual/ko/en/content-negotiation.html 2 -
+/manual/en/es/vhosts/name-based.html 1 -
+/manual/de/en/mod/mod_suexec.html 2 -
+/manual/fr/ko/dso.html 2 -
+/manual/ja/howto/auth.html 2 -
+/manual/ko/en/mod/module-dict.html 2 -
+/manual/ja/ja/handler.html 2 -
+/manual/ja/ko/platform/perf-hp.html 1 -
+/manual/ja/ja/mod/mod_alias.html 2 -
+/manual/ja/fr/filter.html 2 -
+/manual/de/en/mod/mod_dir.html 2 -
+/manual/ko/ko/mod/mod_userdir.html 2 -
+/manual/de/ko/mod/mod_suexec.html 2 -
+//phpMyAdmin-2.4.1/scripts/setup.php 1 -
+/manual/ko/dso.html 2 -
+/manual/de/en/mod/mod_dumpio.html 1 -
+/manual/fr/ko/mod/mod_cgi.html 1 -
+/manual/ko/mod/mod_ssl.html 2 -
+/manual/ja/mod/mod_echo.html 2 -
+/manual/es/ja/ssl/ssl_intro.html 1 -
+/manual/fr/de/install.html 1 -
+/manual/ja/ja/mod/mod_asis.html 2 -
+/manual/es/programs/other.html 2 -
+/manual/ru/en/platform/netware.html 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+/manual/en/en/platform/ 1 -
+/manual/ja/en/mod/mod_dir.html 2 -
+/manual/es/suexec.html 2 -
+/manual/de/mod/mod_auth_anon.html 2 -
+/manual/en/ko/vhosts/mass.html 1 -
+/manual/ko/de/mod/leader.html 2 -
+/manual/ja/en/howto/cgi.html 2 -
+/manual/es/mod/perchild.html 2 -
+/manual/en/dns-caveats.html 2 -
+/manual/ja/sitemap.html 2 -
+//phpMyAdmin-2.2.6/scripts/setup.php 1 -
+/manual/howto/public_html.html 1 -
+/manual/de/mod/core.html 2 -
+/manual/ja/fr/configuring.html 2 -
+/manual/ru/en/mod/mod_actions.html 1 -
+/manual/ko/en/mod/mod_usertrack.html 1 -
+/manual/fr/en/mod/mod_usertrack.html 2 -
+/manual/es/en/dns-caveats.html 2 -
+/manual/ru/es/sitemap.html 2 -
+/manual/ja/en/platform/ 2 -
+/manual/en/ja/howto/htaccess.html 1 -
+/manual/de/ja/mod/mod_speling.html 1 -
+/manual/fr/ko/platform/netware.html 1 -
+/manual/de/new_features_2_0.html 2 -
+/manual/de/en/developer/modules.html 2 -
+/manual/es/faq/error.html 2 -
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+/manual/ko/es/mod/worker.html 1 -
+/manual/ru/ko/vhosts/ip-based.html 1 -
+/manual/de/en/mod/mod_dav_fs.html 1 -
+/manual/ko/ko/faq/all_in_one.html 2 -
+/manual/ko/ja/mod/mod_setenvif.html 2 -
+/manual/en/ja/mod/mod_negotiation.html 1 -
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/manual/es/en/howto/ 1 -
+/manual/ko/ja/mod/module-dict.html 2 -
+/manual/ja/mod/mod_proxy_connect.html 2 -
+/manual/ko/ko/suexec.html 2 -
+/manual/fr/ko/programs/ 1 -
+/manual/es/mod/mod_charset_lite.html 2 -
+/manual/fr/en/mod/mod_vhost_alias.html 1 -
+/manual/ko/en/programs/httpd.html 2 -
+//mysql-admin/scripts/setup.php 1 -
+/manual/ja/en/ssl/ssl_faq.html 2 -
+/manual/fr/rewrite/rewrite_intro.html 2 -
+/manual/en/ja/ 2 -
+/manual/ru/custom-error.html 2 -
+/manual/es/ko/howto/htaccess.html 1 -
+/manual/de/mod/mod_mem_cache.html 2 -
+/manual/de/en/rewrite/rewrite_intro.html 1 -
+/manual/ja/de/mod/worker.html 2 -
+/manual/ko/mod/ 2 -
+/manual/fr/ko/mod/mod_deflate.html 2 -
+/manual/ja/howto/cgi.html 2 -
+/manual/en/developer/debugging.html 1 -
+/manual/de/de/invoking.html 2 -
+/manual/fr/en/filter.html 2 -
+//htdocs/scripts/setup.php 1 -
+/manual/fr/ko/programs/suexec.html 2 -
+/manual/de/es/mpm.html 2 -
+/manual/ko/ko/handler.html 2 -
+//wp-content/plugins/wp-phpmyadmin/wp-phpmyadmin/phpmyadmin/scripts/setup.php 1 -
+/manual/fr/programs/dbmmanage.html 1 -
+/manual/fr/en/mod/mod_cgi.html 1 -
+/manual/en/en/mod/mod_isapi.html 2 -
+/manual/ko/ko/misc/rewriteguide.html 2 -
+/manual/ru/ja/howto/htaccess.html 1 -
+/manual/ru/ja/mod/mod_status.html 1 -
+/manual/ko/ko/content-negotiation.html 2 -
+/manual/ru/sections.html 2 -
+/manual/ru/howto/ssi.html 2 -
+/manual/en/ko/mod/directives.html 2 -
+/manual/ko/ko/sections.html 2 -
+/manual/en/en/platform/ebcdic.html 2 -
+/manual/en/ja/mod/mod_actions.html 2 -
+/manual/en/vhosts/name-based.html 2 -
+/manual/ru/ja/mod/directives.html 2 -
+/manual/ja/mod/mod_charset_lite.html 2 -
+/manual/de/mod/mod_auth_dbm.html 2 -
+//phpMyAdmin-2.11.4.0-english/scripts/setup.php 1 -
+/manual/ru/en/mod/mod_ext_filter.html 1 -
+/manual/ja/ja/mod/directive-dict.html 2 -
+/manual/en/ko/glossary.html 1 -
+/manual/es/mod/mod_dumpio.html 2 -
+/manual/de/ko/programs/ 2 -
+/manual/de/ja/env.html 2 -
+/manual/fr/platform/ebcdic.html 2 -
+/manual/ru/developer/modules.html 2 -
+/manual/fr/mod/mod_log_config.html 2 -
+/manual/ru/ko/faq/support.html 1 -
+/manual/ko/ja/stopping.html 2 -
+/manual/es/server-wide.html 2 -
+/manual/ja/es/new_features_2_0.html 1 -
+/manual/ja/howto/ssi.html 2 -
+/manual/ko/ko/mod/mod_charset_lite.html 1 -
+/manual/de/en/license.html 1 -
+/crossdomain.xml 1 http://s.nsdsvc.com/App/DddWrapper.swf
+/manual/en/en/howto/htaccess.html 1 -
+/manual/ja/en/developer/debugging.html 1 -
+/manual/ja/en/programs/rotatelogs.html 1 -
+/manual/ru/ru/mod/directives.html 2 -
+/manual/ko/content-negotiation.html 2 -
+/manual/ja/en/bind.html 2 -
+/manual/es/en/programs/logresolve.html 1 -
+/manual/en/misc/relevant_standards.html 2 -
+/manual/fr/en/mod/mod_cern_meta.html 1 -
+/manual/de/es/mod/core.html 1 -
+/manual/ja/mod/mod_vhost_alias.html 2 -
+/manual/ru/de/new_features_2_0.html 2 -
+/manual/ja/ko/misc/rewriteguide.html 1 -
+/manual/ja/ja/mod/mod_unique_id.html 2 -
+/manual/en/en/mod/mod_cgid.html 1 -
+/manual/es/en/faq/ 1 -
+/manual/ko/ko/programs/other.html 2 -
+/manual/de/en/programs/logresolve.html 2 -
+/manual/es/ko/mod/leader.html 2 -
+/manual/ru/mod/mod_disk_cache.html 2 -
+/manual/es/en/mod/mod_imap.html 1 -
+/manual/de/mod/leader.html 2 -
+/him/her 1 -
+/manual/ko/mod/mod_asis.html 2 -
+/manual/ko/ja/mod/mod_cgi.html 2 -
+/manual/ja/mod/mod_file_cache.html 2 -
+/manual/ru/mod/mod_env.html 2 -
+//scripts/setup.php 1 -
+/manual/ru/mod/mod_speling.html 2 -
+/manual/ja/en/programs/suexec.html 1 -
+/manual/de/en/mod/mod_usertrack.html 1 -
+/manual/fr/ssl/ssl_howto.html 1 -
+/he/she 1 -
+/manual/en/ko/custom-error.html 1 -
+/manual/ko/ko/server-wide.html 2 -
+/manual/ja/en/sections.html 2 -
+/manual/de/en/handler.html 2 -
+/manual/ko/ssl/news:comp.infosystems.www.servers.unix 1 -
+/platform/plugins/recommendations_bar/trigger 1 -
+/manual/ru/ko/suexec.html 1 -
+/manual/ko/ko/programs/apachectl.html 2 -
+/manual/en/ko/mod/mod_userdir.html 1 -
+/manual/ja/en/mod/mod_deflate.html 2 -
+/manual/ja/rewrite/rewrite_guide.html 2 -
+/manual/es/ko/mod/mod_file_cache.html 1 -
+/manual/de/de/install.html 2 -
+/manual/de/misc/perf-tuning.html 2 -
+/manual/en/ssl/ssl_faq.html 2 -
+/manual/ja/ja/howto/auth.html 2 -
+/manual/en/ja/new_features_2_0.html 2 -
+/manual/fr/mod/mod_log_forensic.html 1 -
+/manual/es/mod/mod_file_cache.html 2 -
+/manual/suexec.html 1 -
+/manual/de/ja/mod/mpm_common.html 2 -
+/manual/fr/en/mod/mod_imap.html 1 -
+/manual/en/en/mod/mod_auth_ldap.html 1 -
+/plugins/ 1 -
+/manual/ko/es/mod/directives.html 2 -
+/manual/de/en/mpm.html 2 -
+/manual/ja/es/ 2 -
+/manual/fr/mod/prefork.html 2 -
+/manual/ru/platform/netware.html 2 -
+/manual/es/ja/mod/mod_expires.html 2 -
+/manual/ja/en/dns-caveats.html 2 -
+/manual/ja/ko/platform/windows.html 1 -
+/manual/fr/ja/mod/mod_alias.html 1 -
+/manual/en/mod/mod_mime.html 2 -
+/manual/de/mod/mod_proxy_connect.html 2 -
+/manual/en/ko/howto/htaccess.html 1 -
+/manual/de/ja/dso.html 1 -
+/manual/en/developer/documenting.html 1 -
+/manual/fr/ko/faq/all_in_one.html 1 -
+//phpMyAdmin1/scripts/setup.php 1 -
+/manual/de/ko/programs/logresolve.html 2 -
+//phpMyAdmin-2.7.7/scripts/setup.php 1 -
+/manual/fr/ko/vhosts/examples.html 1 -
+/manual/fr/mod/perchild.html 2 -
+/manual/fr/en/urlmapping.html 1 -
+/manual/ko/mod/mod_usertrack.html 2 -
+/MusuMama 4 http://www.limebtl.com/
+/manual/ja/mod/mod_disk_cache.html 2 -
+/manual/ja/mod/mod_auth_digest.html 2 -
+/manual/ko/ko/platform/ebcdic.html 2 -
+/manual/en/en/mod/mod_logio.html 1 -
+//roundcube/scripts/setup.php 1 -
+/manual/ko/developer/modules.html 2 -
+/manual/en/ko/programs/htpasswd.html 1 -
+/manual/es/ko/mod/mod_so.html 1 -
+/manual/fr/upgrading.html 2 -
+/manual/ru/ko/install.html 1 -
+/manual/en/ko/dso.html 1 -
+/manual/fr/mod/mod_dav_fs.html 2 -
+/manual/ru/ja/env.html 2 -
+/manual/en/mod/mpm_netware.html 2 -
+/manual/ja/ja/sitemap.html 2 -
+/manual/es/en/mod/mod_dumpio.html 1 -
+/manual/fr/en/custom-error.html 2 -
+/manual/fr/ko/misc/perf-tuning.html 1 -
+/manual/de/en/mod/mod_cern_meta.html 2 -
+/manual/de/mod/quickreference.htmlindex.php 1 http://limebtl.kiev.ua/manual/de/mod/quickreference.htmlindex.php
+/manual/en/en/mod/mod_status.html 1 -
+/manual/ja/faq/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/en/de/vhosts/ 2 -
+/manual/ko/en/rewrite/rewrite_intro.html 1 -
+/manual/en/en/vhosts/mass.html 1 -
+/manual/ko/en/mod/mod_info.html 1 -
+/manual/en/en/misc/relevant_standards.html 1 -
+/manual/ja/ko/howto/public_html.html 2 -
+/manual/ja/es/stopping.html 2 -
+/manual/ko/ja/mod/mod_userdir.html 2 -
+/manual/ja/programs/suexec.html 2 -
+/manual/es/ko/misc/perf-tuning.html 1 -
+/manual/ja/mpm.html 2 -
+/manual/ko/en/vhosts/details.html 2 -
+/manual/ko/ssl/ssl_howto.html 2 -
+/manual/fr/programs/Configure.html 1 -
+//_phpmyadmin/scripts/setup.php 1 -
+/manual/es/en/mod/mod_info.html 2 -
+/manual/de/programs/configure.html 2 -
+/manual/es/ko/filter.html 2 -
+/manual/ko/programs/configure.html 2 -
+/manual/ru/ru/vhosts/ 2 -
+/manual/ko/en/env.html 2 -
+/manual/ru/install.html 2 -
+/manual/fr/de/ 2 -
+/render_fbml.php 1 -
+/manual/es/fr/custom-error.html 2 -
+/manual/ja/ja/mod/ 2 -
+/manual/ja/ko/glossary.html 1 -
+//php/phpmyadmin/scripts/setup.php 1 -
+/manual/ja/ja/mod/mod_include.html 2 -
+/manual/de/en/mod/leader.html 2 -
+/manual/en/mod/mod_so.html 2 -
+/manual/ja/ko/vhosts/mass.html 1 -
+/manual/fr/mod/mod_ssl.html 2 -
+/manual/es/ja/custom-error.html 2 -
+/manual/ru/mod/mod_info.html 2 -
+/manual/de/mod/mod_headers.html 2 -
+/btnfr 1 -
+/manual/ja/ko/invoking.html 2 -
+/manual/fr/en/mod/prefork.html 1 -
+/manual/es/ko/platform/win_compiling.html 1 -
+/manual/ru/mod/mod_cgi.html 2 -
+/manual/ru/ja/dso.html 1 -
+/manual/ru/mod/mod_proxy_http.html 2 -
+/manual/ko/fr/bind.html 2 -
+/manual/de/ja/mod/quickreference.html 1 -
+/manual/ja/ja/env.html 2 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/manual/ko/developer/debugging.html 2 -
+/manual/ja/mod/mpm_commmon.html 2 -
+/staticresources 1 -
+/manual/de/programs/suexec.html 2 -
+/manual/fr/ko/mod/mod_cache.html 1 -
+/manual/ko/mod/mod_ident.html 2 -
+/manual/es/en/mod/mod_alias.html 2 -
+/manual/ru/de/mod/prefork.html 1 -
+/manual/de/howto/auth.html 2 -
+/manual/ru/en/stopping.html 1 -
+/manual/es/ja/mod/mod_version.html 1 -
+/manual/de/mod/mod_ssl.html 2 -
+/manual/ko/mod/mod_example.html 2 -
+/manual/en/en/programs/ab.html 1 -
+/manual/ru/mpm.html 2 -
+/manual/ja/ssl/news:comp.infosystems.www.servers.unix 2 -
+/manual/es/ja/stopping.html 2 -
+/manual/es/ja/bind.html 2 -
+/manual/fr/en/programs/httpd.html 1 -
+/manual/en/mod/mod_mime_magic.html 2 -
+/manual/es/faq/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/ko/en/misc/perf-tuning.html 2 -
+/manual/de/mod/mod_expires.html 2 -
+/manual/es/en/mod/module-dict.html 1 -
+/manual/ja/fr/content-negotiation.html 2 -
+/manual/es/en/rewrite/rewrite_tech.html 2 -
+/manual/ko/en/mod/mod_proxy_http.html 1 -
+/manual/fr/ja/mod/mod_logio.html 1 -
+/manual/ja/en/developer/hooks.html 1 -
+/manual/ja/fr/handler.html 2 -
+/manual/es/fr/handler.html 2 -
+/manual/en/es/glossary.html 1 -
+/manual/en/mod/mod_autoindex.html 2 -
+/manual/es/en/misc/perf-tuning.html 1 -
+/manual/en/ja/mpm.html 2 -
+/manual/fr/en/vhosts/mass.html 1 -
+/manual/es/fr/env.html 2 -
+/manual/ja/en/developer/API.html 1 -
+/manual/ko/ko/howto/ 2 -
+/manual/en/en/mod/module-dict.html 1 -
+/manual/ja/mod/mod_deflate.html 2 -
+/manual/ja/mod/mod_alias.html 2 -
+/manual/ko/ru/filter.html 2 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+/manual/es/mod/mod_isapi.html 2 -
+/manual/fr/ja/ssl/ 1 -
+/manual/ko/en/mod/mod_userdir.html 2 -
+/manual/ja/en/vhosts/mass.html 1 -
+/manual/ja/ru/vhosts/ 2 -
+/manual/es/de/mod/beos.html 2 -
+/manual/ja/es/dso.html 2 -
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/manual/fr/fr/dso.html 2 -
+/manual/es/en/mod/mod_asis.html 2 -
+/manual/ru/es/mod/mpm_winnt.html 1 -
+/manual/ja/en/mod/directive-dict.html 2 -
+/manual/ru/stopping.html 2 -
+/manual/ru/ja/vhosts/name-based.html 1 -
+/manual/es/stopping.html 2 -
+/manual/mod/mod_headers.html 1 -
+/manual/ko/ru/invoking.html 2 -
+/manual/en/mod/mod_nw_ssl.html 2 -
+/manual/ko/ja/suexec.html 2 -
+/manual/es/en/mod/mod_setenvif.html 2 -
+/manual/ru/mod/mod_cgid.html 2 -
+/manual/mod/directive-dict.html 1 -
+/manual/ko/platform/ebcdic.html 2 -
+//_admin/scripts/setup.php 1 -
+/manual/es/misc/relevant_standards.html 2 -
+/manual/de/ru/new_features_2_0.html 2 -
+/manual/ja/mod/mod_auth_file.html 2 -
+/manual/developer/ 1 -
+/manual/es/rewrite/rewrite_guide.html 2 -
+/manual/ko/ja/mod/mod_log_config.html 2 -
+/manual/ko/mod/mod_mime.html 2 -
+/manual/ja/developer/filters.html 2 -
+/manual/ja/en/mod/mod_unique_id.html 2 -
+/manual/en/de/mod/quickreference.html 1 -
+/manual/fr/mod/mod_auth.html 2 -
+/manual/ja/es/mod/core.html 1 -
+/manual/de/ja/mod/mod_so.html 1 -
+/manual/mod/mod_file_cache.html 1 -
+/manual/ru/mod/mod_include.html 2 -
+/manual/es/vhosts/ 2 -
+//phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/manual/ko/mod/mod_ldap.html 2 -
+/manual/ko/ja/sections.html 2 -
+/manual/en/rewrite/rewrite_intro.html 1 -
+/manual/ja/faq/error.html 2 -
+/manual/fr/en/sections.html 1 -
+/manual/fr/invoking.html 2 -
+/manual/en/ko/mod/directive-dict.html 1 -
+/manual/ru/ko/faq/ 1 -
+/manual/en/ko/platform/windows.html 1 -
+/manual/es/howto/cgi.html 2 -
+/manual/fr/mod/module-dict.html 2 -
+/manual/es/en/mod/mod_headers.html 1 -
+/manual/fr/en/misc/descriptors.html 1 -
+/manual/ko/mod/mod_proxy_connect.html 2 -
+/manual/fr/mod/mod_autoindex.html 1 -
+/manual/fr/en/env.html 2 -
+/manual/en/mod/mod_auth.html 2 -
+/manual/ru/en/env.html 2 -
+/manual/ko/bind.html 2 -
+/manual/en/rewrite/rewrite_guide.html 1 -
+/manual/fr/ko/mod/mod_unique_id.html 1 -
+/manual/ko/en/sitemap.html 2 -
+/manual/fr/developer/modules.html 1 -
+/manual/ja/mod/mod_dumpio.html 2 -
+/manual/ko/de/mod/mpm_winnt.html 1 -
+//pma2009/scripts/setup.php 1 -
+/manual/es/mod/mod_suexec.html 2 -
+/manual/ko/ja/new_features_2_0.html 1 -
+/manual/es/invoking.html 2 -
+/manual/ko/en/mod/mpm_common.html 2 -
+/manual/ru/mod/mod_proxy_ftp.html 2 -
+/manual/ko/ko/programs/ 2 -
+/manual/en/ru/mod/directives.html 2 -
+/manual/ja/vhosts/name-based.html 2 -
+/manual/en/mod/directive-dict.html 2 -
+/manual/ru/ko/programs/apxs.html 1 -
+/manual/de/en/ssl/ 1 -
+//administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php 1 -
+/manual/fr/ja/developer/modules.html 1 -
+/manual/es/misc/fin_wait_2.html 2 -
+/manual/es/en/howto/cgi.html 1 -
+/manual/ja/ru/filter.html 2 -
+/manual/en/en/mod/mod_proxy.html 2 -
+/manual/fr/ja/mod/prefork.html 1 -
+/manual/de/en/howto/ 2 -
+/manual/ko/de/mpm.html 2 -
+/manual/ko/ko/platform/perf-hp.html 1 -
+//phpMyAdmin-2.4.5/scripts/setup.php 1 -
+/manual/fr/ja/dso.html 2 -
+//phpMyAdmin-2.11.5.0-all-languages/scripts/setup.php 1 -
+/manual/ko/fr/upgrading.html 2 -
+/manual/de/ko/howto/auth.html 1 -
+/manual/fr/ja/install.html 1 -
+/manual/ja/en/faq/support.html 1 -
+/manual/en/ko/server-wide.html 1 -
+/manual/fr/en/mod/mod_cache.html 1 -
+/manual/de/ko/mod/mod_headers.html 1 -
+/manual/en/mod/mod_cern_meta.html 2 -
+//_pHpMyAdMiN/scripts/setup.php 1 -
+/manual/en/mod/mod_log_forensic.html 2 -
+/manual/de/programs/htdbm.html 2 -
+/manual/en/en/mod/mod_ssl.html 1 -
+/manual/fr/ko/howto/ssi.html 1 -
+/manual/fr/en/mod/mod_unique_id.html 1 -
+/manual/en/ja/howto/ssi.html 1 -
+/manual/ru/en/developer/API.html 1 -
+/manual/ko/mod/mod_access.html 2 -
+/manual/es/en/mod/mod_log_config.html 1 -
+/manual/ja/howto/public_html.html 2 -
+/manual/de/ko/mod/beos.html 2 -
+/manual/en/en/developer/API.html 2 -
+/manual/mod/mod_negotiation.html 1 -
+//sql/scripts/setup.php 1 -
+/manual/en/en/mod/worker.html 2 -
+/manual/es/ja/mod/mod_cgid.html 1 -
+/manual/fr/ko/mod/mod_dav_fs.html 2 -
+/manual/ru/configuring.html 2 -
+/manual/ja/ja/vhosts/ 2 -
+/manual/es/ja/filter.html 2 -
+/manual/fr/programs/suexec.html 2 -
+/manual/fr/ja/howto/ssi.html 1 -
+/manual/ko/fr/content-negotiation.html 2 -
+/manual/en/ja/filter.html 2 -
+/manual/de/server-wide.html 2 -
+/manual/en/ko/vhosts/fd-limits.html 1 -
+/manual/fr/ja/mod/mod_include.html 1 -
+/manual/ko/ko/programs/apxs.html 2 -
+/manual/ja/ko/programs/rotatelogs.html 1 -
+/manual/ko/es/stopping.html 2 -
+/manual/de/vhosts/mass.html 2 -
+/manual/fr/en/ssl/ssl_intro.html 1 -
+/manual/en/ja/mod/mod_mem_cache.html 2 -
+/manual/es/ja/urlmapping.html 1 -
+/manual/fr/ja/sitemap.html 1 -
+/manual/ru/sitemap.html 2 -
+/manual/fr/ja/mod/mod_cgi.html 1 -
+/manual/en/de/configuring.html 2 -
+/manual/en/en/rewrite/rewrite_guide.html 1 -
+/manual/ja/configuring.html 2 -
+/manual/ja/programs/htpasswd.html 2 -
+/manual/fr/ja/mod/mod_userdir.html 1 -
+/manual/es/fr/new_features_2_0.html 2 -
+/manual/fr/en/mod/mod_dav_fs.html 2 -
+/manual/es/mod/mod_access.html 2 -
+/manual/de/ja/mod/mod_suexec.html 2 -
+/manual/fr/mod/mod_negociation.html 2 -
+/manual/ru/vhosts/fd-limits.html 2 -
+/manual/ko/en/mod/mod_vhost_alias.html 1 -
+/manual/ja/mod/mod_ssl.html 2 -
+/manual/en/content-negotiation.html 2 -
+/manual/en/mod/mod_ext_filter.html 2 -
+/manual/ko/rewrite/rewrite_tech.html 2 -
+//phpmy/scripts/setup.php 1 -
+/manual/ru/misc/security_tips.html 2 -
+//phpMyAdmin-2.11.5.0-english/scripts/setup.php 1 -
+/manual/es/en/mod/quickreference.html 1 -
+/manual/es/en/mod/mpm_common.html 2 -
+/manual/es/en/mod/mod_proxy_connect.html 1 -
+/manual/es/mod/mod_mime_magic.html 2 -
+/manual/ja/ko/mod/mod_logio.html 2 -
+/manual/es/en/mod/mod_proxy_http.html 1 -
+/manual/ja/dso.html 2 -
+/manual/en/howto/ssi.html 2 -
+/manual/es/ssl/ssl_compat.html 2 -
+/manual/en/ja/upgrading.html 2 -
+//phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//phpMyAdmin-4/scripts/setup.php 1 -
+/manual/de/ko/mod/mod_dir.html 2 -
+/manual/ja/ja/mod/mod_so.html 2 -
+/manual/en/ja/install.html 2 -
+/manual/ja/ko/configuring.html 2 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+/manual/es/new_features_2_0.html 2 -
+/manual/es/mod/mod_log_forensic.html 2 -
+/manual/es/mod/mod_usertrack.html 2 -
+/manual/es/en/mod/mod_autoindex.html 2 -
+/manual/es/ko/urlmapping.html 1 -
+/manual/ja/de/upgrading.html 2 -
+/manual/de/mod/mod_speling.html 2 -
+/manual/ja/ko/mod/mod_expires.html 2 -
+/manual/de/ko/vhosts/ip-based.html 1 -
+/manual/fr/ko/programs/apxs.html 1 -
+/manual/de/ja/mod/mod_auth.html 1 -
+/manual/ko/ru/mod/quickreference.html 1 -
+/manual/ko/mod/directive-dict.html 2 -
+/manual/fr/ja/mod/mod_deflate.html 2 -
+/manual/en/ko/mod/mod_cern_meta.html 1 -
+/manual/de/en/howto/htaccess.html 2 -
+/manual/ko/howto/auth.html 2 -
+/manual/ko/ja/mod/quickreference.html 1 -
+/manual/fr/mod/mod_proxy_http.html 2 -
+/manual/en/es/sitemap.html 1 -
+/manual/de/es/env.html 2 -
+/manual/howto/ssi.html 1 -
+/manual/de/ru/install.html 2 -
+/manual/fr/misc/known_client_problems.html 2 -
+/manual/fr/de/mod/worker.html 2 -
+/manual/fr/ko/mod/mod_suexec.html 1 -
+/manual/de/mod/mod_vhost_alias.html 2 -
+/manual/ru/de/glossary.html 1 -
+/manual/es/ko/sections.html 2 -
+/manual/ja/ko/dns-caveats.html 2 -
+/manual/es/ru/mod/directives.html 2 -
+/manual/fr/ja/howto/cgi.html 1 -
+/manual/es/mod/mod_vhost_alias.html 2 -
+/manual/es/de/mod/directives.html 2 -
+/manual/ru/en/misc/fin_wait_2.html 1 -
+/manual/ko/en/configuring.html 2 -
+/manual/fr/ko/platform/win_compiling.html 1 -
+/manual/ja/en/mod/mod_mime.html 2 -
+/manual/es/de/vhosts/name-based.html 2 -
+/manual/es/mod/mod_ldap.html 2 -
+/manual/ja/ko/suexec.html 2 -
+/manual/ru/en/license.html 1 -
+/manual/de/fr/custom-error.html 2 -
+/manual/en/ko/programs/other.html 2 -
+/manual/en/faq/news:comp.infosystems.www.authoring.cgi 1 -
+/manual/fr/ja/mod/mod_cgid.html 2 -
+/manual/ko/en/misc/relevant_standards.html 2 -
+/manual/en/ko/mod/mod_setenvif.html 1 -
+/manual/ja/en/mod/mod_mem_cache.html 2 -
+/manual/en/ru/filter.html 2 -
+/manual/de/ja/mod/mod_info.html 2 -
+/manual/es/mod/mod_cgid.html 2 -
+/manual/ru/de/install.html 1 -
+//admin/phpMyAmdin/scripts/setup.php 1 -
+/manual/en/filter.html 2 -
+/manual/en/en/urlmapping.html 1 -
+/manual/de/en/platform/netware.html 1 -
+/manual/ja/env.html 2 -
+/manual/ko/mod/mpm_winnt.html 2 -
+/manual/fr/ko/mod/mod_expires.html 1 -
+/manual/en/programs/htdigest.html 2 -
+/manual/de/ja/howto/public_html.html 1 -
+/manual/de/programs/apachectl.html 2 -
+/manual/de/ko/mod/mod_auth_digest.html 1 -
+/manual/de/ko/programs/dbmmanage.html 2 -
+/manual/ja/en/sitemap.html 2 -
+/manual/fr/howto/cgi.html 2 -
+/manual/es/mod/quickreference.html 2 -
+/manual/fr/programs/apachectl.html 2 -
+/manual/en/ja/mod/mod_logio.html 1 -
+/manual/ko/howto/news:comp.infosystems.www.authoring.cgi 2 -
+/manual/ja/de/glossary.html 1 -
+//cpphpmyadmin/scripts/setup.php 1 -
+/manual/ru/programs/htdbm.html 2 -
+/manual/ru/ko/misc/relevant_standards.html 1 -
+/manual/en/mod/mod_userdir.html 2 -
+/manual/ja/en/misc/fin_wait_2.html 2 -
+/manual/es/en/invoking.html 2 -
+/manual/es/mod/mpm_common.html 2 -
+/manual/ja/de/mpm.html 2 -
+/manual/ja/mod/mod_logio.html 2 -
+/manual/es/fr/dso.html 2 -
+/manual/ko/ja/mod/mod_info.html 1 -
+/manual/fr/ko/platform/ebcdic.html 1 -
+/manual/de/ko/vhosts/name-based.html 2 -
+/manual/de/en/mod/mod_deflate.html 1 -
+/manual/en/fr/dns-caveats.html 1 -
+/manual/en/es/new_features_2_0.html 2 -
+/manual/ru/en/mod/module-dict.html 2 -
+/manual/es/en/mod/mod_include.html 1 -
+/manual/ja/mod/mod_auth.html 2 -
+/manual/fr/ja/mod/mod_mime.html 2 -
+/manual/fr/es/mod/mpm_common.html 1 -
+/manual/ru/mod/mpm_winnt.html 2 -
+/manual/de/custom-error.html 2 -
+/manual/fr/en/bind.html 2 -
+/manual/ko/ko/mod/mod_setenvif.html 2 -
+/manual/ko/ja/mod/ 2 -
+/manual/en/en/mod/ 1 -
+/manual/es/misc/tutorials.html 2 -
+/manual/de/en/misc/custom_errordocs.html 2 -
+/manual/de/ko/programs/apachectl.html 1 -
+/manual/de/fr/configuring.html 2 -
+//phpm/scripts/setup.php 1 -
+/manual/de/ko/programs/rotatelogs.html 1 -
+/manual/ja/ko/mod/mod_ext_filter.html 1 -
+/manual/ja/ja/mod/mod_info.html 2 -
+/manual/es/mod/mod_auth.html 2 -
+/manual/ja/en/mod/beos.html 1 -
+/manual/es/fr/content-negotiation.html 1 -
+/manual/en/custom-error.html 1 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/manual/ru/ko/mod/mod_actions.html 1 -
+/manual/ru/ja/upgrading.html 2 -
+/manual/fr/ru/programs/ 1 -
+/manual/ja/mod/mod_so.c.html 2 -
+/manual/ko/en/glossary.html 2 -
+/manual/en/programs/apachectl.html 2 -
+//phpMyA/scripts/setup.php 1 -
+/manual/ru/ja/mod/mod_dav.html 1 -
+/manual/ja/mod/core.c.html 2 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 1 -
+/manual/fr/en/mod/mod_expires.html 1 -
+/manual/mod/mod_proxy.html 1 -
+//mysqladmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.2/scripts/setup.php 1 -
+/manual/ko/en/misc/ 1 -
+/manual/fr/en/handler.html 2 -
+/manual/fr/mod/mod_include.html 2 -
+//sqladmin/scripts/setup.php 1 -
+/manual/ru/en/faq/support.html 1 -
+/manual/de/vhosts/fd-limits.html 2 -
+/manual/fr/es/install.html 1 -
+/manual/fr/en/rewrite/rewrite_guide_advanced.html 1 -
+/manual/en/ssl/ssl_howto.html 2 -
+/manual/en/ru/new_features_2_0.html 2 -
+/manual/en/ko/vhosts/ 2 -
+/manual/de/en/upgrading.html 2 -
+/manual/fr/ja/urlmapping.html 1 -
+/manual/en/es/howto/auth.html 2 -
+/manual/es/es/invoking.html 2 -
+//phpMyAdmin-2.7.4/scripts/setup.php 1 -
+//~/phpmanager/scripts/setup.php 1 -
+/manual/ru/platform/win_compiling.html 2 -
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/manual/fr/install.html 2 -
+/manual/es/ja/suexec.html 1 -
+/manual/es/en/developer/modules.html 1 -
+/manual/en/mod/mod_cgid.html 2 -
+/manual/fr/faq/ 2 -
+/manual/ru/en/rewrite/rewrite_tech.html 1 -
+/manual/en/en/mod/mod_file_cache.html 2 -
+/manual/ko/en/mpm.html 2 -
+/manual/ko/mod/mod_so.html 2 -
+/manual/es/ja/vhosts/ 2 -
+/manual/ko/programs/ 2 -
+/manual/de/mod/mod_asis.html 2 -
+/manual/fr/es/env.html 2 -
+//phpMyAdmin-2.3.9/scripts/setup.php 1 -
+/manual/ko/en/programs/apachectl.html 2 -
+/manual/de/en/programs/other.html 1 -
+/manual/en/en/upgrading.html 2 -
+/manual/ru/ja/ssl/ssl_intro.html 1 -
+//mysqlmanager/scripts/setup.php 1 -
+/manual/en/mod/mod_status.html 2 -
+/manual/de/license.html 2 -
+/manual/en/mod/mod_speling.html 2 -
+/manual/de/ru/invoking.html 2 -
+/manual/ja/en/developer/ 1 -
+/manual/es/developer/thread_safety.html 1 -
+/manual/es/ja/mod/mod_mem_cache.html 1 -
+/manual/ru/ko/vhosts/ 2 -
+/manual/ko/en/mod/mod_setenvif.html 2 -
+/manual/en/en/developer/documenting.html 2 -
+/manual/en/ko/mod/mod_imap.html 1 -
+/manual/en/en/suexec.html 1 -
+/manual/es/mod/mod_auth_anon.html 2 -
+/manual/de/fr/filter.html 2 -
+/manual/es/en/mod/mod_cgid.html 1 -
+//pMA/scripts/setup.php 1 -
+/manual/ja/en/mod/mod_log_config.html 2 -
+//phpMyAdmin-3.0.0-rc1-english/scripts/setup.php 1 -
+/manual/es/misc/known_client_problems.html 2 -
+/manual/de/en/mod/mod_auth.html 1 -
+/manual/ru/en/programs/ 1 -
+/manual/ko/en/misc/descriptors.html 1 -
+/manual/de/mod/mod_cgi.html 2 -
+/manual/fr/mod/mod_speling.html 1 -
+/manual/en/ja/vhosts/ 2 -
+/manual/ko/en/mod/mod_suexec.html 1 -
+/manual/ja/ja/ssl/ 2 -
+/manual/en/de/mod/worker.html 2 -
+/manual/es/programs/httpd.html 2 -
+/manual/ko/ja/mod/mod_deflate.html 1 -
+/manual/es/ko/env.html 2 -
+//phpMyAdmin-2.6.7/scripts/setup.php 1 -
+/manual/fr/ko/howto/htaccess.html 1 -
+/manual/ru/ssl/ssl_howto.html 2 -
+/manual/es/ko/invoking.html 2 -
+/manual/ja/en/mod/module-dict.html 2 -
+//phpMyAdmin-2.3.8/scripts/setup.php 1 -
+/manual/mod/mod_expires.html 1 -
+/manual/ja/mod/mod_mem_cache.html 2 -
+/manual/ko/en/upgrading.html 2 -
+/manual/fr/ko/programs/configure.html 1 -
+/manual/de/en/programs/configure.html 1 -
+/manual/ru/ko/glossary.html 1 -
+/manual/de/es/mod/quickreference.html 1 -
+/manual/ko/misc/known_client_problems.html 2 -
+/manual/fr/mod/mod_cache.html 2 -
+/manual/fr/mod/mod_proxy_ftp.html 2 -
+/manual/es/es/mod/leader.html 2 -
+/manual/ko/ 2 -
+//wp-phpmyadmin/phpmyadmin/scripts/setup.php 1 -
+/manual/ja/en/mod/mod_dav.html 2 -
+/manual/en/es/mpm.html 2 -
+/manual/ko/mod/mod_imap.html 2 -
+/manual/ja/programs/htdbm.html 1 -
+/manual/en/en/platform/perf-hp.html 1 -
+/manual/ja/ko/mod/mod_autoindex.html 2 -
+/manual/ja/en/mod/mod_usertrack.html 1 -
+/manual/en/ko/mod/mod_echo.html 2 -
+/manual/en/mod/mod_cache.html 2 -
+/manual/ja/mod/mod_speling.html 2 -
+/manual/es/mod/mpm_netware.html 2 -
+/manual/ko/en/vhosts/ip-based.html 2 -
+/manual/ru/ja/suexec.html 1 -
+/manual/de/en/howto/ssi.html 1 -
+/manual/en/en/mod/mpm_winnt.html 1 -
+/manual/ru/platform/ 2 -
+//phpMyAdmin-2.11.6/scripts/setup.php 1 -
+/manual/en/ko/programs/ 2 -
+/manual/ja/en/mpm.html 2 -
+/manual/en/es/bind.html 1 -
+//websql/scripts/setup.php 1 -
+/manual/en/de/install.html 2 -
+/manual/es/es/mod/core.html 1 -
+/manual/ru/en/rewrite/ 1 -
+/manual/en/ru/vhosts/ 2 -
+/manual/ru/ko/mpm.html 2 -
+/manual/ko/ko/programs/suexec.html 2 -
+/manual/es/programs/htdigest.html 2 -
+/manual/ko/mod/mod_ext_filter.html 2 -
+/manual/ko/ru/upgrading.html 2 -
+/manual/ja/ja/mod/prefork.html 2 -
+/manual/fr/en/vhosts/examples.html 1 -
+/manual/ja/en/mod/mpm_netware.html 1 -
+/manual/es/mod/mod_version.html 2 -
+/manual/ru/en/platform/windows.html 1 -
+/manual/ko/faq/ 2 -
+/manual/es/ja/howto/public_html.html 1 -
+/manual/ko/mod/mod_charset_lite.html 2 -
+/manual/ru/en/glossary.html 1 -
+/manual/ru/ko/programs/htdigest.html 1 -
+/manual/es/dso.html 2 -
+//blog/phpmyadmin/scripts/setup.php 1 -
+/manual/fr/developer/ 2 -
+//3rdparty/phpMyAdmin/scripts/setup.php 1 -
+/manual/ja/ko/ 2 -
+/manual/es/ko/howto/ 1 -
+/manual/ko/ko/upgrading.html 2 -
+/manual/de/vhosts/ 2 -
+/manual/ru/en/mod/mod_dumpio.html 1 -
+/manual/de/ko/mod/mod_userdir.html 1 -
+/manual/fr/ 2 -
+/manual/es/howto/auth.html 2 -
+/manual/en/faq/news:comp.infosystems.www.servers.ms-windows 1 -
+/manual/de/ko/mod/module-dict.html 2 -
+/manual/de/en/faq/support.html 1 -
+//phpMyAdmin-2.11.4.0-all-languages/scripts/setup.php 1 -
+/manual/ru/mod/quickreference.html 2 -
+/manual/de/vhosts/name-based.html 2 -
+/manual/ja/ja/dso.html 2 -
+/manual/es/en/misc/security_tips.html 1 -
+/manual/ko/es/programs/ 2 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+/manual/en/mod/mod_dir.html 2 -
+/manual/ja/programs/apxs.html 2 -
+/manual/de/faq/news:comp.infosystems.www.servers.ms-windows 1 -
+/manual/de/en/mod/mod_alias.html 1 -
+/manual/es/ja/server-wide.html 2 -
+/manual/en/ko/content-negotiation.html 1 -
+/manual/fr/ko/stopping.html 1 -
+/manual/ru/en/vhosts/ip-based.html 1 -
+/manual/ru/en/mod/mod_unique_id.html 2 -
+/manual/en/mod/mod_expires.html 2 -
+/manual/de/misc/known_client_problems.html 2 -
+/manual/ko/ko/howto/htaccess.html 2 -
+/manual/en/mod/mod_auth_dbm.html 2 -
+/manual/ja/vhosts/fd-limits.html 2 -
+//phpMyAdmin-3.1.0.0-english/scripts/setup.php 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 61
+unknown 0 872 0 0
+ua_kiev_13 0 203 0 0
+ua_dolyna_22 0 40 0 0
+ru_moscow_48 0 35 0 0
+ua_dnepropetrovsk_04 0 12 0 0
+us_herndon_va 0 12 0 0
+ua_kharkov_07 0 9 0 0
+ua_kharkiv_07 0 9 0 0
+ua_dniepropetrovsk_04 0 8 0 0
+ru_ufa_08 0 7 0 0
+ua_odessa_17 0 3 0 0
+ua_lvov_15 0 3 0 0
+ru_krasnodar_38 0 3 0 0
+us_sterling_va 0 2 0 0
+de_kiel_10 0 3 0 0
+by_vitebsk_07 0 5 0 0
+us_phoenixville_pa 0 2 0 0
+us_mountain%20view_ca 0 3 0 0
+ru_saint%20petersburg_66 0 4 0 0
+ua_dnipropetrovsk_04 0 3 0 0
+ua_kirovohrad_10 0 3 0 0
+il_rishon%20le%20zion_02 0 6 0 0
+ua_podol_18 0 3 0 0
+ua_chernihiv_02 0 3 0 0
+ru_khabarovsk_30 0 3 0 0
+cn_wuhan_12 0 1 0 0
+us_san%20bruno_ca 0 1 0 0
+us_overland%20park_ks 0 1 0 0
+bg_varna_61 0 2 0 0
+ru_voronezh_86 0 3 0 0
+ua_izyaslav_09 0 3 0 0
+ua_dmitriy_17 0 1 0 0
+us_washington_dc 0 2 0 0
+fr_paris_a8 0 6 0 0
+ua_zaporozhye_26 0 3 0 0
+ua_chervonograd_15 0 3 0 0
+ru_yaroslavl_88 0 1 0 0
+lt_vilnius_65 0 4 0 0
+ru_kovrov_83 0 1 0 0
+ru_yekaterinburg_71 0 1 0 0
+my_kuala%20lumpur_14 0 2 0 0
+kz_kokshetau_16 0 1 0 0
+ua_kherson_08 0 3 0 0
+us_seattle_wa 0 1 0 0
+ua_poltava_18 0 3 0 0
+ru_sovetsk_23 0 3 0 0
+ua_kirovograd_10 0 3 0 0
+ua_obukhiv_13 0 3 0 0
+kz_shymkent_10 0 3 0 0
+ru_velikiy%20novgorod_52 0 3 0 0
+at_graz_06 0 3 0 0
+ua_lenina_14 0 3 0 0
+ru_volgograd_84 0 1 0 0
+ua_lviv_15 0 6 0 0
+ru_rostov_88 0 2 0 0
+us_albany_ny 0 2 0 0
+gb_basingstoke_f2 0 7 0 0
+ua_sumy_21 0 3 0 0
+kz_almaty_02 0 3 0 0
+us_woodbridge_nj 0 1 0 0
+ua_nikolaev_16 0 7 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 360
+213.180.209.124 51 51 0 20120720041706
+178.94.25.238 15 22 763061 20120709144919
+5.1.21.148 11 14 4473396 20120720140447
+89.105.244.46 11 16 3747373 20120731170758
+91.193.77.246 10 14 3000296 20120723120506
+89.145.108.202 9 9 17982 20120720124747
+94.154.220.40 9 12 2253219 20120719152147
+95.133.29.59 8 12 2996300 20120711141907
+93.75.151.138 8 10 2244869 20120720141506
+37.55.164.81 7 13 26690 20120705192304
+89.145.108.203 6 6 11988 20120720120109
+5.1.8.90 2 3 749075 20120723222920
+82.207.35.20 4 6 1498150 20120709143703
+217.21.35.104 3 4 751073 20120719120908
+31.31.105.174 2 3 749075 20120715094704
+212.50.29.146 1 2 8350 20120711234359
+213.227.241.242 4 5 753071 20120717114102
+93.72.127.146 3 4 751073 20120702180716
+91.194.57.242 2 3 749075 20120717192024
+108.178.25.178 1 1 1998 20120706165024
+212.82.195.59 4 6 1498150 20120709165008
+213.169.86.35 4 6 1498150 20120702234710
+217.77.220.116 2 3 749075 20120720152519
+95.133.111.8 2 3 749075 20120712113518
+46.138.21.115 2 3 749075 20120713225623
+157.55.34.105 1 1 1998 20120704013225
+94.25.128.119 2 3 749075 20120723101433
+91.124.7.215 2 3 749075 20120729040447
+209.85.224.96 1 2 8350 20120705165047
+93.75.148.223 4 6 1498150 20120704190915
+213.111.122.14 2 3 749075 20120706181639
+94.41.212.194 3 4 1489800 20120708134852
+195.62.58.200 5 7 1500148 20120706121239
+95.132.42.234 2 3 749075 20120709005346
+213.108.75.61 2 3 749075 20120702155913
+109.194.32.185 2 3 749075 20120705103400
+83.170.208.166 2 3 749075 20120706161126
+188.165.59.142 1 1 1998 20120704140909
+130.255.140.233 2 3 749075 20120725214116
+46.200.70.218 2 3 749075 20120723102700
+46.30.167.139 2 3 749075 20120718161425
+77.120.165.221 2 3 749075 20120716184018
+82.193.98.163 3 4 1489800 20120715201342
+62.216.46.10 2 3 749075 20120717164452
+94.230.204.142 2 3 749075 20120726172747
+195.242.179.101 1 2 8350 20120702184712
+213.111.120.5 2 3 749075 20120719233354
+81.255.155.162 2 3 749075 20120730152430
+37.73.8.82 2 4 10348 20120719211433
+85.174.45.18 1 1 740725 20120716060224
+95.132.179.10 3 4 751073 20120731140610
+176.36.56.129 2 3 749075 20120718070116
+91.202.73.6 2 3 749075 20120704162232
+194.143.147.82 2 3 749075 20120710165728
+83.149.8.136 2 3 749075 20120730144043
+37.229.16.56 2 3 749075 20120704080421
+93.72.208.236 2 3 749075 20120727164007
+92.249.124.28 3 4 1489800 20120703095420
+212.90.163.20 2 3 749075 20120707112159
+90.155.218.141 2 3 749075 20120703110424
+46.119.130.223 2 3 749075 20120730195842
+91.142.175.170 2 3 749075 20120712123015
+212.90.183.78 2 3 749075 20120726123750
+46.200.72.237 2 3 749075 20120726103451
+89.209.13.30 3 4 751073 20120711100305
+37.115.112.162 1 2 8350 20120712122932
+195.191.58.6 2 3 749075 20120708222121
+178.94.146.27 2 3 749075 20120706120831
+93.72.214.154 2 3 749075 20120716152403
+217.77.221.217 2 3 749075 20120713165334
+37.115.203.17 1 1 1998 20120727130212
+195.3.158.3 2 3 749075 20120707040627
+62.216.46.35 2 3 749075 20120709160329
+208.90.56.152 1 1 1998 20120701191418
+46.119.134.129 2 3 749075 20120730224505
+46.201.136.163 3 4 751073 20120717172214
+194.50.139.68 2 3 749075 20120710093931
+109.104.172.149 3 4 1489800 20120712221047
+159.224.221.41 2 3 749075 20120716222902
+86.144.67.16 5 7 1500148 20120729130952
+85.223.208.122 1 2 8350 20120720121830
+95.67.95.246 2 3 749075 20120719175458
+62.149.1.75 1 1 1998 20120717162409
+38.100.21.17 1 1 1998 20120717072907
+91.219.53.70 2 3 749075 20120729103610
+157.55.34.101 6 10 1514850 20120726141520
+178.151.23.169 2 3 749075 20120706150719
+46.200.65.40 2 3 749075 20120710134955
+5.1.6.112 2 3 749075 20120718104700
+89.251.16.106 2 3 749075 20120707133544
+107.22.28.38 1 1 1998 20120711074721
+178.150.240.249 2 3 749075 20120719153553
+95.133.141.78 2 3 749075 20120708232214
+89.19.115.165 4 5 1491798 20120712154120
+178.165.41.29 3 4 751073 20120712153040
+178.94.25.106 2 3 749075 20120710233816
+81.255.155.161 2 3 1998 20120731111047
+213.160.149.140 2 3 749075 20120724101331
+93.72.178.187 2 3 749075 20120706195230
+109.95.33.5 2 3 749075 20120710203645
+217.77.222.36 2 3 749075 20120712105308
+195.189.105.139 2 3 749075 20120713124939
+93.75.152.178 2 3 749075 20120715163006
+93.73.20.78 2 3 749075 20120717173732
+46.185.49.121 2 3 749075 20120715205316
+46.159.23.202 2 3 749075 20120715150930
+195.189.196.51 2 3 749075 20120704145753
+46.202.249.46 2 4 10348 20120726124804
+193.254.216.180 2 3 749075 20120709155034
+109.161.42.88 1 1 1998 20120711114835
+178.95.104.58 2 3 749075 20120731081201
+82.193.109.117 2 3 749075 20120711174033
+95.215.218.61 2 3 749075 20120720200507
+193.19.229.33 2 3 749075 20120702120947
+62.80.173.51 2 3 749075 20120719121626
+46.30.167.64 1 2 8350 20120703191802
+94.244.59.123 2 3 749075 20120709102614
+176.36.66.234 2 3 749075 20120710154632
+194.143.146.14 2 3 749075 20120703121804
+192.162.108.120 2 3 749075 20120706113902
+91.142.169.54 4 5 753071 20120703171217
+195.5.184.2 2 3 749075 20120706144410
+93.72.230.114 3 4 751073 20120726135554
+93.183.247.238 3 4 751073 20120702132547
+82.117.238.39 2 3 749075 20120716103846
+77.247.17.40 2 3 749075 20120726074819
+81.30.164.102 2 3 749075 20120711124820
+109.251.127.70 6 9 1508498 20120727112953
+178.137.114.66 4 6 1498150 20120708194953
+94.45.59.198 2 3 749075 20120723110439
+91.224.182.17 4 6 1498150 20120711183827
+176.36.182.12 2 3 749075 20120705224838
+38.105.71.50 4 6 1498150 20120711130416
+95.52.109.83 2 3 749075 20120708170736
+94.27.1.254 6 9 2247225 20120706144918
+79.176.161.194 4 6 1498150 20120711080723
+178.210.32.196 2 2 3996 20120728224937
+178.94.111.172 2 3 749075 20120710151511
+93.74.17.54 3 4 751073 20120721001304
+5.8.211.248 2 3 749075 20120724032400
+109.87.156.114 2 3 749075 20120729130339
+91.209.51.221 2 3 749075 20120720001356
+95.32.134.246 2 3 749075 20120723160021
+78.158.11.226 4 4 7992 20120708020312
+195.24.155.175 2 3 749075 20120707142605
+89.209.16.5 2 3 749075 20120710112437
+178.94.2.137 2 3 749075 20120702195029
+85.114.205.82 3 5 757425 20120725171503
+46.151.80.111 2 3 749075 20120705225159
+178.91.91.228 2 3 749075 20120710144705
+46.41.106.46 3 5 751073 20120719114410
+109.254.31.202 2 3 749075 20120721134150
+193.239.153.133 4 6 1498150 20120717130105
+77.88.202.42 2 3 749075 20120710085552
+62.244.27.74 2 3 749075 20120712122039
+82.144.212.207 2 3 749075 20120706175516
+212.90.173.146 2 3 749075 20120720084229
+89.19.96.39 3 5 12346 20120705224045
+141.101.26.47 2 3 749075 20120718135937
+94.74.89.188 4 6 1498150 20120723183817
+95.132.204.20 4 6 1498150 20120711124058
+46.172.222.145 2 3 749075 20120725194548
+178.94.22.4 2 3 749075 20120711155408
+194.44.193.9 2 3 749075 20120730211255
+88.81.233.86 2 3 749075 20120717121511
+93.75.54.22 2 3 749075 20120730092823
+95.69.250.10 2 3 749075 20120720172312
+109.251.34.148 2 3 749075 20120724134328
+95.81.56.88 6 7 2234521 20120726123638
+94.45.132.46 2 3 749075 20120711092339
+78.63.227.53 2 3 749075 20120721205441
+195.24.157.250 2 3 749075 20120705170331
+194.44.207.167 2 3 749075 20120716133353
+96.236.37.4 2 3 749075 20120706090524
+37.19.138.68 2 3 749075 20120719162701
+188.134.42.28 3 4 1489800 20120709220241
+178.94.199.209 2 3 749075 20120727131024
+93.74.131.215 2 3 749075 20120705203137
+194.146.230.122 2 3 749075 20120721184628
+194.247.37.13 5 9 1500148 20120720115413
+178.132.187.79 2 3 749075 20120731214922
+212.26.157.1 2 3 749075 20120713031118
+93.74.77.85 2 3 749075 20120720212625
+80.239.243.110 1 2 8350 20120711121310
+46.39.34.3 2 3 749075 20120726164149
+93.126.115.88 2 3 749075 20120712144805
+78.111.17.225 2 3 749075 20120717143018
+178.94.185.229 2 3 749075 20120730171112
+82.144.203.175 2 3 749075 20120712134211
+77.79.177.98 2 3 749075 20120705132711
+213.47.157.243 2 3 749075 20120723225934
+178.137.72.207 2 3 749075 20120702125052
+128.204.36.173 2 2 3996 20120721153416
+69.58.178.58 2 2 3996 20120710045024
+94.248.3.151 2 3 749075 20120702210411
+95.134.86.127 2 3 749075 20120704003755
+80.93.124.73 2 3 749075 20120706230322
+121.61.118.108 1 1 1998 20120709064555
+93.75.82.156 2 3 749075 20120717221305
+77.123.13.153 2 3 749075 20120731202420
+46.30.167.92 2 3 749075 20120712220257
+195.24.234.169 2 3 749075 20120716160809
+157.55.34.100 3 5 18698 20120728002938
+157.55.34.103 2 4 16700 20120731120003
+95.66.219.187 1 1 740725 20120720223221
+93.127.65.79 2 3 749075 20120721170525
+94.76.111.54 2 3 749075 20120703161945
+86.111.90.137 3 5 751073 20120724155414
+79.223.8.20 2 3 749075 20120720041441
+38.105.71.43 4 6 1498150 20120718134025
+77.78.109.73 1 1 1998 20120726190904
+46.33.224.129 2 3 749075 20120716115038
+193.110.163.170 2 3 749075 20120707185741
+178.94.169.148 2 3 749075 20120726235806
+93.75.94.154 2 3 749075 20120726173303
+178.122.191.250 1 2 8350 20120714224207
+93.74.78.125 1 1 1998 20120715161507
+46.119.4.14 2 3 749075 20120725215725
+92.113.240.227 2 3 749075 20120721204758
+92.113.115.62 4 5 1491798 20120708174623
+91.193.166.242 2 3 749075 20120705192107
+188.165.230.147 3 3 5994 20120728001458
+93.74.28.103 3 4 1489800 20120718220438
+91.193.165.188 1 1 1998 20120707163326
+80.91.174.42 2 3 749075 20120710153643
+80.91.181.66 2 3 749075 20120703122632
+178.150.248.178 4 6 1498150 20120718234714
+188.123.245.35 2 3 749075 20120730200125
+188.32.166.102 2 3 749075 20120727163258
+213.227.209.36 4 6 1498150 20120720175102
+37.49.181.185 2 3 749075 20120729203911
+54.245.3.208 1 1 1998 20120723021954
+194.9.50.67 2 3 749075 20120709124013
+93.75.116.135 6 9 2247225 20120716000154
+91.197.50.114 2 3 749075 20120723233933
+82.144.198.6 2 3 749075 20120726172543
+94.248.105.255 2 3 749075 20120707093310
+178.94.17.171 4 6 1498150 20120703113100
+62.80.168.194 2 3 749075 20120725170106
+46.30.167.85 3 4 1489800 20120725120729
+72.94.249.38 1 1 1998 20120723142349
+109.106.14.20 2 3 749075 20120717181837
+188.231.141.18 2 3 749075 20120723130328
+93.73.38.193 3 4 751073 20120710203745
+37.19.160.207 2 3 749075 20120709131019
+95.135.175.31 2 3 749075 20120713143228
+81.95.176.157 3 4 1489800 20120704173739
+188.163.32.20 2 3 749075 20120730185915
+62.205.140.6 3 4 751073 20120713150407
+157.55.34.107 5 8 767773 20120729115510
+81.176.230.39 2 2 3996 20120719174733
+157.55.34.94 1 2 8350 20120720080503
+46.202.46.49 2 3 749075 20120717183717
+77.122.119.197 2 3 749075 20120706191503
+109.200.157.193 2 3 749075 20120705224924
+90.157.19.133 1 1 1998 20120730024535
+157.55.34.98 5 8 1506500 20120717211946
+91.195.96.167 2 3 749075 20120727123350
+91.201.245.3 2 3 749075 20120720185656
+109.251.76.215 1 2 8350 20120717191848
+89.19.116.223 1 2 8350 20120731155648
+159.160.208.72 2 3 749075 20120721170350
+46.109.229.96 2 3 749075 20120712202948
+81.162.216.79 2 3 749075 20120722181030
+83.149.8.195 1 2 8350 20120729154321
+46.211.255.88 3 4 751073 20120708131358
+195.189.60.30 2 3 749075 20120708101650
+157.55.34.106 2 4 16700 20120720220641
+93.74.39.222 2 3 749075 20120722202830
+212.22.205.24 2 3 749075 20120718222829
+190.118.10.105 4 7 753071 20120720062455
+195.182.194.212 7 10 2249223 20120703124129
+91.218.75.140 2 3 749075 20120703140309
+77.91.159.31 1 1 740725 20120711121311
+38.100.21.11 1 1 1998 20120717034635
+212.90.167.162 2 3 749075 20120706170707
+91.194.51.30 3 4 751073 20120705143227
+82.144.204.96 2 3 749075 20120721145234
+178.94.196.127 2 3 749075 20120731231641
+46.30.167.82 2 3 749075 20120707153510
+62.80.174.186 3 4 751073 20120711151428
+50.16.42.187 1 1 1998 20120713211604
+31.43.27.10 2 3 749075 20120722121725
+93.170.67.199 2 3 749075 20120707022402
+85.238.111.193 2 3 749075 20120719223759
+37.229.82.144 5 9 29046 20120714004535
+150.70.97.43 1 1 1998 20120726122604
+80.16.92.187 2 3 749075 20120719194810
+192.162.141.133 1 2 8350 20120707205308
+82.207.46.243 2 3 749075 20120707154026
+109.86.241.6 2 3 749075 20120713211603
+37.52.224.195 2 3 749075 20120707093219
+93.74.77.83 2 3 749075 20120704150215
+82.193.108.88 4 6 1498150 20120714031556
+46.202.35.191 5 7 1500148 20120717164929
+178.137.39.232 2 3 749075 20120717134534
+188.230.112.124 2 3 749075 20120709232543
+83.149.8.154 7 10 1502146 20120730142211
+195.211.111.110 2 3 749075 20120703114415
+93.73.103.57 2 3 749075 20120717165743
+66.226.74.169 1 1 1998 20120723094844
+213.179.248.138 4 6 1498150 20120725163940
+193.110.115.246 2 3 749075 20120707011009
+193.27.80.60 3 4 751073 20120705165253
+193.161.14.148 2 3 749075 20120717173052
+178.137.160.135 1 1 1998 20120716181719
+88.81.227.70 2 3 749075 20120712105606
+178.122.236.227 2 3 749075 20120705153657
+91.204.69.78 5 8 753071 20120717090959
+178.76.233.194 1 2 8350 20120719093630
+195.8.40.78 3 4 751073 20120720122607
+94.179.140.50 2 3 749075 20120711163019
+93.75.183.27 2 3 749075 20120706025535
+198.136.53.234 1 1 1998 20120706060126
+188.163.37.180 2 3 749075 20120729081827
+195.88.242.35 1 1 1998 20120701084142
+193.93.185.86 2 3 749075 20120709110654
+46.250.105.123 2 3 749075 20120731165656
+46.30.167.94 3 4 1489800 20120726231944
+37.53.149.76 2 3 749075 20120703145226
+82.142.132.34 2 3 749075 20120717084051
+195.211.175.199 2 3 749075 20120723163518
+195.161.40.10 2 3 749075 20120714043444
+93.127.25.98 2 3 749075 20120730201908
+195.3.156.30 2 3 749075 20120702154051
+178.94.1.227 2 3 749075 20120716164805
+193.107.25.4 2 3 749075 20120730092648
+46.98.72.176 2 4 10348 20120723233558
+91.124.117.66 2 3 749075 20120713220413
+94.45.133.82 2 3 749075 20120720124552
+91.194.50.169 2 3 749075 20120710104222
+37.55.197.243 2 3 749075 20120707225230
+91.124.101.152 2 3 749075 20120724162959
+93.74.57.93 2 3 749075 20120725113852
+94.27.9.90 3 4 751073 20120705191712
+92.47.195.94 2 3 749075 20120705165725
+213.179.227.98 2 3 749075 20120723102055
+95.59.40.74 1 1 1998 20120710090647
+74.125.17.210 1 1 740725 20120724021846
+193.46.86.222 2 3 749075 20120702154542
+157.55.34.93 6 11 43748 20120727045809
+95.111.241.164 4 5 1491798 20120730093207
+210.195.65.176 1 2 8350 20120703140430
+37.55.7.16 2 3 749075 20120709130133
+77.222.128.98 6 8 1502146 20120723170636
+93.73.180.29 2 3 749075 20120710212026
+72.10.215.231 1 2 8350 20120721132917
+195.128.19.34 2 3 749075 20120710140843
+92.37.156.30 2 3 749075 20120705075247
+77.122.21.81 3 4 1489800 20120727232617
+176.36.146.46 2 3 749075 20120714203459
+134.249.118.7 1 2 8350 20120703124245
+157.55.34.97 3 5 757425 20120722003631
+46.119.206.137 3 3 5994 20120723123850
+72.94.249.37 1 1 1998 20120713210926
+213.33.208.138 2 3 749075 20120727180250
+213.154.207.196 2 3 749075 20120724154148
+93.127.64.191 2 3 749075 20120709161318
+93.74.15.90 2 3 749075 20120717214423
+91.76.102.120 2 3 749075 20120725211651
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20120701 2 2 3996 2
+20120702 33 49 11248471 15
+20120703 39 58 12756969 19
+20120704 40 50 8235471 13
+20120705 59 85 12809633 29
+20120706 43 63 14248767 23
+20120707 35 51 11252467 17
+20120708 24 33 8231117 9
+20120709 52 76 13503330 18
+20120710 44 63 14983140 20
+20120711 40 59 12758967 18
+20120712 50 65 11242119 17
+20120713 25 36 6768365 14
+20120714 12 19 3755723 6
+20120715 13 19 4496448 7
+20120716 23 33 7496744 13
+20120717 52 76 15016182 23
+20120718 22 32 8233473 10
+20120719 26 40 7515442 14
+20120720 73 98 16497274 24
+20120721 20 29 6006944 10
+20120722 8 13 2263925 5
+20120723 41 58 11264455 18
+20120724 14 21 5237173 7
+20120725 20 30 7490750 10
+20120726 34 49 10499038 18
+20120727 23 34 6764369 10
+20120728 5 7 22694 4
+20120729 17 26 5262223 8
+20120730 34 49 11235767 14
+20120731 19 29 5264221 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 22
+30s-2mn 12
+15mn-30mn 6
+2mn-5mn 8
+0s-30s 372
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 570 1036962 421 124
+/index.swf 372 268883175 4 301
+END_SIDER

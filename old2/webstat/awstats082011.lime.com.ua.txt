@@ -1,0 +1,574 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201108 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.lime.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2689                
+POS_VISITOR 13370               
+POS_DAY 17103               
+POS_DOMAIN 3447                
+POS_LOGIN 3805                
+POS_ROBOT 3960                
+POS_WORMS 4451                
+POS_EMAILSENDER 4582                
+POS_EMAILRECEIVER 4725                
+POS_SESSION 17390               
+POS_SIDER 17596               
+POS_FILETYPES 4860                
+POS_OS 4998                
+POS_BROWSER 5135                
+POS_SCREENSIZE 5565                
+POS_UNKNOWNREFERER 5639                
+POS_UNKNOWNREFERERBROWSER 5726                
+POS_ORIGIN 5858                
+POS_SEREFERRALS 5998                
+POS_PAGEREFS 6177                
+POS_SEARCHWORDS 6545                
+POS_KEYWORDS 7619                
+POS_MISC 2353                
+POS_ERRORS 8484                
+POS_CLUSTER 3661                
+POS_SIDER_404 8586                
+POS_PLUGIN_geoip_city_maxmind 12460               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110901002501 1 0 9742490377360
+FirstTime 20110823161011
+LastTime 20110831214615
+LastUpdate 20110902000211 1 0 0 0 0
+TotalVisits 104                 
+TotalUnique 91                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 91                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 1483666 4 4 862
+1 3 3 2225499 15 15 4452900
+2 0 0 0 9 9 2968402
+3 6 6 4450998 8 8 2226569
+4 3 3 2225499 50 50 752781
+5 0 0 0 10 10 4451860
+6 2 2 1483666 12 12 1485980
+7 3 3 2225499 3 3 742287
+8 1 1 741833 1 1 218
+9 5 5 3709165 3 6 783012
+10 36 44 11274445 6 10 1275
+11 9 9 6676497 3 14 672
+12 7 7 4450998 13 18 1486198
+13 7 7 4450998 5 11 742713
+14 10 10 6676497 2 8 742051
+15 23 23 3723294 5 13 1073
+16 49 49 34127489 3 19 727927
+17 14 14 2969446 3 18 742269
+18 5 5 2968389 14 17 744768
+19 5 5 3709165 33 36 7571
+20 20 20 9649021 27 29 2230907
+21 16 16 8948121 8 21 1484971
+22 9 9 5935549 7 10 743167
+23 7 7 2229782 4 7 862
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+ua 193 201 90726475
+us 19 19 13354051
+ru 17 17 12611161
+de 7 7 5192831
+cn 2 2 1483666
+nl 1 1 741833
+se 1 1 741833
+ro 1 1 741833
+unknown 1 1 741833
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 12 8901996 20110830095204 0
+yandex 8 5934664 20110831172259 0
+aspider 6 4450998 20110831014349 0
+bot[\s_+:,\.\;\/\\-] 4 2967332 20110831202239 0
+python 1 741833 20110828024649 0
+no_user_agent 1 741833 20110828030352 0
+cursor 1 741833 20110830022858 0
+portalb 1 741833 20110828052107 0
+wget 1 741833 20110831183759 0
+slurp 1 741833 20110827042759 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 11 64265 0 0
+png 7 2622067 0 0
+html 224 121114972 0 0
+js 1 6352 0 0
+swf 7 2527860 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 63
+winlong 6
+win2000 5
+java 2
+win98 3
+winme 1
+macosx 65
+winunknown 1
+win2003 2
+win2008 102
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 25
+msie6.0 25
+msie5.01 1
+opera8.00 1
+firefox3.6.6 1
+chrome14.0.823.0 1
+opera9.00 1
+chrome7.0.517.44 1
+chrome13.0.782.218 4
+chrome12.0.742.112 1
+chrome13.0.782.215 11
+opera9.80 10
+safari5.0.2 4
+chrome14.0.835.122 1
+msie8.0 6
+netscape0.6 1
+chrome13.0.782.107 2
+chrome13.0.782.112 24
+mozilla 3
+netscape5.0 34
+msie7.0 12
+firefox6.0 75
+firefox3.6.20 2
+msie9.0 5
+Unknown 2
+safari5.0.5 22
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/4.1.1_(java_1.5) 20110828180559
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 150 150
+From1 0 0
+From2 27 27
+From3 32 32
+From4 33 41
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 10 10
+bing 1 1
+yandex 16 16
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://www.facebook.com/l.php 15 15
+http://limebtl.kiev.ua 8 8
+http://starodavniy.ru 5 5
+http://sndkt.com.ua/profile.html 1 1
+http://yandex.ua/yandsearch 1 1
+http://freemail.ukr.net/q/start 1 1
+http://www.rup.com.ua 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+www+lime.ua 16
+lime+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 2
+lime+-+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 2
+%d0%b7%d0%b2%d0%b5%d0%b7%d0%b4%d1%8b+%d0%bd%d0%b0+%d0%b2%d0%b5%d1%87%d0%b5%d1%80%d0%b8%d0%bd%d0%ba%d0%b0%d1%85+%d0%bc%d0%b0%d1%80%d1%82%d0%b8%d0%bd%d0%b8+-+%d0%b1%d0%b0%d0%ba%d0%b0%d1%80%d0%b4%d0%b8 1
+http+//lime.com.ua/ 1
+%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5+%d0%bd%d0%be%d0%b2%d0%be%d0%b3%d0%be%d0%b4%d0%bd%d0%b5%d0%b9+%d0%b2%d0%b5%d1%87%d0%b5%d1%80%d0%b8%d0%bd%d0%ba%d0%b8+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%bd%d0%b8%d0%ba%d0%b8+%d0%a4%d0%9a+%d0%a8%d0%b0%d1%85%d1%82%d0%b5%d1%80+%d0%a4%d0%be%d1%82%d0%be 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime 1
+%d0%bb%d0%b0%d0%b9%d0%bc+%d0%b1%d1%82%d0%bb+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d0%b2%d0%be 1
+limebtl.com.ua 1
+%d0%bb%d0%b0%d0%b9%d0%bc+btl 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 25
+www 16
+lime.ua 16
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 5
+lime 5
+- 3
+%d0%b8%d0%b2%d0%b5%d0%bd%d1%82 2
+%d0%bb%d0%b0%d0%b9%d0%bc 2
+%d0%a4%d0%9a 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%bd%d0%b8%d0%ba%d0%b8 1
+%d0%a4%d0%be%d1%82%d0%be 1
+%d0%bd%d0%b0 1
+%d0%bd%d0%be%d0%b2%d0%be%d0%b3%d0%be%d0%b4%d0%bd%d0%b5%d0%b9 1
+http 1
+//lime.com.ua/ 1
+limebtl.com.ua 1
+%d0%bc%d0%b0%d1%80%d1%82%d0%b8%d0%bd%d0%b8 1
+%d0%b2%d0%b5%d1%87%d0%b5%d1%80%d0%b8%d0%bd%d0%ba%d0%b8 1
+%d0%b1%d1%82%d0%bb 1
+%d0%a8%d0%b0%d1%85%d1%82%d0%b5%d1%80 1
+%d0%b7%d0%b2%d0%b5%d0%b7%d0%b4%d1%8b 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d0%b2%d0%be 1
+%d0%b1%d0%b0%d0%ba%d0%b0%d1%80%d0%b4%d0%b8 1
+%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5 1
+%d0%b2%d0%b5%d1%87%d0%b5%d1%80%d0%b8%d0%bd%d0%ba%d0%b0%d1%85 1
+btl 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 2 768462
+404 210 46845
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 105
+/manual/ru/en/new_features_2_0.html 1 -
+/robots.txt 26 -
+/manual/ru/ko/upgrading.html 1 -
+/manual/ru/mod/mod_auth_dbm.html 1 -
+/manual/de/ko/mod/mod_expires.html 1 -
+/manual/de/ko/mod/mod_headers.html 1 -
+/manual/ru/misc/perf-tuning.html 1 -
+/manual/fr/ko/mod/mod_userdir.html 1 -
+/manual/new_features_2_0.html 1 -
+/manual/ja/ja/mod/mod_version.html 1 -
+/manual/ko/en/mod/mod_headers.html 1 -
+/manual/ja/en/mod/mod_speling.html 1 -
+/manual/ja/ko/mod/mod_speling.html 1 -
+/manual/ko/en/mod/mod_speling.html 1 -
+/manual/programs/ 1 -
+/manual/ko/ko/vhosts/examples.html 1 -
+/manual/ru/content-negotiation.html 1 -
+/manual/mod/core.html 53 -
+/manual/ru/ja/new_features_2_0.html 1 -
+/manual/en/en/vhosts/examples.html 1 -
+/manual/ru/en/upgrading.html 1 -
+/manual/ko/en/vhosts/examples.html 1 -
+/manual/en/en/misc/fin_wait_2.html 1 -
+/manual/ja/ja/mod/mod_userdir.html 1 -
+/manual/ru/en/mod/module-dict.html 1 -
+/manual/fr/ja/mod/mod_userdir.html 1 -
+/manual/ru/en/developer/hooks.html 1 -
+/manual/filter.html 1 -
+/manual/ru/en/programs/suexec.html 1 -
+/manual/ru/ 1 -
+/manual/ru/mod/mod_auth_digest.html 1 -
+/manual/ko/ko/vhosts/ip-based.html 1 -
+/manual/ja/ja/mod/mod_speling.html 1 -
+/undefined 6 -
+/manual/fr/en/mod/mod_headers.html 1 -
+/manual/de/en/mod/mod_headers.html 1 -
+/manual/ru/ko/mod/module-dict.html 1 -
+/manual/upgrading.html 1 -
+/manual/fr/ko/programs/suexec.html 1 -
+/manual/invoking.html 1 -
+/manual/fr/ko/mod/mod_headers.html 1 -
+/manual/ko/en/vhosts/ip-based.html 1 -
+/manual/en/ko/programs/suexec.html 1 -
+/manual/ko/ko/mod/mod_headers.html 1 -
+/manual/ru/ko/programs/suexec.html 1 -
+/manual/en/ko/vhosts/ip-based.html 1 -
+/manual/ru/fr/new_features_2_0.html 1 -
+/manual/ru/ja/upgrading.html 1 -
+/manual/de/en/mod/mpm_netware.html 1 -
+/manual/ja/ko/mod/mod_version.html 1 -
+/manual/ru/ko/stopping.html 1 -
+/manual/ru/mod/mod_auth.html 1 -
+/manual/ru/ru/upgrading.html 1 -
+/manual/ru/mod/mod_headers.html 1 -
+/manual/ko/en/mod/mod_example.html 1 -
+/manual/ko/ko/programs/suexec.html 1 -
+/manual/ko/en/programs/suexec.html 1 -
+/manual/vhosts/index.html 1 -
+/manual/ja/en/mod/mod_expires.html 1 -
+/manual/en/en/vhosts/ip-based.html 1 -
+/manual/en/ko/vhosts/examples.html 1 -
+/manual/en/en/programs/suexec.html 1 -
+/manual/ja/ko/mod/mod_expires.html 1 -
+/manual/ru/ru/new_features_2_0.html 1 -
+/puma 1 http://lime.com.ua/
+/manual/fr/en/misc/fin_wait_2.html 1 -
+/manual/install.html 1 -
+/manual/ru/handler.html 1 -
+/manual/fr/ja/mod/mod_speling.html 1 -
+/manual/de/ko/mod/mod_version.html 1 -
+/manual/ru/mod/prefork.html 1 -
+/manual/ja/ko/mod/mod_userdir.html 1 -
+/manual/de/ja/mod/mod_expires.html 1 -
+/manual/fr/en/mod/mod_rewrite.html 1 -
+/manual/ru/de/stopping.html 1 -
+/manual/ru/ja/stopping.html 1 -
+/manual/ru/mod/mod_setenvif.html 1 -
+/manual/en/mod/worker.html 1 -
+/manual/ru/ru/stopping.html 1 -
+/manual/ru/es/stopping.html 1 -
+/manual/mod/directives.html 1 -
+/manual/ru/howto/ 1 -
+/manual/ja/en/mod/mod_version.html 1 -
+/manual/stopping.html 1 -
+/manual/ru/programs/apachectl.html 1 -
+/manual/ru/de/new_features_2_0.html 1 -
+/manual/ru/en/misc/fin_wait_2.html 1 -
+/manual/ja/en/mod/mod_userdir.html 1 -
+/manual/ru/en/license.html 1 -
+/manual/fr/en/programs/suexec.html 1 -
+/manual/ko/ko/mod/mod_example.html 1 -
+/manual/ru/ko/new_features_2_0.html 1 -
+/manual/ru/ja/mod/module-dict.html 1 -
+/manual/ru/es/upgrading.html 1 -
+/manual/en/en/developer/hooks.html 1 -
+/manual/ja/ja/mod/mod_expires.html 1 -
+/manual/fr/en/mod/mod_userdir.html 1 -
+/manual/mod/quickreference.html 1 -
+/manual/ru/fr/upgrading.html 1 -
+/manual/en/developer/thread_safety.html 23 http://limebtl.kiev.ua/manual/en/developer/thread_safety.html
+/manual/ru/en/stopping.html 1 -
+/manual/ru/mod/mod_ldap.html 1 -
+/manual/ru/mpm.html 1 -
+/manual/ru/de/upgrading.html 1 -
+/files/HTML/undefined 2 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 25
+unknown 0 105 0 0
+ua_kiev_13 0 101 0 0
+us_brooklyn_ny 0 6 0 0
+ru_moscow_48 0 6 0 0
+ua_sebastopol_20 0 5 0 0
+us_denver_co 0 4 0 0
+ua_cherkasy_01 0 2 0 0
+cn_beijing_22 0 2 0 0
+ua_dmitriy_17 0 2 0 0
+us_south%20lake%20tahoe_ca 0 2 0 0
+se_lund_27 0 1 0 0
+ua_kharkov_07 0 1 0 0
+nl_rotterdam_11 0 1 0 0
+ua_dolyna_22 0 1 0 0
+ro_sibiu_33 0 1 0 0
+ru_kazan_73 0 1 0 0
+ua_makiyivka_05 0 1 0 0
+us_sunnyvale_ca 0 1 0 0
+ua_lviv_15 0 1 0 0
+ua_dnepropetrovsk_04 0 1 0 0
+ua_chernivtsi_03 0 1 0 0
+us_walnut_ca 0 1 0 0
+ru_lyubertsy_47 0 1 0 0
+ru_saratov_67 0 1 0 0
+ua_nikolaev_16 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 91
+93.73.194.44 64 72 12083820 20110825083227
+93.73.53.27 49 49 36349817 20110828210908
+94.45.59.198 15 15 2227686 20110829101752
+178.162.179.64 5 5 3709165 20110831035407
+93.127.56.117 5 5 1483666 20110823212227
+216.38.216.220 4 4 2967332 20110830141726
+93.73.66.235 4 4 2225499 20110831134633
+193.33.65.162 3 3 2225499 20110823223655
+212.90.183.86 2 2 2114 20110823174820
+195.242.113.98 2 2 1483666 20110830141755
+95.24.64.238 1 1 741833 20110827195220
+216.24.199.58 1 1 741833 20110830224157
+77.52.242.101 1 1 741833 20110827221523
+208.80.194.37 1 1 741833 20110827143715
+95.221.89.58 1 1 741833 20110831195656
+195.182.194.202 1 1 885 20110824212622
+188.123.230.180 1 1 741833 20110829195545
+92.249.103.163 1 1 741833 20110823212340
+86.111.78.2 1 1 741833 20110825113605
+94.179.202.62 1 1 741833 20110831132755
+93.127.122.66 1 1 741833 20110831100040
+77.87.44.182 2 2 741833 20110824121242
+95.24.165.191 1 1 741833 20110829073621
+157.55.112.200 1 1 741833 20110831202243
+193.93.185.148 1 1 741833 20110831142845
+188.24.243.175 1 1 741833 20110826223505
+95.24.172.174 1 1 741833 20110828013553
+95.24.136.70 1 1 741833 20110827013928
+95.221.104.151 1 1 741833 20110828092208
+89.178.162.111 1 1 741833 20110829223339
+85.223.210.218 1 1 741833 20110830110757
+95.24.174.138 1 1 741833 20110828124950
+46.30.167.195 1 1 741833 20110831214615
+95.132.147.121 1 1 741833 20110828184230
+89.178.199.198 1 1 741833 20110827094346
+95.25.166.218 1 1 741833 20110827103328
+88.154.109.205 1 1 741833 20110829134609
+95.132.152.212 1 1 741833 20110831124956
+220.181.19.81 2 2 1483666 20110830173808
+93.126.98.234 1 1 741833 20110831214205
+88.154.243.67 2 2 1483666 20110831135256
+91.213.231.50 1 1 1057 20110823181508
+95.25.142.220 1 1 741833 20110828124022
+207.46.204.214 1 1 741833 20110830065322
+178.212.247.16 1 1 741833 20110825233320
+93.80.235.62 1 1 741833 20110830073540
+46.73.156.253 1 1 741833 20110829102822
+212.90.175.118 1 1 741833 20110829150002
+93.72.145.91 1 1 741833 20110830225603
+208.80.194.27 1 1 741833 20110829041210
+31.43.90.115 1 1 1057 20110823200428
+195.88.242.35 2 2 1483666 20110828180559
+208.80.194.26 2 2 1483666 20110831012857
+212.115.248.198 1 1 741833 20110828115050
+178.94.180.151 1 1 1057 20110823165730
+82.144.198.6 1 1 741833 20110831173601
+78.27.163.226 1 1 741833 20110830212504
+207.46.204.169 1 1 741833 20110829200808
+82.207.46.94 1 1 741833 20110831164936
+78.46.65.148 1 1 741833 20110829075314
+199.19.249.196 1 1 741833 20110830110757
+193.110.162.187 1 1 741833 20110826150255
+193.108.39.154 2 2 1483666 20110831092251
+208.80.194.29 1 1 741833 20110831214324
+208.80.194.35 1 1 741833 20110825204319
+207.46.204.173 1 1 741833 20110830031546
+93.182.187.32 1 1 741833 20110831113747
+207.204.248.208 2 2 1483666 20110830045302
+82.116.55.14 1 1 741833 20110829161219
+109.230.220.97 1 1 741833 20110826202718
+194.88.207.162 1 1 741833 20110831154135
+93.157.9.158 1 1 741833 20110829164919
+91.209.51.155 1 1 741833 20110829154046
+95.26.243.40 1 1 741833 20110830063836
+195.69.87.222 1 1 741833 20110829140852
+94.180.160.41 1 1 741833 20110826182644
+212.92.254.42 1 1 741833 20110828125413
+176.14.177.19 1 1 741833 20110829161341
+109.229.4.125 1 1 741833 20110825230725
+207.46.12.68 1 1 1057 20110823161011
+178.94.9.90 1 1 741833 20110825124421
+93.72.30.39 1 1 741833 20110829211354
+109.86.29.42 1 1 741833 20110830193423
+109.232.224.115 1 1 741833 20110826213756
+178.94.69.48 2 2 1483666 20110826110229
+92.49.201.82 1 1 741833 20110829162144
+194.44.15.50 1 1 741833 20110829195116
+93.72.217.152 1 1 741833 20110825093733
+91.196.159.137 1 1 741833 20110831160623
+194.105.145.69 1 1 741833 20110825181144
+91.196.99.229 1 1 741833 20110829114800
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20110823 33 33 6733271 10
+20110824 57 65 9809831 5
+20110825 13 13 7419460 12
+20110826 6 6 4450998 6
+20110827 7 7 5192831 7
+20110828 57 57 42284481 10
+20110829 20 20 14836660 19
+20110830 22 22 16320326 16
+20110831 27 27 19287658 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 2
+0s-30s 90
+15mn-30mn 1
+2mn-5mn 3
+30s-2mn 3
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 210 120299287 104 103
+/files/HTML/ 7 788869 0 0
+/index.php 7 3530 0 1
+/phpinfo.php 4 60735 0 0
+/test/ 3 1767 0 0
+/index_old.swf 2 787073 0 0
+/index__.swf 2 787461 0 0
+/index_old.html 2 2936 0 0
+/files/HTML/Lime_EVENT_ru.html 1 21639 0 0
+/limeadver.swf 1 132393 0 0
+/index.swf 1 741833 0 0
+/clock.swf 1 79100 0 0
+/files/ 1 474 0 0
+END_SIDER

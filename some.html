@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container-my {
+            width: 1080px;
+            height: 1080px;
+            overflow: hidden;
+            position: relative;
+            z-index: 9000;
+            background-color: #1d1d1d;
+            background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjAlIiByPSI1MDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNjg2ODY4IiBzdG9wLW9wYWNpdHk9IjAuOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkMWQxZCIgc3RvcC1vcGFjaXR5PSIwLjYiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+            background-size: 100%;
+            /*background-image: -moz-radial-gradient(center top, circle, rgba(104, 104, 104, 0.8), rgba(29, 29, 29, 0.6) 500px);
+            background-image: -webkit-radial-gradient(center top, circle, rgba(104, 104, 104, 0.8), rgba(29, 29, 29, 0.6) 500px);
+            background-image: radial-gradient(circle at center top, rgba(104, 104, 104, 0.8), rgba(29, 29, 29, 0.6) 500px);*/
+            overflow: hidden;
+        }
+        
+        .devices_gray,
+        .devices_gray .bg,
+        .devices_colorful .bg {
+            width: 2600px;
+            overflow: hidden;
+            height: 1200px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        
+        .devices_gray {
+            /*-webkit-mask-image: -webkit-gradient(linear, left 80%, left bottom, from(black), to(transparent));*/
+            z-index: 1;
+        }
+        
+        .devices_gray .bg {
+            left: -1500px;
+            top: 0px;
+            overflow: hidden;
+            background: #1bfa50;
+            /*opacity: 0.4;*/
+            /*-webkit-mask-image: url(http://www.area53.ru/sites/default/files/devices_mask.png);*/
+        }
+        
+        .devices_colorful {
+            /*-webkit-mask-image: url(http://www.area53.ru/sites/default/files/cloud_mask.png);*/
+            -webkit-mask-image: url(assets/img/Pyatno.svg);
+            width: 520px;
+            overflow: hidden;
+            height: 545px;
+            position: absolute;
+            left: 270px;
+            top: 170px;
+            z-index: 2;
+        }
+        
+        .devices_colorful .bg {
+            overflow: hidden;
+            left: -1770px;
+            top: -170px;
+            background-size: 100%;
+            background: rgba(221,246,10,1);
+background: -moz-linear-gradient(left, rgba(221,246,10,1) 0%, rgba(221,246,10,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(221,246,10,1)), color-stop(100%, rgba(221,246,10,1)));
+background: -webkit-linear-gradient(left, rgba(221,246,10,1) 0%, rgba(221,246,10,1) 100%);
+background: -o-linear-gradient(left, rgba(221,246,10,1) 0%, rgba(221,246,10,1) 100%);
+background: -ms-linear-gradient(left, rgba(221,246,10,1) 0%, rgba(221,246,10,1) 100%);
+background: linear-gradient(to right, rgba(221,246,10,1) 0%, rgba(221,246,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddf60a', endColorstr='#ddf60a', GradientType=1 );
+            /*-webkit-mask-image: url(http://www.area53.ru/sites/default/files/devices_mask.png);*/
+            -webkit-mask-image: url(assets/img/Pattern-01.png);
+            -webkit-mask-position: 0px 110px;
+        }
+        
+        @-webkit-keyframes devicesBackground {
+            0% {
+                -webkit-transform: translate3d(0px, 0px, 0);
+            }
+            100% {
+                -webkit-transform: translate3d(1300px, 0, 0);
+            }
+        }
+        
+        .cloud {
+            /*background: url(http://www.area53.ru/sites/default/files/cloud_shape.png) no-repeat;*/
+            overflow: hidden;
+            width: 473px;
+            height: 308px;
+            position: absolute;
+            left: 270px;
+            top: 170px;
+            z-index: 3;
+            font-size: 65px;
+            text-align: center;
+            line-height: 350px;
+            color: white;
+            text-shadow: rgba(0, 0, 0, 0.7) 0px 2px 7px;
+            font-weight: 400;
+        }
+        
+        .bg {
+            overflow: hidden;
+            -webkit-animation: devicesBackground 30s 0s ease-in-out infinite alternate;
+            -moz-animation: devicesBackground 30s 0s ease-in-out infinite alternate;
+            -ms-animation: devicesBackground 30s 0s ease-in-out infinite alternate;
+            animation: devicesBackground 30s 0s ease-in-out infinite alternate;
+            transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-my">
+        <div class="background">
+            <div class="devices_gray">
+                <div class="bg"></div>
+            </div>
+            <div class="devices_colorful">
+                <div class="bg"></div>
+            </div>
+        </div>
+        <div class="cloud"></div>
+    </div>
+</body>
+
+</html>

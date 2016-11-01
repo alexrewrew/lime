@@ -1,0 +1,1132 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201504 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.lime.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2689                
+POS_VISITOR 33391               
+POS_DAY 41813               
+POS_DOMAIN 3484                
+POS_LOGIN 3952                
+POS_ROBOT 4107                
+POS_WORMS 5011                
+POS_EMAILSENDER 5142                
+POS_EMAILRECEIVER 5285                
+POS_SESSION 42599               
+POS_SIDER 42800               
+POS_FILETYPES 5420                
+POS_OS 5555                
+POS_BROWSER 5751                
+POS_SCREENSIZE 7029                
+POS_UNKNOWNREFERER 7103                
+POS_UNKNOWNREFERERBROWSER 8204                
+POS_ORIGIN 8942                
+POS_SEREFERRALS 9083                
+POS_PAGEREFS 9251                
+POS_SEARCHWORDS 9916                
+POS_KEYWORDS 10082               
+POS_MISC 2353                
+POS_ERRORS 10155               
+POS_CLUSTER 3808                
+POS_SIDER_404 10253               
+POS_PLUGIN_geoip_city_maxmind 32079               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150501023701 1 0 9546938829164
+FirstTime 20150401013603
+LastTime 20150430195428
+LastUpdate 20150502000117 1 0 0 0 0
+TotalVisits 274                 
+TotalUnique 213                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 216                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 28 3773705 41 49 38270
+1 8 8 754711 23 54 38097
+2 5 7 758958 22 25 34255
+3 7 7 13986 24 25 1511598
+4 1 2 8350 17 19 23079
+5 5 6 16342 82 83 35082
+6 8 10 1506142 37 44 799450
+7 13 14 30328 41 43 801375
+8 10 13 773815 24 26 767674
+9 25 32 4514574 27 41 778315
+10 17 23 3026986 25 35 46289
+11 27 39 4554182 47 57 59392
+12 26 39 3817811 70 74 84594
+13 23 31 6000234 308 315 117891
+14 24 35 4550186 42 49 47664
+15 36 47 6049618 60 72 43522
+16 32 48 6075384 35 46 798828
+17 28 40 6031171 39 54 44812
+18 31 35 1564800 23 29 784015
+19 16 20 2273557 19 23 22421
+20 9 13 775765 27 30 21150
+21 17 25 3765713 18 24 20160
+22 7 10 26690 20 23 22422
+23 8 11 773767 41 45 768876
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+ua 146 214 36142932
+us 89 116 9209124
+unknown 68 87 9106574
+eu 24 25 793031
+ru 19 24 1545226
+gb 12 16 41392
+de 11 12 767057
+fr 8 12 41392
+pl 6 9 763419
+kz 6 9 1500148
+jp 1 1 1998
+it 3 3 5994
+cn 4 4 7992
+no 2 4 10348
+cz 2 3 749075
+by 1 1 1998
+id 2 3 749075
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+googlebot 124 3261153 20150430042524 0
+yandex 87 173826 20150429120850 0
+bot[\s_+:,\.\;\/\\-] 37 3041896 20150429210405 0
+no_user_agent 29 57942 20150430184447 0
+mj12bot 25 49950 20150430102400 0
+facebook 20 47524 20150428195526 0
+crawl 19 38320 20150430114459 0
+exabot 14 27972 20150430200515 0
+robot 6 3996 20150426014030 0
+slurp 5 9990 20150427103427 0
+commons\-httpclient 2 7778 20150428165904 0
+java\/[0-9] 1 0 20150430150200 0
+libwww 1 1998 20150402131333 0
+seznambot 1 1998 20150421051046 0
+[\s_+:,\.\;\/\\-]bot 1 1998 20150421171121 0
+mail\.ru 2 3996 20150416132005 0
+python 1 740725 20150411033720 0
+titan 1 1998 20150425080342 0
+surveybot 4 7992 20150420182933 0
+wget 1 1998 20150415004338 0
+netcraft 1 1998 20150409072625 0
+baiduspider 1 1998 20150419085206 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 3 144 0 0
+html 317 623424 0 0
+jpg 2 7778 0 0
+js 137 806704 0 0
+swf 84 59998725 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxandroid 13
+blackberry 1
+winxp 50
+winlong 2
+java 1
+linuxubuntu 4
+winvista 29
+linux 38
+winme 1
+macosx 112
+linuxcentos 1
+win2003 1
+Unknown 66
+win2008 224
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 74
+safari7.0.3 2
+msie6.0 13
+chrome40.0.2214.115 5
+chrome40.0.2214.94 5
+chrome40.0.2214.91 4
+chrome41.0.2272.96 7
+firefox3.6 1
+chrome5.0.375.99 2
+chrome40.0.2214.111 3
+firefox4.0 3
+chrome39.0.2171.95 1
+firefox18.0 5
+chrome31.0.1650.63 3
+chrome7.0.517.44 1
+firefox2.0.0.13 3
+firefox1.0.4 2
+msie8.0 7
+chrome42.0.2311.90 50
+chrome39.0.2171.65 1
+msie7.0 1
+chrome37.0.2062.120 1
+firefox23.0 2
+chrome41.0.2272.76 4
+chrome41.0.2272.89 5
+chrome42.0.2311.108 4
+chrome34.0.1847.131 2
+firefox21.0 1
+safari7.1.4 12
+chrome35.0.1916.114 2
+quicktime 1
+chrome36.0.1985.143 1
+firefox33.0 3
+firefox25.0 2
+mozilla 28
+netscape5.0 1
+firefox14.0.1 1
+chrome13.0.782.41 1
+firefox36.0 5
+safari8.0.3 8
+safari 18
+firefox35.0 4
+chrome37.0.2062.124 1
+safari7.0 13
+firefox5.0 1
+chrome29.0.1547.57 4
+firefox4.0.1 2
+chrome42.0.2311.60 3
+chrome38.0.2125.104 3
+android 2
+chrome23.0.1271.6 4
+opera9.80 7
+firefox31.0 1
+iphone 10
+firefox6.0.2 4
+chrome24.0.1312.57 2
+chrome41.0.2272.101 17
+chrome10.0.648.204 7
+safari8.0 5
+msie9.0 37
+safari7.1.5 5
+firefox1.5 1
+Unknown 48
+safari7.1 3
+firefox3.6.7 1
+blackberry 1
+chrome41.0.2272.118 65
+chrome41.0.2272.104 9
+safari8.0.4 10
+firefox37.0 7
+chrome43.0.2351.3 6
+firefox22.0 24
+msie10.0 4
+chrome23.0.1271.97 8
+firefox3.0.19 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 16
+QuickTime\\xaa.7.0.4_(qtver=7.0.4;cpu=PPC;os=Mac_10.3.9) 20150425010842
+Mozilla/5.0_(compatible;_MegaIndex.ru/2.0;__https://www.megaindex.ru/?tab=linkAnalyze) 20150415005035
+HubSpot_Image_Utils 20150430022139
+Firefox 20150401171134
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/36.1556;_U;_ru)_Presto/2.12.423_Version/12.16 20150410222457
+panscient.com 20150409133512
+qingdao_bieshu_chushou_&#38738;_&#23707;_&#21035;_&#22661;_&#20986;_&#21806;_qingdao_villa_for_sale_http://www.dahoms.com 20150413132030
+Hivemind 20150424015843
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150406090658
+Mozila/5.0_(compatible;_Aloofly/1.0;__http://aloofly.com/#aloofly.com) 20150417190208
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20150420172021
+'firefox 20150420013719
+ltx71_-_(http://ltx71.com/) 20150406111112
+Mozilla/4.0_(compatible;_Synapse) 20150427190629
+NerdyBot 20150429182948
+Mozilla/5.0_(compatible;_Qwantify/2.0n;__https://www.qwant.com/)/* 20150416204822
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+HubSpot_Image_Utils 20150430022139
+Apache-HttpClient/4.1.1_(java_1.5) 20150422160054
+Firefox 20150401171134
+panscient.com 20150409133512
+qingdao_bieshu_chushou_&#38738;_&#23707;_&#21035;_&#22661;_&#20986;_&#21806;_qingdao_villa_for_sale_http://www.dahoms.com 20150413132030
+Hivemind 20150424015843
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150406090658
+Mozila/5.0_(compatible;_Aloofly/1.0;__http://aloofly.com/#aloofly.com) 20150417190208
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20150420172021
+'firefox 20150420013719
+ltx71_-_(http://ltx71.com/) 20150406111112
+NerdyBot 20150429182948
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 258 279
+From1 4 4
+From2 28 30
+From3 79 144
+From4 35 86
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 27 29
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 17
+http://limebtl.com 26 62
+http://www.limebtl.com 19 48
+https://www.facebook.com 7 7
+http://m.facebook.com 5 5
+http://LIMEBTL.COM 3 3
+http://www.maxshaman.com 3 3
+http://lm.facebook.com/l.php 2 2
+http://LIMEBTL.com 2 2
+http://rabota.ua/company387684 2 2
+http://www.limebtl.com/index.swf 2 2
+http://hh.ua/employer/218914 1 1
+http://aloofly.com 1 1
+http://rabota.ua/company387684/vacancy5660285 1 1
+http://hh.ua/employer.do 1 1
+http://burger-imperia.com 1 1
+http://limebtl.com/index.swf 1 1
+http://go.mail.ru/search 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+lime.com.ua 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+lime.com.ua 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+503 3 0
+404 781 222185
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 436
+/assets/global/plugins/ckfinder/elfinder.php.html 1 -
+/Editor/assetmanager/assetmanager.asp 1 -
+/admin.php 12 -
+/INC/GenericDB/assetmanager/assetmanager.asp 1 -
+/cp/third_party/wygwam/lib/ckfinder/elfinder.php.html 1 -
+//www.candydishclub.com/assets/ckfinder/elfinder.php.html 1 -
+/coreser/coreser/scripts/elfinder/elfinder.php.html 1 -
+/achieve/sites/all/libraries/elfinder/elfinder.php.html 1 -
+/assets/elfinder/elfinder.php.html 1 -
+/ckeditor/ckfinder/elfinder.php.html 1 -
+/modules/global/res/js/elfinder/elfinder.php.html 1 -
+/assets/components/elfinder/elfinder.php.html 1 -
+/packages/portal/includes/js/editor/editor/assetmanager/assetmanager.php 1 -
+/lib/js/libs/ckfinder/elfinder.php.html 1 -
+/admin/engine/elfinder/elfinder.php.html 1 -
+/assets/6625a78a/elfinder/elfinder.php.html 1 -
+/ftpmanager/Editor/assetmanager/assetmanager.asp 1 -
+/xmlrpc.php 4 -
+/static/admin/js/ckfinder/elfinder.php.html 1 -
+/assets/776036a7/ckfinder/elfinder.php.html 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/blog/wp-content/plugins/ck-and-syntaxhighlighter/ckfinder/elfinder.php.html 1 -
+/iguana/js/ckfinder%20-%20Copy/elfinder.php.html 1 -
+/a/ckfinder/elfinder.php.html 1 -
+/innovaeditor/assetmanager/assetmanager.php 1 -
+/editor/assetmanager/assetmanager.php 1 -
+/bundles/backend/js/ckfinder/elfinder.php.html 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/assets/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/_lib/ckeditor/ckfinder/elfinder.php.html 1 -
+/pms-admin/myeditor/ckfinder/elfinder.php.html 1 -
+/apps/ecms/scripts/Editor/assetmanager/assetmanager.php 1 -
+/assets/library-backend/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/webszerk/elfinder.php.html 1 -
+/cms/wp-login.php 2 -
+/resources/html_editor/ckfinder/elfinder.php.html 1 -
+/global/js/ckfinder/elfinder.php.html 1 -
+/cgi-sys/entropysearch.cgi 1 -
+/cms/lib/ckfinder/elfinder.php.html 1 -
+/staff/sites/all/modules/ckeditor/ckfinder/elfinder.php.html 1 -
+/administrator/ 7 -
+/sites/default/modules/ckeditor/ckfinder/elfinder.php.html 1 -
+/cms/ckfinder/elfinder.php.html 1 -
+//acmemanager.com/assets/ckfinder/elfinder.php.html 1 -
+/editor/filemanager/browser/default/connectors/test.html 1 -
+/admin/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/admin/ckfinder/elfinder.php.html 1 -
+/comuzem/duragan/sablon/yonetim/plugins/elfinder/elfinder.php.html 1 -
+/devel/temp/new/vendor/mihaildev/yii2-elfinder/assets/elfinder.php.html 1 -
+/assets/js/cms/ckfinder/elfinder.php.html 1 -
+/ckeditor/elfinder/elfinder.php.html 1 -
+/wp-login.php 27 -
+/irs21/vendor/mihaildev/yii2-elfinder/assets/elfinder.php.html 1 -
+/assets/wysiwyg/js/plugins/elfinder/.svn/text-base/elfinder.php.html 1 -
+//www.festiwalbiegowy.pl/sites/all/libraries/elfinder2/PaxHeaders.5309/elfinder.php.html 1 -
+/public/elfinder/elfinder.php.html 1 -
+/Jaagrutiitservices.com/admin/plugins/TinyMCEPlugin/elfinder/elfinder.php.html 1 -
+/editor/filemanager/upload/test.html 1 -
+/assets/9849c007/ckfinder/elfinder.php.html 1 -
+/wp-content/uploads/ckfinder/elfinder.php.html 1 -
+/w/elfinder-2.0-rc1/elfinder.php.html 1 -
+/commun/Editor/assetmanager/assetmanager.php 1 -
+/painel/configuracoes/includes/ckeditor/ckfinder/elfinder.php.html 1 -
+/admin/system/application/gdresources/webscripts/ckfinder/elfinder.php.html 1 -
+/forums/chat/upload.php 1 -
+/GFET/plugins/editors/ckeditor/ckfinder/elfinder.php.html 1 -
+/filemanager/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/projects/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/assets/ckfinder/elfinder.php.html 1 -
+/template/_old_js_lib/ckfinder/elfinder.php.html 1 -
+/module-assets/admin/elfinder/elfinder.php.html 1 -
+/programing_world/assets/library-backend/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/uanets.txt 1 -
+/assets/ck/ckfinder/elfinder.php.html 1 -
+/system/extensions/fieldtypes/wygwam/lib/ckfinder/elfinder.php.html 1 -
+/inv/assetmanager/assetmanager.php 1 -
+/blog/xmlrpc.php 4 -
+/edit/assetmanager/assetmanager.asp 1 -
+/rootadmin/assetmanager/assetmanager.php 1 -
+/app/webroot/paginastantas/sites/all/modules/ckeditor/ckfinder/elfinder.php.html 1 -
+/vendor/mihaildev/yii2-elfinder/assets/elfinder.php.html 1 -
+/korathealth/slideshow/ckfinder/elfinder.php.html 1 -
+/cscart/js/lib/elfinder/elfinder.php.html 1 -
+/V2/BACKOFFICE/ckfinder/elfinder.php.html 1 -
+/tableaux/plugins/ckfinder/elfinder.php.html 1 -
+/drupal/modules/wysiwyg/ckeditor/ckfinder/elfinder.php.html 1 -
+/Innovastudio5.5/assetmanager/assetmanager.php 1 -
+/customers/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/webcontent_sitepial/kernel/padrao/js/ckeditor/ckfinder/elfinder.php.html 1 -
+/www/scripts/elfinder/elfinder.php.html 1 -
+/de/ckfinder/elfinder.php.html 1 -
+/js/lib/elfinder/elfinder.php.html 1 -
+/adminsys/assetmanager/assetmanager.asp 1 -
+/web_school/file_manager/elfinder.php.html 1 -
+/media/ckfinder/elfinder.php.html 1 -
+/flashcoms/common/server/php/file.php 1 -
+/admin/editors/fckeditor/editor/filemanager/upload/test.html 1 -
+/coreser/scripts/elfinder/elfinder.php.html 1 -
+/shop/js/lib/elfinder/elfinder.php.html 1 -
+/templates/admin/js/ckeditor/ckfinder/elfinder.php.html 1 -
+/BasicClass/Editor/assetmanager/assetmanager.asp 1 -
+/tempdrupal/sites/all/libraries/elfinder/elfinder.php.html 1 -
+/news/ckeditor/includes/elFinder/elfinder.php.html 1 -
+/administration/ckeditor/ckfinder/elfinder.php.html 1 -
+/js/plugins/elfinder2.0/elfinder.php.html 1 -
+/webyep-system/program/opt/ckfinder/elfinder.php.html 1 -
+/readme.html 1 -
+/squirrelcart/lib/ckfinder/elfinder.php.html 1 -
+/wp-content/plugins/ck-and-syntaxhighlighter/ckfinder/elfinder.php.html 1 -
+/myoffice/2558/ckfinder/elfinder.php.html 1 -
+/phplistplugins/TinyMCEPlugin/elfinder/elfinder.php.html 1 -
+/plugins/htmleditor2/assetmanager/assetmanager.php 1 -
+/store/js/lib/elfinder/elfinder.php.html 1 -
+/php/clases/I2m/Formularios/ckeditor/ckfinder/elfinder.php.html 1 -
+/news/plugins/ckfinder/elfinder.php.html 1 -
+/customer/webs/asiex/Plugin/Browser/elfinder/elfinder.php.html 1 -
+/fckeditor/editor/filemanager/upload/test.html 1 -
+/published/SC/html/scripts/3rdparty/elfinder/elfinder.php.html 1 -
+/finder/elfinder.php.html 1 -
+/webs/asiex/Plugin/Browser/elfinder/elfinder.php.html 1 -
+/assets/wysiwyg/js/plugins/elfinder/.svn/prop-base/elfinder.php.html 1 -
+/mall/js/lib/elfinder/elfinder.php.html 1 -
+/application/js/ckfinder/elfinder.php.html 1 -
+/orderonline/scripts/ckfinder/elfinder.php.html 1 -
+/robots.txt 245 -
+/Public/ckfinder/elfinder.php.html 1 -
+/components/elfinder/elfinder.php.html 1 -
+/administration/scripts/editor/assetmanager/assetmanager.php 1 -
+/forum/ 1 -
+/media/js/plugins/elfinder2.0/elfinder.php.html 1 -
+/4_demo/js/lib/elfinder/elfinder.php.html 1 -
+/system/js/back/ckfinder/elfinder.php.html 1 -
+/admin/common/editor/assetmanager/assetmanager.php 1 -
+/template/js_lib/ckfinder/elfinder.php.html 1 -
+/chat/upload.php 1 -
+/core/modules/ckfinder/elfinder.php.html 1 -
+/assets/js/plugins/elfinder-2.0-rc1/elfinder.php.html 1 -
+/generator/assetmanager/assetmanager.php 1 -
+/wordpress/wp-login.php 6 -
+/asset/ckfinder/elfinder.php.html 1 -
+/public/elfinder-1.2/elfinder.php.html 1 -
+/truro/js/lib/elfinder/elfinder.php.html 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/yonetim/editor/assetmanager/assetmanager.php 1 -
+/uploads/images/elfinder.php.html 1 -
+/fitch/resources/ckfinder/elfinder.php.html 1 -
+/themes/admin/js/plugins/elfinder/elfinder.php.html 1 -
+/assetmanager.php 1 -
+/beheer/editor/assetmanager/assetmanager.asp 1 -
+/data/findermansarovar/elfinder.php.html 1 -
+/plugins/editors/innova/assetmanager/assetmanager.php 1 -
+/innova-assetmanager/assetmanager.php 1 -
+/media/admin/vendor/ckeditor/ckfinder/elfinder.php.html 1 -
+/clientScript/InnovaStudio/assetmanager/assetmanager.aspx 1 -
+/bitrix/admin/index.php 1 -
+/vendor/elfinder/elfinder.php.html 1 -
+/assets/91cff77f/ckfinder/elfinder.php.html 1 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 -
+/framework/plugins/editor_wysiwyg/ckfinder/elfinder.php.html 1 -
+/lms//webroot/templates/bancomundial/plugins/elfinder/elfinder.php.html 1 -
+/admin/assetmanager/assetmanager.php 1 -
+/ak/ckfinder/elfinder.php.html 1 -
+/admin/is_editor/assetmanager/assetmanager.php 1 -
+/sites/all/libraries/ckeditor/ckfinder/elfinder.php.html 1 -
+/application/views/assets/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/cms/fileFinder/elfinder.php.html 1 -
+/Plugin/Browser/elfinder/elfinder.php.html 1 -
+/fileshare/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/application/views/adminpanel/includes/ckfinder/elfinder.php.html 1 -
+/elfinder-2.0-rc1/elfinder-2.0-rc1/elfinder.php.html 1 -
+/fadergs/lib/fckeditor/editor/filemanager/browser/ckfinder/elfinder.php.html 1 -
+/public/scripts/elfinder/elfinder.php.html 1 -
+/assets/js/plugins/elfinder2.0/elfinder.php.html 1 -
+/ckframeworks/ckfinder/elfinder.php.html 1 -
+/modules/ckeditor/ckfinder/elfinder.php.html 1 -
+/hegn/assetmanager/assetmanager.asp 1 -
+/assets/admin/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/eclipse/assets/ckeditor/elfinder/elfinder.php.html 1 -
+/skins/ckfinder/elfinder.php.html 1 -
+/Lib/editor/assetmanager/assetmanager.php 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/sites/all/libraries/elfinder/elfinder.php.html 1 -
+/weye/admin/inc/ckfinder/elfinder.php.html 1 -
+/js/assetmanager/assetmanager.php 1 -
+/assets/lib/elfinder/elfinder.php.html 1 -
+/.qawaka/helpers/editor/assetmanager/assetmanager.php 1 -
+/puma 1 http://limebtl.com/
+/upload/ckfinder/elfinder.php.html 1 -
+/admin/editor/assetmanager/assetmanager.php 1 -
+/wp-content/cache/page_enhanced/www.udarno.com/login/ckfinder/ckfinder.php.html/elfinder.php.html 1 -
+/public/admin/js/plugins/elfinder/elfinder.php.html 1 -
+/adm/elfinder/elfinder.php.html 1 -
+/4dm1n/assets/js/ckfinder/elfinder.php.html 1 -
+/sites/all/modules/ckeditor/ckfinder/elfinder.php.html 1 -
+/feng/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/xplorer/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/cent/lib/elfinder/elfinder.php.html 1 -
+/sites/ckfinder/elfinder.php.html 1 -
+/assets/admin/ckfinder/elfinder.php.html 1 -
+/beheer/novosite_editor/assetmanager/assetmanager.php 1 -
+/bootstrap/pure_admin/plugins/elfinder/elfinder.php.html 1 -
+/js/elfinder/elfinder.php.html 1 -
+/core/model/phpthumb/fonts/readme.txt 1 -
+/bootstrap/src/assets/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/includes/ckfinder/elfinder.php.html 1 -
+//tourdelareleve.ca/scripts/php/genform/lib/ckfinder/elfinder.php.html 1 -
+/scripts/assetmanager/assetmanager.asp 1 -
+/explorer/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/edit/innoEdit/assetmanager/assetmanager.asp 1 -
+/fengoffice/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/assets/theme/js/editor/ckfinder/elfinder.php.html 1 -
+/EditorNEW/assetmanager/assetmanager.asp 1 -
+/applications/JobListingManager/components/Editor/assetmanager/assetmanager.asp 1 -
+/ajaxplorer/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/start/public/editor/assetmanager/assetmanager.php 1 -
+/jscript/ckfinder/elfinder.php.html 1 -
+/webroot/js/cm_s/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/script/elfinder-1.2/elfinder.php.html 1 -
+/ck3/ckfinder/elfinder.php.html 1 -
+/webszerk/elfinder/elfinder.php.html 1 -
+/administrator/lib/elfinder/elfinder.php.html 1 -
+/lib/elfinder/elfinder.php.html 1 -
+/assets/myid/js/ckfinder/elfinder.php.html 1 -
+/repository/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/vodateh/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/directory/edt/assetmanager/assetmanager.php 1 -
+/public/assets/admin/js/ckfinder/elfinder.php.html 1 -
+/bibliotecas/ckeditor/ckfinder/elfinder.php.html 1 -
+/apidocs2.0/org/javlo/module/file/elfinder.php.html 1 -
+/assets/components/elfinder/files/elfinder.php.html 1 -
+/admin/editor/assetmanager/assetmanager.asp 1 -
+/ckfinder/elfinder.php.html 1 -
+/metis/assets/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/achieve/sites/all/libraries/elfinder/elfinder-1.2/elfinder.php.html 1 -
+/admin/includes/ckfinder/elfinder.php.html 1 -
+/yii2/vendor/mihaildev/yii2-elfinder/assets/elfinder.php.html 1 -
+/skin_list/upiacom/dreamoc/design/file_manager/elfinder.php.html 1 -
+/scripts/ckfinder/elfinder.php.html 1 -
+/modules/tadtools/ckeditor/elFinder/elfinder.php.html 1 -
+/repository/Html/Admin-Temp/mooncake-responsive-admin-template/html/simple/plugins/elfinder/elfinder.php.html 1 -
+/app/webroot/themed/admin/js/ckfinder/elfinder.php.html 1 -
+/en/ckfinder/elfinder.php.html 1 -
+/admin/wp-login.php 2 -
+/System/Plugins/elfinder/elfinder.php.html 1 -
+/assets/admin/lib/elfinder/elfinder.php.html 1 -
+/blog/elfinder.php.html 1 -
+/sites/all/modules/elfinder/elfinder.php.html 1 -
+/srm_campaign/assets/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/jld/assets/lib/elfinder/elfinder.php.html 1 -
+/assets/js/elfinder-2.0/elfinder.php.html 1 -
+/cms/sites/all/modules/ckeditor/ckfinder/elfinder.php.html 1 -
+/coop/ckeditor/plugins/ckfinder/elfinder.php.html 1 -
+/libs/ckfinder/elfinder.php.html 1 -
+/templates/js/elfinder/elfinder.php.html 1 -
+/sunblinds/black/components/elfinder/elfinder.php.html 1 -
+/admin/assetmanager/assetmanager.asp 1 -
+/admin/inc/scripts/assetmanager/assetmanager.asp 1 -
+/assets/filemanager/elfinder.php.html 1 -
+/scripts/editor/fckeditor/ckfinder/elfinder.php.html 1 -
+/public/themes/mojito/assets/elfinder/elfinder.php.html 1 -
+/application/plugins/ckfinder/elfinder.php.html 1 -
+/innova/assetmanager/assetmanager.asp 1 -
+/helpdezk/includes/classes/uploadify-v2.1.4/uploadify.css 1 -
+/pkgs/elFinder-2.x/elfinder.php.html 1 -
+/public/ckeditor/ckfinder/elfinder.php.html 1 -
+/ci/public/scripts/js/ckfinder/elfinder.php.html 1 -
+/js/ckfinder/elfinder.php.html 1 -
+/mynews/admin/editor/assetmanager/assetmanager.asp 1 -
+/sysadmin/assets/lib/elfinder/elfinder.php.html 1 -
+/anexos/ckeditor/ckfinder/elfinder.php.html 1 -
+/sistema/js/plugins/ckfinder/elfinder.php.html 1 -
+/extlib/js/ckfinder/elfinder.php.html 1 -
+/coop/ckeditor/system/plugins/ckfinder/elfinder.php.html 1 -
+/upce-shop.estudio.cz/lib/elfinder/elfinder.php.html 1 -
+/assets/developers/js/ckfinder/elfinder.php.html 1 -
+/plugins/ckfinder/elfinder.php.html 1 -
+/_common/admin/scripts/ckfinder/elfinder.php.html 1 -
+/support/includes/classes/uploadify-v2.1.4/uploadify.css 1 -
+/pypi/packages/source/d/elfinder.php.html 1 -
+/tags/intext-index-of-inurl-windows 1 -
+/sites/all/libraries/elfinder/_vti_cnf/elfinder.php.html 1 -
+/js/ckeditor/ckfinder/elfinder.php.html 1 -
+/filemanager/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/templates/js/ckeditor/ckfinder/elfinder.php.html 1 -
+/inc.old/GenericDB/assetmanager/assetmanager.asp 1 -
+/help/includes/classes/uploadify-v2.1.4/uploadify.css 1 -
+/app/webroot/js/ckfinder/elfinder.php.html 1 -
+/editor/assetmanager/asset.asp 1 -
+/jscripts/elfinder/elfinder.php.html 1 -
+/lr/admin/assets/ckeditor/elfinder/elfinder.php.html 1 -
+/bomberos2011/reconstruccion/elfinder/elfinder.php.html 1 -
+/wp-login/ 6 -
+/wysiwyg/assetmanager/assetmanager.php 1 -
+/sunblinds/black/components/elfinder/files/elfinder.php.html 1 -
+/filesbritney/elfinder-2.0-rc1/elfinder.php.html 1 -
+/app/webroot/js/fckeditor/editor/ckfinder/elfinder.php.html 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/admin-ajax.php 6 -
+/clients/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/public/plugins/ckfinder/elfinder.php.html 1 -
+/assets/stale%20folders/lib/elfinder-2.0-rc1/elfinder.php.html 1 -
+/admin/FCKeditor/editor/filemanager/upload/test.html 1 -
+/public/themes/wellman/assets/elfinder/elfinder.php.html 1 -
+/show/ckfinder/elfinder.php.html 1 -
+/iSCadmin/ckfinder/elfinder.php.html 1 -
+/assetmanager/assetmanager.php 1 -
+/jquery/ckfinder/elfinder.php.html 1 -
+/SERR_ADC/ckfinder/elfinder.php.html 1 -
+/project/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/section/wp-login.php 2 -
+/published/SC/html/scripts/3rdparty/elfinder/js/proxy/elfinder.php.html 1 -
+/elfinder-2.0-beta/elfinder.php.html 1 -
+/public/admin/ckfinder/elfinder.php.html 1 -
+/puesto1/elfinder.php.html 1 -
+/administrator/index.php 14 -
+/editor/assetmanager/assetmanager.aspx 1 -
+/noticias/ckeditor/ckfinder/elfinder.php.html 1 -
+/lib/editor3/assetmanager/assetmanager.asp 1 -
+/elfinder/elfinder.php.html 1 -
+/cms/includes/elfinder/elfinder.php.html 1 -
+/devel/cdc/vendor/mihaildev/yii2-elfinder/assets/elfinder.php.html 1 -
+/file_server/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/a/inc/ckfinder/elfinder.php.html 1 -
+/assets/libs/ckfinder/elfinder.php.html 1 -
+/FCKeditor/editor/CKfinder/elfinder.php.html 1 -
+/webui/mainfile.php 1 -
+/ftp/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/plugins/innova/assetmanager/assetmanager.php 1 -
+/metis/assets/lib/elfinder/elfinder.php.html 1 -
+/INC/GenericDB/assetmanager/assetmanager.php 1 -
+/public/admin/js/plugins/ckeditor/elfinder.php.html 1 -
+/backend/ckfinder/elfinder.php.html 1 -
+/sitemap.xml 5 -
+/admin/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/team6/elFinder/elfinder.php.html 1 -
+/filemanager/elfinder.php.html 1 -
+/admin/WYSIWYGeditor/assetmanager/assetmanager.aspx 1 -
+/editors/fckeditor/editor/filemanager/upload/test.html 1 -
+/files/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/test-lr/admin/assets/ckeditor/elfinder/elfinder.php.html 1 -
+/assets/wysiwyg/js/plugins/elfinder/elfinder.php.html 1 -
+/ax/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/scripts/elfinder/elfinder.php.html 1 -
+/sites/all/libraries/ckfinder/ckfinder/elfinder.php.html 1 -
+/admin/index.php 2 -
+/admin_assets/components/elfinder/elfinder.php.html 1 -
+/common/ckfinder/elfinder.php.html 1 -
+/plugins/editors/ckeditor/ckfinder/elfinder.php.html 1 -
+/wp-admin/wp-login.php 2 -
+/administration/editor/assetmanager/assetmanager.php 1 -
+/backup/elfinder/elfinder.php.html 1 -
+/admin/pdf/assets/elfinder/elfinder.php.html 1 -
+/wp-content/plugins/ckeditor-for-wordpress/ckfinder/elfinder.php.html 1 -
+/component/ckfinder/elfinder.php.html 1 -
+/kyoshobutiken/fc_util/Editor_5_5/assetmanager/assetmanager.php 1 -
+/wordpress/xmlrpc.php 1 -
+/eclipse/assets/ckeditor_new/elfinder/elfinder.php.html 1 -
+/coreser/www/coreser/scripts/elfinder/elfinder.php.html 1 -
+/special-tour.ru/root/cache/elfinder.php.html 1 -
+/themes/wygwam/lib/ckfinder/elfinder.php.html 1 -
+/zeusbasePHP/php/elFinder/files/elfinder.php.html 1 -
+/FILE/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/upload/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/tcsts/tcelf/elfinder.php.html 1 -
+/replacements/ckfinder/elfinder.php.html 1 -
+/sites/all/modules/ckeditor/ckeditor/ckfinder/elfinder.php.html 1 -
+/templates/us/admin-panel/HTML_Editor/assetmanager/assetmanager.php 1 -
+/admin/jscripts/fckeditor/editor/ckfinder/elfinder.php.html 1 -
+/assets/js/ckfinder/elfinder.php.html 1 -
+/editor/library/editor4_2_1/assetmanager/assetmanager.php 1 -
+/src/azelastin/assetmanager/assetmanager.php 1 -
+/chinaWH/ckeditor/ckfinder/elfinder.php.html 1 -
+/forum/chat/upload.php 1 -
+/public/admin/scripts/elrte-1.2/elfinder.php.html 1 -
+/blog/wp-login.php 6 -
+/MusuMama 1 http://www.limebtl.com/
+/scripts/iseditor/assetmanager/assetmanager.php 1 -
+/FCKeditor/editor/filemanager/upload/test.html 1 -
+/themes/third_party/wygwam/lib/ckfinder/elfinder.php.html 1 -
+/ajax/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/_common/_admin/scripts/ckfinder/elfinder.php.html 1 -
+/lib_common/ckeditor/ckfinder/elfinder.php.html 1 -
+/sites/all/modules/ckeditor/ckfinder/ckfinder/elfinder.php.html 1 -
+/cms/modules/articles/assetmanager/assetmanager.php 1 -
+/site/wp-login.php 6 -
+/sites/all/libraries/ckfinder/elfinder.php.html 1 -
+/misc/drupal.js 1 -
+/sitemanager/protected/component/InnovaStudio-Editor/Editor/assetmanager/assetmanager.php 1 -
+/components/elfinder/files/elfinder.php.html 1 -
+/sym/root/home/hostingn/public_html/vendor_extra/elfinder/elfinder.php.html 1 -
+/docs/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/~nga/Edit0r/assetmanager/assetmanager.php 1 -
+/products_pictures/core/ckeditor/plugins/elfinder/elfinder.php.html 1 -
+/core/ckeditor/plugins/elfinder/elfinder.php.html 1 -
+/filter/tips 1 -
+/html/lib/elfinder/elfinder.php.html 1 -
+/diymodule/Editor/assetmanager/assetmanager.php 1 -
+/edit/elfinder/elfinder.php.html 1 -
+/content/static/jscripts/ckfinder/elfinder.php.html 1 -
+/admin/assets/elfinder/elfinder.php.html 1 -
+/editor/ckfinder/elfinder.php.html 1 -
+/office/public/assets/javascript/ckeditor/ckeditor.js 1 -
+/template/admin/ckfinder/elfinder.php.html 1 -
+/assetmanager.asp 1 -
+/assets/javascript/ckfinder/elfinder.php.html 1 -
+/admin/plugins/TinyMCEPlugin/elfinder/elfinder.php.html 1 -
+/assetmanager/asset.asp 1 -
+/gcassetmanager/assetmanager.asp 1 -
+/home/assets/js/ckfinder/elfinder.php.html 1 -
+/wp/wp-login.php 6 -
+/cms/assetmanager/assetmanager.php 1 -
+/Public/Static/elfinder/elfinder.php.html 1 -
+/media/elfinder-1.2/elfinder.php.html 1 -
+/network/plugins/editors/ckfinder/elfinder.php.html 1 -
+/shared_objects/js/ckfinder/elfinder.php.html 1 -
+/css/sym/root/home/groupetr/public_html/intranet/include_intranet/CKFinder/elfinder.php.html 1 -
+/media/javascript/ckfinder-2.3.1/elfinder.php.html 1 -
+/jscripts/elfinder-1.1/elfinder.php.html 1 -
+/modules/adm/js/plugins/elfinder2.0/elfinder.php.html 1 -
+/home/ckfinder/elfinder.php.html 1 -
+/var/ckeditor/elfinder/elfinder.php.html 1 -
+/webroot/plugins/elfinder/elfinder.php.html 1 -
+/drupal/sites/all/libraries/elfinder/elfinder.php.html 1 -
+/158328746/lib/elfinder/unused2384838/elfinder.php.html 1 -
+/admin/admin_login.php 1 -
+/core/coreSrc/externalSrc/WYSIWYG/assetmanager/assetmanager.asp 1 -
+/share/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/incoming/furniture/ckfinder/elfinder.php.html 1 -
+/includes/ckeditor/ckfinder/elfinder.php.html 1 -
+/bdfiles/elfinder.php.html 1 -
+/system/templates/modules/admin/editor/assetmanager/assetmanager.php 1 -
+/assetmanager/assetmanager.asp 1 -
+/intranet/plugins/editor.zoho/class.ZohoEditor.js 1 -
+/elfinder.php.html 1 -
+/assets/plugins/elfinder/elfinder.php.html 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 41
+unknown 0 342 0 0
+ua_kiev_13 0 33 0 0
+us_los%20angeles_ca 0 26 0 0
+us_wilmington_de 0 14 0 0
+us_woodbridge_nj 0 13 0 0
+ru_moscow_48 0 9 0 0
+ua_kharkov_07 0 8 0 0
+gb_glasgow_v2 0 8 0 0
+us_simi%20valley_ca 0 8 0 0
+us_seattle_wa 0 7 0 0
+pl_kraków_77 0 2 0 0
+ua_lvov_15 0 6 0 0
+de_kiez_12 0 1 0 0
+us_sterling_va 0 2 0 0
+cn_beijing_22 0 2 0 0
+us_mountain%20view_ca 0 1 0 0
+cn_shenzhen_30 0 1 0 0
+ru_saint%20petersburg_66 0 2 0 0
+it_marco_17 0 2 0 0
+us_cookeville_tn 0 1 0 0
+us_san%20bruno_ca 0 2 0 0
+us_malvern_pa 0 4 0 0
+ru_vladivostok_59 0 2 0 0
+ua_dnepropetrovsk_04 0 1 0 0
+us_nanuet_ny 0 2 0 0
+ua_zhitomir_27 0 3 0 0
+ua_dmitriy_17 0 1 0 0
+us_redmond_wa 0 2 0 0
+us_washington_dc 0 1 0 0
+us_alpharetta_ga 0 3 0 0
+us_richmond_va 0 2 0 0
+by_minsk_04 0 1 0 0
+ua_kiselëv_03 0 1 0 0
+de_nürnberg_02 0 6 0 0
+us_short%20hills_nj 0 4 0 0
+us_langhorne_pa 0 1 0 0
+us_springfield_nj 0 4 0 0
+us_carson%20city_nv 0 5 0 0
+kz_almaty_02 0 3 0 0
+ua_nikolaev_16 0 3 0 0
+us_hopkins_mn 0 4 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 216
+91.200.234.218 17 25 5994598 20150427181228
+141.101.4.97 12 17 2265565 20150424104123
+91.105.238.22 8 8 7992 20150421073504
+176.106.1.193 6 9 1500148 20150408173813
+88.198.48.46 6 6 11988 20150415005035
+5.9.156.11 5 5 9990 20150414022103
+217.69.133.169 5 5 9990 20150425183431
+207.90.2.5 5 5 9990 20150430165402
+178.95.198.100 4 6 751073 20150402121504
+212.90.35.249 4 6 1498150 20150420172847
+130.211.155.186 1 1 1998 20150420183213
+92.60.190.102 2 3 749075 20150415144006
+194.187.168.25 1 1 1998 20150416204822
+130.211.147.225 1 1 1998 20150415183019
+199.30.25.227 1 2 747077 20150415005117
+82.117.254.40 2 3 10348 20150408112400
+184.73.114.17 2 2 3996 20150402210442
+104.197.57.34 1 1 1998 20150423183159
+195.225.147.193 2 3 749075 20150403171945
+69.58.178.58 2 2 3996 20150410075658
+213.227.200.173 2 3 749075 20150422122943
+77.222.131.30 1 1 1998 20150408192918
+192.34.58.199 1 2 8350 20150418121843
+54.84.15.244 1 1 1998 20150405203033
+69.164.111.198 2 3 749075 20150416211933
+185.58.204.15 1 1 1998 20150409223845
+155.94.146.122 2 2 3996 20150429150440
+82.193.97.250 2 3 749075 20150401190653
+91.207.7.54 1 1 1998 20150407070938
+83.223.122.21 1 2 8350 20150429110320
+199.30.24.233 1 2 747077 20150409165312
+52.4.157.63 1 1 1998 20150402075513
+94.158.122.92 2 3 749075 20150407174240
+220.181.108.100 1 1 1998 20150418154806
+104.197.34.39 1 1 1998 20150402183101
+54.149.107.194 2 2 3996 20150406090658
+188.230.8.210 2 3 749075 20150404211110
+94.154.45.172 2 3 749075 20150414202328
+52.6.112.40 1 1 1998 20150421061158
+173.234.14.141 1 1 1998 20150418032447
+62.80.171.51 2 4 16700 20150420140038
+150.70.173.8 1 1 1998 20150410162021
+185.10.104.196 3 3 5994 20150419101910
+104.154.58.62 1 1 1998 20150411183007
+5.248.224.114 2 3 749075 20150419195036
+87.98.171.200 1 1 1998 20150410193856
+192.99.153.209 2 2 3996 20150421135316
+185.66.250.80 1 1 1998 20150419160043
+52.5.151.182 1 1 1998 20150406093647
+52.5.149.32 1 1 1998 20150405142540
+130.211.130.172 1 1 1998 20150407183021
+95.67.67.230 2 3 749075 20150422134047
+199.30.25.219 1 2 747077 20150425090706
+65.55.210.119 1 2 747077 20150421065900
+162.243.170.60 1 2 8350 20150401082758
+185.10.104.131 3 3 5994 20150414083855
+199.30.24.11 1 2 747077 20150414121415
+78.111.190.81 1 2 8350 20150421162746
+95.141.35.157 2 2 3996 20150429230608
+54.87.126.156 2 2 3996 20150409050720
+78.27.165.110 1 1 740725 20150425010842
+94.232.74.188 2 3 749075 20150408101334
+89.234.157.254 1 1 1998 20150401134858
+209.133.77.168 1 2 8350 20150409163237
+71.187.219.210 3 4 1489800 20150409133512
+52.12.255.136 2 2 3996 20150415002315
+95.56.76.158 2 3 749075 20150429115954
+146.148.33.171 1 1 1998 20150404183046
+94.247.231.93 2 2 3996 20150420124459
+93.75.64.228 1 2 8350 20150428195526
+85.25.185.19 1 1 1998 20150430150157
+188.143.232.72 1 1 1998 20150418110719
+70.39.157.197 1 1 1998 20150429110321
+93.126.74.44 3 5 751073 20150418131953
+54.174.53.228 0 1 3889 
+70.39.157.194 1 3 14702 20150409161918
+194.50.139.68 2 3 749075 20150417135221
+195.60.231.148 1 2 8350 20150418144737
+173.255.112.20 1 1 1998 20150416183101
+216.244.86.91 1 1 1998 20150423071250
+95.67.124.114 2 3 749075 20150407144241
+71.187.255.193 3 4 1489800 20150401211340
+104.154.61.57 1 1 1998 20150403183058
+198.252.44.10 2 2 3996 20150405055504
+5.228.252.24 2 3 749075 20150417022642
+212.90.160.106 2 3 749075 20150414165130
+91.236.36.193 3 4 751073 20150407114622
+202.46.50.128 1 1 1998 20150421005155
+213.111.76.202 1 2 8350 20150407230037
+155.94.169.120 2 2 3996 20150411101711
+62.210.75.243 1 2 8350 20150423160024
+106.39.222.24 1 1 1998 20150413132030
+194.187.168.24 1 1 1998 20150416120241
+83.69.203.243 2 2 3996 20150414141705
+130.211.114.230 1 1 1998 20150406183041
+104.197.47.175 1 1 1998 20150408181000
+62.210.138.75 2 4 16700 20150424171318
+195.64.183.42 1 2 8350 20150419165903
+108.172.73.210 1 1 1998 20150420013719
+157.55.252.30 1 1 1998 20150402153542
+54.148.85.136 1 1 1998 20150408224939
+209.133.77.164 2 4 16700 20150422154658
+209.133.77.166 1 2 8350 20150414122517
+93.72.167.129 2 4 10348 20150406215350
+185.10.104.130 3 3 5994 20150429203415
+104.154.72.43 1 1 1998 20150426183010
+208.90.57.196 2 2 3996 20150406131812
+70.39.157.195 0 1 6352 
+104.155.31.93 3 3 5994 20150429151120
+52.4.132.237 1 1 1998 20150402075843
+209.133.77.167 1 2 8350 20150429114951
+176.9.155.247 2 2 3996 20150416192311
+5.58.45.164 1 1 1998 20150412081833
+54.174.53.191 0 1 3889 
+70.39.157.196 1 3 14702 20150414121017
+199.30.228.139 2 3 749075 20150412160540
+188.164.128.7 1 1 1998 20150423143554
+96.227.124.38 1 1 1998 20150419034912
+54.204.240.52 2 2 3996 20150423012442
+93.74.205.19 2 3 749075 20150402005214
+46.118.159.76 1 1 1998 20150407144813
+213.160.156.189 2 3 749075 20150414095453
+83.223.122.19 1 2 8350 20150409161917
+130.185.139.213 1 1 1998 20150423135429
+36.73.44.109 2 3 749075 20150411061641
+185.36.157.6 2 3 749075 20150429095432
+62.210.189.96 1 2 8350 20150414052635
+195.69.221.234 2 3 749075 20150421171029
+144.76.63.199 1 1 1998 20150415190304
+93.104.215.125 1 1 1998 20150417190208
+104.154.35.28 1 1 1998 20150418183033
+46.229.170.197 3 3 5994 20150420092326
+45.55.133.241 1 2 8350 20150422120251
+193.34.96.92 2 3 749075 20150422160320
+195.154.241.109 1 1 1998 20150428204004
+217.12.206.140 2 2 3996 20150429033826
+62.216.44.182 4 5 753071 20150402153301
+88.128.80.227 2 3 749075 20150421162754
+107.155.70.252 2 2 3996 20150401171134
+83.223.122.13 1 2 8350 20150429113804
+93.72.178.217 2 3 749075 20150423131908
+104.197.7.189 1 1 1998 20150424183018
+78.11.176.67 4 7 759423 20150421150303
+220.181.108.114 1 1 1998 20150418154849
+95.67.70.91 1 2 8350 20150423161251
+45.55.133.230 1 2 8350 20150426145246
+104.154.44.132 1 1 1998 20150417183021
+5.189.144.88 1 1 1998 20150430195428
+23.251.155.125 1 1 1998 20150405183114
+70.39.157.198 1 1 1998 20150414122513
+31.172.139.21 2 3 749075 20150429112941
+193.105.152.32 2 3 749075 20150428153956
+46.229.170.193 1 1 1998 20150428140003
+185.10.104.195 2 2 3996 20150424215451
+52.12.140.194 3 3 5994 20150408023809
+109.206.40.38 2 3 10348 20150411100132
+217.12.195.234 2 3 749075 20150409144815
+195.88.242.35 1 1 1998 20150422160054
+198.0.61.97 2 2 3996 20150422053414
+195.177.72.102 2 3 749075 20150421171016
+83.223.122.22 1 2 8350 20150407185615
+178.89.190.126 4 6 751073 20150401113616
+193.19.84.90 2 3 749075 20150423180058
+70.39.157.199 3 5 18698 20150422180158
+89.252.50.93 2 3 749075 20150418154057
+95.133.20.241 4 6 1498150 20150429113700
+94.153.192.42 2 3 749075 20150418175025
+46.229.167.149 1 1 1998 20150426073247
+104.197.47.97 1 1 1998 20150422183016
+52.12.250.205 1 1 1998 20150420172021
+130.211.103.14 1 1 1998 20150427190629
+80.76.231.202 2 3 749075 20150430154353
+52.4.217.28 1 1 1998 20150406111112
+50.93.249.212 3 4 751073 20150415004342
+104.197.66.166 1 1 1998 20150429182948
+89.209.115.186 1 2 8350 20150407080138
+54.167.177.218 1 1 1998 20150424015843
+209.133.77.169 1 2 8350 20150422120344
+138.128.2.235 1 1 1998 20150414163539
+5.166.200.30 2 3 749075 20150418151315
+52.6.15.239 1 1 1998 20150421061723
+213.169.82.7 3 4 751073 20150427140623
+77.52.178.128 3 5 12346 20150404213433
+67.203.22.43 1 1 1998 20150401013603
+185.10.104.132 1 1 1998 20150420222933
+31.134.122.186 2 3 749075 20150422132101
+91.90.18.78 2 3 749075 20150402142844
+109.104.188.202 4 6 1498150 20150424095404
+62.210.209.22 1 1 1998 20150413110831
+212.92.242.121 2 3 749075 20150422002556
+178.93.51.159 1 2 8350 20150405232206
+104.154.89.67 1 1 1998 20150401183056
+188.143.232.40 1 1 1998 20150412185842
+54.145.170.104 2 2 3996 20150416005439
+178.124.138.180 1 1 1998 20150417123001
+146.148.49.185 1 1 1998 20150409181007
+104.197.51.255 1 1 1998 20150425183034
+93.77.20.8 4 5 753071 20150404122011
+193.46.86.53 4 6 1498150 20150416130852
+79.164.146.96 1 2 8350 20150412171941
+93.73.7.202 2 4 16700 20150422150703
+82.145.220.254 2 4 10348 20150410222457
+185.10.104.194 3 3 5994 20150425183831
+130.211.173.84 1 1 1998 20150413182758
+38.100.21.61 1 1 1998 20150429145040
+79.165.184.146 1 2 8350 20150402043557
+176.14.42.225 1 2 8350 20150414203249
+83.234.8.134 2 2 2046 20150423081901
+213.160.147.158 4 6 1498150 20150421083248
+194.6.233.33 4 4 2142 20150405095929
+217.77.221.128 2 3 749075 20150403150810
+52.5.133.83 1 1 1998 20150412063935
+93.75.17.101 3 5 12346 20150402001726
+95.241.195.154 1 1 1998 20150402061552
+192.81.215.7 1 2 8350 20150408071328
+194.247.37.13 4 5 753071 20150407152238
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20150401 15 20 3008288 8
+20150402 27 36 3790047 16
+20150403 7 9 1504144 5
+20150404 11 15 1518488 5
+20150405 10 11 20482 7
+20150406 11 13 28330 9
+20150407 28 40 5296905 14
+20150408 25 34 3790405 13
+20150409 22 30 3786409 16
+20150410 10 12 26332 7
+20150411 9 11 769413 6
+20150412 7 9 765417 6
+20150413 7 8 20338 7
+20150414 18 29 3797008 14
+20150415 16 21 3012284 10
+20150416 10 12 1510138 8
+20150417 11 14 2257215 8
+20150418 21 29 3780057 14
+20150419 10 13 1514492 7
+20150420 11 14 779761 8
+20150421 19 26 4512790 13
+20150422 25 38 4564888 18
+20150423 13 17 1526886 10
+20150424 10 14 1522842 7
+20150425 5 6 1493796 5
+20150426 4 5 14344 4
+20150427 7 9 1504144 4
+20150428 7 9 765417 6
+20150429 23 32 3796757 15
+20150430 5 7 758958 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+2mn-5mn 5
+30s-2mn 6
+15mn-30mn 1
+0s-30s 260
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 317 623424 268 207
+/index.swf 84 59998725 6 66
+/index.php 3 144 0 1
+END_SIDER

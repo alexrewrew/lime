@@ -1,0 +1,852 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201310 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.lime.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2689                
+POS_VISITOR 14594               
+POS_DAY 25572               
+POS_DOMAIN 3531                
+POS_LOGIN 4026                
+POS_ROBOT 4181                
+POS_WORMS 4992                
+POS_EMAILSENDER 5123                
+POS_EMAILRECEIVER 5266                
+POS_SESSION 26426               
+POS_SIDER 26635               
+POS_FILETYPES 5401                
+POS_OS 5511                
+POS_BROWSER 5705                
+POS_SCREENSIZE 6790                
+POS_UNKNOWNREFERER 6864                
+POS_UNKNOWNREFERERBROWSER 7451                
+POS_ORIGIN 7881                
+POS_SEREFERRALS 8027                
+POS_PAGEREFS 8197                
+POS_SEARCHWORDS 9282                
+POS_KEYWORDS 9609                
+POS_MISC 2353                
+POS_ERRORS 9851                
+POS_CLUSTER 3882                
+POS_SIDER_404 9955                
+POS_PLUGIN_geoip_city_maxmind 13107               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131101002823 1 0 9453737789083
+FirstTime 20131001000717
+LastTime 20131031191150
+LastUpdate 20131102000152 1 0 0 0 0
+TotalVisits 392                 
+TotalUnique 273                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 276                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 37 51 10505032 25 35 27497
+1 28 37 6757659 44 64 1522294
+2 15 19 3004292 25 28 1507116
+3 13 18 3749371 38 40 42833
+4 10 14 2259619 43 44 3009478
+5 8 12 2255623 31 31 761245
+6 14 22 3025346 30 32 37491
+7 20 25 3763357 28 30 35229
+8 14 18 1528836 28 36 782070
+9 30 39 6024926 96 122 82614
+10 53 69 8296485 48 65 436442
+11 67 93 9061950 53 78 67107
+12 116 152 12084742 22 49 782993
+13 67 97 12035508 39 59 1537720
+14 39 55 9776653 43 60 805220
+15 52 70 12027516 34 53 2256244
+16 62 84 15766539 47 71 1553087
+17 38 48 7524716 16 27 2239520
+18 50 61 6059608 45 60 815742
+19 30 39 6016934 28 35 779127
+20 30 44 9005242 17 34 764930
+21 20 29 6006944 43 58 62061
+22 21 29 4523138 27 37 42739
+23 34 45 6774001 12 20 10168
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+ua 515 710 102238798
+unknown 127 192 42765715
+us 90 108 12099850
+ru 43 54 3816737
+jp 37 37 73926
+gb 15 15 29970
+de 12 13 769055
+eu 6 9 1508498
+kz 4 5 753071
+ge 4 6 1498150
+il 2 2 3996
+tr 1 2 8350
+cn 1 2 8350
+lv 1 1 1998
+fr 2 2 0
+in 2 3 749075
+ch 1 1 1998
+ca 3 5 757425
+pl 2 3 749075
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+googlebot 181 8496343 20131031142809 0
+yandex 134 263736 20131028184009 0
+bot[\s_+:,\.\;\/\\-] 67 10484693 20131031084742 0
+robot 14 27972 20131029044013 0
+crawl 11 21978 20131031184821 0
+facebook 9 16032 20131030100937 0
+netcraft 8 5994 20131028045028 0
+surveybot 6 11988 20131029002341 0
+java\/[0-9] 6 25050 20131031083206 0
+no_user_agent 4 11774 20131023183309 0
+exabot 3 5994 20131026205216 0
+libwww 4 7992 20131022122233 0
+[\s_+:,\.\;\/\\-]bot 3 5994 20131023031756 0
+mail\.ru 3 5994 20131031002605 0
+msnbot 1 1998 20131012213724 0
+favicon 1 1998 20131005063542 0
+archive\.org_bot 1 6352 20131002132105 0
+turnitinbot 1 1998 20131003212545 0
+mj12bot 2 3996 20131024113746 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 560 1077066 0 0
+js 302 1575296 0 0
+swf 308 165181675 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxandroid 17
+blackberry 1
+winxp 320
+winlong 30
+java 1
+win2000 1
+linuxubuntu 1
+winvista 19
+linux 30
+macosx 100
+winme 1
+win2003 6
+Unknown 16
+win2008 627
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 65
+msie6.0 68
+firefox3.8 1
+firefox3.6 1
+firefox2.0.0.1 1
+chrome31.0.1650.26 1
+firefox4.0 2
+firefox18.0 9
+chrome29.0.1547.62 3
+safari4.0.5 1
+chrome7.0.517.44 3
+chrome7.0.517.41 3
+safari5.0.2 1
+opera9.26 6
+chrome28.0.1500.72 4
+msie8.0 65
+msie7.0 93
+firefox23.0 13
+chrome30.0.1599.82 4
+opera9.64 2
+firefox21.0 1
+safari6.0 11
+chrome30.0.1599.69 250
+safari6.0.5 36
+firefox25.0 5
+mozilla 35
+firefox14.0.1 4
+chrome22.0.1229.94 3
+safari5.1.9 4
+firefox19.0 3
+safari 3
+safari7.0 13
+firefox20.0 5
+chrome29.0.1547.57 6
+chrome21.0.1180.90 1
+chrome29.0.1547.76 44
+android 11
+firefox3.6.6 1
+chrome28.0.1500.95 3
+firefox24.0 95
+opera9.80 45
+iphone 3
+chrome10.0.648.204 1
+chrome30.0.1599.66 9
+msie9.0 15
+Unknown 10
+chrome30.0.1599.101 180
+firefox27.0 6
+blackberry 1
+chrome21.0.1180.75 1
+chrome18.0.1025.166 2
+opera8.00 1
+firefox3.0.11 1
+konqueror4.4 1
+safari5.1.7 4
+nokia 2
+firefox22.0 5
+msie10.0 21
+chrome25.0.1364.172 2
+firefox3.6.18 1
+firefox3.6.12 6
+chrome31.0.1650.16 7
+chrome27.0.1453.116 5
+chrome23.0.1271.97 20
+firefox3.0.19 3
+chrome16.0.950.0 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+MacInroy_Privacy_Auditors._See_limebtl.com's_privacy_violation_report:_http://limebtl.com.macinroy.com/limebtl.com 20131015093640
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20131024233552
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20131023235600
+MacInroy_Privacy_Auditors._See_lime.com.ua's_privacy_violation_report:_http://lime.com.ua.macinroy.com/lime.com.ua 20131010081156
+Mozilla/5.0_(compatible) 20131014072753
+Xenu_Link_Sleuth/1.3.8 20131031171712
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+MacInroy_Privacy_Auditors._See_limebtl.com's_privacy_violation_report:_http://limebtl.com.macinroy.com/limebtl.com 20131015093640
+Apache-HttpClient/4.1.1_(java_1.5) 20131007065004
+MacInroy_Privacy_Auditors._See_lime.com.ua's_privacy_violation_report:_http://lime.com.ua.macinroy.com/lime.com.ua 20131010081156
+Xenu_Link_Sleuth/1.3.8 20131031171712
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 356 357
+From1 1 1
+From2 109 109
+From3 209 333
+From4 193 370
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 59 59
+yandex 50 50
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 27
+http://limebtl.com 77 158
+http://www.limebtl.com 37 79
+http://talant.ua 19 19
+http://www.talant.ua 17 17
+http://www.facebook.com/l.php 6 6
+http://lime.com.u.macinroy.com/lime.com.ua 5 5
+http://dreamonload.com 5 5
+http://www.talant.ua/talant-v1.swf 4 4
+http://www.limebtl.com/index.swf 4 4
+http://www.maxshaman.com 4 4
+http://rabota.ua/company387684/vacancy5293597 1 1
+http://hh.ua/employer/218914 2 2
+http://www.ukraine.com.ua/domains/ 3 3
+http://LIMEBTL.com 1 1
+http://e.mail.ru/cgi-bin/link 3 3
+http://www.limebtl.com. 1 2
+https://www.facebook.com 3 3
+http://mawords.com/limebtl.com 1 1
+http://rabotaplus.ua/vacancy/id/2464839 1 1
+http://mmr.ua/databases/companies/id/lime-fresh-btl-141/ 3 3
+http://maxshaman.com 2 2
+http://www.mami.org.ua/news/market-news/3625 1 1
+http://www.imena.ua/site/check-domain 2 2
+http://LIMEBTL.COM 1 1
+http://vk.com/im 2 2
+http://talant.ua/talant-v1.swf 1 1
+http://limebtl.co.macinroy.com/limebtl.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+lime.com.ua 50
+lime+btl+%d0%ba%d0%b8%d0%b5%d0%b2 2
+%d0%94%d0%b5%d0%be%d1%81%d0%bf%d1%80%d0%b5%d0%b9+%d0%91%d0%b0%d0%bb%d0%b5%d0%b0+deospray+fresh+lime 1
+http+//limebtl.com/ 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+lime.com.ua 50
+lime 3
+%d0%ba%d0%b8%d0%b5%d0%b2 2
+btl 2
+deospray 1
+//limebtl.com/ 1
+fresh 1
+%d0%91%d0%b0%d0%bb%d0%b5%d0%b0 1
+http 1
+%d0%94%d0%b5%d0%be%d1%81%d0%bf%d1%80%d0%b5%d0%b9 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 18 436119
+404 428 116972
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 95
+/sitemap.xml 4 -
+/robots.txt 315 -
+//e107_admin/index.php 1 -
+/admin/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/admin.php 4 -
+/transparent/i 1 -
+/he/she 1 -
+//components/actions/frontend.php 1 -
+//jscript/sbMenu.js.php 1 -
+/logout.php 1 -
+/platform/plugins/recommendations_bar/trigger 1 -
+/dialog/ 1 -
+/dialog/oauth 1 -
+/restserver.php 1 -
+//readme.html 1 -
+/plugins/comments_v1.php 1 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/me/apprequestformerrecipients 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/editor/editor/filemanager/connectors/test.html 1 -
+/fck/editor/filemanager/connectors/php/connector.php 1 -
+/plugins/ 1 -
+//web.config 1 -
+/FCK/editor/filemanager/connectors/php/connector.php 1 -
+/common/widget_pipe_shell.php 1 -
+//config.core.php 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fql 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/occludespopups 1 -
+/.php 2 -
+//wp-login.php 1 -
+//bitrix/js/main/core/css/core_admin.css 1 -
+//HISTORY.txt 1 -
+/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/application/vnd.unity 1 -
+/blog/wp-login.php 1 -
+//libraries/joomla/index.html 1 -
+/wp-login.php 5 -
+//textpattern/textpattern.css 1 -
+/common/scribe_endpoint.php 2 -
+/text/javascript 1 -
+/ba 1 -
+/himself/herself 1 -
+/apple-touch-icon.png 2 -
+/autodiscover/autodiscover.xml 2 -
+/plugins/plugin_pipe_shell.php 1 -
+//up/watermark.png 1 -
+//i/admin/yandexmoneylogo_small.gif 1 -
+/admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/text/css 1 -
+/platform/plugins/recommendations_bar/visible 1 -
+//templates/banned.tpl 1 -
+/plugins/pipe.php 1 -
+//scripts/drupal.sh 1 -
+/application/x-shockwave-flash 1 -
+/his/her 1 -
+//wp-admin/ms-users.php 1 -
+/blog/ 1 http://LIMEBTL.COM/blog/
+/xd/verify 1 -
+/stats/usage_201309.html 1 http://LIMEBTL.COM/stats/usage_201309.html
+//include/inc_act/act_addchat.php 1 -
+/me/permissions 1 -
+/webmanage/fckeditor/editor/filemanager/connectors/test.html 1 -
+//engine/lib/external/html5shiv.js 1 -
+/\"%20+%20gaJsHost%20+%20\"google-analytics.com/ga.js 3 -
+/profile.php 1 -
+/FCK/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+//Admin/adminzone.css 1 -
+/apple-touch-icon-precomposed.png 1 -
+/sitetour/connect.php 1 -
+/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/user/ 1 -
+/sharer.php 1 -
+//kreotonsystems.php 1 -
+/btnfr 1 -
+//adm/style/admin.css 1 -
+//admin/456 1 -
+/xd/reposition 1 -
+/connect/ping 1 -
+/administrator/index.php 4 -
+//LICENSE.txt 1 -
+/platform/plugins/recommendations_bar/invisible 1 -
+//hostcmsfiles/ajax/JsHttpRequest.js 1 -
+/wp-content/plugins/is-human/engine.php 1 -
+//joomla.xml 1 -
+/document 1 -
+/application/x-www-form-urlencoded 1 -
+//db/mssql-odbc.php 1 -
+/staticresources 1 -
+/impression.php/ 1 -
+//README.txt 1 -
+/platform/plugins/recommendations_bar/action 1 -
+/him/her 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 49
+unknown 0 859 0 0
+ua_kiev_13 0 62 0 0
+us_simi%20valley_ca 0 37 0 0
+us_los%20angeles_ca 0 33 0 0
+ua_cherkasy_01 0 17 0 0
+ua_odessa_17 0 13 0 0
+ru_moscow_48 0 12 0 0
+ua_simferopol_11 0 10 0 0
+us_woodbridge_nj 0 9 0 0
+ua_nikolaev_16 0 8 0 0
+ru_krasnodar_38 0 3 0 0
+ua_mariupol_05 0 5 0 0
+us_sterling_va 0 2 0 0
+us_walden_ny 0 1 0 0
+ua_chernov_06 0 3 0 0
+cn_beijing_22 0 1 0 0
+us_la%20canada%20flintridge_ca 0 1 0 0
+ua_mega_03 0 2 0 0
+ru_saint%20petersburg_66 0 1 0 0
+us_saint%20louis_mo 0 1 0 0
+us_atlanta_ga 0 1 0 0
+de_nuremberg_02 0 3 0 0
+ua_dnepropetrovsk_04 0 7 0 0
+pl_warsaw_78 0 3 0 0
+ua_dmitriy_17 0 1 0 0
+tr_istanbul_34 0 2 0 0
+us_washington_dc 0 4 0 0
+us_dallas_tx 0 4 0 0
+ua_kharkiv_07 0 7 0 0
+ge_tbilisi_19 0 6 0 0
+us_houston_tx 0 1 0 0
+ua_dolyna_22 0 6 0 0
+us_herndon_va 0 1 0 0
+cn_changsha_11 0 1 0 0
+ca_ottawa_on 0 5 0 0
+us_seattle_wa 0 4 0 0
+ru_belebey_08 0 3 0 0
+ua_makariv_13 0 3 0 0
+ua_obukhiv_13 0 3 0 0
+ua_lviv_15 0 3 0 0
+us_phoenix_az 0 3 0 0
+lv_talsi_28 0 1 0 0
+us_flower%20mound_tx 0 1 0 0
+us_columbus_oh 0 1 0 0
+ua_chernivtsi_03 0 3 0 0
+ru_seversk_75 0 3 0 0
+us_milpitas_ca 0 1 0 0
+ua_radio_04 0 3 0 0
+ua_donetsk_05 0 6 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 276
+91.200.234.218 181 235 7658630 20131030164854
+85.142.26.224 20 20 19980 20131030162930
+195.191.215.6 18 19 775049 20131028121804
+209.133.77.167 12 12 23976 20131031162044
+150.70.75.167 12 12 23976 20131031191150
+78.137.38.38 11 14 2253219 20131024001307
+209.133.77.166 11 11 21978 20131031182256
+150.70.75.212 9 9 17982 20131024172143
+91.90.15.54 8 9 2238517 20131015124932
+85.25.134.59 8 8 15984 20131015093640
+89.145.108.203 1 1 1998 20131031160807
+109.187.56.128 2 3 749075 20131027231545
+89.185.29.49 2 3 749075 20131018211248
+46.151.80.31 2 3 749075 20131017233439
+69.64.58.188 1 1 1998 20131031083658
+69.58.178.56 2 2 3996 20131009232831
+84.234.106.147 2 3 749075 20131014214530
+62.244.16.107 2 3 749075 20131014165508
+91.215.61.6 2 3 749075 20131002185835
+176.195.217.51 3 5 757425 20131010160452
+159.224.58.177 3 5 757425 20131019042241
+159.160.39.148 1 2 8350 20131016222204
+217.69.133.169 2 2 3996 20131022134334
+78.27.185.122 5 7 1500148 20131024160842
+212.86.231.157 2 3 749075 20131030162248
+199.30.24.193 1 3 753429 20131005040035
+188.129.214.132 2 3 749075 20131031131911
+46.164.140.134 4 6 1498150 20131014135517
+109.251.222.45 2 3 749075 20131008153839
+92.112.27.144 1 1 1998 20131018100137
+91.124.211.192 4 7 759423 20131017072956
+91.214.84.244 2 3 749075 20131029185957
+208.43.225.85 1 1 1998 20131024233552
+176.195.0.219 2 3 749075 20131030011206
+176.195.29.112 4 6 1498150 20131006200537
+207.182.143.146 1 1 1998 20131025110419
+95.132.27.213 2 3 749075 20131015113049
+92.249.90.15 7 10 1502146 20131012211254
+199.30.24.216 1 2 747077 20131020131428
+178.151.27.103 2 3 749075 20131031163559
+95.132.51.70 2 3 749075 20131008213945
+193.105.7.67 2 3 749075 20131016234354
+131.253.24.84 2 3 749075 20131001153243
+91.209.51.42 4 6 1498150 20131023013635
+46.211.183.249 1 1 1998 20131017101500
+93.127.50.104 2 3 749075 20131014133003
+193.43.252.252 5 5 9990 20131011070735
+213.108.78.203 3 4 751073 20131028101214
+38.100.21.65 1 1 1998 20131010012443
+46.185.123.244 2 3 749075 20131015223814
+188.0.159.233 2 3 749075 20131013175653
+213.169.80.76 2 3 749075 20131029194038
+188.191.111.226 2 4 10348 20131017130315
+178.216.228.203 2 3 749075 20131029120234
+109.251.116.30 1 1 1998 20131019012422
+178.150.8.200 3 4 751073 20131025225533
+193.106.250.39 2 3 749075 20131004143821
+78.175.135.150 1 2 8350 20131001215516
+209.133.77.162 2 2 3996 20131003122001
+77.88.219.150 2 3 749075 20131016021928
+91.197.217.11 2 3 749075 20131021093111
+37.115.153.243 2 3 749075 20131023000841
+77.120.246.254 3 4 751073 20131007153315
+195.68.203.234 2 3 749075 20131017125325
+150.70.173.39 4 4 7992 20131031161959
+85.117.62.109 2 3 749075 20131016151610
+46.105.59.74 2 2 0 20131024222434
+31.42.121.138 2 3 749075 20131030124915
+93.73.43.201 6 9 1500148 20131011131555
+93.74.141.236 3 4 751073 20131014182716
+178.255.87.242 1 1 1998 20131001125126
+46.211.183.252 0 1 6352 
+176.195.222.104 4 6 1498150 20131020193957
+176.195.80.37 2 3 749075 20131031061253
+62.149.1.75 1 1 1998 20131009112835
+5.153.182.155 1 2 8350 20131002114412
+2.93.128.130 2 3 749075 20131008103100
+109.237.88.52 2 4 16700 20131023185245
+54.215.252.68 2 2 3996 20131013012019
+199.30.25.4 2 3 749075 20131008170338
+176.195.76.174 2 3 749075 20131024025209
+176.195.245.227 4 6 1498150 20131025165913
+95.133.50.174 1 1 1998 20131017220542
+93.72.77.84 2 3 749075 20131015154125
+80.254.8.154 2 3 749075 20131018161243
+83.220.237.101 1 1 1998 20131012180954
+77.120.246.65 4 6 1498150 20131015131017
+176.195.183.166 4 6 1498150 20131027005837
+94.76.121.87 2 3 749075 20131015172922
+91.209.51.183 2 3 749075 20131022100629
+199.30.24.56 1 2 747077 20131016154904
+93.74.28.78 1 1 1998 20131014184045
+176.195.168.3 2 3 749075 20131008125006
+176.195.49.194 2 3 749075 20131030071302
+195.24.157.158 2 3 749075 20131031152624
+195.182.192.49 2 3 749075 20131009160437
+23.20.250.168 1 1 1998 20131004210845
+199.30.24.217 1 2 747077 20131027112412
+93.158.153.79 1 2 8350 20131002064348
+80.245.116.230 2 3 749075 20131004165431
+178.95.234.112 1 1 1998 20131023195525
+150.70.173.38 2 2 3996 20131031154135
+78.111.187.61 2 3 749075 20131024105638
+89.252.15.69 2 3 749075 20131017202007
+37.25.115.195 2 3 749075 20131023183951
+37.52.25.1 1 1 1998 20131021145433
+37.229.223.196 2 3 749075 20131025004250
+66.71.252.2 1 1 1998 20131024170557
+195.211.149.70 2 3 749075 20131031153722
+54.237.16.54 4 4 1998 20131030192059
+178.137.124.159 2 3 749075 20131028113333
+193.39.75.50 1 2 8350 20131019144910
+176.195.42.162 2 3 749075 20131009163533
+50.19.179.85 4 4 1998 20131031023530
+195.177.127.196 2 3 749075 20131024105733
+37.144.79.126 2 3 749075 20131011214953
+199.30.24.92 2 3 749075 20131019212626
+195.39.241.19 2 3 749075 20131024095133
+5.248.251.51 2 3 749075 20131001144812
+193.201.83.11 2 3 749075 20131001000720
+176.115.97.160 2 3 749075 20131008230709
+178.137.41.84 3 3 4044 20131001041959
+54.227.123.237 2 3 10348 20131024165807
+193.34.92.67 2 3 749075 20131017234001
+46.229.167.149 2 2 3996 20131028002618
+213.227.214.22 2 3 749075 20131002120444
+119.63.193.132 2 2 3996 20131027230402
+91.194.72.17 1 1 1998 20131002191055
+89.145.108.202 4 4 7992 20131031153455
+109.188.124.96 2 3 749075 20131016114507
+178.158.114.113 2 3 749075 20131028225336
+95.67.91.106 2 3 749075 20131022104958
+84.237.224.150 1 1 1998 20131028124832
+64.34.169.244 1 1 1998 20131003000818
+38.100.21.63 1 1 1998 20131006181917
+176.195.54.251 3 5 757425 20131001180402
+176.195.48.68 2 3 749075 20131002073112
+178.94.160.135 2 3 749075 20131016155038
+176.36.101.228 5 7 753071 20131017155837
+178.94.123.207 2 3 749075 20131010012117
+89.145.108.206 4 4 7992 20131024182311
+89.209.8.38 2 3 749075 20131016124237
+199.30.25.176 0 1 6352 
+46.30.167.75 2 3 749075 20131006003435
+205.237.88.154 1 1 1998 20131015081011
+176.195.22.162 2 3 749075 20131019000414
+87.240.182.169 1 1 1998 20131023235600
+93.72.241.77 2 3 749075 20131029121756
+176.195.238.161 2 3 749075 20131024032514
+204.15.223.247 2 3 749075 20131010011606
+77.247.31.127 2 3 749075 20131029154427
+62.182.121.58 2 3 749075 20131028005227
+176.14.34.39 2 3 10348 20131016095955
+176.37.195.5 2 3 749075 20131015220821
+77.239.170.41 3 4 751073 20131017120116
+78.26.154.232 2 3 749075 20131025013056
+81.95.180.166 2 3 749075 20131026180449
+195.248.93.4 4 6 1498150 20131025092940
+212.3.103.146 2 3 749075 20131026081518
+193.34.218.79 2 3 749075 20131017011304
+176.195.213.142 2 3 749075 20131007052124
+178.94.214.169 1 1 1998 20131013093733
+109.104.166.23 3 6 12346 20131014124140
+109.104.182.85 2 3 749075 20131029135716
+89.145.108.205 2 2 3996 20131031163141
+178.94.226.244 2 3 749075 20131021191134
+176.195.183.92 2 3 749075 20131008200818
+192.114.71.13 2 2 3996 20131014072753
+106.51.182.81 2 3 749075 20131008153238
+91.218.75.122 2 3 749075 20131016130407
+37.115.206.20 2 3 749075 20131022092424
+217.77.223.169 1 1 1998 20131029144543
+77.88.209.167 2 3 749075 20131007120036
+119.63.193.195 1 1 1998 20131027000149
+83.220.239.27 2 4 10348 20131009231816
+80.91.174.42 2 3 749075 20131017093837
+95.174.212.59 2 3 749075 20131005200810
+93.72.9.83 1 1 1998 20131017223848
+46.165.240.92 1 1 1998 20131007222807
+91.142.169.131 8 11 2251221 20131030104738
+93.75.71.149 2 3 749075 20131007152559
+194.50.161.38 2 3 749075 20131016152823
+88.81.226.126 2 3 749075 20131015171002
+38.229.70.44 2 2 3996 20131019004330
+91.209.51.112 2 3 749075 20131002231851
+218.30.116.100 0 1 6352 
+93.73.62.235 6 9 2247225 20131003161435
+119.63.193.194 4 4 7992 20131025000410
+91.220.252.20 1 2 8350 20131018084502
+37.229.73.101 2 3 749075 20131010221034
+78.137.37.136 2 3 749075 20131024000232
+91.244.124.19 2 3 749075 20131031145644
+176.195.7.90 2 3 749075 20131031070652
+178.150.76.66 2 3 749075 20131001202833
+193.254.233.214 2 3 749075 20131023113133
+176.195.169.72 2 3 749075 20131005013625
+62.221.52.134 2 3 749075 20131015110128
+119.63.193.131 2 2 3996 20131022000425
+176.195.240.9 2 3 749075 20131011074021
+95.67.98.193 2 3 749075 20131018124305
+91.196.193.228 2 3 749075 20131023214409
+212.2.138.196 2 3 749075 20131001164125
+188.138.84.140 1 1 1998 20131019085850
+95.133.44.106 2 3 749075 20131009205115
+91.227.182.56 2 3 749075 20131024134802
+208.43.225.84 3 3 5994 20131022012712
+89.209.80.151 2 3 749075 20131007085148
+91.214.131.75 2 3 749075 20131019134919
+157.55.252.30 1 1 1998 20131010113226
+209.133.77.164 7 7 13986 20131031180722
+178.94.45.39 2 3 749075 20131008192254
+178.137.145.92 2 3 749075 20131001013428
+109.104.182.171 1 2 8350 20131007110231
+199.30.24.251 1 2 747077 20131022001240
+95.132.10.138 3 4 751073 20131009011905
+91.196.95.18 1 1 1998 20131011050845
+199.30.25.90 4 6 1498150 20131018115458
+93.72.22.12 4 6 1498150 20131009220257
+46.185.10.157 2 3 749075 20131004001548
+178.94.22.25 2 3 749075 20131015153938
+67.250.115.4 1 1 48 20131003051211
+176.195.13.55 6 9 2247225 20131009202655
+5.34.53.97 1 2 8350 20131005205735
+176.31.236.28 1 1 1998 20131002151446
+5.254.241.136 2 3 749075 20131005165715
+199.30.25.3 1 2 747077 20131007161354
+199.30.25.57 2 3 1487802 20131022164156
+217.69.133.186 2 2 3996 20131009020559
+46.211.53.138 1 2 8350 20131028105614
+66.220.7.244 1 1 1998 20131018043459
+46.201.143.56 2 3 749075 20131030124031
+46.98.71.212 2 3 749075 20131023030555
+93.158.153.80 1 2 8350 20131009191008
+93.73.182.151 2 3 749075 20131015114811
+176.195.21.96 2 3 749075 20131010090431
+89.252.24.221 2 3 749075 20131007134750
+46.229.52.103 2 3 749075 20131006174112
+80.255.64.192 5 7 753071 20131028161607
+95.67.68.162 2 3 749075 20131031141628
+176.195.225.231 4 6 1498150 20131017035546
+80.77.95.46 1 1 1998 20131014002523
+89.145.108.207 2 2 3996 20131003121740
+188.143.234.6 1 1 1998 20131014082617
+184.173.121.49 1 1 1998 20131028133801
+217.76.78.232 4 5 753071 20131028102100
+178.219.244.126 2 3 749075 20131009171043
+176.195.253.151 6 9 2247225 20131016023225
+176.195.247.143 3 4 751073 20131022022055
+176.195.50.109 6 9 2247225 20131016100802
+89.105.242.228 2 3 749075 20131005103730
+92.60.189.185 2 3 749075 20131015143451
+78.154.165.126 2 3 749075 20131009215500
+131.253.24.77 1 2 8350 20131027081432
+195.88.242.35 1 1 1998 20131007065004
+46.19.136.212 1 1 1998 20131010031512
+91.77.223.189 2 4 10348 20131006143152
+209.133.77.163 1 1 1998 20131017124013
+94.232.215.98 2 3 749075 20131023120418
+176.195.59.103 4 6 1498150 20131029001919
+220.170.91.172 1 1 1998 20131025112703
+89.145.108.208 1 1 1998 20131003191306
+119.63.193.196 1 1 1998 20131029230407
+71.170.100.77 1 1 1998 20131031171712
+176.195.220.43 5 8 1506500 20131013221327
+37.55.252.139 2 3 749075 20131029230449
+93.183.247.218 2 3 749075 20131021111009
+83.143.141.111 2 3 749075 20131017131904
+93.73.125.150 2 3 749075 20131010205650
+178.151.58.31 8 9 761063 20131004144322
+95.135.21.14 2 3 749075 20131011204330
+199.30.24.30 4 6 1498150 20131012040840
+194.186.220.76 2 3 749075 20131020200242
+91.213.149.95 2 3 749075 20131023143029
+31.134.121.94 4 6 1498150 20131014170420
+62.91.22.82 2 3 749075 20131008192616
+199.30.24.154 1 2 747077 20131015143731
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20131001 31 42 6774407 16
+20131002 15 21 3022990 11
+20131003 17 19 1522174 13
+20131004 18 22 3014282 8
+20131005 10 17 3758079 6
+20131006 12 18 3010644 7
+20131007 22 31 6008942 13
+20131008 24 35 8241823 12
+20131009 40 58 11266811 19
+20131010 121 171 6122828 23
+20131011 19 24 3014330 9
+20131012 14 19 3006290 4
+20131013 11 15 2263567 7
+20131014 30 40 5279847 17
+20131015 44 60 13484632 19
+20131016 30 45 9758671 16
+20131017 45 63 9047916 25
+20131018 17 24 4508794 9
+20131019 15 21 3022990 10
+20131020 11 15 3000296 7
+20131021 10 13 2253219 6
+20131022 18 27 6741675 11
+20131023 32 44 7523434 17
+20131024 72 84 8318105 28
+20131025 69 82 6809965 14
+20131026 4 6 1498150 2
+20131027 10 15 3006648 6
+20131028 23 30 3773705 14
+20131029 18 26 5996596 10
+20131030 28 37 6751665 10
+20131031 38 46 6030562 23
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 8
+0s-30s 349
+2mn-5mn 4
+15mn-30mn 10
+30s-2mn 7
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 560 1077066 384 189
+/index.swf 308 165181675 8 203
+END_SIDER

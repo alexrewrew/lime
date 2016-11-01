@@ -1,0 +1,778 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201307 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.lime.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2689                
+POS_VISITOR 14686               
+POS_DAY 22629               
+POS_DOMAIN 3520                
+POS_LOGIN 4025                
+POS_ROBOT 4180                
+POS_WORMS 4952                
+POS_EMAILSENDER 5083                
+POS_EMAILRECEIVER 5226                
+POS_SESSION 23352               
+POS_SIDER 23562               
+POS_FILETYPES 5361                
+POS_OS 5522                
+POS_BROWSER 5714                
+POS_SCREENSIZE 6699                
+POS_UNKNOWNREFERER 6773                
+POS_UNKNOWNREFERERBROWSER 7474                
+POS_ORIGIN 7645                
+POS_SEREFERRALS 7788                
+POS_PAGEREFS 7958                
+POS_SEARCHWORDS 9063                
+POS_KEYWORDS 10297               
+POS_MISC 2353                
+POS_ERRORS 11013               
+POS_CLUSTER 3881                
+POS_SIDER_404 11125               
+POS_PLUGIN_geoip_city_maxmind 13491               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130801003057 1 0 7217099797844
+FirstTime 20130701003914
+LastTime 20130731233852
+LastUpdate 20130802000145 1 0 0 0 0
+TotalVisits 296                 
+TotalUnique 199                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 199                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 24 3767711 28 38 1511316
+1 5 6 753071 15 29 765682
+2 7 8 759065 33 36 1520931
+3 11 13 771411 53 61 2270926
+4 3 3 3996 31 31 1520393
+5 3 4 751073 29 36 2986951
+6 7 9 1504144 74 75 791202
+7 6 7 757067 18 21 1509723
+8 12 15 2259213 24 33 1513333
+9 33 46 7523434 19 39 899625
+10 30 41 6772003 20 43 1496703
+11 35 46 8265799 30 62 1514945
+12 60 82 11315121 35 57 1520195
+13 50 62 9038850 32 58 786566
+14 55 75 12778502 32 91 3003192
+15 72 99 15835748 33 73 3728499
+16 39 52 8326592 27 48 38821
+17 55 74 12084836 18 53 1503965
+18 36 47 6777997 35 60 1520187
+19 19 29 3047575 46 51 799285
+20 26 37 4547830 49 69 1546162
+21 24 32 4522828 44 53 51938
+22 9 12 1514492 18 23 23885
+23 11 16 3747373 15 23 19614
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+ua 354 509 94051322
+jp 87 87 173826
+ru 53 76 13528380
+unknown 36 51 9025580
+us 26 30 2293537
+gb 23 23 45954
+eu 6 8 763419
+no 5 7 1500148
+lv 5 5 0
+am 5 6 755069
+cn 1 1 1998
+is 1 2 8350
+kz 3 4 751073
+ro 4 6 1498150
+ch 4 6 1498150
+it 3 4 749123
+pl 3 5 757425
+cz 1 1 1998
+nl 5 5 9990
+de 1 3 12239
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+googlebot 142 32198679 20130731203747 0
+yandex 105 205794 20130731160607 0
+robot 77 153846 20130730130212 0
+bot[\s_+:,\.\;\/\\-] 25 52354 20130731063830 0
+exabot 14 25974 20130728183157 0
+baiduspider 8 20338 20130717095351 0
+no_user_agent 5 7992 20130723043231 0
+[\s_+:,\.\;\/\\-]bot 5 9990 20130731031543 0
+libwww 4 7992 20130716043722 0
+findlinks 4 7992 20130718134958 0
+java\/[0-9] 2 8350 20130714074654 0
+mail\.ru 1 1998 20130721033114 0
+facebook 2 3996 20130726143755 0
+surveybot 2 3996 20130723222117 0
+favicon 1 1998 20130731020216 0
+turnitinbot 1 1998 20130718145442 0
+mj12bot 2 3996 20130719140054 0
+crawl 3 4044 20130721211130 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 12 125232 0 0
+html 434 840268 0 0
+js 211 1219584 0 0
+jpg 2 7778 0 0
+Unknown 2 3996 0 0
+swf 178 125228873 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxmandr 1
+linuxandroid 4
+winxp 297
+winlong 7
+java 1
+win2000 1
+linuxubuntu 3
+winvista 28
+linux 64
+macosx 116
+winme 1
+win2003 7
+Unknown 11
+win2008 298
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 58
+msie6.0 28
+firefox5.0 4
+firefox20.0 3
+firefox4.0.1 3
+android 3
+chrome22.0.1106.241 3
+firefox4.0 2
+firefox18.0 6
+curl 1
+chrome7.0.517.44 6
+firefox24.0 1
+opera9.80 53
+chrome24.0.1312.71 5
+iphone 2
+msie8.0 113
+chrome28.0.1500.72 156
+chrome14.0.835.163 2
+chrome13.0.782.32 6
+firefox13.0.1 1
+msie7.0 30
+firefox16.0 5
+chrome24.0.1350.0 5
+chrome10.0.648.204 1
+firefox3.6.9 7
+msie9.0 21
+chrome28.0.1500.52 27
+chrome26.0.1410.43 3
+chrome18.0.1025.1634 1
+Unknown 2
+firefox11.0 3
+chrome8.0.552.224 1
+chrome24.0.1312.70 1
+chrome28.0.1500.63 12
+firefox13.0 3
+firefox21.0 42
+lg\- 1
+chrome13.0.782.24 1
+safari6.0 43
+firefox3.0.11 1
+firefox3.6.16 3
+firefox3.6.4 1
+chrome28.0.1500.71 17
+chrome13.0.782.215 7
+safari6.0.5 17
+mozilla 8
+chrome24.0.1312.60 3
+chrome26.0.1410.64 3
+firefox3.0.12 1
+netscape5.0 1
+firefox22.0 67
+chrome25.0.1364.172 6
+seamonkey 1
+msie10.0 11
+safari5.1 7
+safari6.0.3 18
+safari5.1.9 3
+chrome27.0.1453.116 49
+chrome23.0.1271.97 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/5.0 20130724062624
+Opera/9.80_(iPhone;_Opera_Mini/7.0.5/30.3498;_U;_ru)_Presto/2.8.119_Version/11.10 20130721170726
+Mozilla/5.0_(compatible;_Lipperhey_Link_Explorer;_http://www.lipperhey.com/) 20130714081915
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20130731062202
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20130723094206
+PycURL/7.23.1 20130701214541
+EventMachine_HttpClient 20130718112810
+Mozilla/5.0_(compatible;_Dataprovider_Site_Explorer;_http://www.dataprovider.com/) 20130721203746
+Mozilla/5.0_(compatible;_Prlog/1.0;__http://prlog.ru/) 20130721185502
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Apache-HttpClient/4.1.1_(java_1.5) 20130704083653
+EventMachine_HttpClient 20130718112810
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 284 285
+From1 0 0
+From2 71 71
+From3 202 335
+From4 69 148
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 54 54
+yandex 17 17
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 26
+http://www.limebtl.com 77 163
+http://limebtl.com 44 90
+http://talant.ua 17 17
+http://rabota.ua/company387684/vacancy5293597 11 11
+http://www.talant.ua 11 11
+http://r-e-f-e-r-e-r.com/limebtl.com 5 5
+http://filesonload.com 4 4
+http://www.talant.ua/talant-v1.swf 4 4
+http://rabota.ua/company387684 4 4
+https://www.facebook.com 4 4
+http://prazdnik.com.ua/index.php 1 1
+http://hh.ua/employer/218914 2 2
+http://limebtl.com/phpinfo.php 2 2
+http://e.mail.ru/cgi-bin/link 1 1
+http://www.limebtl.com. 1 2
+http://marketing.rabota.ua/company387684/vacancy5293597 1 1
+http://www.rup.com.ua 1 1
+http://rabotaplus.ua/vacancy/id/2464839 1 1
+http://mmr.ua/databases/companies/id/lime-fresh-btl-141/ 3 3
+http://www.pagesinventory.com/domain/www.limebtl.com.html 1 1
+http://www.mami.org.ua/news/market-news/3625 1 1
+http://www.tosho.ua 1 1
+http://talant.ua/talant-v1.swf 2 2
+http://prlog.ru/analysis/limebtl.com 1 1
+http://yandex.ua/yandsearch 1 1
+https://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 16
+lime.com.ua 14
+limebtl 4
+lime+btl 3
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc 3
+lime.com 3
+%d0%bb%d0%b0%d0%b9%d0%bc+%d1%84%d1%80%d0%b5%d1%88+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 2
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+lime+%d0%ba%d0%b8%d0%b5%d0%b2 2
+http+//lime.com.ua/ 1
+lime+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 1
+btl+lime 1
+http+//limebtl.com/ 1
+fresh+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d1%8b%d0%b5+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%b0+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d1%8b 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be+%d0%bb%d0%b0%d0%b9%d0%bc+%d0%ba%d0%b8%d0%b5%d0%b2 1
+lime+%d0%be%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0+%d0%be%d1%84%d0%b8%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9+%d1%81%d0%b0%d0%b9%d1%82 1
+lime+%d0%b0%d0%b3%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be 1
+futycndj+kfqv 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 23
+lime.com.ua 14
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%be 9
+lime 9
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d0%be%d0%b5 7
+%d0%bb%d0%b0%d0%b9%d0%bc 6
+limebtl 4
+btl 4
+%d0%ba%d0%b8%d0%b5%d0%b2 3
+lime.com 3
+%d1%84%d1%80%d0%b5%d1%88 2
+futycndj 1
+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d1%8b 1
+//limebtl.com/ 1
+%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%bd%d1%8b%d0%b5 1
+http 2
+//lime.com.ua/ 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%82%d1%81%d1%82%d0%b2%d0%b0 1
+%d0%be%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0 1
+fresh 1
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be 1
+%d0%be%d1%84%d0%b8%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9 1
+%d1%81%d0%b0%d0%b9%d1%82 1
+kfqv 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+503 5 190
+206 5 19445
+404 377 103001
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 90
+/sitemap.xml 6 -
+/bb/help/index.jsp 1 -
+/robots.txt 276 -
+//e107_admin/index.php 1 -
+/admin.php 1 -
+//language/en-GB/en-GB.xml 1 -
+/transparent/i 1 -
+/he/she 1 -
+/logout.php 1 -
+//components/actions/frontend.php 1 -
+//jscript/sbMenu.js.php 1 -
+/favicon.svg 1 http://www.limebtl.com/favicon.svg
+/dialog/oauth 1 -
+/dialog/ 1 -
+/platform/plugins/recommendations_bar/trigger 1 -
+/restserver.php 1 -
+//readme.html 1 -
+/blog/wp-trackback.php 1 -
+/admin/index.php 1 -
+/plugins/comments_v1.php 1 -
+/value.png 1 -
+/me/apprequestformerrecipients 1 -
+/plugins/ 1 -
+//web.config 1 -
+/common/widget_pipe_shell.php 1 -
+//config.core.php 1 -
+/fql 1 -
+/occludespopups 1 -
+/.php 2 -
+//wp-login.php 2 -
+//bitrix/js/main/core/css/core_admin.css 1 -
+//HISTORY.txt 1 -
+/application/vnd.unity 1 -
+/admin.lime.com.ua 1 -
+//libraries/joomla/index.html 1 -
+/wp-login.php 2 -
+//textpattern/textpattern.css 1 -
+/common/scribe_endpoint.php 2 -
+/text/javascript 1 -
+/ba 1 -
+/himself/herself 1 -
+/apple-touch-icon.png 1 -
+/plugins/plugin_pipe_shell.php 1 -
+//up/watermark.png 1 -
+//i/admin/yandexmoneylogo_small.gif 1 -
+/text/css 1 -
+/platform/plugins/recommendations_bar/visible 1 -
+//templates/banned.tpl 1 -
+/plugins/pipe.php 1 -
+//scripts/drupal.sh 1 -
+/application/x-shockwave-flash 1 -
+/his/her 1 -
+//wp-admin/ms-users.php 1 -
+/xd/verify 1 -
+/php.php 1 -
+/me/permissions 1 -
+/info.php 2 -
+//include/inc_act/act_addchat.php 1 -
+//engine/lib/external/html5shiv.js 1 -
+/profile.php 1 -
+/\"%20+%20gaJsHost%20+%20\"google-analytics.com/ga.js 1 -
+/phppath/php 1 -
+//Admin/adminzone.css 1 -
+/sitetour/connect.php 1 -
+/sharer.php 1 -
+/favicon.gif 1 http://www.limebtl.com/favicon.gif
+/btnfr 1 -
+//kreotonsystems.php 1 -
+//adm/style/admin.css 1 -
+/connect/ping 1 -
+/xd/reposition 1 -
+//admin/456 1 -
+/administrator/index.php 2 -
+/platform/plugins/recommendations_bar/invisible 1 -
+//LICENSE.txt 1 -
+//hostcmsfiles/ajax/JsHttpRequest.js 1 -
+/wp-trackback.php 1 -
+//joomla.xml 1 -
+/document 1 -
+/application/x-www-form-urlencoded 1 -
+/wordpress/wp-trackback.php 1 -
+/staticresources 1 -
+//db/mssql-odbc.php 1 -
+/impression.php/ 1 -
+/news/wp-trackback.php 1 -
+/wp/wp-trackback.php 1 -
+//README.txt 1 -
+/favicon.png 2 http://www.limebtl.com/favicon.png
+/platform/plugins/recommendations_bar/action 1 -
+/him/her 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 36
+unknown 0 604 0 0
+ua_kiev_13 0 111 0 0
+ru_moscow_48 0 24 0 0
+ua_kharkov_07 0 11 0 0
+ua_mariupol_05 0 7 0 0
+ua_dnepropetrovsk_04 0 7 0 0
+us_denver_co 0 7 0 0
+ro_moldova%20noua_12 0 6 0 0
+ru_khimki_48 0 6 0 0
+ua_teremki_13 0 4 0 0
+ua_kremenchuk_18 0 3 0 0
+us_missoula_mt 0 2 0 0
+us_la%20canada%20flintridge_ca 0 1 0 0
+cn_shenzhen_30 0 1 0 0
+ua_makiyivka_05 0 3 0 0
+us_sunnyvale_ca 0 1 0 0
+us_overland%20park_ks 0 1 0 0
+pl_polska_77 0 3 0 0
+us_ocean%20city_nj 0 1 0 0
+us_plano_tx 0 3 0 0
+ua_dmitriy_17 0 1 0 0
+ru_tolyatti_65 0 1 0 0
+us_dallas_tx 0 2 0 0
+us_washington_dc 0 1 0 0
+ua_zaporozhye_26 0 3 0 0
+ru_yekaterinburg_71 0 3 0 0
+it_vicenza_20 0 1 0 0
+us_chicago_il 0 1 0 0
+ua_lviv_15 0 1 0 0
+nl_amsterdam_07 0 3 0 0
+it_arcore_09 0 3 0 0
+nl_groningen_04 0 1 0 0
+us_brooklyn_ny 0 3 0 0
+kz_almaty_02 0 4 0 0
+us_woodbridge_nj 0 1 0 0
+ua_nikolaev_16 0 4 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 199
+150.70.75.212 73 73 145854 20130731132616
+213.111.121.133 40 53 6805319 20130719183816
+91.200.234.218 31 43 9000888 20130723103020
+94.45.59.198 13 17 1578313 20130722102016
+87.238.152.71 10 15 3006648 20130717160629
+150.70.97.43 10 10 19980 20130731162203
+86.111.78.2 9 12 811874 20130712171911
+89.145.108.206 9 9 17982 20130725171209
+85.142.26.224 8 8 7992 20130717045819
+46.119.205.43 8 10 1502146 20130724093109
+93.72.43.22 1 1 740725 20130725172046
+77.247.27.209 2 4 10348 20130728095004
+89.178.157.73 2 3 749075 20130724023719
+178.92.233.11 2 3 749075 20130728171907
+217.212.231.1 1 2 8350 20130725172045
+82.192.74.118 3 3 5994 20130721203746
+77.52.135.117 2 4 752964 20130716141117
+95.26.18.229 2 3 749075 20130728061707
+94.179.206.123 1 1 1998 20130729135636
+62.80.166.210 2 3 749075 20130723182806
+63.123.148.22 4 4 7992 20130718120224
+46.118.116.77 1 1 1998 20130703021408
+94.244.139.110 2 3 749075 20130723211120
+78.111.215.4 2 3 749075 20130716130051
+89.162.215.212 2 3 749075 20130703120524
+89.178.159.126 2 3 749075 20130730063823
+216.38.216.101 5 7 1500148 20130718002944
+46.164.135.107 3 4 751073 20130719114212
+173.192.34.95 1 1 1998 20130705135748
+31.135.127.253 4 6 1498150 20130726143754
+109.251.222.45 2 3 749075 20130719182634
+95.28.138.165 4 6 1498150 20130716183715
+5.135.125.177 1 1 1998 20130715083818
+46.202.230.115 2 4 10348 20130725125019
+72.233.72.155 3 3 5994 20130716132106
+93.75.10.66 2 3 749075 20130724092556
+46.148.134.136 2 3 10348 20130727130551
+69.64.51.97 1 1 1998 20130715062022
+62.122.68.2 2 3 749075 20130713165222
+212.100.136.50 2 3 749075 20130730190741
+188.123.248.19 2 3 749075 20130726134253
+77.78.109.73 1 1 1998 20130703074301
+93.73.27.68 3 5 751073 20130723105959
+159.224.186.54 2 3 749075 20130717151119
+54.234.13.21 1 1 1998 20130718112810
+91.209.51.42 2 3 749075 20130724151856
+46.200.122.99 2 3 749075 20130703170717
+2.61.19.237 2 3 749075 20130704200046
+176.36.51.157 2 3 749075 20130702181608
+93.75.65.212 2 3 749075 20130725161234
+178.150.73.100 2 3 749075 20130718014035
+193.43.252.252 4 4 7992 20130728030710
+195.88.139.190 5 7 1500148 20130731180158
+46.118.123.6 1 1 1998 20130717000501
+195.66.66.94 2 3 749075 20130715093841
+176.31.14.30 1 1 1998 20130715083718
+95.26.10.145 2 3 749075 20130730212547
+46.149.93.206 2 3 749075 20130715002531
+193.106.250.39 4 5 751073 20130719151942
+46.211.180.32 2 3 10348 20130705220945
+93.74.62.34 2 3 749075 20130723172319
+37.139.96.52 2 3 749075 20130724211909
+91.215.53.26 2 3 749075 20130702110315
+46.118.156.248 1 1 1998 20130704032020
+62.244.5.222 2 3 749075 20130725115526
+194.169.238.21 2 3 749075 20130718092658
+213.227.199.205 3 4 751073 20130701130455
+199.19.249.196 1 1 1998 20130701191429
+87.240.182.135 1 1 1998 20130723094206
+93.74.10.63 2 3 749075 20130701150634
+91.209.55.162 2 3 749075 20130717145339
+193.169.32.7 3 6 12346 20130731120051
+195.248.184.127 2 3 749075 20130721195628
+91.142.165.174 2 3 749075 20130726124218
+176.8.247.28 2 3 749075 20130718231818
+195.169.23.136 1 1 1998 20130714081915
+91.209.51.198 2 3 749075 20130723205739
+109.254.48.3 2 3 749075 20130703094620
+77.47.203.222 4 6 1498150 20130723093936
+188.92.76.167 5 5 0 20130715183940
+93.74.49.219 7 10 2249223 20130704160701
+91.246.226.185 4 8 27048 20130724194255
+94.76.78.107 3 4 751073 20130716214937
+206.225.83.83 1 1 1998 20130716022308
+46.211.72.243 2 3 749075 20130713152531
+77.239.179.105 3 5 751073 20130729153756
+95.220.130.208 2 3 749075 20130705085554
+95.158.7.82 2 3 749075 20130724114744
+95.67.71.230 2 3 749075 20130704145824
+195.78.43.58 4 6 1498150 20130701173146
+95.133.25.206 2 3 749075 20130723075254
+178.93.51.136 2 3 749075 20130723190028
+208.43.225.84 1 1 1998 20130731062202
+95.27.40.225 1 2 8350 20130715200032
+87.23.60.186 1 1 48 20130701214541
+178.137.11.183 2 4 10348 20130706125335
+178.88.40.222 3 4 751073 20130704124709
+193.200.183.246 2 3 749075 20130703103946
+193.227.207.38 2 3 749075 20130717140629
+82.117.253.112 2 3 749075 20130702085503
+95.158.24.116 2 3 749075 20130723101441
+217.27.147.178 3 4 751073 20130704155449
+147.30.19.151 4 5 753071 20130721102303
+150.70.97.88 1 1 1998 20130731192949
+95.135.110.103 2 3 749075 20130701151053
+176.123.3.38 1 1 1998 20130720211044
+94.153.137.230 2 3 749075 20130725111607
+213.160.133.126 2 3 749075 20130724135019
+62.80.185.194 2 3 749075 20130722110824
+212.58.160.36 2 3 749075 20130729114930
+93.75.149.201 2 3 749075 20130723095615
+38.100.21.67 1 1 1998 20130706131514
+195.234.70.242 2 3 749075 20130703125726
+202.46.50.83 1 1 1998 20130716122549
+95.211.216.72 1 1 1998 20130724062624
+188.190.216.124 2 3 749075 20130722145740
+95.26.246.93 4 6 1498150 20130727125949
+208.98.38.134 1 1 1998 20130702211602
+188.16.23.81 2 3 749075 20130716131903
+195.225.145.16 2 3 749075 20130715131550
+94.179.162.212 2 3 749075 20130725175613
+217.12.196.22 3 5 751073 20130725163805
+176.241.110.243 5 6 1493796 20130705134801
+79.110.134.32 1 2 8350 20130721200637
+195.211.139.169 3 4 751073 20130719121910
+150.70.172.201 1 1 1998 20130717070727
+95.67.117.74 2 4 10348 20130728211946
+46.73.8.4 4 6 1498150 20130703000722
+69.162.140.202 1 1 1998 20130702130635
+46.30.167.66 2 3 749075 20130705170437
+89.145.108.207 6 6 11988 20130725171056
+62.205.159.26 2 3 749075 20130716132943
+93.157.8.114 2 3 749075 20130717174048
+195.189.228.84 2 3 749075 20130723175025
+188.0.80.177 2 3 749075 20130702165334
+195.234.136.80 1 3 12239 20130701191429
+194.24.2.6 4 6 1498150 20130718130607
+213.238.9.8 6 12 50100 20130721165214
+205.237.88.148 1 1 1998 20130728104323
+46.71.218.230 5 6 755069 20130727215714
+93.74.137.248 2 3 749075 20130701150108
+95.220.189.202 2 3 749075 20130704111742
+193.105.152.32 2 3 749075 20130717104742
+78.111.215.165 2 3 749075 20130719104154
+46.219.3.139 4 6 1498150 20130703110722
+195.88.242.35 1 1 1998 20130704083653
+195.135.197.232 2 3 749075 20130729161330
+178.163.89.240 1 1 1998 20130714022359
+82.193.99.120 2 3 749075 20130730080201
+217.77.222.140 2 4 10348 20130727201440
+193.33.65.162 2 3 749075 20130731233852
+95.26.230.26 1 1 1998 20130705224552
+194.44.136.182 1 1 1998 20130723121313
+46.118.115.175 1 1 1998 20130706034844
+91.196.195.143 3 4 751073 20130701224042
+46.229.167.149 2 2 3996 20130714232917
+2.150.17.146 3 4 751073 20130706163746
+150.70.97.84 1 1 1998 20130726212402
+82.207.41.46 2 3 749075 20130701134644
+109.87.33.22 2 3 749075 20130731091606
+217.197.121.20 2 3 749075 20130725135815
+37.144.91.18 4 5 753071 20130720170415
+37.53.72.113 2 3 749075 20130718120450
+128.69.229.44 2 3 749075 20130712232144
+78.159.37.252 2 3 749075 20130723121212
+89.145.108.208 8 8 15984 20130725162342
+173.52.246.124 2 3 749075 20130714052918
+208.98.38.159 1 1 1998 20130701094845
+213.169.79.253 6 7 757067 20130724120821
+150.70.173.47 1 1 1998 20130717070229
+46.73.213.245 2 3 749075 20130706122000
+193.104.182.10 2 3 749075 20130718114645
+94.74.89.183 1 1 1998 20130702130339
+77.52.129.81 2 3 749075 20130728183337
+78.14.172.61 2 3 749075 20130718200741
+93.74.163.183 2 3 749075 20130724095027
+82.145.210.177 1 2 8350 20130721170725
+23.20.112.67 1 2 8350 20130724030510
+217.20.167.41 2 3 749075 20130719163102
+185.5.137.148 3 3 5994 20130717000620
+176.14.24.27 2 3 749075 20130706235125
+91.222.115.194 2 3 749075 20130706230941
+95.132.174.84 2 3 749075 20130712223314
+94.45.69.16 2 3 749075 20130714181912
+188.163.235.42 2 3 749075 20130703123750
+178.151.216.53 2 2 3996 20130716022630
+217.67.76.29 2 3 749075 20130720215458
+93.78.203.63 2 3 749075 20130713171719
+195.138.217.171 2 3 749075 20130703155020
+93.73.57.243 2 3 749075 20130726185732
+213.133.166.242 2 3 749075 20130705203534
+46.229.168.50 1 1 1998 20130721185502
+93.75.94.177 2 3 749075 20130724144121
+93.73.123.102 1 1 1998 20130718013840
+83.19.175.45 2 3 749075 20130718110403
+37.25.122.1 1 2 8350 20130726181339
+77.122.155.24 2 3 749075 20130719201424
+178.150.45.244 2 3 749075 20130724005452
+95.132.55.81 2 3 749075 20130718202859
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20130701 33 43 6028863 19
+20130702 23 29 4516428 15
+20130703 27 36 6757659 17
+20130704 40 49 6785631 21
+20130705 18 22 3014282 11
+20130706 13 19 3012642 7
+20130712 17 23 3063610 4
+20130713 6 9 2247225 3
+20130714 10 12 1506142 7
+20130715 19 25 3767711 10
+20130716 23 31 5265396 12
+20130717 37 47 6783991 16
+20130718 39 51 9018870 18
+20130719 90 119 18132722 14
+20130720 9 13 1520844 5
+20130721 16 24 1560238 10
+20130722 21 27 3771707 10
+20130723 39 55 11254107 21
+20130724 36 51 7546128 17
+20130725 28 38 5277849 15
+20130726 13 19 3757721 7
+20130727 13 19 2273915 5
+20130728 15 22 2277911 7
+20130729 14 18 2263209 10
+20130730 11 15 3002294 7
+20130731 16 23 3018636 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 7
+15mn-30mn 10
+2mn-5mn 7
+30s-2mn 10
+0s-30s 244
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 430 840238 293 160
+/index.swf 178 125228873 1 131
+/index.php 6 11988 0 1
+/phpinfo.php 6 113244 0 2
+/test.html 4 30 0 0
+/. 2 3996 2 2
+END_SIDER
